@@ -52,3 +52,9 @@ individualmente con cada pregunta. Ninguna pregunta del banco contiene una
 vinculación original_images. La corrección funcional usa las claves existentes;
 no equivale a una auditoría del contenido normativo ni de cada respuesta.
 Producción no se modificó. La versión modular está en una rama de trabajo.
+
+COTEJO DE ORIGINALES
+Ver INFORME.md para la auditoría actual. El modo Originales conserva los 40
+documentos distintos recibidos, 254 páginas y sus Word sin cambios. El banco
+de 1,000 ejercicios sigue siendo práctica con adaptaciones; no equivale a una
+transcripción íntegra ni a una certificación de las claves originales.
