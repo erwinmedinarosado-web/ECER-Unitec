@@ -12,7 +12,7 @@ const bank = JSON.parse(vm.runInNewContext(main.slice(0, main.indexOf(';let exam
 const photos = JSON.parse(vm.runInNewContext(gallery.split(';(()=>')[0] + ';JSON.stringify(PHOTOS)'));
 assert.equal(photos.length, 515);
 assert.equal(new Set(photos.map(p=>p.file)).size, photos.length, 'Fotografía duplicada en la galería');
-assert.equal(bank.length, 983);
+assert.equal(bank.length, 268);
 assert.equal(new Set(bank.map(q => q.id)).size, bank.length);
 const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 assert.equal(new Set(bank.map(q => normalize(q.q))).size, bank.length);
@@ -48,6 +48,7 @@ vm.runInContext(main.slice(start, end), context);
 for (let i = 0; i < 100; i++) {
   const selected = vm.runInContext('balancedQuestions()', context);
   assert.equal(selected.length, 50);
+  assert.ok(selected.filter(q=>['Ley de Ohm','Potencia'].includes(q.topic)).length<=10,'Más del 20% de Ohm y Potencia en un examen');
   assert.equal(new Set(selected.map(q => q.id)).size, 50);
   assert.equal(new Set(selected.map(q => q.topic)).size, new Set(bank.map(q => q.topic)).size);
 }
@@ -122,3 +123,11 @@ assert.ok(read('index.html').includes('practica.html'));
 assert.ok(read('originales.html').includes('practica.html'));
 assert.ok(!/id="visor-solucion"[^>]*\bsrc=/.test(read('practica.html')),'Solución cargada antes de solicitarla');
 console.log('OK: 40 hojas PDF, 221 páginas de práctica y disposición de las 254 páginas fuente; avisos de las limitaciones presentes.');
+
+const distribution=JSON.parse(read('auditoria_distribucion.json'));
+assert.equal(bank.length,distribution.total);
+assert.equal(distribution.removedAdditionalIds.length,715);
+assert.ok(bank.filter(q=>distribution.limitedTopics.includes(q.topic)).length/bank.length<=0.20);
+function canonical(value){if(Array.isArray(value))return value.map(canonical);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])]));return value;}
+for(const entry of distribution.preservedSourceQuestions){const q=bank.find(q=>q.id===entry.id);assert.ok(q,'Pregunta original eliminada: '+entry.id);assert.equal(crypto.createHash('sha256').update(JSON.stringify(canonical(q))).digest('hex'),entry.sha256,'Pregunta original modificada: '+entry.id);}
+console.log('OK: 268 preguntas; Ohm y Potencia 53 (19.78%); 136 preguntas de fuente conservadas íntegramente; máximo 10 de 50 en cada examen.');
