@@ -155,3 +155,16 @@ La revisión muestra explicación y referencias para todas las preguntas. Las 72
 Referencia didáctica NEC 2020; no se afirma que sea la edición de una convocatoria concreta. Las respuestas antiguas de motores indican expresamente el supuesto de factor de potencia unitario. Se distingue FEM de diferencia de potencial y descargador de sobretensiones de captador de rayos en las notas existentes.
 
 Validación: scripts/verificar.cjs comprueba integridad de originales, preservación de enunciados/opciones/claves, figuras, 292 preguntas, 72 nuevas y 1,000 selecciones con cuotas 10/8/32. Navegador: examen completo de 50 respuestas, calificación, 50 explicaciones, razones de distractores, imágenes del repaso y filtros.
+
+
+## Mejoras de estudio del 29 de octubre de 2026
+
+Se conservan las 292 preguntas previas y se añaden 16 (8 de identificación visual y 8 situaciones prácticas): total 308. Hay ocho fotografías nuevas de Leviton, Klein Tools, Eaton y Arlington, y una ilustración de conductor atribuida a Cerrowire.
+
+El motor se separa de los datos en motor-estudio.js. Incluye guardado local versionado con orden de opciones, respuestas, marcas y posición; recuperación tras recarga; simulacro de duración configurable de 10 a 240 minutos con vencimiento absoluto; entrega al recuperar un intento expirado; mapa de preguntas; práctica de errores de hasta 50 por tanda; progreso acumulado por tema e historial de 50 intentos. El historial anterior se conserva cuando se migra por primera vez.
+
+Los tres niveles son educativos, no oficiales. El énfasis prioriza el nivel solicitado sin alterar las cuotas 10/8/32. La selección prioriza familias de conceptos distintas para reducir ejercicios que solo cambian números, conservando todas las fuentes.
+
+Las pruebas scripts/verificar.cjs y scripts/verificar-flujo.cjs comprueban integridad de originales, claves y explicaciones; recuperación de estado tras recarga; vencimiento con página cerrada; práctica de 49 errores; colas mayores de 50; cancelación de entrega; datos guardados corruptos; bloqueo de almacenamiento; y distribución/dificultad. Navegador: modalidad cronometrada, dos respuestas y marca recuperadas tras recarga, reloj persistente, entrega, 50 explicaciones, práctica de errores, progreso acumulado, filtros y fotografías.
+
+Limitaciones: el guardado es exclusivo del navegador y no sincroniza dispositivos ni garantiza carga sin conexión. El reloj usa la hora del dispositivo; no es un sistema de examen supervisado. La edición NEC 2020 y los niveles son referencias didácticas, sin afirmar edición ni porcentajes oficiales de convocatoria.

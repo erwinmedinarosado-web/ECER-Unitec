@@ -1,18 +1,36 @@
-const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const source=fs.readFileSync(require('node:path').join(__dirname,'../programa-1.js'),'utf8');
-function element(){return {children:[],style:{},classList:{toggle(){},add(){}},append(...nodes){this.children.push(...nodes)},replaceChildren(...nodes){this.children=nodes},textContent:'',innerHTML:'',value:''}}
-const elements=new Map();const document={getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id)},createElement:element,createTextNode:text=>({textContent:text})};
-const storage=new Map();const ctx=vm.createContext({document,window:{scrollTo(){},print(){}},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{search:''},URLSearchParams,confirm:()=>true});
-vm.runInContext(source,ctx);
-for(let pass=0;pass<20;pass++){
- vm.runInContext('start()',ctx);
- const data=JSON.parse(vm.runInContext('JSON.stringify(exam)',ctx));
- const baseline=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../banco-ampliado.json'),'utf8'));
- for(const q of data){const original=baseline.find(x=>x.id===q.id);assert.equal(q.options[q.answer],original.options[original.answer]);if(q.optionExplanations)for(let i=0;i<4;i++)assert.equal(q.optionExplanations[i],original.optionExplanations[original.options.indexOf(q.options[i])]);}
- vm.runInContext('answers=exam.map(q=>q.answer);finish()',ctx);
- assert.equal(elements.get('score').textContent,'100%');assert.equal(elements.get('correct').textContent,'50/50');assert.equal(elements.get('review').children.length,50);
- vm.runInContext('answers=exam.map(q=>(q.answer+1)%4);finish()',ctx);
- assert.equal(elements.get('score').textContent,'0%');
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const root=path.join(__dirname,'..'),read=f=>fs.readFileSync(path.join(root,f),'utf8');
+const source=read('programa-1.js')+read('motor-estudio.js'),bank=JSON.parse(read('banco-ampliado.json'));
+const ids=[...read('index.html').matchAll(/id="([^"]+)"/g)].map(m=>m[1]);
+function element(){const classes=new Set();return {children:[],style:{},attrs:{},className:'',classList:{toggle(k,on){if(on===undefined)on=!classes.has(k);on?classes.add(k):classes.delete(k)},add(k){classes.add(k)},remove(k){classes.delete(k)},contains(k){return classes.has(k)}},append(...nodes){this.children.push(...nodes)},replaceChildren(...nodes){this.children=nodes},setAttribute(k,v){this.attrs[k]=v},textContent:'',innerHTML:'',value:'',disabled:false}}
+let now=1793280000000;const store=new Map();let blocked=false;
+function boot(){const elements=new Map(ids.map(id=>[id,element()])),intervals=new Map();let sequence=0;const events={};const document={visibilityState:'visible',getElementById:id=>elements.get(id)||null,createElement:element,createTextNode:text=>({textContent:text}),addEventListener:(key,fn)=>events[key]=fn};const localStorage={getItem:k=>store.get(k)||null,setItem:(k,v)=>{if(blocked)throw Error('QuotaExceeded');store.set(k,v)},removeItem:k=>{if(blocked)throw Error('Denied');store.delete(k)}};class Clock extends Date{constructor(...args){super(...(args.length?args:[now]))}static now(){return now}}
+ const ctx=vm.createContext({document,window:{scrollTo(){},print(){},addEventListener:(key,fn)=>events[key]=fn},localStorage,location:{search:''},URLSearchParams,Date:Clock,confirm:()=>true,setInterval:fn=>{intervals.set(++sequence,fn);return sequence},clearInterval:id=>intervals.delete(id)});
+ elements.get('examMode').value='practice';elements.get('examLevel').value='mixta';elements.get('minutes').value='90';elements.get('reviewFilter').value='all';vm.runInContext(source,ctx);return {ctx,elements,intervals,events,run:code=>vm.runInContext(code,ctx)};
 }
-assert.equal(JSON.parse(storage.get('electricidadScores')).length,15);
-console.log('OK: claves y razones conservadas al mezclar opciones; calificación 100% y 0%; revisión de 50 e historial limitado.');
+function answerAtUI(app,correct=true){const n=app.run('exam[index].answer');app.elements.get('options').children[correct?n:(n+1)%4].children[0].onchange()}
+function serialized(app,name){return JSON.parse(app.run('JSON.stringify('+name+')'))}
+// Exact option and rationale association remains correct after shuffling.
+let app=boot();app.run('start()');assert.equal(app.run('exam.length'),50);
+for(const q of serialized(app,'exam')){const base=bank.find(x=>x.id===q.id);assert.equal(q.options[q.answer],base.options[base.answer]);if(q.optionExplanations)for(let i=0;i<4;i++)assert.equal(q.optionExplanations[i],base.optionExplanations[base.options.indexOf(q.options[i])]);}
+answerAtUI(app);app.elements.get('flag').onclick();app.elements.get('next').onclick();answerAtUI(app,false);const before=serialized(app,'exam');app.run('saveAndExit()');const record=JSON.parse(store.get('electricidadAttemptV3'));assert.equal(record.index,1);assert.equal(record.flags[0],true);assert.notEqual(record.answers[0],null);
+// Reload and resume keep order, answers, marks and current position.
+app=boot();app.run('resume()');assert.deepEqual(serialized(app,'exam'),before);assert.deepEqual(serialized(app,'answers'),record.answers);assert.deepEqual(serialized(app,'flags'),record.flags);assert.equal(app.run('index'),1);
+app.run('confirm=()=>false;finish()');assert.equal(app.run('active'),true,'Cancelar entrega conserva intento');app.run('confirm=()=>true;answers=exam.map(q=>q.answer);flags=flags.map(()=>false);finish()');assert.equal(app.elements.get('score').textContent,'100%');assert.equal(app.elements.get('review').children.length,50);assert.equal(store.has('electricidadAttemptV3'),false);const completed=JSON.parse(store.get('electricidadStudyV3'));assert.equal(completed.history.length,1);assert.equal(Object.values(completed.topics).reduce((n,t)=>n+t.total,0),50);app.run('finish()');assert.equal(JSON.parse(store.get('electricidadStudyV3')).history.length,1,'No duplica resultados');
+// A timed attempt uses an absolute deadline and expires even while closed.
+app.elements.get('examMode').value='timed';app.elements.get('minutes').value='10';app.run('start()');answerAtUI(app);assert.equal(app.elements.get('category').textContent,'Simulacro · responde sin pistas');assert.ok(!app.elements.get('question-diagram').children.some(x=>x.href),'Sin enlace de consulta en simulacro');const started=JSON.parse(store.get('electricidadAttemptV3'));now+=11*60000;app=boot();app.run('resume()');assert.equal(app.run('active'),false);assert.equal(app.elements.get('correct').textContent,'1/50');assert.ok(app.elements.get('message').textContent.includes('automáticamente'));assert.equal(app.intervals.size,0);assert.equal(JSON.parse(store.get('electricidadStudyV3')).history.length,2);
+// Error practice includes only mistakes, uses its actual length, and removes solved errors.
+app.run("start('errors')");assert.equal(app.run('exam.length'),49);assert.equal(app.run('attempt.timed'),false);const errorIds=new Set(completed.mistakes);app.run('answers=exam.map(q=>q.answer);finish()');assert.equal(app.elements.get('correct').textContent,'49/49');assert.equal(JSON.parse(store.get('electricidadStudyV3')).mistakes.length,0);assert.equal(JSON.parse(store.get('electricidadStudyV3')).history[0].kind,'errors');
+// Large accumulated error queues are processed in batches of at most 50.
+let p=JSON.parse(store.get('electricidadStudyV3'));p.mistakes=bank.map(q=>String(q.id));store.set('electricidadStudyV3',JSON.stringify(p));app=boot();app.run("start('errors')");assert.equal(app.run('exam.length'),50);app.run('saveAndExit()');app=boot();app.run('resume()');assert.equal(app.run('exam.length'),50);app.run('answers=exam.map(q=>q.answer);finish()');assert.equal(JSON.parse(store.get('electricidadStudyV3')).mistakes.length,bank.length-50);
+// Validation rejects corrupt saved option orders and answers.
+const invalid={...started,questions:started.questions.map(q=>({...q,order:[...q.order]})),answers:[...started.answers],flags:[...started.flags]};invalid.questions[0].order=['0','1','2','3'];store.set('electricidadAttemptV3',JSON.stringify(invalid));app=boot();app.run('resume()');assert.equal(app.elements.get('resume').disabled,true);assert.equal(app.run('active'),false);store.delete('electricidadAttemptV3');
+// Storage failures are reported; leaving can be cancelled without losing the active page.
+app=boot();blocked=true;app.run('start()');assert.ok(app.elements.get('saveStatus').textContent.includes('No se pudo guardar'));app.run('confirm=()=>false;saveAndExit()');assert.equal(app.run('active'),true);blocked=false;
+// Difficulty emphasis changes selection while preserving the 50-question quotas.
+app=boot();const averages={};for(const level of ['mixta','basica','aplicacion','analisis']){const totals={basica:0,aplicacion:0,analisis:0};for(let i=0;i<30;i++){const selected=JSON.parse(app.run('JSON.stringify(balancedQuestions("'+level+'"))'));assert.equal(new Set(selected.map(q=>q.id)).size,50);for(const [g,n] of [['calculos',10],['circuitos',8],['aplicaciones',32]])assert.equal(selected.filter(q=>q.examGroup===g).length,n);assert.ok(new Set(selected.filter(q=>q.examGroup==='circuitos').map(q=>q.similarityFamily)).size>=8,'Se repiten procedimientos de circuitos pudiendo variar');for(const q of selected)totals[q.difficulty]++;}averages[level]=totals;}
+for(const level of ['basica','aplicacion','analisis'])assert.ok(averages[level][level]>averages.mixta[level],level+' no cambia la selección');
+// Previous 292 questions retain their content and answer keys.
+for(const original of JSON.parse(read('auditoria_base_292.json'))){const q=bank.find(q=>q.id===original.id);assert.ok(q);for(const field of ['q','options','answer','explanation','references','visual','diagram','originalEvidence'])assert.deepEqual(q[field],original[field],String(q.id)+' '+field)}
+console.log('OK: guardar/reanudar tras recarga, orden y marcas, entrega cancelada, no duplicación, cronómetro vencido con página cerrada, errores de 49/49, cola >50, datos corruptos y almacenamiento bloqueado.');
+console.log('OK: tres énfasis de dificultad, cuotas 10/8/32 y preservación de las 292 preguntas previas.');

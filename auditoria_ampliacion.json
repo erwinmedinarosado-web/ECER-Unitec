@@ -47,5 +47,6 @@
     "paginasOriginales": 254,
     "integridadFuentes": "SHA-256 conservado"
   },
-  "edicionDidactica": "NEC 2020; edición de convocatoria no confirmada"
+  "edicionDidactica": "NEC 2020; edición de convocatoria no confirmada",
+  "nota": "Auditoría histórica de la ampliación a 292; consultar auditoria_mejoras_estudio.json para el estado de 308."
 }

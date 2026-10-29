@@ -4,7 +4,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const read = name => fs.readFileSync(path.join(root, name), 'utf8');
-const main = read('programa-1.js');
+const main = read('programa-1.js')+read('motor-estudio.js');
 const gallery = read('programa-2.js');
 new vm.Script(main);
 new vm.Script(gallery);
@@ -12,7 +12,7 @@ const bank = JSON.parse(vm.runInNewContext(main.slice(0, main.indexOf(';let exam
 const photos = JSON.parse(vm.runInNewContext(gallery.split(';(()=>')[0] + ';JSON.stringify(PHOTOS)'));
 assert.equal(photos.length, 515);
 assert.equal(new Set(photos.map(p=>p.file)).size, photos.length, 'Fotografía duplicada en la galería');
-assert.equal(bank.length, 292);
+assert.equal(bank.length, 308);
 assert.equal(new Set(bank.map(q => q.id)).size, bank.length);
 const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 assert.equal(new Set(bank.map(q => normalize(q.q))).size, bank.length);
@@ -40,8 +40,8 @@ for (const file of refs) {
   assert.ok(resolved.startsWith(root + path.sep), file);
   assert.ok(fs.statSync(resolved).size > 0, file);
 }
-const start = main.indexOf('function balancedQuestions()');
-const end = main.indexOf('\nfunction start()', start);
+const start = main.indexOf('function balancedQuestions(');
+const end = main.indexOf('\nfunction show(', start);
 assert.ok(start >= 0 && end > start);
 const context = vm.createContext({ BANK: bank, shuffle: a => [...a].sort(() => Math.random() - .5) });
 vm.runInContext(main.slice(start, end), context);
@@ -50,7 +50,7 @@ for (let i = 0; i < 100; i++) {
   assert.equal(selected.length, 50);
   assert.ok(selected.filter(q=>['Ley de Ohm','Potencia'].includes(q.topic)).length<=10,'Más del 20% de Ohm y Potencia en un examen');
   assert.equal(new Set(selected.map(q => q.id)).size, 50);
-  assert.equal(new Set(selected.map(q => q.topic)).size, new Set(bank.map(q => q.topic)).size);
+  assert.ok(new Set(selected.map(q => q.similarityFamily)).size>=40,'Poca diversidad de familias');
 }
 assert.ok(!main.includes(String.raw`EXAMEN_\\d`), 'Expresión de referencias incorrecta');
 for (const file of ['programa-1.js', 'estilos-1.css', 'estilos-2.css']) assert.ok(read('index.html').includes(file));
@@ -137,7 +137,7 @@ for(const original of baseline){
 }
 for(const q of bank){assert.ok(q.explanation && q.explanation.length>20,'Falta explicación: '+q.id);assert.ok(q.references && q.references.length,'Falta referencia: '+q.id);if(q.optionExplanations)assert.equal(q.optionExplanations.length,4)}
 assert.equal(bank.filter(q=>String(q.id).startsWith('ampliacion-')).length,72);
-assert.equal(bank.filter(q=>q.visual&&q.visual.endsWith('.jpg')).length,4);
+assert.equal(bank.filter(q=>String(q.id).startsWith('mejora-')).length,16);
 const expandedContext=vm.createContext({BANK:bank,shuffle:a=>[...a].sort(()=>Math.random()-.5)});
 vm.runInContext(main.slice(start,end),expandedContext);
 for(let i=0;i<1000;i++){
@@ -146,7 +146,11 @@ for(let i=0;i<1000;i++){
  assert.equal(new Set(selected.map(q=>q.id)).size,50);
 }
 assert.deepEqual(JSON.parse(read('banco-ampliado.json')),bank);
-for(const f of ['repaso.html','index.html'])assert.ok(read(f).includes('292'));
+for(const f of ['repaso.html','index.html'])assert.ok(read(f).includes('308'));
 assert.ok(read('index.html').includes('repaso.html'));
 assert.ok(read('repaso.html').includes('NEC 2020'));
-console.log('OK: 292 preguntas, 72 nuevas, 220 previas conservadas; explicaciones y fuentes completas; 1,000 exámenes con cuotas 10/8/32.');
+console.log('OK: 308 preguntas, 88 nuevas, 220 previas conservadas; explicaciones y fuentes completas; 1,000 exámenes con cuotas 10/8/32.');
+
+assert.ok(read('index.html').includes('motor-estudio.js'));
+for(const q of bank){assert.ok(['basica','aplicacion','analisis'].includes(q.difficulty));assert.ok(q.similarityFamily);}
+for(const photo of JSON.parse(read('auditoria_mejoras_estudio.json')).fotografiasNuevas)assert.ok(fs.statSync(path.join(root,'imagenes/materiales',photo.archivo)).size>0);

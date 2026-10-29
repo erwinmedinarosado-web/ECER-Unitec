@@ -25,7 +25,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Cuál es la potencia de un motor que consume 4 A a 240 V?",
@@ -53,7 +55,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-potencia"
   },
   {
     "q": "¿Qué resistencia tiene una carga de 100 W alimentada a 120 V?",
@@ -81,7 +85,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-resistencia"
   },
   {
     "q": "Tres resistencias en serie tienen caídas de 75 V, 75 V y una tercera desconocida. Si la fuente es de 250 V, ¿cuál es la tercera caída?",
@@ -110,7 +116,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-voltage-multiple"
   },
   {
     "q": "Tres resistencias de 11 Ω, 12 Ω y 17 Ω están en serie. ¿Cuál es la resistencia total?",
@@ -139,7 +147,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
     "q": "Una fuente de 250 V alimenta resistencias en serie de 11 Ω, 12 Ω y 17 Ω. ¿Cuál es la corriente?",
@@ -168,7 +178,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-series-current-multiple"
   },
   {
     "q": "¿Cuál es la resistencia equivalente de 100 Ω, 200 Ω y 50 Ω en paralelo?",
@@ -197,7 +209,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "¿Cuál es la resistencia equivalente de 200 resistencias de 5 Ω idénticas conectadas en paralelo?",
@@ -226,7 +240,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "Dos resistencias de 12 Ω están en serie conectadas a 6 V. ¿Cuál es la corriente total?",
@@ -255,7 +271,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-current-two"
   },
   {
     "q": "Tres resistencias de 5 Ω, 10 Ω y 15 Ω están en serie con 5 V. ¿Cuál es la corriente total?",
@@ -284,7 +302,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-series-current-multiple"
   },
   {
     "q": "Una bombilla de 300 W funciona a 120 V. ¿Qué corriente consume?",
@@ -312,7 +332,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Cuál es la resistencia total de 10 resistencias de 15 Ω iguales conectadas en paralelo?",
@@ -341,7 +363,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "Una red tiene resistencia equivalente de 55 Ω y se conecta a 220 V. ¿Qué corriente circula?",
@@ -369,7 +393,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "Tres resistencias de 20 Ω están en serie conectadas a 120 V. ¿Cuál es la corriente?",
@@ -397,7 +423,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-current-multiple"
   },
   {
     "q": "Un aparato recibe 250 V y consume 10 A. ¿Cuál es su resistencia?",
@@ -425,7 +453,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "Una lámpara de 300 W funciona a 240 V. ¿Cuál es su resistencia equivalente?",
@@ -453,7 +483,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "Una carga consume 20 A a 120 V. ¿Cuál es su resistencia?",
@@ -481,7 +513,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "Un foco de 60 W conectado a 120 V consume una corriente de:",
@@ -509,7 +543,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Qué ley relaciona voltaje, corriente y resistencia?",
@@ -537,7 +573,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Qué partícula del átomo tiene carga positiva?",
@@ -565,7 +603,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "concepto-proton"
   },
   {
     "q": "Si se eleva el voltaje manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
@@ -593,7 +633,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "relacion-ohm"
   },
   {
     "q": "¿Cuál es la expresión correcta para calcular corriente eléctrica mediante la Ley de Ohm?",
@@ -621,7 +663,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-I"
   },
   {
     "q": "¿Cuál es la expresión correcta para calcular la resistencia?",
@@ -649,7 +693,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-R"
   },
   {
     "q": "¿Cuál es la expresión correcta para calcular voltaje?",
@@ -677,7 +723,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-V"
   },
   {
     "q": "En un circuito resistivo de 240 V y 25 Ω, ¿cuál es la corriente?",
@@ -699,7 +747,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 12 V y 20 Ω, ¿cuál es la corriente?",
@@ -721,7 +771,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 208 V y 8 Ω, ¿cuál es la corriente?",
@@ -743,7 +795,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 240 V y 80 Ω, ¿cuál es la corriente?",
@@ -765,7 +819,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 125 V y 12 Ω, ¿cuál es la corriente?",
@@ -787,7 +843,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 24 V y 30 Ω, ¿cuál es la corriente?",
@@ -809,7 +867,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 60 V y 20 Ω, ¿cuál es la corriente?",
@@ -831,7 +891,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 48 V y 6 Ω, ¿cuál es la corriente?",
@@ -853,7 +915,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 48 V y 60 Ω, ¿cuál es la corriente?",
@@ -875,7 +939,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 60 V y 10 Ω, ¿cuál es la corriente?",
@@ -897,7 +963,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 100 V y 50 Ω, ¿cuál es la corriente?",
@@ -919,7 +987,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 120 V y 5 Ω, ¿cuál es la corriente?",
@@ -941,7 +1011,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 24 V y 5 Ω, ¿cuál es la corriente?",
@@ -963,7 +1035,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 48 V y 100 Ω, ¿cuál es la corriente?",
@@ -985,7 +1059,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 100 V y 6 Ω, ¿cuál es la corriente?",
@@ -1007,7 +1083,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 12 V y 80 Ω, ¿cuál es la corriente?",
@@ -1029,7 +1107,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 125 V y 60 Ω, ¿cuál es la corriente?",
@@ -1051,7 +1131,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 220 V y 10 Ω, ¿cuál es la corriente?",
@@ -1073,7 +1155,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 12 V y 12 Ω, ¿cuál es la corriente?",
@@ -1095,7 +1179,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 24 V y 10 Ω, ¿cuál es la corriente?",
@@ -1117,7 +1203,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 220 V y 5 Ω, ¿cuál es la corriente?",
@@ -1139,7 +1227,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 60 V y 80 Ω, ¿cuál es la corriente?",
@@ -1161,7 +1251,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 125 V y 10 Ω, ¿cuál es la corriente?",
@@ -1183,7 +1275,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 48 V y 80 Ω, ¿cuál es la corriente?",
@@ -1205,7 +1299,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "En un circuito resistivo de 24 V y 8 Ω, ¿cuál es la corriente?",
@@ -1227,7 +1323,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Qué ley creó el Colegio de Peritos Electricistas de Puerto Rico?",
@@ -1250,7 +1348,9 @@
         "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que ley creo el colegio de peritos electricistas de puerto rico?"
   },
   {
     "q": "¿Qué ley creó la clase de Ayudante de Perito Electricista, según el material?",
@@ -1273,7 +1373,9 @@
         "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "ley-ayudante"
   },
   {
     "q": "¿Cuál partícula del átomo tiene carga positiva?",
@@ -1294,7 +1396,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "concepto-proton"
   },
   {
     "q": "¿Qué tres criterios se mencionan para seleccionar un interruptor temporizador (timer switch)?",
@@ -1315,7 +1419,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que tres criterios se mencionan para seleccionar un interruptor temporizador (timer switch)?"
   },
   {
     "q": "¿Cuál es la corriente de un horno de 120 V con resistencia de 20 Ω?",
@@ -1336,7 +1442,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Cuál es la corriente total de tres resistencias de 20 Ω en serie conectadas a 120 V?",
@@ -1357,7 +1465,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-current-multiple"
   },
   {
     "q": "En un circuito paralelo, la corriente total es 18 A y dos ramas consumen 6 A y 4 A. ¿Qué corriente consume la tercera rama?",
@@ -1378,7 +1488,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-current-multiple"
   },
   {
     "q": "¿Qué resistencia total tienen tres resistencias de 11 Ω, 12 Ω y 17 Ω conectadas en serie?",
@@ -1399,7 +1511,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
     "q": "¿Qué corriente consume una lámpara de 300 W conectada a 120 V?",
@@ -1420,7 +1534,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Qué resistencia tiene un artefacto de 250 V que consume 10 A?",
@@ -1441,7 +1557,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-resistencia"
   },
   {
     "q": "¿Qué corriente circula por una resistencia de 80 Ω conectada a 240 V?",
@@ -1462,7 +1580,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Qué potencia consume un motor de 240 V a 4 A?",
@@ -1483,7 +1603,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-potencia"
   },
   {
     "q": "¿Cuál es la resistencia de una bombilla de 100 W alimentada a 120 V?",
@@ -1504,7 +1626,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-resistencia"
   },
   {
     "q": "¿Qué corriente total resulta de dos resistencias de 12 Ω en serie conectadas a 6 V?",
@@ -1525,7 +1649,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-current-two"
   },
   {
     "q": "¿Qué corriente total resulta de tres resistencias de 5 Ω, 10 Ω y 15 Ω en serie conectadas a 5 V?",
@@ -1546,7 +1672,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-series-current-multiple"
   },
   {
     "q": "¿Cuál es la resistencia equivalente de 200 resistencias de 5 Ω iguales conectadas en paralelo?",
@@ -1567,7 +1695,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "En un circuito serie con fuente de 250 V, dos resistencias tienen caídas de 75 V cada una. ¿Qué voltaje cae en la tercera?",
@@ -1588,7 +1718,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-voltage-two"
   },
   {
     "q": "¿Cuál es la resistencia de unas tenazas de cabello que consumen 10 A a 100 V?",
@@ -1609,7 +1741,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-resistencia"
   },
   {
     "q": "¿Qué resistencia total tienen resistencias de 240 Ω, 80 Ω y 60 Ω en paralelo?",
@@ -1630,7 +1764,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "¿Cuál es la resistencia total de tres resistencias de 12 Ω, 12 Ω y 6 Ω en paralelo?",
@@ -1651,7 +1787,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "¿Cuál es la corriente total si la resistencia equivalente es 55 Ω y el voltaje 220 V?",
@@ -1672,7 +1810,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Qué tipo de canalización se identifica como LFMC en el material?",
@@ -1693,7 +1833,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que tipo de canalizacion se identifica como lfmc en el material?"
   },
   {
     "q": "¿Qué clase de receptáculo se menciona para viviendas?",
@@ -1714,7 +1856,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que clase de receptaculo se menciona para viviendas?"
   },
   {
     "q": "Según el artículo 8(B)(6) de la Ley 115 de 1976, según enmendada, ¿qué materias comprende el examen teórico de ayudante?",
@@ -1737,7 +1881,9 @@
         "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "segun el articulo N(b)(N) de la ley N de N, segun enmendada, ¿que materias comprende el examen teorico de ayudante?"
   },
   {
     "q": "¿Qué instrumento se conecta en serie para medir la corriente?",
@@ -1758,7 +1904,9 @@
         "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "instrumento-amperimetro"
   },
   {
     "q": "¿Qué significa voltaje?",
@@ -1785,7 +1933,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa voltaje?"
   },
   {
     "q": "¿Qué instrumento mide la corriente eléctrica?",
@@ -1806,7 +1956,9 @@
         "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que instrumento mide la corriente electrica?"
   },
   {
     "q": "¿Qué fórmula expresa la Ley de Ohm para el voltaje?",
@@ -1827,7 +1979,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-V"
   },
   {
     "q": "¿Cuál es la fórmula de potencia?",
@@ -1848,7 +2002,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-P"
   },
   {
     "q": "¿Qué sucede con la resistencia total en serie?",
@@ -1869,7 +2025,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "basica",
+    "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
     "q": "¿Qué significa la S en cajas tipo FS?",
@@ -1890,7 +2048,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa la s en cajas tipo fs?"
   },
   {
     "q": "¿Qué es un cable USE?",
@@ -1911,7 +2071,9 @@
         "url": "https://www.southwire.com/wire-cable/building-wire/simpull-sup-sup-thhn-thwn-2-copper/p/SPEC10000"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que es un cable use?"
   },
   {
     "q": "¿Qué significa EMT?",
@@ -1932,7 +2094,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa emt?"
   },
   {
     "q": "¿Qué es un receptáculo IG?",
@@ -1953,7 +2117,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que es un receptaculo ig?"
   },
   {
     "q": "¿Qué empalme conecta una derivación a un conductor principal?",
@@ -1974,7 +2140,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que empalme conecta una derivacion a un conductor principal?"
   },
   {
     "q": "¿Qué es un pararrayos en sistemas eléctricos?",
@@ -1995,7 +2163,9 @@
         "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que es un pararrayos en sistemas electricos?"
   },
   {
     "q": "¿Qué es un transformador monofásico tipo poste?",
@@ -2016,7 +2186,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que es un transformador monofasico tipo poste?"
   },
   {
     "q": "¿Qué significa N.O. en un contacto?",
@@ -2037,7 +2209,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa n.o. en un contacto?"
   },
   {
     "q": "¿Cuál es la unidad de capacitancia?",
@@ -2058,7 +2232,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿cual es la unidad de capacitancia?"
   },
   {
     "q": "¿Qué ley creó la Junta Examinadora de Peritos Electricistas de Puerto Rico?",
@@ -2081,7 +2257,9 @@
         "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que ley creo la junta examinadora de peritos electricistas de puerto rico?"
   },
   {
     "q": "¿Qué significa amperaje?",
@@ -2108,7 +2286,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa amperaje?"
   },
   {
     "q": "¿Cómo se conecta un amperímetro convencional para medir corriente?",
@@ -2129,7 +2309,9 @@
         "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "instrumento-amperimetro"
   },
   {
     "q": "¿Qué fórmula calcula la corriente?",
@@ -2150,7 +2332,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-I"
   },
   {
     "q": "¿Qué fórmula se identifica como incorrecta?",
@@ -2171,7 +2355,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-V"
   },
   {
     "q": "¿Qué sucede con la resistencia total de resistores positivos en paralelo?",
@@ -2192,7 +2378,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "basica",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "¿Qué significa la D en cajas tipo FD?",
@@ -2213,7 +2401,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa la d en cajas tipo fd?"
   },
   {
     "q": "¿Qué material se usa comúnmente como conductor eléctrico?",
@@ -2234,7 +2424,9 @@
         "url": "https://www.southwire.com/wire-cable/building-wire/simpull-sup-sup-thhn-thwn-2-copper/p/SPEC10000"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que material se usa comunmente como conductor electrico?"
   },
   {
     "q": "¿Qué significa FMC?",
@@ -2255,7 +2447,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa fmc?"
   },
   {
     "q": "¿Qué significa Hospital Grade en un receptáculo?",
@@ -2276,7 +2470,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa hospital grade en un receptaculo?"
   },
   {
     "q": "¿Qué empalme se usa típicamente para unir dos conductores en línea?",
@@ -2297,7 +2493,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que empalme se usa tipicamente para unir dos conductores en linea?"
   },
   {
     "q": "¿Qué representa un fusible?",
@@ -2318,7 +2516,9 @@
         "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que representa un fusible?"
   },
   {
     "q": "¿Qué significa N.C. en un contacto?",
@@ -2339,7 +2539,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa n.c. en un contacto?"
   },
   {
     "q": "¿Qué ocurre con capacitores conectados en paralelo?",
@@ -2360,7 +2562,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que ocurre con capacitores conectados en paralelo?"
   },
   {
     "q": "¿Cuál es la vigencia indicada para la licencia de Ayudante Perito?",
@@ -2383,7 +2587,9 @@
         "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿cual es la vigencia indicada para la licencia de ayudante perito?"
   },
   {
     "q": "¿Qué unidad representa Ω?",
@@ -2404,7 +2610,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que unidad representa ω?"
   },
   {
     "q": "¿Qué instrumento mide temperaturas elevadas sin contacto?",
@@ -2425,7 +2633,9 @@
         "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que instrumento mide temperaturas elevadas sin contacto?"
   },
   {
     "q": "¿Qué fórmula calcula la resistencia?",
@@ -2446,7 +2656,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "basica",
+    "similarityFamily": "formula-R"
   },
   {
     "q": "¿Cuánto vale R para una carga de 2,000 W a 120 V?",
@@ -2467,7 +2679,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-resistencia"
   },
   {
     "q": "¿Qué magnitud es igual en todas las ramas paralelas?",
@@ -2488,7 +2702,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "basica",
+    "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
     "q": "¿Qué tipo de conduleto tiene cuatro salidas en cruz?",
@@ -2509,7 +2725,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que tipo de conduleto tiene cuatro salidas en cruz?"
   },
   {
     "q": "¿Cuál es un material aislante eléctrico?",
@@ -2530,7 +2748,9 @@
         "url": "https://www.southwire.com/wire-cable/building-wire/simpull-sup-sup-thhn-thwn-2-copper/p/SPEC10000"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿cual es un material aislante electrico?"
   },
   {
     "q": "¿Qué significa LFNC?",
@@ -2551,7 +2771,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa lfnc?"
   },
   {
     "q": "¿Qué significa Tamper Resistant?",
@@ -2572,7 +2794,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa tamper resistant?"
   },
   {
     "q": "¿Qué hace un dimmer de iluminación?",
@@ -2593,7 +2817,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que hace un dimmer de iluminacion?"
   },
   {
     "q": "¿Qué ocurre con capacitores conectados en serie?",
@@ -2614,7 +2840,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que ocurre con capacitores conectados en serie?"
   },
   {
     "q": "¿Qué ley creó la clase de Ayudante de Perito Electricista?",
@@ -2637,7 +2865,9 @@
         "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "ley-ayudante"
   },
   {
     "q": "¿En qué unidad se mide la potencia eléctrica?",
@@ -2658,7 +2888,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿en que unidad se mide la potencia electrica?"
   },
   {
     "q": "¿Qué mide un contador de kWh?",
@@ -2679,7 +2911,9 @@
         "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que mide un contador de kwh?"
   },
   {
     "q": "¿Qué voltaje produce 2 A a través de 6 Ω?",
@@ -2700,7 +2934,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-voltaje"
   },
   {
     "q": "¿Qué potencia consume una resistencia de 4 Ω con 10 V?",
@@ -2721,7 +2957,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-potencia"
   },
   {
     "q": "¿Qué magnitud es igual en todos los resistores en serie?",
@@ -2742,7 +2980,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "basica",
+    "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
     "q": "¿Qué tipo de conduleto es recto, con entrada y salida opuestas?",
@@ -2763,7 +3003,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que tipo de conduleto es recto, con entrada y salida opuestas?"
   },
   {
     "q": "¿Qué significa RMC?",
@@ -2784,7 +3026,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa rmc?"
   },
   {
     "q": "¿Qué es un micro switch?",
@@ -2805,7 +3049,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que es un micro switch?"
   },
   {
     "q": "¿Qué elemento se usa para controlar el paso de corriente?",
@@ -2826,7 +3072,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que elemento se usa para controlar el paso de corriente?"
   },
   {
     "q": "¿Cuánta corriente circula con 240 V y 80 Ω?",
@@ -2847,7 +3095,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-corriente"
   },
   {
     "q": "¿Cuál es la potencia de un motor de 240 V y 4 A?",
@@ -2868,7 +3118,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-potencia"
   },
   {
     "q": "¿Cuánto vale la resistencia equivalente de ocho resistores de 64 Ω en paralelo?",
@@ -2889,7 +3141,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
     "q": "¿Qué es un spring nut para Unistrut?",
@@ -2910,7 +3164,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que es un spring nut para unistrut?"
   },
   {
     "q": "¿Qué significa IMC?",
@@ -2931,7 +3187,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa imc?"
   },
   {
     "q": "¿Qué significa CA?",
@@ -2952,7 +3210,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa ca?"
   },
   {
     "q": "¿Cuál es la resistencia de una bombilla de 100 W a 120 V?",
@@ -2973,7 +3233,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "calculos"
+    "examGroup": "calculos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "calculo-resistencia"
   },
   {
     "q": "¿Cuál es la corriente total con resistores de 6 Ω y 4 Ω en paralelo a 24 V?",
@@ -2994,7 +3256,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "analisis",
+    "similarityFamily": "circuit-parallel-current-multiple"
   },
   {
     "q": "¿Qué significa PVC?",
@@ -3015,7 +3279,9 @@
         "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa pvc?"
   },
   {
     "q": "¿Qué significa CC?",
@@ -3036,7 +3302,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa cc?"
   },
   {
     "q": "Dos resistencias de 2 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3057,7 +3325,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "¿Qué significa kV?",
@@ -3078,7 +3348,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa kv?"
   },
   {
     "q": "Dos resistencias de 2 Ω y 3 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3099,7 +3371,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "¿Qué significa kWh?",
@@ -3120,7 +3394,9 @@
         "url": "repaso.html#fundamentos"
       }
     ],
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa kwh?"
   },
   {
     "q": "Dos resistencias de 2 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3141,7 +3417,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 5 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3162,7 +3440,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 6 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3183,7 +3463,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3204,7 +3486,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3225,7 +3509,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 10 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3246,7 +3532,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3267,7 +3555,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 12 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3288,7 +3578,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3309,7 +3601,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 20 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3330,7 +3624,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3351,7 +3647,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3372,7 +3670,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3393,7 +3693,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3414,7 +3716,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3435,7 +3739,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3456,7 +3762,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3477,7 +3785,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 80 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3498,7 +3808,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 80 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3519,7 +3831,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 100 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3540,7 +3854,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 2 Ω y 120 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3561,7 +3877,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 4 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3582,7 +3900,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3603,7 +3923,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 5 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3624,7 +3946,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 6 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3645,7 +3969,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3666,7 +3992,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3687,7 +4015,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3708,7 +4038,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3729,7 +4061,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3750,7 +4084,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3771,7 +4107,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3792,7 +4130,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3813,7 +4153,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3834,7 +4176,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3855,7 +4199,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3876,7 +4222,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3897,7 +4245,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3918,7 +4268,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 60 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -3939,7 +4291,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 80 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3960,7 +4314,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 100 Ω se conectan en serie. ¿Cuál es R total?",
@@ -3981,7 +4337,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 100 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4002,7 +4360,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 3 Ω y 120 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4023,7 +4383,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4044,7 +4406,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 5 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4065,7 +4429,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 5 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4086,7 +4452,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4107,7 +4475,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4128,7 +4498,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4149,7 +4521,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4170,7 +4544,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4191,7 +4567,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4212,7 +4590,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4233,7 +4613,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4254,7 +4636,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4275,7 +4659,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 30 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4296,7 +4682,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4317,7 +4705,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 40 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4338,7 +4728,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4359,7 +4751,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4380,7 +4774,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 60 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4401,7 +4797,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 80 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4422,7 +4820,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 100 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4443,7 +4843,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 120 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4464,7 +4866,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 4 Ω y 120 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4485,7 +4889,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4506,7 +4912,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 4 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4527,7 +4935,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4548,7 +4958,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4569,7 +4981,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4590,7 +5004,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 10 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4611,7 +5027,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4632,7 +5050,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 12 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4653,7 +5073,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4674,7 +5096,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 20 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4695,7 +5119,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4716,7 +5142,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4737,7 +5165,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 30 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4758,7 +5188,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4779,7 +5211,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 40 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4800,7 +5234,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
@@ -4821,7 +5257,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
     "q": "Dos resistencias de 5 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
@@ -4842,7 +5280,9 @@
         "url": "repaso.html#calculos"
       }
     ],
-    "examGroup": "circuitos"
+    "examGroup": "circuitos",
+    "difficulty": "aplicacion",
+    "similarityFamily": "circuit-series-resistance-two"
   },
   {
     "id": "ampliacion-1",
@@ -4874,7 +5314,9 @@
     "visualAlt": "Fotografía A de accesorio de canalización",
     "imageCredit": "Foto de producto: Arlington Industries · AnyBODY",
     "imageSource": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que accesorio aparece en la fotografia a?"
   },
   {
     "id": "ampliacion-2",
@@ -4906,7 +5348,9 @@
     "visualAlt": "Fotografía B de accesorio de canalización",
     "imageCredit": "Foto de producto: Arlington Industries · AnyBODY",
     "imageSource": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que disposicion de entradas se observa en la fotografia b?"
   },
   {
     "id": "ampliacion-3",
@@ -4938,7 +5382,9 @@
     "visualAlt": "Fotografía C de accesorio de canalización",
     "imageCredit": "Foto de producto: Arlington Industries · AnyBODY",
     "imageSource": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que trayectoria de canalizacion muestra la fotografia c?"
   },
   {
     "id": "ampliacion-4",
@@ -4970,7 +5416,9 @@
     "visualAlt": "Fotografía D de accesorio de canalización",
     "imageCredit": "Foto de producto: Arlington Industries · AnyBODY",
     "imageSource": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿para que sirve la tapa retirada en la fotografia d?"
   },
   {
     "id": "ampliacion-5",
@@ -4998,7 +5446,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que permite distinguir visualmente un conector de un cople de emt?"
   },
   {
     "id": "ampliacion-6",
@@ -5026,7 +5476,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que herramienta se utiliza para quitar aislamiento sin cortar el metal del conductor?"
   },
   {
     "id": "ampliacion-7",
@@ -5054,7 +5506,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que dato se debe cotejar al seleccionar un accesorio de tuberia?"
   },
   {
     "id": "ampliacion-8",
@@ -5082,7 +5536,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que componente proporciona espacio protegido para conexiones y derivaciones?"
   },
   {
     "id": "ampliacion-9",
@@ -5110,7 +5566,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿cual es el proposito de unir electricamente las partes metalicas expuestas?"
   },
   {
     "id": "ampliacion-10",
@@ -5138,7 +5596,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que conductor puede transportar corriente de retorno durante funcionamiento normal en un circuito de N v?"
   },
   {
     "id": "ampliacion-11",
@@ -5166,7 +5626,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que funcion tiene el conductor de proteccion del equipo ante una falla de aislamiento?"
   },
   {
     "id": "ampliacion-12",
@@ -5194,7 +5656,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿puede utilizarse unicamente el terreno como trayectoria efectiva para despejar una falla a una carcasa?"
   },
   {
     "id": "ampliacion-13",
@@ -5222,7 +5686,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que diferencia hay entre un electrodo y el conductor de proteccion del equipo?"
   },
   {
     "id": "ampliacion-14",
@@ -5250,7 +5716,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿que condicion necesita atencion si una caja metalica accesible da choque al tocarla?"
   },
   {
     "id": "ampliacion-15",
@@ -5278,7 +5746,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que efecto puede tener una union de proteccion floja o corroida?"
   },
   {
     "id": "ampliacion-16",
@@ -5310,7 +5780,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "en un subpanel de cuatro conductores aguas abajo del desconectivo de servicio, sin excepciones aplicables, ¿como se mantienen neutro y proteccion?"
   },
   {
     "id": "ampliacion-17",
@@ -5338,7 +5810,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "entre N awg y N awg de cobre, ¿cual tiene mayor seccion transversal?"
   },
   {
     "id": "ampliacion-18",
@@ -5366,7 +5840,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que indica cu en el marcado de un conductor?"
   },
   {
     "id": "ampliacion-19",
@@ -5394,7 +5870,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿basta conocer el calibre para decidir la corriente admisible de una instalacion?"
   },
   {
     "id": "ampliacion-20",
@@ -5422,7 +5900,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que debe comprobarse para usar un conductor en lugar mojado?"
   },
   {
     "id": "ampliacion-21",
@@ -5450,7 +5930,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿que debe hacerse si un breaker dispara repetidamente?"
   },
   {
     "id": "ampliacion-22",
@@ -5478,7 +5960,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que protege principalmente un dispositivo de sobrecorriente correctamente seleccionado?"
   },
   {
     "id": "ampliacion-23",
@@ -5506,7 +5990,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que debe verificarse al terminar aluminio en un borne?"
   },
   {
     "id": "ampliacion-24",
@@ -5534,7 +6020,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿por que puede reducirse la ampacidad al agrupar mas conductores portadores de corriente?"
   },
   {
     "id": "ampliacion-25",
@@ -5562,7 +6050,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿es suficiente colocar un interruptor en off para considerar seguro tocar los conductores?"
   },
   {
     "id": "ampliacion-26",
@@ -5590,7 +6080,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿para que se aplica bloqueo y etiquetado durante mantenimiento?"
   },
   {
     "id": "ampliacion-27",
@@ -5618,7 +6110,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que debe hacerse al encontrar aislamiento roto en una extension?"
   },
   {
     "id": "ampliacion-28",
@@ -5646,7 +6140,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que riesgo persiste despues de desconectar un equipo con capacitores?"
   },
   {
     "id": "ampliacion-29",
@@ -5674,7 +6170,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que se revisa al elegir guantes y proteccion electrica?"
   },
   {
     "id": "ampliacion-30",
@@ -5702,7 +6200,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿que debe hacer un ayudante si descubre una fuente electrica no identificada?"
   },
   {
     "id": "ampliacion-31",
@@ -5730,7 +6230,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿puede un detector sin contacto por si solo garantizar ausencia de tension en todos los conductores?"
   },
   {
     "id": "ampliacion-32",
@@ -5758,7 +6260,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿que accion corresponde si una persona permanece en contacto con una fuente energizada?"
   },
   {
     "id": "ampliacion-33",
@@ -5786,7 +6290,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que diferencia funcional hay entre gfci y afci?"
   },
   {
     "id": "ampliacion-34",
@@ -5814,7 +6320,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que significa que un receptaculo tenga proteccion gfci?"
   },
   {
     "id": "ampliacion-35",
@@ -5842,7 +6350,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que accion comprueba el mecanismo de prueba de un receptaculo gfci?"
   },
   {
     "id": "ampliacion-36",
@@ -5870,7 +6380,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que funcion tienen las barreras internas de un receptaculo tr?"
   },
   {
     "id": "ampliacion-37",
@@ -5898,7 +6410,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que se compara al comprobar el llenado de una caja?"
   },
   {
     "id": "ampliacion-38",
@@ -5926,7 +6440,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿cuanto volumen requieren unicamente cuatro asignaciones de N pulgadas cubicas cada una?"
   },
   {
     "id": "ampliacion-39",
@@ -5954,7 +6470,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿puede deducirse que un dispositivo es apto para intemperie solo porque incorpora gfci?"
   },
   {
     "id": "ampliacion-40",
@@ -5982,7 +6500,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que debe revisarse antes de aplicar una regla del nec a una pregunta de practica?"
   },
   {
     "id": "ampliacion-41",
@@ -6012,7 +6532,9 @@
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
     "examGroup": "aplicaciones",
     "visual": "imagenes/materiales/esquema-a.svg",
-    "visualAlt": "Esquema A: fase, contacto S1, lámpara y neutro"
+    "visualAlt": "Esquema A: fase, contacto S1, lámpara y neutro",
+    "difficulty": "basica",
+    "similarityFamily": "en el esquema a, ¿que representa sN?"
   },
   {
     "id": "ampliacion-42",
@@ -6042,7 +6564,9 @@
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
     "examGroup": "aplicaciones",
     "visual": "imagenes/materiales/esquema-a.svg",
-    "visualAlt": "Esquema A: fase, contacto S1, lámpara y neutro"
+    "visualAlt": "Esquema A: fase, contacto S1, lámpara y neutro",
+    "difficulty": "aplicacion",
+    "similarityFamily": "en el esquema a, ¿por que la lampara no enciende con sN abierto?"
   },
   {
     "id": "ampliacion-43",
@@ -6072,7 +6596,9 @@
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
     "examGroup": "aplicaciones",
     "visual": "imagenes/materiales/esquema-b.svg",
-    "visualAlt": "Esquema B: instrumento V conectado entre los dos nodos de la carga"
+    "visualAlt": "Esquema B: instrumento V conectado entre los dos nodos de la carga",
+    "difficulty": "aplicacion",
+    "similarityFamily": "en el esquema b, ¿que elemento permite medir tension sin abrir la trayectoria de la carga?"
   },
   {
     "id": "ampliacion-44",
@@ -6100,7 +6626,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que informacion aporta la leyenda de un plano electrico?"
   },
   {
     "id": "ampliacion-45",
@@ -6128,7 +6656,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿para que sirven los dos viajeros entre interruptores de tres vias convencionales?"
   },
   {
     "id": "ampliacion-46",
@@ -6156,7 +6686,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que diferencia basica hay entre diagrama unifilar y plano de ubicacion?"
   },
   {
     "id": "ampliacion-47",
@@ -6184,7 +6716,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿que debe hacerse si el dibujo y la leyenda identifican de forma contradictoria un conductor?"
   },
   {
     "id": "ampliacion-48",
@@ -6212,7 +6746,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que representa una linea de conexion en un esquema didactico?"
   },
   {
     "id": "ampliacion-49",
@@ -6240,7 +6776,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿en que condicion se prueba continuidad de un componente?"
   },
   {
     "id": "ampliacion-50",
@@ -6268,7 +6806,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que indica ol en una medicion de resistencia, segun el rango del instrumento?"
   },
   {
     "id": "ampliacion-51",
@@ -6296,7 +6836,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿que se hace antes de cambiar de medir corriente con puntas a medir voltaje?"
   },
   {
     "id": "ampliacion-52",
@@ -6324,7 +6866,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que encierra una pinza para medir corriente de carga en un circuito monofasico de dos hilos?"
   },
   {
     "id": "ampliacion-53",
@@ -6352,7 +6896,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "para medir el voltaje de una alimentacion de ca, ¿que funcion se selecciona?"
   },
   {
     "id": "ampliacion-54",
@@ -6380,7 +6926,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que debe verificarse en las puntas de prueba antes de usarlas?"
   },
   {
     "id": "ampliacion-55",
@@ -6408,7 +6956,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿como se reduce el efecto de caminos en paralelo al medir una resistencia individual?"
   },
   {
     "id": "ampliacion-56",
@@ -6436,7 +6986,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que significa un pitido de continuidad en un cable aislado y desenergizado?"
   },
   {
     "id": "ampliacion-57",
@@ -6464,7 +7016,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿bajo que supervision trabaja legalmente el ayudante de perito electricista?"
   },
   {
     "id": "ampliacion-58",
@@ -6492,7 +7046,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que organismo autoriza el ejercicio mediante licencia de ayudante?"
   },
   {
     "id": "ampliacion-59",
@@ -6520,7 +7076,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que diferencia legal basica existe entre aprendiz y ayudante?"
   },
   {
     "id": "ampliacion-60",
@@ -6548,7 +7106,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿aprobar el examen convierte por si solo a la persona en titular de una licencia expedida?"
   },
   {
     "id": "ampliacion-61",
@@ -6576,7 +7136,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que equipo registra la energia que consume una residencia?"
   },
   {
     "id": "ampliacion-62",
@@ -6604,7 +7166,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que componente sostiene fisicamente el contador y permite su conexion?"
   },
   {
     "id": "ampliacion-63",
@@ -6632,7 +7196,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que funcion cumple normalmente el transformador de distribucion que alimenta una vivienda?"
   },
   {
     "id": "ampliacion-64",
@@ -6660,7 +7226,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que debe consultarse antes de asumir quien repara un componente de la acometida?"
   },
   {
     "id": "ampliacion-65",
@@ -6688,7 +7256,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que tipo de corriente entregan directamente las celulas fotovoltaicas?"
   },
   {
     "id": "ampliacion-66",
@@ -6716,7 +7286,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que funcion principal cumple un inversor fotovoltaico?"
   },
   {
     "id": "ampliacion-67",
@@ -6744,7 +7316,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que funcion cumple una bateria en un sistema solar con almacenamiento?"
   },
   {
     "id": "ampliacion-68",
@@ -6772,7 +7346,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿todo sistema solar conectado a la red proporciona respaldo durante un apagon?"
   },
   {
     "id": "ampliacion-69",
@@ -6800,7 +7376,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿puede un circuito fotovoltaico mantener tension aunque se abra el interruptor de ca?"
   },
   {
     "id": "ampliacion-70",
@@ -6828,7 +7406,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "aplicacion",
+    "similarityFamily": "¿que efecto puede tener la sombra sobre un arreglo fotovoltaico?"
   },
   {
     "id": "ampliacion-71",
@@ -6856,7 +7436,9 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "basica",
+    "similarityFamily": "¿que unidad expresa energia almacenada o entregada durante un periodo?"
   },
   {
     "id": "ampliacion-72",
@@ -6884,6 +7466,508 @@
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
-    "examGroup": "aplicaciones"
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "¿por que es importante identificar red, paneles, baterias y generador antes del mantenimiento?"
+  },
+  {
+    "id": "mejora-1",
+    "q": "¿Qué función tienen los botones TEST y RESET en el dispositivo de la fotografía 1?",
+    "options": [
+      "Probar y restablecer la protección contra falla a tierra",
+      "Cambiar la frecuencia de la red",
+      "Aumentar el calibre de los conductores",
+      "Transformar 120 V a 12 V"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "El dispositivo es un receptáculo GFCI. Los botones sirven para su prueba y restablecimiento conforme a las instrucciones del fabricante.",
+    "optionExplanations": [
+      "El dispositivo es un receptáculo GFCI. Los botones sirven para su prueba y restablecimiento conforme a las instrucciones del fabricante.",
+      "Esos botones no cambian la frecuencia de alimentación.",
+      "El calibre es una propiedad física del conductor.",
+      "El receptáculo no actúa como transformador."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/leviton-gfci.jpg",
+    "visualAlt": "Fotografía de producto 1",
+    "imageCredit": "Foto de producto: Leviton",
+    "imageSource": "https://leviton.com/products/gftr1-w",
+    "references": [
+      {
+        "label": "Leviton · ficha del producto",
+        "url": "https://leviton.com/products/gftr1-w"
+      }
+    ],
+    "similarityFamily": "¿que funcion tienen los botones test y reset en el dispositivo de la fotografia N?"
+  },
+  {
+    "id": "mejora-2",
+    "q": "¿Qué indica el punto verde del receptáculo de la fotografía 2?",
+    "options": [
+      "Clasificación para uso hospitalario",
+      "Ausencia del conductor de protección",
+      "Compatibilidad con cualquier voltaje",
+      "Que solo puede conectarse corriente continua"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "El punto verde identifica Hospital Grade. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
+    "optionExplanations": [
+      "El punto verde identifica Hospital Grade. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
+      "La marca no significa que deba omitirse la tierra.",
+      "Debe respetarse su valor nominal.",
+      "Su ficha indica la clasificación de alimentación del producto."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/leviton-hospital.jpg",
+    "visualAlt": "Fotografía de producto 2",
+    "imageCredit": "Foto de producto: Leviton",
+    "imageSource": "https://leviton.com/products/gftr1-hgw",
+    "references": [
+      {
+        "label": "Leviton · ficha del producto",
+        "url": "https://leviton.com/products/gftr1-hgw"
+      }
+    ],
+    "similarityFamily": "¿que indica el punto verde del receptaculo de la fotografia N?"
+  },
+  {
+    "id": "mejora-3",
+    "q": "¿Qué parte del instrumento de la fotografía 3 permite medir corriente de CA sin intercalar las puntas en serie?",
+    "options": [
+      "La mordaza alrededor de un conductor adecuado",
+      "La funda de transporte",
+      "Las baterías fuera del instrumento",
+      "La punta roja tocando directamente el neutro y la fase"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "La pinza detecta el campo del conductor. Para corriente de carga se abraza uno solo, respetando el manual y los procedimientos de seguridad.",
+    "optionExplanations": [
+      "La pinza detecta el campo del conductor. Para corriente de carga se abraza uno solo, respetando el manual y los procedimientos de seguridad.",
+      "Solo protege el instrumento durante traslado.",
+      "Son su alimentación, no el sensor de corriente de la carga.",
+      "Esa conexión puede provocar una falla peligrosa."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/klein-pinza.jpg",
+    "visualAlt": "Fotografía de producto 3",
+    "imageCredit": "Foto de producto: Klein Tools",
+    "imageSource": "https://www.kleintools.com/catalog/clamp-meters/digital-clamp-meter-ac-auto-ranging-400-amp",
+    "references": [
+      {
+        "label": "Klein Tools · ficha del producto",
+        "url": "https://www.kleintools.com/catalog/clamp-meters/digital-clamp-meter-ac-auto-ranging-400-amp"
+      }
+    ],
+    "similarityFamily": "¿que parte del instrumento de la fotografia N permite medir corriente de ca sin intercalar las puntas en serie?"
+  },
+  {
+    "id": "mejora-4",
+    "q": "¿Qué uso corresponde a la herramienta de la fotografía 4?",
+    "options": [
+      "Retirar aislamiento con la abertura apropiada al conductor",
+      "Medir resistencia dieléctrica",
+      "Verificar ausencia de tensión por contacto con el mango",
+      "Apretar bornes con torque certificado"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "El pelacables tiene aberturas para calibres determinados; no debe marcar ni cortar el metal que se desea conservar.",
+    "optionExplanations": [
+      "El pelacables tiene aberturas para calibres determinados; no debe marcar ni cortar el metal que se desea conservar.",
+      "No es un medidor de aislamiento.",
+      "Un mango no comprueba ausencia de tensión.",
+      "Se requiere la herramienta de torque adecuada."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/klein-pelacables.jpg",
+    "visualAlt": "Fotografía de producto 4",
+    "imageCredit": "Foto de producto: Klein Tools",
+    "imageSource": "https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter",
+    "references": [
+      {
+        "label": "Klein Tools · ficha del producto",
+        "url": "https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter"
+      }
+    ],
+    "similarityFamily": "¿que uso corresponde a la herramienta de la fotografia N?"
+  },
+  {
+    "id": "mejora-5",
+    "q": "¿Qué corriente nominal indica la palanca del dispositivo de la fotografía 5?",
+    "options": [
+      "20 A",
+      "20 V",
+      "20 Hz",
+      "20 kWh"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "El modelo mostrado está nominalmente clasificado para 20 A. Esto no permite usarlo en cualquier tablero o conductor; debe comprobarse compatibilidad.",
+    "optionExplanations": [
+      "El modelo mostrado está nominalmente clasificado para 20 A. Esto no permite usarlo en cualquier tablero o conductor; debe comprobarse compatibilidad.",
+      "La cifra de la palanca corresponde aquí a corriente, no a tensión.",
+      "No expresa frecuencia.",
+      "No es una indicación de energía acumulada."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/eaton-breaker.jpg",
+    "visualAlt": "Fotografía de producto 5",
+    "imageCredit": "Foto de producto: Eaton",
+    "imageSource": "https://www.eaton.com/us/en-us/skuPage.BR120.html",
+    "references": [
+      {
+        "label": "Eaton · ficha del producto",
+        "url": "https://www.eaton.com/us/en-us/skuPage.BR120.html"
+      }
+    ],
+    "similarityFamily": "¿que corriente nominal indica la palanca del dispositivo de la fotografia N?"
+  },
+  {
+    "id": "mejora-6",
+    "q": "¿Qué extremo del accesorio de la fotografía 6 se fija a la caja mediante una contratuerca?",
+    "options": [
+      "El extremo roscado exterior",
+      "La boca de compresión para tubería",
+      "Cualquiera de sus extremos de forma indistinta",
+      "Una pieza sin relación con la rosca"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "La pieza es un conector: termina la canalización en una caja. Se siguen su listado y las instrucciones de instalación.",
+    "optionExplanations": [
+      "La pieza es un conector: termina la canalización en una caja. Se siguen su listado y las instrucciones de instalación.",
+      "Ese lado sujeta la canalización compatible.",
+      "Los extremos tienen funciones distintas.",
+      "La fijación de caja corresponde a la rosca y su medio de sujeción."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/arlington-conector.jpg",
+    "visualAlt": "Fotografía de producto 6",
+    "imageCredit": "Foto de producto: Arlington Industries",
+    "imageSource": "https://www.aifittings.com/catalog/emt/",
+    "references": [
+      {
+        "label": "Arlington Industries · ficha del producto",
+        "url": "https://www.aifittings.com/catalog/emt/"
+      }
+    ],
+    "similarityFamily": "¿que extremo del accesorio de la fotografia N se fija a la caja mediante una contratuerca?"
+  },
+  {
+    "id": "mejora-7",
+    "q": "¿Qué función cumple la pieza de la fotografía 7?",
+    "options": [
+      "Unir dos tramos de canalización compatibles",
+      "Proporcionar una salida de energía para un enchufe",
+      "Abrir automáticamente por sobrecorriente",
+      "Registrar energía consumida"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "El cople une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
+    "optionExplanations": [
+      "El cople une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
+      "No es un receptáculo.",
+      "No contiene un mecanismo de protección.",
+      "No es un contador."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/arlington-cople.jpg",
+    "visualAlt": "Fotografía de producto 7",
+    "imageCredit": "Foto de producto: Arlington Industries",
+    "imageSource": "https://www.aifittings.com/catalog/emt/",
+    "references": [
+      {
+        "label": "Arlington Industries · ficha del producto",
+        "url": "https://www.aifittings.com/catalog/emt/"
+      }
+    ],
+    "similarityFamily": "¿que funcion cumple la pieza de la fotografia N?"
+  },
+  {
+    "id": "mejora-8",
+    "q": "Antes de pelar el conductor de la fotografía 8, ¿qué debe comprobarse?",
+    "options": [
+      "Que esté desenergizado y se use la abertura del calibre adecuado",
+      "Que la mano sirva como detector de tensión",
+      "Que cualquier abertura retire el aislamiento sin dañar el metal",
+      "Que el color del mango autorice trabajar energizado"
+    ],
+    "answer": 0,
+    "topic": "Identificación visual",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "Se controla y verifica la energía antes de intervenir. Después se usa la abertura correspondiente al calibre y tipo de conductor para evitar dañar el metal.",
+    "optionExplanations": [
+      "Primero se verifica la condición segura; luego se selecciona la abertura compatible con el conductor.",
+      "La mano nunca se utiliza para comprobar tensión.",
+      "Una abertura incorrecta puede cortar o marcar los hilos.",
+      "El color del mango no determina aislamiento eléctrico ni autorización para trabajo energizado."
+    ],
+    "difficulty": "basica",
+    "visual": "imagenes/materiales/klein-conductor.jpg",
+    "visualAlt": "Fotografía de producto 8",
+    "imageCredit": "Foto de producto en uso: Klein Tools",
+    "imageSource": "https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter",
+    "references": [
+      {
+        "label": "Klein Tools · pelacables para cobre",
+        "url": "https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter"
+      },
+      {
+        "label": "OSHA · 1910.333, prácticas seguras",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+      }
+    ],
+    "similarityFamily": "pelado-conductor-seguro"
+  },
+  {
+    "id": "mejora-9",
+    "q": "Un equipo apagado conserva una batería interna conectada. ¿Qué debe hacerse antes de intervenir?",
+    "options": [
+      "Identificar y controlar también esa fuente de energía",
+      "Dar por seguro el equipo porque el enchufe está retirado",
+      "Cortocircuitar la batería para descargarla",
+      "Ocultar la batería para evitar tocarla"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "Aislar la red no elimina todas las fuentes. Se sigue el procedimiento del fabricante y del responsable del trabajo para cada energía presente.",
+    "optionExplanations": [
+      "Aislar la red no elimina todas las fuentes. Se sigue el procedimiento del fabricante y del responsable del trabajo para cada energía presente.",
+      "La batería sigue siendo una fuente posible.",
+      "Puede causar quemaduras, arco o incendio.",
+      "No controla su capacidad de energizar el equipo."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "OSHA · 1910.333, selección de prácticas seguras",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+      }
+    ],
+    "similarityFamily": "un equipo apagado conserva una bateria interna conectada. ¿que debe hacerse antes de intervenir?"
+  },
+  {
+    "id": "mejora-10",
+    "q": "Una persona dejó la punta roja del multímetro en A y quiere medir tensión entre fase y neutro. ¿Qué corresponde?",
+    "options": [
+      "Detenerse y configurar bornes y función según el manual",
+      "Medir inmediatamente porque el color es correcto",
+      "Unir ambas puntas para evitar errores",
+      "Retirar el fusible de protección del instrumento"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión antes de medir con el procedimiento seguro.",
+    "optionExplanations": [
+      "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión antes de medir con el procedimiento seguro.",
+      "El color de la punta no determina su conexión interna.",
+      "No configura el instrumento ni hace segura la medición.",
+      "Eliminar una protección aumenta el riesgo."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "Fluke · continuidad y alcance de la prueba",
+        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+      }
+    ],
+    "similarityFamily": "una persona dejo la punta roja del multimetro en a y quiere medir tension entre fase y neutro. ¿que corresponde?"
+  },
+  {
+    "id": "mejora-11",
+    "q": "En un subpanel de cuatro hilos se encuentra un puente entre neutro y gabinete, sin excepción aplicable. ¿Qué problema puede provocar?",
+    "options": [
+      "Corriente normal por trayectorias metálicas de protección",
+      "Una reducción garantizada del consumo",
+      "Transformación automática de CA en CC",
+      "Que el gabinete se convierta en aislante"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "La unión aguas abajo puede crear caminos paralelos de retorno. En el caso descrito el neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
+    "optionExplanations": [
+      "La unión aguas abajo puede crear caminos paralelos de retorno. En el caso descrito el neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
+      "Ese puente no es una medida de eficiencia.",
+      "La unión no rectifica corriente.",
+      "El metal continúa siendo conductor."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "NFPA · art. 250; referencia didáctica NEC 2020, 250.24(A)(5)",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      }
+    ],
+    "similarityFamily": "en un subpanel de cuatro hilos se encuentra un puente entre neutro y gabinete, sin excepcion aplicable. ¿que problema puede provocar?"
+  },
+  {
+    "id": "mejora-12",
+    "q": "Un breaker dispara y alguien propone cambiarlo por otro de mayor amperaje sin revisar nada. ¿Cuál es la respuesta adecuada?",
+    "options": [
+      "Investigar la causa y verificar conductores y protección antes de cambiarlo",
+      "Aumentarlo siempre hasta que no dispare",
+      "Bloquear la palanca con cinta",
+      "Quitar la puesta a tierra para disminuir corriente"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "El disparo puede indicar sobrecarga, falla o defecto. El perito debe diagnosticarlo y seleccionar la protección que corresponda al circuito.",
+    "optionExplanations": [
+      "El disparo puede indicar sobrecarga, falla o defecto. El perito debe diagnosticarlo y seleccionar la protección que corresponda al circuito.",
+      "Puede dejar los conductores insuficientemente protegidos.",
+      "Impide una función de seguridad.",
+      "No corrige la falla y elimina protección."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "OSHA · 1910.333, selección de prácticas seguras",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+      }
+    ],
+    "similarityFamily": "un breaker dispara y alguien propone cambiarlo por otro de mayor amperaje sin revisar nada. ¿cual es la respuesta adecuada?"
+  },
+  {
+    "id": "mejora-13",
+    "q": "Durante un apagón, una casa con paneles solares no tiene energía. ¿Qué dato conviene revisar primero?",
+    "options": [
+      "Si el sistema está diseñado y equipado para respaldo",
+      "Solo la cantidad de tomacorrientes de la casa",
+      "El color del contador",
+      "Si todos los paneles tienen el mismo logotipo"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "Un sistema conectado a la red puede dejar de alimentar al perderla. Respaldo requiere diseño y equipos adecuados; la presencia de paneles no lo garantiza.",
+    "optionExplanations": [
+      "Un sistema conectado a la red puede dejar de alimentar al perderla. Respaldo requiere diseño y equipos adecuados; la presencia de paneles no lo garantiza.",
+      "No determina capacidad de operar sin red.",
+      "No demuestra funcionamiento en isla.",
+      "La marca por sí sola no garantiza respaldo."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "DOE · sistemas solares y resiliencia",
+        "url": "https://www.energy.gov/cmei/systems/solar-and-resilience-basics"
+      }
+    ],
+    "similarityFamily": "durante un apagon, una casa con paneles solares no tiene energia. ¿que dato conviene revisar primero?"
+  },
+  {
+    "id": "mejora-14",
+    "q": "Un receptáculo GFCI no interrumpe como indican las instrucciones al presionar TEST. ¿Qué corresponde?",
+    "options": [
+      "Suspender su uso y pedir evaluación o reemplazo por personal autorizado",
+      "Suponer que protege porque aún entrega energía",
+      "Crear un cortocircuito con un alambre para probarlo",
+      "Retirar el botón para impedir nuevas pruebas"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "Una prueba fallida requiere atención conforme al fabricante. No se da por operativa la protección ni se provocan fallas improvisadas.",
+    "optionExplanations": [
+      "Una prueba fallida requiere atención conforme al fabricante. No se da por operativa la protección ni se provocan fallas improvisadas.",
+      "Entregar energía no confirma la función de protección.",
+      "Es una prueba peligrosa.",
+      "No soluciona el defecto."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "OSHA · 1910.333, selección de prácticas seguras",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+      }
+    ],
+    "similarityFamily": "un receptaculo gfci no interrumpe como indican las instrucciones al presionar test. ¿que corresponde?"
+  },
+  {
+    "id": "mejora-15",
+    "q": "Dos accesorios parecen iguales, pero uno no está aprobado para el tipo de tubería. ¿Cuál debe elegirse?",
+    "options": [
+      "El que tenga compatibilidad y clasificación adecuadas",
+      "El más brillante independientemente del listado",
+      "El que necesite forzarse para encajar",
+      "Cualquiera si se cubre con cinta"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "La selección depende de canalización, tamaño, ambiente y listado, no solo del aspecto.",
+    "optionExplanations": [
+      "La selección depende de canalización, tamaño, ambiente y listado, no solo del aspecto.",
+      "El acabado no determina aptitud.",
+      "La fuerza no acredita compatibilidad.",
+      "La cinta no corrige un accesorio incompatible."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "OSHA · 1910.333, selección de prácticas seguras",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+      }
+    ],
+    "similarityFamily": "dos accesorios parecen iguales, pero uno no esta aprobado para el tipo de tuberia. ¿cual debe elegirse?"
+  },
+  {
+    "id": "mejora-16",
+    "q": "Un cable da pitido de continuidad. ¿Puede concluirse que su aislamiento está en buen estado para cualquier tensión?",
+    "options": [
+      "No; la continuidad no demuestra resistencia del aislamiento",
+      "Sí, el pitido certifica toda la instalación",
+      "Sí, porque el pitido mide el calibre",
+      "Sí, aunque haya aislamiento roto visible"
+    ],
+    "answer": 0,
+    "topic": "Situaciones prácticas",
+    "examGroup": "aplicaciones",
+    "source": "Ampliación visual y situaciones prácticas",
+    "explanation": "La continuidad comprueba una trayectoria conductora con el equipo desenergizado. El aislamiento se evalúa mediante inspección y pruebas apropiadas para esa función.",
+    "optionExplanations": [
+      "La continuidad comprueba una trayectoria conductora con el equipo desenergizado. El aislamiento se evalúa mediante inspección y pruebas apropiadas para esa función.",
+      "La prueba tiene un alcance limitado.",
+      "La continuidad no determina sección.",
+      "El daño visible requiere atención."
+    ],
+    "difficulty": "analisis",
+    "references": [
+      {
+        "label": "Fluke · continuidad y alcance de la prueba",
+        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+      }
+    ],
+    "similarityFamily": "un cable da pitido de continuidad. ¿puede concluirse que su aislamiento esta en buen estado para cualquier tension?"
   }
 ]

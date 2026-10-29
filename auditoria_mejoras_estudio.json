@@ -1,0 +1,71 @@
+{
+  "fecha": "2026-10-29",
+  "baseConservada": 292,
+  "nuevas": 16,
+  "total": 308,
+  "fotografiasNuevas": [
+    {
+      "archivo": "leviton-gfci.jpg",
+      "autor": "Leviton",
+      "fuente": "https://leviton.com/products/gftr1-w"
+    },
+    {
+      "archivo": "leviton-hospital.jpg",
+      "autor": "Leviton",
+      "fuente": "https://leviton.com/products/gftr1-hgw"
+    },
+    {
+      "archivo": "klein-pinza.jpg",
+      "autor": "Klein Tools",
+      "fuente": "https://www.kleintools.com/catalog/clamp-meters/digital-clamp-meter-ac-auto-ranging-400-amp"
+    },
+    {
+      "archivo": "klein-pelacables.jpg",
+      "autor": "Klein Tools",
+      "fuente": "https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter"
+    },
+    {
+      "archivo": "eaton-breaker.jpg",
+      "autor": "Eaton",
+      "fuente": "https://www.eaton.com/us/en-us/skuPage.BR120.html"
+    },
+    {
+      "archivo": "arlington-conector.jpg",
+      "autor": "Arlington Industries",
+      "fuente": "https://www.aifittings.com/catalog/emt/"
+    },
+    {
+      "archivo": "arlington-cople.jpg",
+      "autor": "Arlington Industries",
+      "fuente": "https://www.aifittings.com/catalog/emt/"
+    },
+    {
+      "archivo": "klein-conductor.jpg",
+      "autor": "Klein Tools",
+      "fuente": "https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter"
+    }
+  ],
+  "porDificultad": {
+    "aplicacion": 165,
+    "analisis": 32,
+    "basica": 111
+  },
+  "familias": 157,
+  "porGrupo": {
+    "calculos": 58,
+    "circuitos": 108,
+    "aplicaciones": 142
+  },
+  "cuotas": {
+    "calculos": 10,
+    "circuitos": 8,
+    "aplicaciones": 32
+  },
+  "criterioDificultad": "educativo, no oficial",
+  "repeticiones": "Se priorizan familias distintas dentro de cada grupo; entre candidatas con igual repetición se favorece el nivel solicitado y la variedad de temas.",
+  "ilustracionConductor": {
+    "archivo": "cerrowire-conductor.png",
+    "autor": "Cerrowire",
+    "fuente": "https://www.cerrowire.com/product/thhn-thwn-2/"
+  }
+}
