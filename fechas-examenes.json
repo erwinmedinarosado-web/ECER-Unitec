@@ -1,0 +1,33 @@
+{
+  "verifiedOn": "2026-10-29",
+  "timezone": "America/Puerto_Rico",
+  "source": "https://www.didaxispr.com/calendario",
+  "method": "Calendario dinámico de Didaxis leído en navegador; tres eventos de Invierno 2026.",
+  "applicationOpen": "2026-10-01",
+  "applicationDeadline": "2026-11-05",
+  "exams": [
+    {
+      "name": "Ayudante de perito electricista · teórico",
+      "dates": [
+        "2026-12-14"
+      ],
+      "meaning": "Comienzo del periodo"
+    },
+    {
+      "name": "Perito electricista · teórico",
+      "dates": [
+        "2026-12-14"
+      ],
+      "meaning": "Comienzo del periodo"
+    },
+    {
+      "name": "Perito electricista · práctico",
+      "dates": [
+        "2026-12-04",
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "meaning": "Periodo de examen"
+    }
+  ]
+}
