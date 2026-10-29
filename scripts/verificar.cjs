@@ -12,7 +12,7 @@ const bank = JSON.parse(vm.runInNewContext(main.slice(0, main.indexOf(';let exam
 const photos = JSON.parse(vm.runInNewContext(gallery.split(';(()=>')[0] + ';JSON.stringify(PHOTOS)'));
 assert.equal(photos.length, 515);
 assert.equal(new Set(photos.map(p=>p.file)).size, photos.length, 'Fotografía duplicada en la galería');
-assert.equal(bank.length, 268);
+assert.equal(bank.length, 220);
 assert.equal(new Set(bank.map(q => q.id)).size, bank.length);
 const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 assert.equal(new Set(bank.map(q => normalize(q.q))).size, bank.length);
@@ -126,8 +126,8 @@ console.log('OK: 40 hojas PDF, 221 páginas de práctica y disposición de las 2
 
 const distribution=JSON.parse(read('auditoria_distribucion.json'));
 assert.equal(bank.length,distribution.total);
-assert.equal(distribution.removedAdditionalIds.length,715);
+assert.equal(distribution.removedAdditionalIds.length,763);
 assert.ok(bank.filter(q=>distribution.limitedTopics.includes(q.topic)).length/bank.length<=0.20);
 function canonical(value){if(Array.isArray(value))return value.map(canonical);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])]));return value;}
 for(const entry of distribution.preservedSourceQuestions){const q=bank.find(q=>q.id===entry.id);assert.ok(q,'Pregunta original eliminada: '+entry.id);assert.equal(crypto.createHash('sha256').update(JSON.stringify(canonical(q))).digest('hex'),entry.sha256,'Pregunta original modificada: '+entry.id);}
-console.log('OK: 268 preguntas; Ohm y Potencia 53 (19.78%); 136 preguntas de fuente conservadas íntegramente; máximo 10 de 50 en cada examen.');
+console.log('OK: 220 preguntas; Ohm y Potencia 44 (20%); 136 preguntas de fuente conservadas íntegramente; máximo 10 de 50 en cada examen.');
