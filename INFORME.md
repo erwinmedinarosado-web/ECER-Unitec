@@ -116,3 +116,29 @@ Resultados observados en el navegador:
 - Los mensajes de error del registro consultado pertenecían a la extensión del navegador, no a los archivos de la aplicación.
 
 Esto resuelve las pruebas funcionales de la vista previa; no completa el cotejo individual de todas las preguntas originales con sus figuras. Ese trabajo sigue pendiente. No se ha publicado en producción.
+
+## Cierre del cotejo de fuentes y práctica por hojas — 29 de octubre de 2026
+
+Se revisaron los 40 documentos únicos y se prepararon 40 PDF de práctica, con 221 páginas. Las 254 páginas fuente tienen una disposición registrada individualmente en `practica-originales/auditoria.json`: práctica, duplicado contestado o anexo de consulta. Las 33 páginas excluidas de práctica siguen disponibles en el archivo original íntegro.
+
+Las hojas conservan identificación, pareo, dibujo, respuesta escrita y alternativas originales. No se inventan distractores ni claves para convertir esos ejercicios a selección múltiple. Los títulos breves se conservan como temas de respuesta; algunas entradas incompletas se explicitan como tales. Este modo no califica automáticamente. El banco aleatorio separado conserva 983 preguntas; no se afirma que sean 983 transcripciones de originales ni que cada original sea una pregunta calificable.
+
+Se normalizó el texto de los ejercicios a tipografía negra regular, se retiraron soluciones escritas, marcas de alternativas, dibujos resueltos y leyendas reveladoras identificadas dentro de imágenes. Se conservaron números, letras de pareo y datos de los circuitos. Se corrigió la segunda etiqueta 13 de la cuadrícula EXAMEN_17 a 29; el original permanece intacto. Las advertencias aclaran otras numeraciones repetidas.
+
+La revisión visual cubrió las hojas de los 40 documentos; después de las correcciones se volvieron a revisar las páginas afectadas de pareos, tablas, símbolos, circuitos y leyendas. El registro de inicios de ejercicios no es un conteo de preguntas únicas. Los documentos se solapan y contienen apuntes, anexos y numeración irregular.
+
+### Limitaciones comprobadas de las fuentes
+
+26 entradas dependen de figuras ausentes o incompletas en el PDF convertido, y 13 entradas carecen de un enunciado completo o solo anuncian grupos de problemas. Se señalan en la página correspondiente del simulador y en el registro de auditoría. Incluyen EXAMEN_3 (1,4,5,6,8), EXAMEN_8 (11,12,29), EXAMEN_9 (14,15,18,19,20,21,23–26), EXAMEN_26 (12,13,15,16,39), EXAMEN_30 (44) y EXAMEN_31/31A (83). Los conteos incluyen apariciones repetidas entre fuentes.
+
+Se ensayó además la conversión directa del Word original para EXAMEN_3, 8, 9 y 30; no recuperó las figuras faltantes. No se concluye que falten en el Word nativo. Para recuperar esos ejercicios hace falta un PDF exportado desde Word que muestre las figuras, o una imagen legible de los ejercicios señalados. Se conserva la descarga del Word para consulta. No se adivinan conexiones de circuitos ni respuestas normativas.
+
+### Integración y comprobaciones
+
+`practica.html` incorpora selección de documento y página original, búsqueda, visor de la hoja limpia, notas por página guardadas en el navegador y consulta explícita del original con posibles soluciones. Cambiar de página o documento oculta y descarga el visor de soluciones. Los enlaces de entrada aparecen en el inicio y en Documentos fuente.
+
+`node scripts/verificar.cjs`: correcto. Verifica los hashes de los 40 PDF de práctica, la correspondencia y disposición de las 254 páginas, las advertencias de fuente incompleta, las fuentes sin modificaciones, los 983 ejercicios del banco, las imágenes y 100 intentos equilibrados de 50 preguntas.
+
+Reproducción: `python scripts/preparar_originales.py`, después `python scripts/catalogar_practicas.py`; requieren PyMuPDF y la fuente DejaVu Sans. La revisión de distribución y la separación de soluciones no certifican el contenido normativo de las claves originales.
+
+La implementación se entrega en la rama de revisión y en vista previa. No se publica en producción ni se mezcla en main. Las pruebas finales del navegador se registrarán a continuación con el commit y despliegue exactos.

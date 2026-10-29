@@ -1,0 +1,1800 @@
+{
+  "status": "visual_review_complete_with_source_limitations",
+  "totals": {
+    "sourcePages": 254,
+    "practicePages": 221,
+    "excludedPages": 33,
+    "figureGapEntries": 26,
+    "incompletePromptEntries": 13
+  },
+  "documents": [
+    {
+      "id": "EXAMEN_1",
+      "practiceFile": "practica-originales/EXAMEN_1.pdf",
+      "practiceSha256": "767f4cad8fa2da1312e725c1ab3a30e6d290e5ae9eefacd1a06298267600b47d",
+      "sourceFile": "originales/EXAMEN_1.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_1.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                                     \n          \nNombre: ______________________________     Fecha: _____________________\nExamen # 1\n01- El siguiente símbolo representa a:\n02-La siguiente ilustración representa a un empalme: \n03- La ley que crea a la Junta Examinadora de Peritos Electricistas de Puerto Rico es:\n       a- ley 115 del 22 junio de 1976 \n       b- ley 115 del 2 de julio de 1976\n       c- ley 115 del 22 julio de 1976 \n       d- ley 115 del 2 de junio de 1976\n04- La licencia de Ayudante Perito tendrá una vigencia de:\n       a- 24 años \n       b- 2 meses \n       c- 24 meses\n       d- 22 años\n05- ¿Cual es la enmienda a la ley 115 del 2 de junio de 1976 que crea la clase de “Ayudante de \n        Perito Electricista”?\n        a- ley 83 del 1 septiembre de 1990 \n        b- ley 86 del 6 noviembre de 1990\n        c- ley 83 del 6 noviembre de 1992 \n        d- ley 86 del 6 noviembre de 1992\n06- Toda persona que aspire a una licencia de Ayudante deberá tener como mínimo:\n       a- 4 año y 20 años de edad \n       b- 9 grado y 4 año aprobados \n       c- 4 año y 18 años de edad \n       d- 4 año y décimo grado aprobado \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_1 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "               \n07- Escriba cual es el símbolo que representa un alambrado de tres fases soterrado.\n08- Escriba cual es el símbolo que representa a un tensor primario:\n09- La siguiente ilustración representa a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_1 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "Practica: respuestas separadas | ECER Unitec | Fuente EXAMEN_1 p.3\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_2",
+      "practiceFile": "practica-originales/EXAMEN_2.pdf",
+      "practiceSha256": "7c0ed0ac6b18ee5f6990ab18b9d16ca7bbf2c6a46b6d0f03bce64dc1c66a9acd",
+      "sourceFile": "originales/EXAMEN_2.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_2.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 2\n01- En la siguiente ilustración identifica el instrumento en el punto A.\n02- En la siguiente ilustración el interruptor tipo “dimmer” se encuentra en su \n       posición de resistencia:\n03- La siguiente figura puede ser representada por uno de los siguientes símbolos.\n       a-  \n      b- \n      c-\n    d- \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_2 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "            \n                                    \n \n                 \n  \n                         \n04- El siguiente símbolo representa un:\n       a- interruptor de tiempo N.C                           b- interruptor de presión N.C\n       c- interruptor de flujo N.C                              d- interruptor de limite N.O\n05- El siguiente símbolo representa un:\na- interruptor de flujo                                          c.     interruptor de temperatura\nb- interruptor de tiempo                                      d.    interruptor de presión\n06- Calcule la capacitancia total del siguiente circuito.\n                            C1= 200MF          C2= 200MF\n                                   C3= 400MF\n07- Calcule la corriente que se indica en el circuito que se ilustra a continuación.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_2 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                                                  \n                               \n  \n            R1= 12Ω\n       12 voltios\n            R2= 3Ω\n08- ¿Cual es el despejo mínimo en los callejones exclusivamente para peatones?\n       a- 16.5 pies          b- 15.5 pies         c- 165 pies          18 pies\n09- La tubería a utilizarse a todo lo largo del alimentador tendrá un diámetro mínimo de ___:\n       a- 2”          b- 2.5”         c- ½”          d- ¾”\n10- El largo de una toma soterrada no excederá de ________ pies desde el punto de entrega \n       hasta  el contador.\n       a- 18 pies          b- 150 pies          c- 175 pies          d- 10 pies\n11- El largo de la toma no deberá exceder de ____ pies desde el poste al soporte “Wire  Holder” de \nedificio.\n       a- 75 pies          b- 75”          c- 75 metros          d- 18 pies \n12.   El largo de la toma no deberá exceder de ____ pies desde el poste al soporte “Wire  Holder” de  \nel pedestar.\n       a- 75 pies          b- 75”          c- 50 pies          d- 18 pies\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_2 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "13. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_2 p.4\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_3",
+      "practiceFile": "practica-originales/EXAMEN_3.pdf",
+      "practiceSha256": "d56ae2fe00c144283c3d076b73dbe58461ba7d502a3268e54b6ed2a39cd96fab",
+      "sourceFile": "originales/EXAMEN_3.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_3.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "  \n  \n                                                   \n                                                 \n                                                 \n  \n   \n \nNombre: ______________________________     Fecha: _____________________\nExamen # 3\n01- ¿Cuál es el amperaje del resistor número 3 en el circuito que se muestra a \n        continuación?\n                    120 voltios                   R1= 15Ω             R2= 15Ω            R3= 15Ω\n02- ¿Cuál es la corriente total en el circuito que se muestra a continuación?\n                                                   R1= 10Ω                                          a-    4 amperes\n                                      b- 10 amperes\n                                      c-   8 amperes\n                       120 voltios              R2= 10Ω                                          d-   3 amperes\n                                                   R3= 10Ω\n03- La siguiente ilustración representa a:\n      a- PigTail Splice                              b- PigTail Fixture Splice \n      c- PigTail Western                           d- PigTail Tap Splice\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_3 p.1\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 1. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "04- ¿Cuál es la capacitancia total del circuito que se ilustra a continuación?\n                      50microF        75microF               25microF\n05- En la siguiente ilustración identifica el instrumento utilizado en el punto B.\n06- Calcule la inductancia total del siguiente circuito:\n        5 mH         10mH       10mH\n07- La siguiente ilustración representa a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_3 p.2\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 4, 5, 6. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                \n  \n                       \n  \n08- Calcule la corriente en el circuito que se ilustra a continuación:\n      12V                                    Rt =  12 ohmios\n      12V\n09- Identifica el siguiente símbolo.\n10- Identifique el siguiente símbolo.\n11- Identifique la siguiente ilustración.\n12- La siguiente ilustración representa a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_3 p.3\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 8. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                         \n  \n   \n13- La ley creada el 2 de junio de 1976 fue:\n      a- 115          b- 11.5          c- 1115          d- 131\n14. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_3 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "Practica: respuestas separadas | ECER Unitec | Fuente EXAMEN_3 p.5\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_4",
+      "practiceFile": "practica-originales/EXAMEN_4.pdf",
+      "practiceSha256": "4cce7a7721fd7d35c026e8ce0a026c3e063630a6d9518496ef687c6e769e4b15",
+      "sourceFile": "originales/EXAMEN_4.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_4.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                                        \n  \n \n                                              \n  \n                                \nNombre: ______________________________     Fecha: _____________________\nExamen # 4\n01- La ley 115 ha sido enmendada ¿Cuántas veces?\na- 12 veces\nb- 13 veces\nc- 15 veces\nd- 16 veces\n02- La siguiente ilustración pertenece a :\n03- La siguiente ilustración pertenece a:\n04- La siguiente ilustración pertenece a una caja:\n05- La siguiente ilustración pertenece a una caja tipo:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_4 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                                    \n  \n06- La ley creada para proteger a los trabajadores y otras personas contra riesgos \n      originados por generadores eléctricos y así prevenir la energización en forma \n      inversa de líneas eléctricas es:\n      a- ley 83 del 1 septiembre del 1990          b- ley 63 del 1 septiembre del 1990\n      c- ley 103 del 1 septiembre del 1990        d- ley 203 del 1 septiembre del 1990\n07- La siguiente ilustración pertenece a un conduleto tipo __________:\n08- ¿Cual es la ley que crea la Junta Examinadora de Peritos Electricistas?\n       a- 115          b- 105          c- 215          d- 205\n09- La ley 86 del 6 de noviembre del 1992 enmendo la ley _______ para \n       cambiar los requisitos de Ayudante de Perito Electricista.\n       a- 115          b- 131          c- 231         d- 211\n10- ¿Cual fue la ley que se aprobó el 28 de junio de 1969 fue la ley _________.\n       a- 115          b- 131          c- 231         d- 211\n11- Calcule la resistencia en un artefacto eléctrico que tiene una corriente de \n      10 amperes bajo una presión de 250 voltios.\n12- Según la tabla 310.15(B)(16) del N.E.C, ¿que ampacidad tiene el cable # 3/0 a \n194ºF?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_4 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": " \n13- Un imán es un material o artefacto con poderes de ____________________.\n14- Calcule la R total del circuito eléctrico donde hay tres resistencias en paralelo\n       dos resistencias de doce ohmios y una de seis ohmios.\n15- Calcule la resistencia total de un circuito eléctrico de 120 voltios a 20 amperes.\n16- ¿Qué determina la resistencia de un conductor eléctrico? \n       a-\n       b-\n       c-\n17- ¿Cuál es la fuerza que hace mover a los electrones _________?\n       a-\n       b-\n       c-\n18- Calcule la resistencia de una lámpara de 300 watts que esta bajo presión de 240 voltios.\n19- Calcule la potencia total que consume el ejercicio anterior número 15.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_4 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                    \n20- ¿Por cual otro termino se le conoce al voltaje?\n       a-\n       b-\n       c-\n21- Un foco de 60 watts esta conectado a una fuente de voltaje de 120 voltios, éste\n       consumirá un flujo de electrones de ____________.\n22- La intensidad del movimiento de electrones en un circuito eléctrico se mide \n      en ____________________________.\n23- La ampacidad permisible según la tabla 310-16 del N.E.C para un conductor eléctrico  # \n1/0 será de ________ amperes a una capacidad de temperatura del conductor a 194ºF\n24- Algunas veces los conductores eléctricos en cobre son cubiertos o revestidos para \n      ayudar a prevenir _________________.\n      a- daños en la cubierta     b- cortes eléctricos     c- daños al conductor\n25- La siguiente ilustración pertenece a:\n           26- La siguiente ilustración nos muestra una lámpara de tipo:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_4 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                    \n \n              a- fluorescente         b- incandescente          c- LED          d- neón\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_4 p.5\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_5",
+      "practiceFile": "practica-originales/EXAMEN_5.pdf",
+      "practiceSha256": "8c64fdfdb0f644c09bf4bf4897ebef13d3e3f3b7afd121ca444e6a9875999f0c",
+      "sourceFile": "originales/EXAMEN_5.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_5.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "     \n       \nNombre: ______________________________     Fecha: _____________________\nExamen # 5\n01- Tres resistencias de diferentes valores están conectadas en serie a una fuente de \n       250 voltios. Los valores en dos de las resistencias son 75 voltios en cada una de \n       ellas. ¿Cuál sería el voltaje en la tercera resistencia?\n02- Cada miembro de la J.E.P.E recibirá hasta un máximo de ______ dólares hasta\n       ______ reuniones por año.\n03- Cualquier persona que violare las disposiciones de la ley 115 incurrirá en \n       violación ________\n       a- delito grave          b- delito menos grave          c- no hay delito \n04- Los tomacorrientes que no son aprobados por la C.S.A son los siguientes:\n       a- NEMA 5          b- NEMA 6          c- NEMA 10     d- NEMA 14\n05- Los tomacorrientes que carecen de “ground” son:\n       a- NEMA 1, 2, 10, 11,18     b- NEMA 1, 10     c- NEMA 10     d- NEMA 1, 2\n06- El siguiente símbolo representa a un panel de distribución de alumbrado.\n     a-                          b-                         c-                          d-\n       _________          _________          _________          _________\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_5 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                                                        \n  \n                                                                     \n07- La siguiente ilustración pertenece a una caja tipo:\n08- La siguiente ilustración representa a: \n09- La siguiente ilustración representa a un:\n10- En un circuito de tres resistencias en paralelo una de 240Ω, 80Ω, 60Ω, tendrá \n       una resistencia total de:\n11- Calcule la resistencia de unas tenazas de cabello que consumen 10 amperes a \n      100 voltios.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_5 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "      \n \n      \n12- La relación entre resistencia, corriente y voltaje esta definida como:\n      a- La ley 115 \n      b- La ley de ohmios\n      c- La Ley de Watts \n     d- Ley de Kirchoff\n13- La Junta Examinadora de Peritos Electricistas (J.E.P.E.) esta adscrita a:\n       a- Estado de Defensa \n       b- Estado Libre Asociado \n       c- Estado Departamental de Licencias \n      d- Departamento de Estado\n14- El siguiente símbolo representa a:\n15- Calcule la potencia total del ejercicio anterior número 11.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_5 p.3\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_6",
+      "practiceFile": "practica-originales/EXAMEN_6.pdf",
+      "practiceSha256": "54f36b23827adea3bbcbcc1074d7a737a9dd64a84cf30e67e37b7cb8b3044238",
+      "sourceFile": "originales/EXAMEN_6.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_6.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 6\n01- En un átomo cuál es la partícula que tiene carga positiva.\n__________________________\n02- ¿Cuál es la electricidad que el hombre utiliza?\na\ndinámica\nb\neléctrica\nc\nmotores\nd\ndiesel\n03- ¿Qué fórmula utilizamos cuando tenemos 10 resistencias de 15Ω cada una en \nparalelo?\n04- Calcule la R total en el siguiente ejercicio.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_6 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "05- Calcule la Corriente total del ejercicio anterior número 4 si estuviese \nconectado a 220 voltios.\n06- Mencione al menos dos requisitos mínimos para obtener o solicitar el examen \nde Ayudante de Perito Electricista.\na.\n_______________________________________\nb.\n_______________________________________\nc.\n_______________________________________\nd.\n_______________________________________\ne.\n_______________________________________\nf.\n_______________________________________\ng.\n_______________________________________ \n07- Tres resistencias en series (7Ω, 14Ω, 21Ω)  se encuentran conectadas en un \ncircuito con dos resistencias 2Ω, 4Ω en paralelo. Calcule la resistencia total. \n08- En el ejercicio anterior número 7, calcule la corriente total si el circuito \nestuviese conectado a 120 voltios.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_6 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                           \n                            \n                        \n                                                                \n09- El siguiente símbolo representa a:\n10- La siguiente figura representa a:\n11- la siguiente ilustración representa a: \n12- La siguiente ilustración representa a:\n13- ¿Cuál es la corriente del circuito que se ilustra a continuación? Si las \nresistencias tienen los siguientes valores 30Ω, 20 Ω y 15 Ω Voltaje de 100 V.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_6 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "  \n \n                       \n14- La siguiente ilustración representa a:\n15- La siguiente ilustración representa a:\n16- La siguiente ilustración representa a:\na\nNEMA 6-20-R\nb\nNEMA 6-15-R\nc\nNEMA 6-20-P\nd\nNEMA 6-15-P\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_6 p.4\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_7",
+      "practiceFile": "practica-originales/EXAMEN_7.pdf",
+      "practiceSha256": "b9dd5e9e58d00818be0a7357f7cbe756b7f3827c482b1b4c7f04b5d299358909",
+      "sourceFile": "originales/EXAMEN_7.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_7.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                                         \n  \n  \n  \n                \n                                      \n  \nNombre: ______________________________     Fecha: _____________________\nExamen # 7\n01- Calcule R total:                 R1= 11Ω\n                                                                            R2= 12Ω           R3= 17Ω\n02- En el ejercicio anterior número uno, el circuito se encuentra conectado a una \n       fuente de voltaje de 250 voltios. Calcule corriente total.\n03- En un circuito en paralelo se encuentran tres resistencias una de 100Ω, 200Ω,\n       50Ω, las tres equivalen a una sola de ____Ω.\n04- La siguiente ilustración pertenece a:\n05- La siguiente ilustración representa a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_7 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "  \n                      \n              \n  \n    \n  \n                              \n06- El siguiente símbolo representa a:\n                          ________________\n07- Mencione el orden de conexión de los cables de acuerdo al código de colores.\n      a- ________________                                c- _______________\n      b- ________________                               d-  _______________\n08- Calcule la corriente total del siguiente circuito.\n                           R1= 10Ω                        R2= 12Ω\n250 voltios\n                                              R3= 5Ω\n09- A que valor en ohmios equivalen 200 resistencias de 5Ω cada una, conectadas \n       en paralelo.\n10- Mencione a que N.E.M.A pertenece el siguiente símbolo.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_7 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                             \n  \n                                                      \n       \n  \n  \n                                  \n  \n                                           \n11- El siguiente símbolo representa a:\n12- El siguiente símbolo representa a:\n13- El siguiente símbolo representa a:\n14- Calcule la R total.\n                                                          R1= 5Ω\n                                                      R2= 5Ω    \n       R3= 5Ω\n15- Mencione una ventaja del sistema 240 voltios sobre el sistema 120 voltios.\na- __________________________________________________________\n16- La siguiente ilustración pertenece a:\n17- La siguiente figura pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_7 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                                      \n18- ¿Cuál fue la ley que creo al Colegio de Peritos en Puerto Rico?\n        ____________________\n19- ¿Cuál fue la ley que creo a la Junta Examinadora Peritos Electricistas (J.E.P.E)?\n       ____________________\n20- Mencione en sus propias palabras cual fue el motivo de crear la ley 83 del 1 \n       _____________________________________________________________\n21- La siguiente ilustración pertenece a:\n22- ¿Cuál es el motivo o propósito de incluir un alambre o cable de color verde por \n        un conducto eléctrico?\n23- ¿Cuál es el conductor que contiene aproximadamente un 65% de \n         conductividad?\n24- ¿Qué efecto se produce en un motor cuando esta conectado a una fuente de \n         energía de 125 voltios a 8 amperes?\n         a- termal \n         b- electromagnético, termal \n         c- termal, químico \n         d- electromagnético, termal, químico\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_7 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "  \n                                                            \n  \n              \n25- Calcule la corriente total.\n                                                                  R1= 2Ω\n                                125V                                         \n    R2= 6Ω\n                                                                  R3= 4Ω\n26- El siguiente símbolo representa a:\n27- El siguiente símbolo representa a:\n28- El siguiente símbolo representa a:\n29- ¿A pesar de que los siguientes conductores son muy buenos en conductividad \n        como lo son el cobre, oro y plata, ¿cuál otro es muy buen conductor?\n30- Alumbrado publico de un poste octagonal\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_7 p.5\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_8",
+      "practiceFile": "practica-originales/EXAMEN_8.pdf",
+      "practiceSha256": "222dc2bc7ce2962007bce402dfdd439629e03cd4bafbf7b72b2865de8fb92f24",
+      "sourceFile": "originales/EXAMEN_8.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_8.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                  \n  \n                \n  \n                           \n  \n Nombre: ______________________________     Fecha: _____________________\nExamen # 8\n01- La siguiente ilustración pertenece a:\na- NEMA 6-15-R 250VOLTIOS 3 HILOS 2 POLOS\nb- NEMA 6-20-R 250 VOLTIOS 3 HILOS 2 POLOS\nc- NEMA 6-15-R 250 VOLTIOS 3 POLOS\nd- NEMA 5-15-R 250 VOLTIOS 2 POLOS\n02- El siguiente símbolo representa a:\n03- La siguiente ilustración pertenece a:\n04- El siguiente empalme representa a:\n05- Dibuje cual es el símbolo que se utiliza para representar a un alimentador \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_8 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": " \n06- Los “Timer Switch” se seleccionan mediante que criterios.\na- ____________________________________\nb- ____________________________________\n       c- ____________________________________                            # de Polos\n07-  En un circuito en paralelo tenemos los siguientes valores, 100Ω, 200Ω, 50Ω,\n08- El electrolito es un agente químico activador que se utiliza en:\n       a- placas solares                                         b- baterías solares\n       c- baterías de plomo                                  d- baterías alcalinas\n09- De acuerdo a la ley de ohm si se aumenta el voltaje de un circuito sin \n       cambiar la resistencia, ¿qué sucede?\n10- Calcule la potencia total del circuito del ejercicio anterior número 7.\n11- ¿Cuál es la resistencia equivalente del circuito que se presenta a continuación?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_8 p.2\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 11. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "  \n                          \n  \n \n12- ¿Cuál es la resistencia equivalente del circuito que se presenta a continuación?\n                                R1= 10Ω\n                     120 voltios                                R2= 15Ω \n                     R4= 30Ω           R3= 5Ω\n13- El Colegio de Peritos se creo bajo la ley # ______:\n      a- Ley 115 del 2 de junio de 1976          b- Ley 83 del 1 septiembre del 1990\n      c- Ley 115 del 2 de junio de 1968          d- Ley 131 del 28 de junio de 1969\n14- Calcule la corriente total de un circuito donde tenemos dos resistencias de 12 Ω \n       cada una conectadas en serie a una batería de 6 voltios.\n15- Tenemos un circuito en serie de tres resistencias, 5Ω, 10Ω, 15Ω conectadas a \n       una fuente de 5 voltios. Calcule la corriente total.\n16- En un circuito tenemos cinco resistencias conectadas en serie 5Ω, 10Ω, 15Ω, \n       20Ω,25Ω conectadas a una fuente de voltaje de 125 voltios. Calcule la corriente \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_8 p.3\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 12. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "  \n                                          \n  \n  \n                         \n  \n17- Una bombilla incandescente de 300 watts esta conectada a una fuerza de 120 \n       voltios, esta consume una corriente de _______.\n18- En la tabla 310-15(B)(16) del N.E.C nos dice la ampacidad de los conductores.\n       ¿Cuál será la ampacidad de un conductor 2/0 a 90ºC?\n19- Dibuje cual es el símbolo que se utiliza para identificar a un conducto por el \n       techo.\n20- Calcule la potencia del ejercicio anterior número 15.\n21- El siguiente conduleto es uno de forma:\n22- La siguiente ilustración representa a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_8 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                 \n                  \n  \n23- El siguiente símbolo representa a:\n24- ¿Qué sucede en un circuito cuando se aumenta la resistencia y no se cambia \n        el voltaje?\n25- ¿Cuál es el porciento permitido de caída de voltaje en un circuito?\n26- Calcule la corriente total del ejercicio número 12 si le aplicamos 120 voltios?\n27- El siguiente símbolo representa a:\n         S3                                             Sp\n                 Sw3                   Sw4\n         S1                                            S2\n28- ¿Qué función hace una fotocelda y como funciona?\n29- El siguiente dibujo representa a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_8 p.5\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 29. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "  \n30- De acuerdo a la ley de ohm si se disminuyo el voltaje de un circuito sin \n       cambiar la resistencia, ¿qué sucede?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_8 p.6\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_9",
+      "practiceFile": "practica-originales/EXAMEN_9.pdf",
+      "practiceSha256": "fc3f4358c3d37c4f96369aacc81a30990bb484573ddde77307eb16d8ab905326",
+      "sourceFile": "originales/EXAMEN_9.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_9.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 9\n01- La ley que crea la Junta Examinadora de Peritos Electricistas J.E.P.E  es la ley:\na. _________________________________________\n02- Toda persona que aspire a una licencia de Perito Electricista tendrá que cumplir \na. __________________________________________\nb. __________________________________________\nc. __________________________________________\nd. __________________________________________\ne. __________________________________________\nf.\n__________________________________________\n03- ¿Cuál de las enmiendas a la ley 115 del 2 de junio de 1976 crea la clase de \n        Ayudante de Perito?\n04- ¿Cuándo un aspirante de licencia de Perito Electricista a pasado cualquiera de \n        las dos partes, ¿cuál es el término de expiración?\na. _________________________________________\n05- La ley creada para proteger a los trabajadores y otras personas contra riesgos \n       originados por generadores eléctricos es ……\na. _________________________________________\n06- ¿Cuantos amperes fluirá a través de un fusible que protege un circuito de 80Ω\n         en una instalación de 240 voltios?\n07- ¿Qué potencia tendrá un motor de 240 voltios a cuatro amperes?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_9 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                                                                   \n                                       \n  \n08- La fórmula empleada para calcular la corriente eléctrica es:\n09- ¿Cuál es la resistencia en una bombilla de 100 watts cuando se le aplican \n        120 voltios?\n10- La resistencia total en los circuito en paralelo siempre será de un valor:\na. _______________________________________\n11- El conductor con un grado de 65% de conductividad es el:\na. _______________________________________\n12- Entre los siguientes materiales, el que tiene como características el estar \n       compuesto de “FENOL ” y ser un aislante sintético es:\na. _________________________________________\n13- Según la  ley de ohms en un circuito eléctrico el voltaje será igual a:\n14- ¿Cuál es la corriente del circuito que se ilustra a continuación?\n                                                                   R1= 10Ω\n          100 voltios                                                        R2= 20Ω \n                                             R3= 50Ω\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_9 p.2\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 14. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "  \n                                   \n15- ¿Cuál es la corriente del circuito que se ilustra a continuación?\n          En Paralelo.\n                120 voltios                     R1= 10Ω               R2= 15Ω\n16- Según la ley de ohms en un circuito eléctrico el flujo de electrones en amperes \n       será igual a:\n       a-  Al flujo de electrones en amperes por resistencia en ohmios.\nb-  Al voltaje dividido por la resistencia en ohmios.\n       c-  Al voltaje dividido por el flujo de electrones en amperes.\n       d- Al flujo de electrones multiplicado por la oposición en ohmios. \n17- Según la ley de ohms en un circuito eléctrico la resistencia en ohmios será igual a:\n       a-  Al flujo de electrones en amperes por resistencia en ohmios.\nb-  Al voltaje dividido por la resistencia en ohmios.\n       c-  Al voltaje dividido por el flujo de electrones en amperes.\n       d- Al flujo de electrones multiplicado por la oposición en ohmios.\n18- ¿Cuál es la resistencia equivalente del circuito que se presenta a continuación?\n                                          R1= 10Ω\n                   120 voltios                                         R2= 15Ω\n                               R4= 30Ω           R3= 5Ω\n19- ¿Cuál es la resistencia equivalente del circuito que se presenta a continuación?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_9 p.3\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 15, 18, 19. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "  \n                              \n  \n                             \n  \n  \n \n20- El siguiente dibujo representa a un empalme: \n21- El siguiente dibujo representa a un terminal de cable a _________:\n22- La siguiente figura representa un empalme:\n23- El siguiente dibujo representa a un terminal:\n24- ¿Cuál de los siguientes símbolos representa una luz de plafón?\n         a-                              b-                           c-                             d-\n25- ¿Cuál de los siguientes símbolos representa un alimentador primario de tres \n         fases?\n         a-                              b-                           c-                             d-\n26- ¿Cuál de los siguientes símbolos representa un panel de distribución de \n         circuitos?\n      a-                          b-                         c-                          d-\n       _________          _________          _________          _________\n27- La siguiente ilustración corresponde a: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_9 p.4\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 20, 21, 23, 24, 25, 26. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                                                                                                     \n  \n          \n28. Identifica las figuras mostradas.\n29- La siguiente ilustración representa a un “PLUG”:\n30- La siguiente ilustración representa una bombilla de lámpara ____________.\n31- La siguiente ilustración representa un conduleto tipo:\n32- La siguiente ilustración representa una caja tipo:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_9 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "                                                                                      \n                                                                                           \n33- La siguiente ilustración representa una caja tipo:\n34- Toda persona que aspire a la J.E.P.E  deberá tener como mínimo _____ años \n       como Perito Electricista de Puerto Rico.\n35. El cable TFFN según sus siglas significa que es:\na. Termoplástico, estrander resistente al calor, Nilón     NEC 2014, Cap. 4, \nb. Termoplástico, resistente al calor, Nilón\nc. Un cable termoplástico con cobertura de nilón\nd. Se usa para lugares húmedos.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_9 p.6\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_10",
+      "practiceFile": "practica-originales/EXAMEN_10.pdf",
+      "practiceSha256": "bedfd395f474bdb59ea7f4c71ed26e23299f1bcfe2db66c6f9d368a5e16345c1",
+      "sourceFile": "originales/EXAMEN_10.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_10.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 10\n01- La siguiente ilustración pertenece a un empalme: \n       a- Western Union          b- Tap Joint          c- Pigtail  Splice          d- Fixture Splice\n02- La siguiente ilustración pertenece a un empalme:\n       a- Western Union          b- Tap Joint          c- Pigtail Sílice          d- Fixture Splice\n03- La siguiente ilustración pertenece a un empalme:\n       a- Western Union          b- Tap Joint          c- Pigtail Sílice          d- Fixture Sílice\n04- La siguiente caja es de tipo:\n       a- Caja tipo FSS          b- Caja tipo FSCC          c- Caja tipo FSSS          d- F\n05- La siguiente caja es de tipo:\n      a- Caja tipo FSS          b- Caja tipo FSCC          c- Caja tipo FSSS          d- F\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_10 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "        \n      \n      \n      \n06- La siguiente ilustración pertenece a:\n       a- bushing          b- ground bushing          c- Type MC          d- Type FSSC\n07- La siguiente ilustración pertenece a:\n      a- Thread grounding bushing          b- Wedge grounding bushing\n      b- conector identado                        d- conector de compresión \n08- La siguiente ilustración pertenece a:\n      a- Isolate ground         b- Hospital grade          c- Isolated Ground & Hospital grade\n09- La siguiente ilustración pertenece a:\n     a- Pararrayos aéreos     b- Pararrayos Soterrados     c- Pararrayos tipo Pad Mounted\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_10 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "     \n     \n                                                   \n10- La siguiente ilustración pertenece a:\n     a- Pararrayos aéreos     b- Pararrayos Soterrados     c- Pararrayos tipo Pad Mounted\n11- La siguiente ilustración pertenece a:\n    a- Caja tipo cerrada     b- Caja tipo maleta     c- caja tipo abierta\n12- La siguiente ilustración es: \n    a- conector 90º                            c- conector 90º Female operación sin carga \n    b- conector 90º Female               d- conector 90º Male operación con carga\n13- La siguiente ilustración es un:\n    a- conector 90º                            c- conector 90º Female operación sin carga \n    b- conector 90º Female               d- conector 90º Male operación con carga\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_10 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "         \n    \n      \n   \n                                                                        \n14- El siguiente receptáculo pertenece a:\n      a- NEMA 14-30-R     b- NEMA 14-50-P     c- NEMA 14-30-P     d- NEMA 14-50-R \n15- El siguiente receptáculo pertenece a:\na- NEMA 14-30-R     b- NEMA 14-50-P     c- NEMA 14-30-P     d- NEMA 14-50-R\n16- El voltaje de transmisión eléctrica en Puerto Rico es:\n       a- 115 / 230 voltios     b- 115 / 230 KVA voltios     c- 115/230 KV     d- 38KV\n17- ¿Cuál es el calibre mínimo en conductores eléctricos AWG?\n       a- 12 AWG          b- 18 AWG         c- 36 AWG         d- 22 AWG\n18- El instrumento que se utiliza para medir altas temperaturas de calor es el:\n       a- Termómetro          b- Pirómetro         c- Galvanómetro          d- Control de temperatura\n19- ¿Cómo se mide el amperaje con la carga?\n       a- en paralelo          b- en serie         c- con un amperímetro         d- con un voltímetro\n20-  Cuando se realizan trabajos soterrados y se va hacer una trinchera secundaria,\n        ¿cuál es su profundidad?\n        a- 36 pies escala de ¼”                   b- 48 pulgadas \n        c- 36 pulgadas                                d- no existe profundidad\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_10 p.4\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_11",
+      "practiceFile": "practica-originales/EXAMEN_11.pdf",
+      "practiceSha256": "a5a28dbfe8cbdbaa81676249674db51cb627d2e4198c52eb484db2dec2ebecb5",
+      "sourceFile": "originales/EXAMEN_11.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_11.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                         \n              \n                         \n                                   \n  \n                               \n                      \n                      \n                          \n  \nNombre: ______________________________     Fecha: _____________________\nExamen # 11\n01-                                              02-                                            03-\n04-                                                 05-                                                 06-\n07-                                                 08-                                                 09-\n10-                                                 11-                                                12-\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_11 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "           \n               \n           \n               \n                \n  \n   \n             \n  \n13-                                                 14-                                                    15-\n16-                                                17-                                                     18-\n19-                                                20-                                                      21-\n22-                                            23-                                                 24-\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_11 p.2\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_12",
+      "practiceFile": "practica-originales/EXAMEN_12.pdf",
+      "practiceSha256": "000c98ccc3a61187610f3a2d9b49bd29f7d51276af0282d18dd2db73cc93e29d",
+      "sourceFile": "originales/EXAMEN_12.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_12.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                                                                            \n                                                           \n  \nNombre: __________________________      Fecha: ___________________\nExamen #  12\n01-) Mencione la educación mínima que debe tener el solicitante para \n       solicitar la licencia de Perito Electricista.\na. _______________________________\nb. _______________________________\nc. _______________________________\n02-) La siguiente figura muestra a:\n03-) Mencione la distancia que debería haber en un tramo de tubería.\n04-) La siguiente figura muestra a:\n05-) Toda persona que aspire a una licencia de Ayudante deberá \n        tener como mínimo. \n06-) ¿Cuantos años de edad debe de tener un aspirante a la J.E.P.E? \n    ¿Cuantos años de experiencia debe de tener un aspirante a la \nJ.E.P.E?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_12 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                                                     \n             \n  \n                                                           \n                                              \n07-) Ley que crea a la J.E.P.E. es:\n08-) La siguiente figura es: \n09-) La siguiente figura es: \n10-) La siguiente figura es: \n11-) La siguiente figura es: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_12 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                                    \n                                                           \n                                                                     \n                                                                     \n                                                            \n12-) La siguiente figura es:\n13-) La siguiente figura es: \n14-) La siguiente figura es: \n15-) La siguiente figura es:\n16-) La siguiente figura es: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_12 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                                                      \n                                                                   \n                                                              \n  \n                            \n                                                                            \n17-) La siguiente figura es: \n18-) La siguiente figura es: \n19-) La siguiente figura es:\n20-) La siguiente figura es: \n21-) La siguiente figura es:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_12 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                                                                            \n                                                       \n  \n                                                      \n                                             \n                                                      \n  \n22-) La siguiente figura es: \n23-) La siguiente figura es: \n24-) La siguiente figura es: \n25-) La siguiente figura es: \n26-) La siguiente figura es: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_12 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "                                                       \n                                                    \n27-) La siguiente figura es:\n28-) En que lugar se utiliza los cables THW\n29-) La siguiente figura es:\n30-) ¿Qué significa C.S.A? \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_12 p.6\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_13",
+      "practiceFile": "practica-originales/EXAMEN_13.pdf",
+      "practiceSha256": "23576c0384605aee46dc0a8f3b267c7a6c9f43cd6356de94b8e5f5386001d301",
+      "sourceFile": "originales/EXAMEN_13.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_13.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "            \n              \n              \n   \n             \n       \n  \n              \n                 \n  \nNombre: ______________________________     Fecha: _____________________\nExamen # 13\n01-)                                               02-)                                       03-)\n04-)                                                   05-)                                           06-)\n07-                                                    08-)                                           09-) \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_13 p.1\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_14",
+      "practiceFile": "practica-originales/EXAMEN_14.pdf",
+      "practiceSha256": "a69790f1bd3bcfd28707c818c2e45ecc34b56ba1918221861387611bdd0264c1",
+      "sourceFile": "originales/EXAMEN_14.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_14.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "            \n                   \n                                      \n                                \n \n                                \n                              \n Nombre: ______________________________     Fecha: _____________________\nExamen # 14\n01-)                                               02-)                                          03-)\n04-)                                                   05-)                                              06-) \n07-)                                                   08-)                                              09-) \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_14 p.1\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_15",
+      "practiceFile": "practica-originales/EXAMEN_15.pdf",
+      "practiceSha256": "6db0d26b93d41d294606abb3b452b09b32479858b22e28f440ae36e8524bfbb5",
+      "sourceFile": "originales/EXAMEN_15.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_15.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                   \n  \n  \nNombre: ______________________________     Fecha: _____________________\nExamen # 15\n                A-)                                 B-)                                                  C-)\n               D-)                                  E-)                                                  F-)\n               G-)                                  H-)                                                  I-) \n               J-)                                    K-)                                                 L-) \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_15 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "Examen # 15\n01-) _____ Tomacorriente Duplex\n02-) _____ Poste de Concreto\n03-) _____ Panel Distribución para Iluminación\n04-) _____ Salida de techo con circuito hacia panel distribución\n05-) _____ Pararrayo\n06-) _____ Base de Contador KWH\n07-) _____ Transformador tipo poste monofásico\n08-) _____ Alimentador primario soterrado\n09-) _____ Tomacorriente 125/250 voltios\n10-) _____ Tensor Primario\n11-) _____ Alumbrado Público desde poste octagonal\n12-) _____ Tomacorrientes Especial\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_15 p.2\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_16",
+      "practiceFile": "practica-originales/EXAMEN_16.pdf",
+      "practiceSha256": "6b01658580204e1345ccd1d240e7db9dd68218aa04e9e6bd50d89615c8d63c77",
+      "sourceFile": "originales/EXAMEN_16.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_16.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "           \n2\n1     \n5        \n4\n3\n8\n6\n9\n7\n10\n13\n12  \n11\n15    \n14\n20\n16\n18\n19\n17     \n22\n21\n23\n25\n24\n30\n26\n27\n29\n28\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_16 p.1\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_17",
+      "practiceFile": "practica-originales/EXAMEN_17.pdf",
+      "practiceSha256": "2d4f20b789664da41eec1e80b690239506941f2be3e3589ebc3e27fda4a333b5",
+      "sourceFile": "originales/EXAMEN_17.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_17.doc",
+      "warnings": [
+        "Se corrigió la segunda etiqueta 13 de la cuadrícula a 29, siguiendo la secuencia de 30 celdas. El original conserva su numeración."
+      ],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "5\n4\n6\n2\n3\n1\n9\n12\n7\n11\n10\n8\n13\n15\n14\n18\n16\n17\n21\n23\n19\n20\n24\n22\n30\n26\n29\n25\n27\n28\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_17 p.1\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_18",
+      "practiceFile": "practica-originales/EXAMEN_18.pdf",
+      "practiceSha256": "157c673c9cf94a0253af1c2e5a9a72069470fc436aea2f97519ee2958764b7d8",
+      "sourceFile": "originales/EXAMEN_18.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_18.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ____________________________________      Fecha: _________________________\n3\n4\n2\n1\n5\n7\n6\n8\n9\n12\n10\n11\n13\n14\n15\n16\n17\n20\n19\n18\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_18 p.1\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_19",
+      "practiceFile": "practica-originales/EXAMEN_19.pdf",
+      "practiceSha256": "7a2888ec20cb8fa1b7c35d6d44f68e32594dd85066c3f1a1aa060de4891c9a6e",
+      "sourceFile": "originales/EXAMEN_19.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_19.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "        \n        \n        \nNombre: ______________________________     Fecha: _____________________\nExamen # 19\n01-) ¿Que significa voltaje?\n        a-) potencia del circuito\n        b-) fuerza electro motriz\n        c-) intensidad de la corriente \n        d-) oposición al flujo de electrones\n02-)¿Que significa amperaje?\n        a-) potencia del circuito\n        b-) fuerza electro motriz\n        c-) intensidad de la corriente \n        d-) oposición al flujo de electrones\n03-) ¿Cuál no es un sinónimo de las otras?\n        a-) corriente \n        b-) amperaje\n        c-) intensidad \n        d-) tensión\n04-) El símbolo omega ( Ω ) representa a la unidad de:\n        a-) resistencia \n        b-) potencia\n        c-) voltaje \n        d-) corriente\n05-) ¿Cuál fórmula está incorrecta?\n        a-) W = E x I \n        b-) E = I ²  x  R\n        c-) I = W / E \n        d-) R = E / I\n06-) La potencia se puede expresar en la unidad llamada:\n        a-) vatios \n        b-) voltios\n        c-) ohmios \n        d-) amperes\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_19 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "        \n        \n  \n07-) Las partes de un circuito básico son:\n        a-) fuente de energía y carga\n        b-) conductores y un dispositivo de control\n        c-) ninguna es correcta\n        d-)La a y b son correctas\n08-) ¿Cuál fórmula de  I  está incorrecta?\n        a-) E / R \n        b-) Raíz ² de W / R\n        c-) W x R \n        d-) W / E\n09-) Se aplica una FEM de 10 voltios a través de una oposición de 4Ω.\n        a-)  40 Watts\n        b-)  2.5 Watts\n        c-)   6  Watts \n       d-)  25 Watts\n10-) Una corriente de electrones de 2 amperes fluye a través de una oposición de \n        6Ω. Calcule la tensión ejercida por la fuente de energía.\n        a-) 12 Voltios \n        b-) .33 Voltios\n        c-)   3   Voltios\n        d-)   4 Voltios\n11-) Determine la resistencia en un circuito de 2,000 watts trabajando a 120 \n        a-) 14, 400 Ω \n        b-) 16.66 Ω\n        c-)   7.2  Ω \n        d-) 144.00 Ω\n12-) Complete la información requerida en la siguiente tabla, donde tenemos un \n        circuito en SERIE de cuatro resistencias, cuyos valores ya los tenemos a una \n        corriente de .04 amperes. \nRT = 38 Ω\nET = \nIT = .04 A\nPT = \nR1 = 15 Ω\nE1 = \nI1 =\nP1 =\nR2 =   6 Ω\nE2 =\nI2 =\nP2 =\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_19 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": " \nR3 = 12 Ω\nE3 =\nI3 =\nP3 =\nR4 =   5 Ω\nE4 =\nI4 =\nP4 =\n13-) En un circuito paralelo cuya fuente es de 120 voltios y que tiene 8 resistencias \n        de 64 Ω, la resistencia total del circuito equivale a un total de:\n        a-) 512 Ω                                                       b-)   8 Ω\n        c-)   72 Ω                                                       d-) 56 Ω\n14-) En un circuito paralelo con dos resistencias de distinto valor, 6Ω, 4Ω, y cuya \n        fuente es de 24 voltios, la corriente total del circuito será de:\n        a-) 2.4 amperes                                             b-) 24 amperes\n        c-)  10 amperes                                             d-)   1 ampere\n15-) La resistencia total en un circuito en serie siempre será:\n        a-) menor que la menor en el circuito\n        b-) la suma de todas las resistencias\n        c-) el recíproco del recíproco\n        d-) el valor de ohmios entre la cantidad de resistencias\n16-) La resistencia total en un circuito en paralelo siempre será:\n        a-) menor que la menor en el circuito\n        b-) la suma de todas las resistencias\n        c-) el recíproco del recíproco\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_19 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "  \n  \n \n \n \n \n        d-) el valor de ohmios entre la cantidad de resistencias\n17-) Complete la siguiente tabla:\nW = 200 W\nE = ¿?\nR = 400Ω\nI = 20  A\nR = ¿?\nE = 120\nR = 34 Ω\nW = ¿?\nI = 2\nE = 480 V\n I = ¿?\nW = 5,968\n18-) Indique cual seria el peso máximo aceptado en una salida de pared según el \n        artículo 314.27(A)(1) del NEC 2020 \n        a-)  6 libras \n        b-) 10 libras \n        c-) 50 libras \n        d-) 20 libras \n19-) Indique cual seria el peso máximo aceptado en una salida de pared según el \nartículo 314.27(A)(1)(excepción # 1) del NEC-2020 \n        a-)  6 libras \n        b-) 10 libras \n        c-) 50 libras \n        d-) 20 libras \n20-) Según el NEC, ¿será aceptable para empotrar en el concreto la caja octagonal \n        sin fondo?\n21-) En un circuito paralelo con dos resistencias de distinto valor, 10Ω, 48Ω, y cuya \n        fuente es de 24 voltios, la corriente total del circuito será de, un ampere es \n        igual a 6.28 electrones por 10 al exponente 18:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_19 p.4\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_20",
+      "practiceFile": "practica-originales/EXAMEN_20.pdf",
+      "practiceSha256": "15d0e4ebfb4dee493a7c83050271b12da3d966f7df98d21818ddfd99c4ca3f3f",
+      "sourceFile": "originales/EXAMEN_20.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_20.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "  \nNombre: ______________________________     Fecha: _____________________\nExamen # 20\n01-) ¿Cuál es el voltaje en un circuito que contiene un elemento de calefacción de \n          3Ω y consume 4 amperios?\n          a-) .75 voltios          b-) 1.33 voltios          c-) 7 voltios          d-) 12 voltios\n02-) ¿Cuál es la corriente en un circuito con  un elemento de calor de 12 Ω \n          conectado a una fuente de 120 voltios? \n          a-) 0.1 amperio        b-) 1 amperio           c-) 5 amperios       d-) 10 amperios\n03-) ¿Cuál es la resistencia del circuito en el cual hay una carga de 6 amperios \n          conectada a una fuente de 120 voltios?\n          a-) 20 Ω                   b-) 50 Ω                   c-) 100 Ω               d-) 200 Ω\n04-) Calcule la corriente que se indica en el circuito que se ilustra a continuación.\n         a-) .57 amperios       b-)1 amperio            c-) 2 amperios        d-) 4 amperios\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_20 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                                                                          \n                                                                        \n05-) ¿Cuál es la potencia en el circuito que se ilustra a continuación?\n          a-) 48 Vatios      b-) 4.8 Vatios      c-) .48 Vatios          d-) 2 Vatios\n06-) La siguiente ilustración pertenece a:\n        a-) indenter connector                        b-) E.M.T  connector\n        c-) compression connector                 d-) set screw connector \n07-) La siguiente ilustración pertenece a:\n        a-) compression connector                 b-) compression coupling\n        c-) indenter coupling                         d-)  E.M.T  connector \n08-) La siguiente ilustración pertenece a:\n        a-) compression connector                 b-) compression coupling\n        c-) indenter coupling                         d-)  E.M.T  connector \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_20 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "09-) La siguiente ilustración pertenece a:\n        a-) compression connector                 b-) compression coupling\n        c-) indenter coupling                         d-)  set screw couplimg\n10-) La siguiente ilustración pertenece a:\na-) compression connector                 b-) compression coupling\nc-) indenter connector                        d-) E.M.T  connector \n11-) La siguiente ilustración pertenece a:\n        a-) compression connector                 b-) compression coupling\n        c-) indenter coupling                         d-)  set screw connector\n12-) ¿Cuál es la potencia en un circuito que fluye una corriente de 7.5 amperios \n          conectado a una fuente de 120 voltios?\n          a-) 9 watts          b-) 90 watts           c-) 900 watts          d-) 9,000 watts\n13-) ¿Cuál es la potencia en el circuito cuando el voltaje aplicado es 120 voltios y\n          la corriente es de 0.5 amperios?\n          a-) 6 watts          b-) 60 watts           c-) 600 watts          d-) 6,000 watts\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_20 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "     \n14-) ¿Cuál es la resistencia total del circuito que se ilustra a continuación?\n          a-) 1,250 Ω        b-) 12,500 Ω         c-) 15,500 Ω           d-) 17,000 Ω \n15-) ¿Cuál es la potencia total del circuito que se ilustra a continuación?\n          a-) 4.8 watts      b-) 48 watts          c-) 96 watts              d-) 480 watts\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_20 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "16-) ¿Cuál es la resistencia total del circuito que se ilustra a continuación?\n          a-) 12 Ω            b-) 120 Ω              c-) 157 Ω                 d-) 266 Ω \n17-) Cuando dos bombillas de 240 Ω son conectadas en paralelo en una fuente de \n        120 voltios, ¿cuál es la potencia disipada en cada bombilla?\n         a-) 0.5 watts       b-) 2 watts            c-) 6 watts                d-) 60 watts\n18-) ¿Cuál es la resistencia de un calentador de agua de 300 watts conectado a una \n          fuente de 240 voltios? \n          a-) 12.5 ohmios       b-) 19.2 ohmios       c-) 125 ohmios      d-) 192 ohmios \n19-) ¿Cuál es la potencia en una resistencia de 50 ohmios por el que fluye una \n          corriente de 2 amperios?\n          a-) 25 watts             b-) 100 watts            c-) 200 watts         d-) 300 watts\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_20 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "  \n     \n     \n     \n     \n  \n20-) Es requisito de haber ejercido como Ayudante de Perito por lo menos dos años \n        para aspirar a una licencia de Perito Electricista, la ley que enmendo este inciso \n        a-) Ley 59 del 29 de junio de 1995\n        b-) Ley 86 del   6 de noviembre de 1992\n        c-) Ley 84 del 27 de julio de 1996\n        d-) Ley 90 del   6 de noviembre de 1992 \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_20 p.6\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_21",
+      "practiceFile": "practica-originales/EXAMEN_21.pdf",
+      "practiceSha256": "a0a16848b3873792bc85c6f2b00b3fc29f7e0d4571786b199f15aeb1fa26ce77",
+      "sourceFile": "originales/EXAMEN_21.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_21.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 21\nPAREO\n01) ________ Lámpara de Vapor de Mercurio\n02) ________ Lámpara de Sodio de baja presión (Low Pressure Sodium)\n03) ________ Lámpara de halogenuros metálicos (Metal Halide)\n04) ________ Lámpara desoído de alta presión (High Pressure Sodium)\n05) ________ Lámpara fluorescente compacta\n06) ________ Lámpara fluorescente single-pin slimeline\n07) ________ Lámpara fluorescente bi-pin rapid Start\n08) ________ Lámpara fluorescente circline\n09) ________ Lámpara incandescente\n10) ________ Portalámparas (Roseta) de porcelana polarizada rosca admedia\n11) ________ Arrancador o cebador (starter) de lámparas high pressure sodium\n12) ________ Portalámparas de porcelana heavy duty rosca mogúl\n13) ________ Arrancador o cebador (starter) para lampara fluorescente pre-heat\n14) ________ Portalámparas para lámparas fluorescentes single-pin slimeline\n15) ________ Portalámparas lámparas fluorescentes bi-pin rapad Start\n16) ________ Luminaria para lámparas de vapor de mercurio\n17) ________ Luminaria para lámparas de vapor de sodio\n18) ________ Ballast, balastro o balasto fluorescente\nNombre: ______________________________     Fecha: _____________________\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "Examen # 21\nPAREO\n01-) _____ Lámpara Incandescente\n02-) _____ Lámpara Fluorescente bi-pin Rapid Start\n03-) _____ Ballast, balastro fluorescente\n04-) _____ Portalámparas para Lámparas Fluorescentes single-pin slimeline\n05-) _____ Lámpara de Vapor de Mercurio\n06-) _____ Lámpara de Halogenuros Metálicos (Metal Halide)\n07-) _____ Lámpara Fluorescente Compacta\n08-) _____ Arrancador o cebador (starter) de Lámparas High Pressure Sodium\n09-) _____ Luminaria para Lámparas de Vapor de Mercurio\n10-) _____ Portalámparas de Porcelana Heavy Duty rosca mogúl\n11-) _____ Lámpara de Sodio de Baja Presión (Low Pressure Sodium)\n12-) _____ Luminaria para Lámpara de Vapor de Sodio\n13-) _____ Portalámparas (Roseta) de Porcelana Polarizada rosca admedia\n14-) _____ Portalámparas Lámparas Fluorescentes bi-pin Rapid Start\n15-) _____ Lámpara Fluorescente Circline\n16-) _____ Lámpara de Sodio de Alta Presión (High Pressure Sodium)\n17-) _____ Arrancador o cebador (starter) para Lámpara Fluorescente pre-heat\n18-) _____ Lámpara Fluorescente single-pin slimeline\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "Practica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "Practica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "Practica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21 p.5\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_21A",
+      "practiceFile": "practica-originales/EXAMEN_21A.pdf",
+      "practiceSha256": "8473f0c5a6b75954bf9f769fff137317f878f4ec102f8a87490a634b0a761bee",
+      "sourceFile": "originales/EXAMEN_21A.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_21A.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 21\nPAREO\n01-) ________ Lámpara de Vapor de Mercurio\n02-) ________ Lámpara de Sodio de baja presión (Low Pressure Sodium)\n03-) ________ Lámpara de halogenuros metálicos (Metal Halide)\n04-) ________ Lámpara de sodio de alta presión (High Pressure Sodium)\n05-) ________ Lámpara fluorescente compacta\n06-) ________ Lámpara fluorescente single-pin slimeline\n07-) ________ Lámpara fluorescente bi-pin rapad Start\n08-) ________ Lámpara fluorescente circline\n09-) ________ Lámpara incandescente\n10-) ________ Portalámparas (Roseta) de porcelana polarizada rosca admedia\n11-) ________ Arrancador o cebador (starter) de lámparas high pressure sodium\n12-) ________ Portalámparas de porcelana heavy duty rosca mogúl\n13-) ________ Arrancador o cebador (starter) para lampara fluorescente pre-heat\n14-) ________ Portalámparas para lámparas fluorescentes single-pin slimeline\n15-) ________ Portalámparas lámparas fluorescentes bi-pin rapad Start\n16-) ________ Luminaria para lámparas de vapor de mercurio\n17-) ________ Luminaria para lámparas de vapor de sodio\n18-) ________ Ballast, balastro o balasto fluorescente\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21A p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 21\nPAREO\n01-)\n02-)\n03-)\n04-)\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21A p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "05-)\n06-)\n07-)\n08-)\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21A p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "09-)\n10-)\n11-)\n12-)\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21A p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                                 \n13-)\n14-)\n15-)\n16-)\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21A p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "  \n      \n  \n17-)\n18-)\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_21A p.6\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_22",
+      "practiceFile": "practica-originales/EXAMEN_22.pdf",
+      "practiceSha256": "6bfdc3294f0e7fefaaf58e3feb3d7c867f9b662c6d0ea9824ab7713a0254601b",
+      "sourceFile": "originales/EXAMEN_22.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_22.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 4,
+          "pdfPage": 1,
+          "text": "                                           \n  \n  \n                                          \n                                            \n  \n  \nNombre: ______________________________     Fecha: ____________________\nExamen # 22\n                    A                                                                                   B\n                    C                                                                                   D\n                    E                                                                                   F\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_22 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 2,
+          "text": "                    \n                                       \n  \n                                           \n                  G                                                                          H\n                    I                                                                           J\n                 K                                                                          L\n     ____________\n              M                                                                 N\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_22 p.5\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_23",
+      "practiceFile": "practica-originales/EXAMEN_23.pdf",
+      "practiceSha256": "ba0859d083f3d0797a7b07d4637ef9c525400d98278ad8ea9dbf5d305c879154",
+      "sourceFile": "originales/EXAMEN_23.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_23.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 23\n01-) ¿Cuál es la resistencia total del siguiente ejercicio?\n        a-) 150Ω          b-) 50Ω          c-) 75Ω          d-)25Ω \n02-) ¿Cuál es la corriente total del circuito?\n        a-) 13 watts          b-) 13 Ω          c-) 20 amperes          d-) 13 amperes \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_23 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "           \n         \n03-) ¿Cuál es la potencia en KILOVATIOS?\n        a-) 60 Kvatios          b-) .06 Kvatios          c-) .6 Kvatios          d-) .5 Kvatios\n04-) ¿Cuál es la lectura en el voltímetro?\n        a-) 12 voltios          b-) 6 watts          c-) 4 voltios          d-) 24 Ω\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_23 p.2\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_24",
+      "practiceFile": "practica-originales/EXAMEN_24.pdf",
+      "practiceSha256": "dc3e3fbcd68c808c358f28eec9a05c9540f145ac5ac4caf9b5227aa9beb6706b",
+      "sourceFile": "originales/EXAMEN_24.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_24.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Repaso Examen de Ayudante I\nExamen # 24\n1) El tamaño máximo que se construye el tubo RMC será:\n2) Un tubo EMT será fijado después de una caja de salida a no más de:\n3) ¿En cuál de estos lugares no está permitido el uso de la tubería EMT?\n4) El tamaño máximo que se construye el tubo IMC será:\n5) ¿Cuál de estos tamaños no corresponde a una media estándar de tubería electrica?\n6) El tamaño máximo de una tubería ENT será:\n7) ¿En cuál de estos lugares no se puede usar tubería ENT?\n8) El tamaño máximo de una tubería IMC será\n9) Entre salida y salida, una tubería no podrá tener más de el equivalente de a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_24 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                          \n \n10) ¿Cuál de esta combinación de conductor puede utilizar los mismos accesorios, \ngrapas, conectores, uniones, etc.?\n11) El cable de voltaje mediano MV, cuál será su voltaje de operación:\n12) El cable con cubierta de metal MC podrá usarse en\n13) El cable USE su cubierta no está identificada:\n14) El tamaño máximo de el conducto flexible metálico FMC será:\n15)¿Cuál es una violación al NEC donde se requiera flexibilidad en la tubería \nFMC\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_24 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "16) ¿Cuál será la temperatura ambiente máxima que se puede usar la tubería HDPE?\n17) El tamaño máximo de el tubo flexible metálico FMT será: \n18) En una canal para debajo de superficie (underfloor raceways) la suma combinada \nde todos los conductores no podrá exceder el:\n19) ¿Cuál de estos lugares según el NEC, el cable UF no podrá utilizarse?\n20) ¿Cuál es el gas que tiene el cable IGS?\n21) ¿En cuál de estas aplicaciones se puede usar el tubo PVC?\n22) El tamaño máximo de una tubería RTRC será:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_24 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "23) La  tubería  LFNC  cuando  se  necesite  flexibilidad  tendrá  que  cumplir  con  el \nrequisito de:\n24) El canal de alambres o (wire ways) metálicos no podrá usarse\n25) El cable de cubierta mineral MI no podrá usarse:\n26. [La fuente no incluye un enunciado completo.]\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_24 p.4\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 26. No se han inventado preguntas ni respuestas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_25",
+      "practiceFile": "practica-originales/EXAMEN_25.pdf",
+      "practiceSha256": "b7e13acd76d8d22dd2d0e0c7cacdf3b16ed5e7ff0e24166ae14857a4810e7821",
+      "sourceFile": "originales/EXAMEN_25.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_25.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "  \nNombre: ______________________________     Fecha: _____________________\nExamen # 25\n1. Terminal de cable a tornillo \n2. Terminal de cable a varilla\n3. Cable pasante horizontal a viga\n4. Cable pasante vertical a viga\n5. Cable pasante a piso\n6. Empalme tipo X\n7. Cable pasante horizontal a varilla de ground\n8. Empalme de cable a dos salidas \n9. Empalme tipo T cable a cable\n10.Terminal cable de viga a piso\n11.Empalme de cable a cable\n12.Empalme de dos cables pasantes en X\n13.Terminal de cable a viga salida hacia arriba\n14.Terminal de cable a viga salida hacia a bajo\n15.Empalme dos cables horizontales\n16.Empalme cable pasante a varilla tipo T\n       ________                 ________            ________                ________                  ________\n      ________               ________             ________               ________              ________\n   ________                    ________              ________                 ________               ________\n    ________\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_25 p.1\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_26",
+      "practiceFile": "practica-originales/EXAMEN_26.pdf",
+      "practiceSha256": "42f7cabf8a9fa1d7c7f9d153ac62984262aba23b96b3f853947a141bcd6b4b6a",
+      "sourceFile": "originales/EXAMEN_26.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_26.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "      \nNombre: ______________________________     Fecha: _____________________\nExamen # 26\n01- La ley que crea a la Junta Examinadora de Peritos Electricistas de Puerto Rico es:\n       a- ley 115 del 22 junio de 1976                           b- ley 115 del 2 de julio de 1976\n       c- ley 115 del 22 julio de 1976                            d- ley 115 del 2 de junio de 1976\n02-) ¿Cual es la enmienda a la ley 115 del 2 de junio de 1976 que crea la clase de “Ayudante de \n          Perito Electricista”?\n          a- ley 83 del 1 septiembre de 1990                     b- ley 86 del 6 noviembre de 1990\n          c- ley 83 del 6 noviembre de 1992                     d- ley 86 del 6 noviembre de 1992\n03-) La ley 115 ha sido enmendada ¿Cuántas veces?\n        a- 12 veces          b-13 veces          c- 14 veces          d- 15 veces\n04-) La ley creada para proteger a los trabajadores y otras personas contra riesgos \n        originados por generadores eléctricos y así prevenir la energización en forma \n        inversa de líneas eléctricas es:\n        a- ley 83 del 1 septiembre del 1990          b- ley 63 del 1 septiembre del 1990\n        c- ley 103 del 1 septiembre del 1990        d- ley 203 del 1 septiembre del 1990\n05-) La ley 86 del 6 de noviembre del 1992 fue enmendada por la ley _______ para \n        cambiar los requisitos de Ayudante de Perito Electricista.\n        a- 115          b- 131          c- 231         d- 211\n06-) La J.E.P.E esta adscrita a:\n        a- Estado de Defensa                                b- Estado Libre Asociado \n        c- Estado Departamental de Licencias     d- Departamento de Estado\n07-) El Colegio de Peritos se creo bajo la ley # ______:\n        a- Ley 115 del 2 de junio de 1976          b- Ley 83 del 1 septiembre del 1990\n        c- Ley 115 del 2 de junio de 1968          d- Ley 131 del 28 de junio de 1969\n08-) ¿Cuantos años de experiencia debe de tener un aspirante a la J.E.P.E?\n        a- 2años                                                   b- 3 años\n        c- 5 años                                                  d- 12 años\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                                                                  \n                               \n  \n                                                   \n                                                 \n                                                 \n                                           \n  \n    \n09-)  Calcule la corriente que se indica en el circuito que se ilustra a continuación.\n            R1= 12Ω\n       12 voltios\n            R2= 3Ω\n10-) ¿Cuál es la corriente total en el circuito que se muestra a continuación?\n                                                   R1= 10Ω                                          a-    4 amperes\n                                      b- 10 amperes\n                                      c-   8 amperes\n                       120 voltios              R2= 10Ω                                          d-   3 amperes\n                                                   R3= 10Ω\n11-) Tres resistencias en series ( 7Ω, 14Ω, 21Ω)  se encuentran conectadas en un \n       circuito con dos resistencias 2Ω, 4Ω en paralelo. Calcule la resistencia total.\n12-) Calcule la corriente total del siguiente circuito.\n                                                   R1= 10Ω\n                              R2= 12Ω\n 250 voltios\n                                               R3= 5Ω\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.2\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 12. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                                               \n  \n                                                  \n       \n                                                                                     \n                                   \n                  \n  \n                                                           \n13-) Calcule la R total.\n                                                                      R1= 5Ω\n        R2= 5Ω                R3= 5Ω\n14-) - Según la  ley de ohms en un circuito eléctrico el voltaje será igual a:\n       a- Al flujo de electrones en amperes por resistencia en ohmios.\n       b- Al voltaje dividido por la resistencia en ohmios.\n       c- Al voltaje dividido por el flujo de electrones en amperes.\n       d- Al flujo de electrones multiplicado por la oposición en ohmios.\n15-) ¿Cuál es la corriente del circuito que se ilustra a continuación?\n                                                                                     R1= 10Ω\n                   100 voltios                                                       R2= 20Ω \n                                                          R3= 50Ω\n16-) ¿Cuál es la resistencia equivalente del circuito que se presenta a continuación?\n                                          R1= 10Ω                       R2= 15Ω\n        120 voltios \n                                       R4= 30Ω                            R3= 5Ω\n17-) La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.3\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 13, 15, 16. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                                                                                    \n  \n  \n                                                                                          \n                    \n       a- bushing          b- ground bushing          c- Type MC          d- Type FSSC\n18- La siguiente ilustración pertenece a:\n  a- Thread grounding bushing          b- Wedge grounding bushing\n      b- conector identado                        d- conector de compresión \n19-) La siguiente ilustración representa un conduleto tipo:\n20- La siguiente ilustración representa una caja tipo:\n21- La siguiente ilustración representa una caja tipo:\n22-) La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                                                   \n     a- Pararrayos aéreos     b- Pararrayos Soterrados     c- Pararrayos tipo Pad Mounted\n23-) La siguiente ilustración es: \n    a- conector 90º                            c- conector 90º Female operación sin carga \n    b- conector 90º Female               d- conector 90º Male operación con carga\n25-) La siguiente ilustración es un:\n    a- conector 90º                            c- conector 90º Female operación sin carga \n    b- conector 90º Female               d- conector 90º Male operación con carga\n26-) La siguiente figura es: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "                                                           \n                                                                  \n                                                                            \n                                                      \n                                                       \n27-) La siguiente figura es: \n28-) La siguiente figura es: \n29-) -) La siguiente figura es: \n30-) La siguiente figura es:\n31-) Según el NEC artículo 344.30(A) en tubería RMC indica las distancias de soporte \n        de este conducto, mencione en la figura a continuación las distancias \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.6\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": "                 \n                                                                      \n              \n32-) Calcule la capacitancia total del siguiente circuito.\n                            C1= 200MF          C2= 200MF\n                                             C3= 400MF\n33-) La siguiente ilustración representa a:\n      a- PigTail Splice                              b- PigTail Fixture Splice \n      c- PigTail Western                           d- PigTail Tap Splice\n34-) La siguiente ilustración pertenece a:\n35-) La siguiente ilustración pertenece a:\n36-) La siguiente ilustración pertenece a:\n              a-) NEMA 6-15-R 250VOLTIOS 3 HILOS 2 POLOS\n              b-) NEMA 6-20-R 250 VOLTIOS 3 HILOS 2 POLOS\n              c-) NEMA 6-15-R 250 VOLTIOS 3 POLOS\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.7\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 8,
+          "text": "                                                                                    \n                                                               \n              d-) NEMA 5-15-R 250 VOLTIOS 2 POLOS\n37-) El siguiente empalme representa a:\n38-) El siguiente símbolo representa a:\n39-) El siguiente dibujo representa a:\n40. Identifica las figuras mostradas.\n41-) La siguiente ilustración representa una bombilla de lámpara ____________.\n42-) La siguiente ilustración pertenece a un empalme: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.8\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 39. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 9,
+          "pdfPage": 9,
+          "text": "      \n      \n    \n    \n       a- Western Union          b- Tap Joint          c- Pigtail  Splice          d- Fixture Splice\n43-) La siguiente ilustración pertenece a:\n      a- Isolate ground         b- Hospital grade          c- Isolated Ground & Hospital grade\n44-) La siguiente ilustración pertenece a:\n    a- Pararrayos aéreos     b- Pararrayos Soterrados     c- Pararrayos tipo Pad Mounted\n45-) La siguiente figura es: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_26 p.9\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_27",
+      "practiceFile": "practica-originales/EXAMEN_27.pdf",
+      "practiceSha256": "3b42ccfa72d05871ae4c88532e437872d56a068b5aeb3bd701bbcfe7003a325c",
+      "sourceFile": "originales/EXAMEN_27.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_27.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": " \n          \n \n \n  \n          \n                                                     \n  \n        \n  \nExamen # 27\n01-) ¿Cuál fue la ley que reglamentaba el Funcionamiento y Manejo de Maquinas\n          Cinematográficas y la Práctica de la Profesión de Electricista y creaba una \n          Junta Examinadora de Operadores de Maquinas Cinematográficas y Peritos \n          Electricistas en Puerto Rico?\n02-) ¿Cuantas enmiendas a sufrido la ley 131 aprobada el 28 de junio de 1969?\n03-) Bajo que ley se aumentan las penas a toda persona que realice trabajos de \n        electricidad sin estar debidamente autorizadas por ley.  \n04-) ¿Cuál es la enmienda que crea la clase de Ayudante de Perito Electricista de \n          Puerto Rico?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "         \n                                                                             \n  \n     \n  \n                                                                   \n  \n                         \n                  \n                         \n                       \n      \n     \n    \n05-) ¿Cuantas partes estará  constituido el examen de Ayudante de Perito \n          Electricista de Puerto Rico?\n06-) Calcule la corriente que se indica en el circuito que se ilustra a continuación.\n  R1= 12Ω\n      6 V                                                       \n  R2=    6Ω\n      6 V                                                       \n  R3 =   3Ω\n07-) ¿Cuál es la corriente total en el circuito que se muestra a continuación?\n                                                      R1= 10Ω \n                         120 voltios                       R2= 10Ω \n                                                      R3= 10Ω\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                         \n  \n                                                                  \n    \n  \n     \n  \n                       \n      \n       \n08-) En el siguiente ejercicio calcule la Resistencia total:\n                                          R1= 11Ω\n    R2= 12Ω        \n  R3= 17Ω\n09-) Calcule la capacitancia total del circuito que se ilustra a continuación.\n                         _______________________________\n                                      _____           _____            _____\n                                      _____           _____            _____\n                        _______________________________\n                                  C1= 50mF     C2= 75mF      C3= 25mF\n10-) Según la ley de ohms en un circuito eléctrico el voltaje será igual a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                                       \n               \n  \n        \n                                                                             \n11-) La siguiente ilustración pertenece a un empalme:\n12-) El siguiente símbolo representa a:\n13-) El siguiente receptáculo pertenece al NEMA: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                                                              \n        \n   \n                                                   \n  \n        \n                                                                 \n        \n14-) La siguiente ilustración pertenece a:\n15-)    La siguiente ilustración es: \n16-) La siguiente figura representa un:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "          \n        \n        \n                                                                           \n        \n                                                                                      \n       \n      \n        \n       \n17-) En la siguiente ilustración se nos muestra una luz piloto (Pilot Light).\n        El tipo de lente utilizado es de tipo:\n18-) La siguiente ilustración pertenece a: \n19-) La siguiente ilustración pertenece a:\n20-) La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.6\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": "                                                                       \n       \n \n       \n21-) La siguiente ilustración pertenece a:\n22-) La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.7\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 8,
+          "text": "23. [La fuente no incluye un enunciado completo.]\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_27 p.8\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 23. No se han inventado preguntas ni respuestas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_28",
+      "practiceFile": "practica-originales/EXAMEN_28.pdf",
+      "practiceSha256": "6e709cef5e078da80467422ea627ac1aaba37163d76d70c5f0699593840f7073",
+      "sourceFile": "originales/EXAMEN_28.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_28.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 28\n01-) La ley 131, crea al Colegio de Peritos Electricistas, la misma fue aprobada el:\n        a-) 29 de junio de 1968                            b-) 28 de julio de 1979 \n        c-) 28 de junio de 1969                            d-) 19 de julio de 1969\n02-) En la siguiente ilustración, identifica el instrumento localizado en el punto A.\n        a-) voltímetro      b-) amperímetro     c-) ohmiómetro     d-) vatímetro \n03-) El siguiente símbolo representa un interruptor:\n                                                                           │\n                                                                           │ \n                                                                           │ \n        a-) SPST – N.O        b-) SPDT – N.C        c-) DPST – N.O       d-) DPST – N.C \n04-) En la siguiente ilustración el interruptor tipo “DIMMER” se encuentra en su \n        posición de resistencia ….\n        a-) baja          b-) alta          c-) intermedia         d-) no tiene resistencia alguna \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_28 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "  \n05-) En la siguiente ilustración identifica el tipo de voltaje con el punto A.\n        a-) de transmisión     b-) de distribución     c-) de generación     d-) secundario\n06-) La siguiente figura representa un:\n        a-) un interruptor manual                              b-) sensor de proximidad inductivo\n        c-) interruptor foto eléctrico                         d-) interruptor  de limite\n07-) En la siguiente ilustración el interruptor tipo “DIMMER” se encuentra en su \n        posición de resistencia ….\n        a-) baja          b-) alta          c-) intermedia         d-) no tiene resistencia alguna  \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_28 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": " \n08-) Las siguientes figuras representan interruptores para oprimir (push botton),\n        ¿cuál de los siguientes se utiliza para paro de emergencia (Emergency Stop)?\n09-) La siguiente ilustración identifica el instrumento utilizado en el punto B.\n        a-) voltímetro     b-) amperímetro     c-) ohmiómetro     d-) vatímetro\n10-) La siguiente figura puede ser representada por uno de los siguientes símbolos:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_28 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "  \n \n11-) Un símbolo representa la siguiente figura el cual puede ser.\n12-) La siguiente ilustración nos muestra una lámpara de tipo:\n        a-) fluorescente     b-) incandescente     c-) LED     d-) neón \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_28 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "  \n13-) En la siguiente ilustración, identifica el tipo de voltaje en el punto D.\n        a-) de transmisión     b-) de distribución     c-) de generación     d-) secundario\n14-) La siguiente figura puede ser representada por uno de los siguientes símbolos:\n15-) La siguiente ilustración nos muestra un sensor de proximidad (Proximity \n        Sensor), este es de tipo ….\n        a-) Capacitivo     b-) reflectivo     c-) inductivo     d-) emitivo\n16-) El siguiente símbolo representa un …..\n        a-) interruptor de tiempo N.C \n        b-) interruptor de presión N.C\n        c-) interruptor de flujo N.C \n        d-) interruptor de limite N.C  (Cerrado Retentivo)\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_28 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": " \n     \n     \n          \n17-) En la siguiente ilustración se nos muestra una luz piloto (Pilot Light) que puede \n        ser utilizada para indicar condiciones de alarma, ciclos completados, etc. El \n        tipo de lente utilizado es de tipo:\n        a-) Convexo          b-) Torpedo          c-) Cóncavo          d-) Al ras (Flat)\n18-) ¿Cuál es el amperaje del resistor número 3 en el circuito que se muestra a \n         continuación?\n          a-) 24 amperes         b-) .24 amperes         c-) 24 Ω         d-) 8 amperes\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_28 p.6\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_29",
+      "practiceFile": "practica-originales/EXAMEN_29.pdf",
+      "practiceSha256": "80b305f2ba85b1fe1baa592c83eb8049511bb4744ef7f1b804c68ca92feb9f3e",
+      "sourceFile": "originales/EXAMEN_29.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_29.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "Nombre: ______________________________     Fecha: _____________________\nExamen # 29\n1. Identifique la figura\n2. Un circuito en paralelo hay una resistencia de 20 ohmios, la segunda \nresistencia consume 4 ampere,  el amperaje total es 10 ampere. ¿ cual es el \nvoltaje de la fuente?\n3. Un circuito en paralelo tiene dos resistencias, este consume 4 amperes. Este \ntiene una resistencia de 20 ohmios,  y la otra consume 2 amperes, ¿cuál es el \nvoltaje de la fuente?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                  \n                           \n                            \n  \n                             \n4. Identifica\n5. Identifica las figuras mostradas.\n6. Identifica las figuras mostradas.\n7. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                   \n                   \n                             \n8. Identifica las figuras mostradas.\n9. Identifica las figuras mostradas.\n10. Identifica las figuras mostradas.\n11. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "               \n           \n                 \n12. Identifica las figuras mostradas.\n13. Identifica las figuras mostradas.\n14. ¿Ley 131 cuando se creo?\na.\n_________________________________________\n15.Enmienda a la ley 115:\na.\n________________________________________\nb.\n________________________________________\nc.\n________________________________________\n16.¿Cuál es la ley que creó la clase de ayudante?\na.\n________________________________________\n17.¿Por cuantos miembros se compone la junta de Peritos Electricistas?\na.\n_______________________________________\n18. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                  \n                      \n                \n19. Identifica las figuras mostradas.\n20. Identifica las figuras mostradas.\n21. [La fuente no incluye un enunciado completo.]\n22. Identifica las figuras mostradas.\n23. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.5\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 21. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "  \n24. Identifica las figuras mostradas.\n25. Identifica las figuras mostradas.\n26. Identifica las figuras mostradas.\n27. Identifica las figuras mostradas.\n28. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.6\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": "29. Identifica las figuras mostradas.\n30. [La fuente no incluye un enunciado completo.]\n31. Identifica las figuras mostradas.\n32. Identifica\n33. Identifica\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.7\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 30. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 8,
+          "text": " \n34. Identifica\n35. Identifica\n36. Identifica las figuras mostradas.\n37.¿Qué significa C.S.A? \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.8\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 9,
+          "pdfPage": 9,
+          "text": "                     \n                     \n                       \n                    \n                                             \n38.La siguiente figura es: \n39.La siguiente figura es: \n40. Identifica las figuras mostradas.\n41. Identifica las figuras mostradas.\n42. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.9\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 10,
+          "pdfPage": 10,
+          "text": " \n  \n    \n             \n43. Identifica las figuras mostradas.\n44. Identifica las figuras mostradas.\n45.Los ciclos por segundos en PR :\n46.Que tipo de circuito es el muñeco\n47. Identifica las figuras mostradas.\n48. ¿Cuantos ampere tiene el neutral?\n49. Explica cómo interactúan los polos magnéticos iguales y opuestos.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.10\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 11,
+          "pdfPage": 11,
+          "text": "50.Distancia entre luminarias\n51.Peso de máximo que resiste una caja techo \n52.Peso de minimo que resiste una caja pared\nCuanto es el % de ajuste si se pasa mas de 10 cables por un conducto / cuanto es el \n% de ajuste.\nEn donde no se usa el cable UF\nCable FMT tamaño máximo\nu4. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.11\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 12,
+          "pdfPage": 12,
+          "text": "            \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.12\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 13,
+          "pdfPage": 13,
+          "text": "Practica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.13\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 14,
+          "pdfPage": 14,
+          "text": "Practica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29 p.14\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_29A",
+      "practiceFile": "practica-originales/EXAMEN_29A.pdf",
+      "practiceSha256": "d1b391eede3f308da301808f59ec6b1c6355e82d5c144a02f9db2bb6ce87b1ad",
+      "sourceFile": "originales/EXAMEN_29A.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_29A.docx",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "  \nNombre: ______________________________     Fecha: _____________________\nExamen # 29\n1. ¿ Cuál es la cantidad mínima de cables que pueden pasar por un conducto?\n2. Un horno de 120 voltios tiene una resistencia de 20 ohmios, ¿Cuál es su amperaje?\n3. Un horno de 240 voltios tiene una resistencia de 9.34 ohmios, ¿Cuál es su amperaje?\n4. De qué color es cable de arranque en una lámpara fluorescente, en el Ballast.\n5. Identifica las figuras mostradas.\n6. Identifica la imagen\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29A p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "  \n  \n  \n \n7. En un circuito paralelo hay un amperaje total de18 amperios, dos de ella tienen 6 y 4 \nampere, ¿cuál es el amperaje de la tercera resistencia?\n8. Identifica la imagen:\n9.  Identifica la imagen \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29A p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "          \n10. Identifica la imagen\n11. Identifica la imagen\n12. Identifica la imagen\n13. Identifica la imagen\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29A p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": " \n    \n  \n \n \n \n14. Identifica la imagen\n15. [La fuente menciona diez problemas matemáticos sin incluir sus enunciados.]\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_29A p.4\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 15. No se han inventado preguntas ni respuestas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_30",
+      "practiceFile": "practica-originales/EXAMEN_30.pdf",
+      "practiceSha256": "aa4edb9780d7ee4414b889f48e6cab266c9a1a033e440c3a1e56b413f408e8e6",
+      "sourceFile": "originales/EXAMEN_30.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_30.doc",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                                                                  \n        \n                                                                               \n  \n                                                                               \n                                                                                            \n Nombre: __________________________     Fecha: _____________________\nExamen # 30\n01-) La siguiente ilustración pertenece a:\n02-) La siguiente ilustración pertenece a:\n03-) La siguiente figura representa a:\n04-) La siguiente ilustración representa a:\n05-) La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                                                                                        \n                                                                                                   \n                                                                            \n  \n                       \n                                                              \n06-) La siguiente ilustración es:\n07-) La siguiente ilustración pertenece a:\n08-) La siguiente ilustración es: \n09-) La siguiente ilustración es: \n10-) La siguiente ilustración es: \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                                                          \n                           \n                                                                             \n \n                                                                \n                                                                               \n11-) La siguiente figura representa a:\n12-) La siguiente ilustración es:\n13-) La siguiente ilustración es:\n14-) La siguiente ilustración es:\n15-) La siguiente ilustración es:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                                                             \n                                                                                    \n                                                                                    \n                                                                           \n\\16-) La siguiente ilustración es:\n17-) La siguiente ilustración es:\n18-) La siguiente ilustración es:\n19-) La siguiente ilustración representa a:\n20-) Según el NEC, en que lugar(es) no se puede utilizar el cable UF.\n21-) ¿Cuánto tiempo debe de tener un Perito Electricista para pertenecer a la J.E.P.E?\n        a-) 2 años         b-) 5 años         c-) 10 años         d-) no hay tiempo\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "  \n                                                                        \n22-) ¿Qué representa la tubería de color rojo?\n        a-) detector de humo        b-) fuego        c-) detector de fuego        d-) agua\n23-) La tubería FMC, en que lugar se puede utilizar.  articulo 348.10\nFlexible Metal Conduit: Type FMC\na) Lugares mojados\nb) Foso de ascensores\nc) Cuarto para almacenamiento de Baterías\nd) Localizaciones clasificadas como peligrosas\ne) Donde estén expuestos a materiales corrosivos\nf) Bajo tierra o soterrado\ng) empotrado en concreto\nh) donde este sujeto a daños físicos.\n24-) ¿Qué significa Ayudante de Perito Electricista?\n25-) ¿Cuál es la escolaridad de un Perito Electricista antes de la enmienda de la ley 86?\n26-) ¿De que consiste el examen de Ayudante?\n27-) La siguiente ilustración pertenece a:\n28-) La frecuencia en Puerto Rico es de:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "  \n                                                                                \n                                                                                                    \n                                          \n        a-) 50 hertz          b-) 60 veces          c-) 60 hertz          d-) 50 veces\n29-) ¿Qué crea la ley 131?\n30-) La siguiente ilustración pertenece a:\n31-) La siguiente ilustración pertenece a:\n32-) La siguiente ilustración representa a:\n33-) ¿Qué crea la ley 115?\n34-) ¿Cuál es la fecha de la ley 115?\n35-) ¿Cuál es la fecha de la ley 131?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.6\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": "                                                                                                     \n                                                                                                   \n                                                                                                   \n  \n36-) La siguiente ilustración representa a:\n37-) La siguiente ilustración representa a:\n38-) La siguiente ilustración representa a:\n39-) Identifique cual es la figura geométrica  que representa a un receptáculo de tipo\n        “Tierra Insulada”.\n        a-) un círculo       b-) un triángulo       c-) circulo y triángulo       d-) un rectángulo\n40-) Identifique cual es la figura geométrica  que representa a un receptáculo de tipo\n        “Grado de Hospital”.\n       a-) un círculo       b-) un triángulo       c-) circulo y triángulo       d-) un rectángulo\n41-) Identifique cual es el color que identifica a un receptáculo de tipo  IG “Tierra \nInsulada”.\n        a-) Orange     b-) Verde     c-) Blanco     d-) Negro\n42-) Identifique cual es el color que identifica a un receptáculo de tipo “Grado Hospital”.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.7\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 8,
+          "text": "                                                                            \n \n        a-) Orange     b-) Verde     c-) Blanco     d-) Negro\n43-) La siguiente ilustración representa a:\n44- ) La siguiente ilustración representa a:\n45)  La tubería HDPE, en qué lugar se puede utilizar.  Articulo 353.10\nHigh Density Polyethylene Conduit:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_30 p.8\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 44. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_31",
+      "practiceFile": "practica-originales/EXAMEN_31.pdf",
+      "practiceSha256": "bee5a8f371974c1714d7de3dd65fb1879edca7d17f81329f6b67191605aaffae",
+      "sourceFile": "originales/EXAMEN_31.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_31.doc",
+      "warnings": [
+        "La fuente incluye apuntes y títulos breves además de preguntas completas. Se conservan como temas de respuesta escrita; no forman un examen calificado."
+      ],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "        \n        \n              \n                         \n                            \nExamen # 31\n1. La siguiente ilustración es: \n2. La siguiente figura es: \n3. La siguiente figura es\n4. La siguiente figura\n5. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "      \n          \n6. La siguiente figura \n7. La siguiente figura\n8. La siguiente figura\n9. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                     \n10. La siguiente figura\n11. La siguiente figura\n12. La siguiente figura\n13. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "14. La siguiente figura\n15. La siguiente figura\n16. La siguiente figura\n17. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "       \n18. La siguiente figura\n19. El largo de la toma no deberá exceder de ____ pies desde el poste al soporte \n“Wire  Holder” de edificio.\n20. El largo de la toma no deberá exceder de ____ pies desde el poste al soporte \n“Wire  Holder” de  el pedestar.\n21. La ley creada para proteger a los trabajadores y otras personas contra riesgos \noriginados por generadores eléctricos y así prevenir la energización en forma \ninversa de líneas eléctricas es:\n22. Enmiendas  a la ley 115 Incluidas hasta el 2 de julio de 2009.\n23. Ley de Ohm\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "24. Ley de Potencia\n25. Buscar Ohmios\n26. Que educación debería tener una persona para la licencia de aprendiz antes de que se \naprovara la ley 86 del 6 de noviembre del 1992 que enmienda la ley 115.\na.\n6to grado\nb. 9no grado\nc.\n4to año\nd. Leer y escribir\n27. ¿Cómo se identifica la ubicación de los conductores de servicio subterráneo?\n28. ¿Qué separación y protección se requieren al atravesar elementos de madera?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.6\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": "29. ¿Quiénes fueron los primeros en estudiar la electricidad, según la fuente?\n30. Edad mínima para la licencia de Aprendizaje\n31. Aprendiz\n32. URD 27\n33. Edad mínima para la licencia de Perito Electricista\n34. Ayudante\n35. MIL\n36. Reiset de 4 gangas\n37. Interruptor Rojo Sencillo cuantos amperes es?\n38. Identifica las figuras mostradas.\n39. Describe el contenido de la tabla 310.4(A) citada en la fuente.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.7\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 8,
+          "text": "40. ¿Cuantos voltios aguanta el conductor para un calentador?\n41. Describe los usos permitidos y no permitidos de la tubería FMT.\n42. Largo permitido en el conductor corrugado.\n43. Describe la instalación de la tubería ENT.\n44. Caja octagonal con muchos boquetes\n45. Quien hizo las primeras investigaciones sobre la atmosfera.\n46. Pregunta de resistencias en Ampere, con el amperaje\n47. Receptáculo IG\n48. Símbolo de receptáculo\n49. Intensidad lumínica como se mide \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.8\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 46. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 9,
+          "pdfPage": 9,
+          "text": "50. Máximo del IMC - Articulo 342\n51. 340.12 – Usos no permitidos\n52. ENT – 362 – Para que se utiliza\n53. LFNC – Articulo 356 -\n54. La siguiente figura\n55. Para la bombilla de mercurio\n56. ¿Cuál es la resistencia de una estufa que la corriente es de 50 Ampere y tiene un voltaje \nde 240 Voltios?\n57. Tenemos un circuito  en serie que tiene tres cargas de 20 Watts, 30 Watts y 50 Watts \ncon un amperaje de 50, Busca la resistencia de la de 20 Watts.\n58. Años como Perito Electricista para pertenecer a la Junta Examinar de Peritos \n59. Realizar problemas verbales de Amperaje, Voltaje y Resistencias.\n60. Identifica la siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.9\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 59. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 10,
+          "pdfPage": 10,
+          "text": "61. Identifica la siguiente figura\n62. Identifica la siguiente figura\n63. Curva EMT \nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.10\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 11,
+          "pdfPage": 11,
+          "text": "                               \n  \n64. ¿Qué quórum indica la fuente para reunir a la Junta de Peritos?\n65. Identifica la siguiente figura\n66. Identifica la siguiente figura\n67. Identifica la siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.11\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 12,
+          "pdfPage": 12,
+          "text": "      \n68. Identifica la siguiente figura\n69. Identifica la siguiente figura\n70. Identifica la siguiente figura\n71. Identifica la siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.12\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 13,
+          "pdfPage": 13,
+          "text": "          \n72. ¿Para qué se utiliza la tubería de color rojo?\n73. Que significa las letras LS en un cable.\n74. Que tipo de Conducto es el LFNC\n75. Identifica\n76. Electrodo de tierra\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.13\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 14,
+          "pdfPage": 14,
+          "text": "      \n      \n77. Dispositivo electrico que se usa para protección del equipo:\n78. Identifica el símbolo mostrado.\n79. Identificar el símbolo\n80. Explica cómo interactúan los polos magnéticos iguales y opuestos.\n81. Un circuito con una fuente de voltaje 480 Voltios que tiene conectado 3 resistencia \ncada una consume 12 ampere, ¿que resistencia tiene el circuito?\n82. ¿Cuál será la potencia?\n83. Ckto en paralelo y preguntaron que corriente pasa por la resistencia mayor del Ckto, \nVoltaje 60 V, Resistencias 10,15 y20 ohmios.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.14\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 83. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        },
+        {
+          "sourcePage": 15,
+          "pdfPage": 15,
+          "text": "81 Identifica\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31 p.15\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_31A",
+      "practiceFile": "practica-originales/EXAMEN_31A.pdf",
+      "practiceSha256": "9820351b6e3c8623827747b2b3c23b704b1aae3cb5e68e04129f5a8a566624f3",
+      "sourceFile": "originales/EXAMEN_31A.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_31A.doc",
+      "warnings": [
+        "La fuente incluye apuntes y títulos breves además de preguntas completas. Se conservan como temas de respuesta escrita; no forman un examen calificado."
+      ],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "        \n        \n              \n                         \n                            \nExamen # 31A\n1. La siguiente ilustración es: \n2. La siguiente figura es: \n3. La siguiente figura es\n4. La siguiente figura\n5. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "      \n          \n6. La siguiente figura \n7. La siguiente figura\n8. La siguiente figura\n9. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "                                     \n10. La siguiente figura\n11. La siguiente figura\n12. La siguiente figura\n13. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "14. La siguiente figura\n15. La siguiente figura\n16. La siguiente figura\n17. La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "       \n18. La siguiente figura\n19. El largo de la toma no deberá exceder de ____ pies desde el poste al soporte \n“Wire  Holder” de edificio.\n20. El largo de la toma no deberá exceder de ____ pies desde el poste al soporte \n“Wire  Holder” de  el pedestar.\n21. La ley creada para proteger a los trabajadores y otras personas contra riesgos \noriginados por generadores eléctricos y así prevenir la energización en forma \ninversa de líneas eléctricas es:\n22. Enmiendas Incluidas hasta el 2 de julio de 2009.\n23. Ley de Ohm\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "24. Ley de Potencia\n25. Buscar Ohmios\n26. Que educación debería tener una persona para la licencia de aprendiz antes de que se \naprovara la ley 86 del 6 de noviembre del 1992 que enmienda la ley 115.\na.\n6to grado\nb. 9no grado\nc.\n4to año\nd. Leer y escribir\n27. ¿Cómo se identifica la ubicación de los conductores de servicio subterráneo?\n28. ¿Qué separación y protección se requieren al atravesar elementos de madera?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.6\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": "29. ¿Quiénes fueron los primeros en estudiar la electricidad, según la fuente?\n30. Edad mínima para la licencia de Aprendizaje\n31. Aprendiz\n32. URD 27\n33. Edad mínima para la licencia de Perito Electricista\n34. Ayudante\n35. MIL\n36. Reiset de 4 gangas\n37. Interruptor Rojo Sencillo cuantos amperes es?\n38. Identifica las figuras mostradas.\n39. Describe el contenido de la tabla 310.4(A) citada en la fuente.\n40. Cuantos voltios aguanta el conductor para un calentador?\n41. Describe los usos permitidos y no permitidos de la tubería FMT.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.7\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 8,
+          "text": "42. Largo permitido en el conductor corrugado.\n43. Describe la instalación de la tubería ENT.\n44. Caja octagonal con muchos boquetes\n45. Quien hizo las primeras investigaciones sobre la atmosfera, Benjamin Franklin\n46. Pregunta de resistencias en Ampere, con el amperaje?\n47. Receptaculo IG\n48. Simbolo de reseptaculo\n49. Intensidad lumínica como se mide – Pie Bujia (Lumen / Pies cuadrados (ft\n2)\n50. Maximo del IMC\n51. 340.12 – Usos no permitidos\n52. ENT – 362 – Para que se utiliza\n53. LFNC – \n54. La siguiente figura\n55. Para la bombilla de mercurio\n56. Cual es la resistencia de una estufa que la corriente es de 50 Ampere y tiene un voltaje \nde 240 Votios?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.8\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 46. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 9,
+          "pdfPage": 9,
+          "text": "57. Tenemos un circuito  en serie que tiene tres cargas de 20 Watts, 30 Watts y 50 Watts \ncon un amperaje de 50, Busca la resistencia de la de 20 Watts.\n58. Años como Perito Electricista para pertenecer a la Junta Examinar de Peritos \n59. Realizar problemas vervales de Amperaje, Voltaje y Resistencias.\n60. Identifica la siguiente figura\n61. Identifica la siguiente figura\n62. Identifica la siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.9\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 59. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 10,
+          "pdfPage": 10,
+          "text": "                               \n  \n63. Curva EMT \n64. ¿Qué quórum indica la fuente para reunir a la Junta de Peritos?\n65. Identifica la siguiente figura\n66. Identifica la siguiente figura\n67. Identifica la siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.10\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 11,
+          "pdfPage": 11,
+          "text": "68. Identifica la siguiente figura\n69. Identifica la siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.11\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 12,
+          "pdfPage": 12,
+          "text": "      \n          \n70. Identifica la siguiente figura\n71. Identifica la siguiente figura\n72. ¿Para qué se utiliza la tubería de color rojo?\n73. Que significa las letras LS en un cable.\n74. Que tipo de Conducto es el LFNC\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.12\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 13,
+          "pdfPage": 13,
+          "text": "      \n      \n75. Identifica\n76. Electrodo de tierra\n77. Dispositivo electrico que se usa para protección del equipo:\n78. Identifica el símbolo mostrado.\n79. Identificar el símbolo\n80. Explica cómo interactúan los polos magnéticos iguales y opuestos.\n81. Un circuito con una fuente de voltaje 480 Voltios que tiene conectado 3 resistencia \ncada una consume 12 ampere, que resistencia tiene el circuito?\n82. Cuál será la potencia?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.13\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 14,
+          "pdfPage": 14,
+          "text": "83. Ckto en paralelo y preguntaron que corriente pasa por la resistencia mayor del Ckto, \nVoltaje 60 V, Resistencias 10,15 y20 ohmios.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_31A p.14\n",
+          "warnings": [
+            "Figura ausente o incompleta en el PDF convertido: ejercicios 83. Consulta el Word original; no se ha reconstruido ni supuesto el circuito."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_32",
+      "practiceFile": "practica-originales/EXAMEN_32.pdf",
+      "practiceSha256": "bd1505ba1422fb41a295bf2cdea965e2c7b63276db9440218143ac72499a7a53",
+      "sourceFile": "originales/EXAMEN_32.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_32.docx",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                                       \n \n                                     \n                   \n                                                    \n                               \nExamen 32\n1. Identifica las figuras mostradas.\n2. Identifica las figuras mostradas.\n3. Identifica las figuras mostradas.\n5. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                    \n          \n      \n       \n            \n                    \n     \n6. Identifica las figuras mostradas.\n7. Identifica las figuras mostradas.\n8. Identifica las figuras mostradas.\n9. Identifica las figuras mostradas.\n10. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "  \n         \n               \n                    \n     \n                   \n                          \n11. Identifica las figuras mostradas.\n12. Si usa el conducto LFNC en una instalación, lo remplazaría por:\n13. Donde se utiliza el LFNC:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": " \n    \n         \n14. ¿Qué significa la R en un conductor RHH?\n15. Cual es el Amperaje Maximo de el Cable THHN?\n16. Cual es el Amperaje Maximo de el Cable THW?\n17. Cual es el Amperaje Maximo de el Cable THWN-2?\n18. Que significa AWG?\n19. Tengo un banco de transformadores y uno se daña el del medio...\n20. La capacidad maxima que se carga un circuito es:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 5,
+          "text": "La foto celda donde se utiliza:\na. Incandescente\nb. Mercurio\nc. Sodio\nd. Todas las anteriores\nTransformador seco dentro de un edificio su capacidad:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32 p.8\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 9,
+          "pdfPage": 6,
+          "text": " \na. No mayor de 112.5 KVA \nb. Mayor de 112.5 KVA\nc. Sobre 35,000 voltios\nLa medida del cemento que cubre el tubo Accedente en el poste de concreto:\nCuantos receptáculos van en el exterior de una casa mínimo?\nSi tengo una caja de 4x4 y tengo cable numero 8, 6 y 10, cuanto de profundidad necesito?\nA. 1 - 1/16\nB. 1 - 1/8\nC. 3 - 1/16\nD. 4 -1/6\n¿Si tengo una caja de 4x4 y tengo cable numero 8, 6 y 12, cuanto de profundidad necesito?\n           A. 1 - 1/16\nB. 1 - 1/8\nC. 3 - 1/16\nD. 4 -1/6\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32 p.9\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_32A",
+      "practiceFile": "practica-originales/EXAMEN_32A.pdf",
+      "practiceSha256": "58088649d364dc1f6ce314c414c51cde8e708792ab87e97311bac445d65b1a45",
+      "sourceFile": "originales/EXAMEN_32A.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_32A.docx",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "                                       \n \n                                     \n                   \n                                                    \n                               \nExamen 32\n1. Identifica las figuras mostradas.\n2. Identifica las figuras mostradas.\n3. Identifica las figuras mostradas.\n5. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32A p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "                    \n          \n      \n       \n            \n                    \n     \n6. Identifica las figuras mostradas.\n7. Identifica las figuras mostradas.\n8. Identifica las figuras mostradas.\n9. Identifica las figuras mostradas.\n10. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32A p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "  \n         \n               \n                    \n     \n                   \n                          \n11. Identifica las figuras mostradas.\n12. Si usa el conducto LFNC en una instalación, lo remplazaría por:\n13. Donde se utiliza el LFNC:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32A p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": " \n    \n         \n14. ¿Qué significa la R en un conductor RHH?\n15. Cual es el Amperaje Maximo de el Cable THHN?\n16. Cual es el Amperaje Maximo de el Cable THW?\n17. Cual es el Amperaje Maximo de el Cable THWN-2?\n18. Que significa AWG?\n19. Tengo un banco de transformadores y uno se daña el del medio...\n20. La capacidad maxima que se carga un circuito es:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32A p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 10,
+          "pdfPage": 5,
+          "text": " \nLa foto celda donde se utiliza:\na. Incandescente\nb. Mercurio\nc. Sodio\nd. Todas las anteriores\nTransformador seco dentro de un edificio su capacidad:\na. No mayor de 112.5 KVA \nb. Mayor de 112.5 KVA\nc. Sobre 35,000 voltios\nLa medida del cemento que cubre el tubo Accedente en el poste de concreto:\n¿Cuántos receptáculos van en el exterior de una casa mínimo?\nSi tengo una caja de 4x4 y tengo cable numero 8, 6 y 10, cuanto de profundidad necesito?\nA. 1 - 1/16\nB. 1 - 1/8\nC. 3 - 1/16\nD. 4 -1/6\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32A p.10\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 11,
+          "pdfPage": 6,
+          "text": "Si tengo una caja de 4x4 y tengo cable numero 8, 6 y 12, cuanto de profundidad necesito?\n           A. 1 - 1/16\nB. 1 - 1/8\nC. 3 - 1/16\nD. 4 -1/6\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_32A p.11\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_34",
+      "practiceFile": "practica-originales/EXAMEN_34.pdf",
+      "practiceSha256": "77670033bbe3c1d31c36a11334bbd16114d5a7a4c3d0e0864c7e1d39245338e7",
+      "sourceFile": "originales/EXAMEN_34.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_34.docx",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": " \n \n        \nExamen 34\n1. Identifique:\n2. Identifique\n3. ¿A qué distancia se pone una grapa para tubo de metal?\n4. ¿A qué distancia se pone una grapa para tubo de PVC?\n5. El receptáculo va en las esquina a una distancia de:\n6. Identifique:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "          \n                \n                \n7. Identifique\n8. Identifique\n9. Identifique\n10.Identifique\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "     \n11. Identifique\n12.Identifique\n13.Identifique\n14.Identifique\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "                   \n15.Identifique\n16.Identifique\n17.Identifique\n18.Identifique\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                        \n  \n      \n     \n                                     \n19.identifique\n20.Identifique\n21. Identifica las figuras mostradas.\n22. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "                \n       \n      \n                    \n     \n              \n     \n23. Identifica las figuras mostradas.\n24. Identifica las figuras mostradas.\n25. Identifica las figuras mostradas.\n26.Donde se utiliza el LFNC:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.6\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": "          \n    \n          \n       \n       \n                \n         \n27.Identifica\n28.La capacidad máxima que se carga un circuito es:\n29.Identifica\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.7\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 8,
+          "pdfPage": 8,
+          "text": " \n30.Identifica\n31. Identifica el conducto mostrado.\n32.La siguiente figura representa a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.8\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 9,
+          "pdfPage": 9,
+          "text": "     \n                        \n                                         \n     \n  \n     \n33.La siguiente ilustración pertenece a:\n34.La siguiente ilustración es:\n35.La siguiente ilustración es: \n36.La siguiente ilustración es: \n37.La siguiente ilustración es:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.9\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 10,
+          "pdfPage": 10,
+          "text": "     \n           \n \n                                                             \n38.La siguiente ilustración es:\n39. Menciona usos permitidos y no permitidos del cable UF.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.10\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 11,
+          "pdfPage": 11,
+          "text": "     \n       \n                                                             \n     \n  \n40.La siguiente ilustración es:\n41.La siguiente ilustración es:\n42.La siguiente ilustración es:\n43.¿Qué representa la tubería de color rojo?\n44.La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.11\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 12,
+          "pdfPage": 12,
+          "text": "                                            \n  \n                                           \n     \n                                                  \n45.La frecuencia en Puerto Rico es de:\n46.La siguiente ilustración pertenece a:\n47.La siguiente ilustración representa a:\n48.La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.12\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 13,
+          "pdfPage": 13,
+          "text": "                                                \n                                      \n \n  \n49.La siguiente ilustración es: \n50.La siguiente figura:\n51.La siguiente figura\n52.La siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.13\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 14,
+          "pdfPage": 14,
+          "text": "                 \n                                     \n53.La siguiente figura\n54.La siguiente figura\n55.La siguiente figura:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.14\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 15,
+          "pdfPage": 15,
+          "text": "                           \n56.El largo de la toma no deberá exceder de ____ pies desde el poste al soporte “Wire  \nHolder” del edificio.\n57.El largo de la toma no deberá exceder de ____ pies desde el poste al soporte “Wire  \nHolder” del pedestal.\n58.La ley creada para proteger a los trabajadores y otras personas contra riesgos \noriginados por generadores eléctricos y así prevenir la energización en forma inversa \nde líneas eléctricas es:\n59. ¿Qué separación y protección se requieren al atravesar elementos de madera?\n60.Edad mínima para la licencia de Perito Electricista\n61.Ayudante\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.15\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 16,
+          "pdfPage": 16,
+          "text": "62.Aprendiz\n63.¿Cuántos voltios aguanta el conductor para UN calentador?\n64. Describe los usos permitidos y no permitidos de la tubería FMT.\n65.¿Quien hizo las primeras investigaciones sobre la atmosfera?\n66.Intensidad lumínica como se mide \n67.Máximo del IMC - Articulo 342\n68.Tenemos un circuito  en serie que tiene tres cargas de 20 Watts, 30 Watts y 50 Watts \ncon un amperaje de 50, Busca la resistencia de la de 20 Watts.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.16\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 17,
+          "pdfPage": 17,
+          "text": "                         \n69.Años como Perito Electricista para pertenecer a la Junta Examinar de Peritos \n70.Identifica la siguiente figura\n71. Menciona usos permitidos del cable AC.\n72. Menciona usos no permitidos del cable AC.\n73.Identifica la siguiente figura\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.17\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 18,
+          "pdfPage": 18,
+          "text": "                    \n                 \n                  \n74.Identifica la siguiente figura\n75. Identifica\n.\n76. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.18\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 19,
+          "pdfPage": 19,
+          "text": "               \n \n77.Material Conductor más utilizado:\n78.Mejor material conductivo:\n79.Identifica\n80.¿Cuántos receptáculos van en el exterior de una casa mínimo?\n81.¿De cuantos peritos Electricistas se compone la Junta?\n82.¿Cuánto es el quórum para la reunión de la junta?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.19\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 20,
+          "pdfPage": 20,
+          "text": "     \n     \n83. ¿Qué requisitos deben reunir los miembros de la Junta, según la fuente?\n84.Edad mínima para ayudante y escolaridad:\n85.Edad mínima para aprendiz y escolaridad:\n86.El área circular  de los cables se mide en:\na. AWG - American Wire gauge\nb. Kcmils - Mils Circular Mils -  MCM\n87.La siguiente ilustración es:\n88.En la siguiente ilustración identifica el tipo de voltaje con el punto A.\n        a-) de transmisión     b-) de distribución     c-) de generación     d-) secundario\n89.La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.20\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 21,
+          "pdfPage": 21,
+          "text": "                           \n                \n          \n        \n        \n                               \n       \n90.En la siguiente ilustración se nos muestra una luz piloto (Pilot Light).\n            El tipo de lente utilizado es de tipo:\n91.La siguiente ilustración pertenece a:\n92.La siguiente ilustración pertenece a:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.21\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 22,
+          "pdfPage": 22,
+          "text": "                                             \n            \n93.Según el NEC artículo 344.30(A) en tubería RMC indica las distancias de soporte \n        De este conducto, mencione en la figura a continuación las distancias permitidas.\n94. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.22\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 23,
+          "pdfPage": 23,
+          "text": "                                                   \n  \n                 \n95.La siguiente ilustración pertenece a:\n96. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.23\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 24,
+          "pdfPage": 24,
+          "text": "               \n          \n        \n  \n97. Identifica las figuras mostradas.\n98.La siguiente figura\n99.Altura de la línea secundaria a la acera:\n100. Distancia del poste a el pedestal:\n101.\nDistancia de el poste a la toma en la casa:\n102. ¿En qué caso se necesita permiso de servidumbre de paso?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.24\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 25,
+          "pdfPage": 25,
+          "text": "103.\nProfundidad de la soterrada:\n104.\nLa cinta de Warning en soterrado va a una profundidad de:\n105.\nQue tubería PVC se debe de utilizar cuando la residencia e en la playa:\n106.\nQue significa N en los cables eléctricos:\n107.\n¿Qué ley sostiene que los objetos, cómo acusado se repelen y objetos \nopuestos cargados atraen?\n108.\nUna corrida de conductos Eléctricos no puede tener más de ____________ \n109. Identifica las figuras mostradas.\n110. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.25\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 26,
+          "pdfPage": 26,
+          "text": " \n111. Identifica las figuras mostradas.\nSi tengo una caja de 4x4 y tengo cable numero 8, 6 y 10,  ¿cuanto de profundidad \nnecesito?\nA. 1 - 1/16\nB. 1 - 1/8\nC. 3 - 1/16\nD. 4 -1/6\nSi tengo una caja de 4x4 y tengo cable numero 8, 6 y 12,  ¿cuanto de profundidad \nnecesito?\n           A. 1 - 1/16\nB. 1 - 1/8\nC. 3 - 1/16\nD. 4 -1/6\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_34 p.26\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_35",
+      "practiceFile": "practica-originales/EXAMEN_35.pdf",
+      "practiceSha256": "7423d5dac265b3972a76e7cafc658c5e8c3a0b07d9d69eef6459afc8fce84f47",
+      "sourceFile": "originales/EXAMEN_35.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_35.docx",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "       \n       \nExamen_35\n1. Identifica las figuras mostradas.\n2. Identifica las figuras mostradas.\n3. Identifica las figuras mostradas.\n4. Identifica las figuras mostradas.\n5. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_35 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": " \n \n6. Identifica las figuras mostradas.\n7. Identifica las figuras mostradas.\n8. Origen de la electricidad\n9. ¿Qué partículas del átomo se mueven alrededor del núcleo?\n10.Distancia de la acometida en la casa (Wire holder o abrazadera) al poste de \nservicio:\n11.Distancia del pedestal de acometida (Wire holder o abrazadera) al poste de \nservicio:\n12.Resistencia del Cobre:\n13.Fórmula para corregir el Power Factor:\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_35 p.2\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": " \n      \n      \n14. Identifica las figuras mostradas.\n15. Identifica las figuras mostradas.\n16. Identifica las figuras mostradas.\n17. Identifica las figuras mostradas.\n18. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_35 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "19. Identifica las figuras mostradas.\n20. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_35 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "21. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_35 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": "   \n22. Identifica las figuras mostradas.\n23. Identifica las figuras mostradas.\n24. Identifica las figuras mostradas.\n25. Identifica las figuras mostradas.\n26. [La fuente solo enumera un grupo de ejercicios; no incluye sus enunciados.]\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_35 p.6\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 26. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 7,
+          "pdfPage": 7,
+          "text": " \n27. [La fuente solo enumera un grupo de ejercicios; no incluye sus enunciados.]\n28. [La fuente solo enumera un grupo de ejercicios; no incluye sus enunciados.]\n29. Describe los circuitos en serie, paralelo y serie-paralelo.\n30.¿Cuál será la potencia en un circuito con un voltaje 120V y dos resistencias de \n10 ohmios y 15 ohmios en serie?\n31.¿Cuál será la potencia en un circuito con un voltaje 120V y dos resistencias de \n10 ohmios y 15 ohmios en paralelo?\n32.Resuelve\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_35 p.7\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 27, 28. No se han inventado preguntas ni respuestas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_36",
+      "practiceFile": "practica-originales/EXAMEN_36.pdf",
+      "practiceSha256": "26a83122092f68062565d343c47f06ed7a69d0ea3e2579fae86067545e2ef73a",
+      "sourceFile": "originales/EXAMEN_36.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_36.docx",
+      "warnings": [
+        "La fuente repite el número 22. Distingue las respuestas por la posición del ejercicio en la hoja."
+      ],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "            \n           \n    \n        \nRepaso 36\n1. Identifica las figuras mostradas.\n2. Identifica las figuras mostradas.\n3. Identifica las figuras mostradas.\n4. Identifica las figuras mostradas.\n5. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_36 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "        \n        \n     \n            \n           \n6. Identifica las figuras mostradas.\n7. Identifica las figuras mostradas.\n8. Identifica las figuras mostradas.\n9. Identifica las figuras mostradas.\n10. [La fuente menciona cuatro preguntas de leyes sin incluir sus enunciados.]\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_36 p.2\n",
+          "warnings": [
+            "Enunciado ausente, incompleto o solo anunciado en la fuente: ejercicios 10. No se han inventado preguntas ni respuestas."
+          ]
+        },
+        {
+          "sourcePage": 3,
+          "pdfPage": 3,
+          "text": "       \n      \n          \n         \n          \n11. Identifica las figuras mostradas.\n12. Identifica las figuras mostradas.\n13. Identifica las figuras mostradas.\n14. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_36 p.3\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 4,
+          "pdfPage": 4,
+          "text": "        \n         \n         \n         \n          \n          \n        \n15. Identifica las figuras mostradas.\n16. Identifica las figuras mostradas.\n17. Identifica las figuras mostradas.\n18. Indica los tamaños mínimo y máximo de la tubería LFNC.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_36 p.4\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 5,
+          "pdfPage": 5,
+          "text": "                 \n               \n     \n19.Libras de la roceta en la pared\n20.Libras de la roceta en el Techo\n21. Identifica las figuras mostradas.\n22. Identifica las figuras mostradas.\n22. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_36 p.5\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 6,
+          "pdfPage": 6,
+          "text": " \n   \n  \n23. Identifica las figuras mostradas.\n24. Identifica las figuras mostradas.\n25. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_36 p.6\n",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "EXAMEN_37",
+      "practiceFile": "practica-originales/EXAMEN_37.pdf",
+      "practiceSha256": "2411bedcbc7befec8791c5e6d3cdf7e53b16ba3de29cdd03b9072a5fd6ed25bf",
+      "sourceFile": "originales/EXAMEN_37.pdf",
+      "sourceDownload": "originales/fuentes/EXAMEN_37.docx",
+      "warnings": [],
+      "pages": [
+        {
+          "sourcePage": 1,
+          "pdfPage": 1,
+          "text": "       \n             \nExamen 37\n1. Identifica las figuras mostradas.\n2. Conduleto Tipo U\n3. Identifica las figuras mostradas.\n4. Que receptáculo pide el NEC para una residencia:\n5. Receptáculo IG\n6. GFCI GH\n7. Reiser Octagonal para cemento\n8. Identifica las figuras mostradas.\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_37 p.1\n",
+          "warnings": []
+        },
+        {
+          "sourcePage": 2,
+          "pdfPage": 2,
+          "text": "9. Identifica las figuras mostradas.\n10. Identifica las figuras mostradas.\n11.En un edificio de 200 Ampere, ¿cuál es el voltaje de entrada?\n12.Tienes un circuito con una fuente de voltaje de 120  y con tres resistencias en \nserie de 20 ohmios cada una, cual es el amperaje total?\nPractica: respuestas separadas | ECER Unitec | Fuente EXAMEN_37 p.2\n",
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

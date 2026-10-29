@@ -88,3 +88,37 @@ for(const checked of imageAudit.diagramQuestions) {
 }
 console.log('OK: 60 archivos fuente representados por sus 40 contenidos únicos, integridad SHA-256 y 254 páginas originales completas.');
 console.log(`OK: ${bank.length} preguntas; ${photos.length} entradas de galería; ${refs.size} archivos de imagen; 100 exámenes equilibrados de 50 preguntas.`);
+const practice=JSON.parse(read('practica-originales/datos.json'));
+const practiceAudit=JSON.parse(read('practica-originales/auditoria.json'));
+new vm.Script(read('practica.js'));
+assert.equal(practice.documents.length,40);
+assert.equal(practice.totals.sourcePages,254);
+assert.equal(practice.totals.practicePages,221);
+assert.equal(practice.totals.excludedPages,33);
+assert.equal(practice.status,'visual_review_complete_with_source_limitations');
+let accounted=0;
+for(const d of practice.documents){
+ const src=originals.documents.find(x=>x.id===d.id);
+ const audited=practiceAudit.documents.find(x=>x.document===d.id);
+ assert.ok(src && audited);
+ assert.equal(d.sourceFile,src.file);assert.equal(d.sourceDownload,src.sourceDownload);
+ assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,d.practiceFile))).digest('hex'),d.practiceSha256);
+ assert.equal(d.practiceSha256,audited.practiceSha256);
+ assert.deepEqual(d.pages.map(p=>p.pdfPage),Array.from({length:d.pages.length},(_,i)=>i+1));
+ assert.equal(new Set(d.pages.map(p=>p.sourcePage)).size,d.pages.length);
+ assert.deepEqual(audited.sourcePageDisposition.map(p=>p.sourcePage),src.pages.map(p=>p.number));
+ accounted+=audited.sourcePageDisposition.length;
+ for(const p of audited.sourcePageDisposition){
+  assert.ok(['practice','answered_duplicate','reference_appendix'].includes(p.disposition));
+  assert.equal(p.disposition==='practice',d.pages.some(x=>x.sourcePage===p.sourcePage));
+ }
+ for(const p of d.pages){assert.ok(p.text.trim());assert.ok(Array.isArray(p.warnings));}
+ for(const q of audited.questions.filter(q=>q.limitations.length)){
+  assert.ok(d.pages.find(p=>p.sourcePage===q.sourcePage).warnings.length,'Falta aviso de fuente incompleta');
+ }
+}
+assert.equal(accounted,254);
+assert.ok(read('index.html').includes('practica.html'));
+assert.ok(read('originales.html').includes('practica.html'));
+assert.ok(!/id="visor-solucion"[^>]*\bsrc=/.test(read('practica.html')),'Solución cargada antes de solicitarla');
+console.log('OK: 40 hojas PDF, 221 páginas de práctica y disposición de las 254 páginas fuente; avisos de las limitaciones presentes.');
