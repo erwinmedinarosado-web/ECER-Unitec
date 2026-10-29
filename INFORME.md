@@ -98,3 +98,21 @@ Commit de implementación: `6a4a9e570a19753928f1d086ba2a5c934cbef7ee`, rama `ece
 No declarar finalizada la cobertura individual de todos los ejercicios originales. Las fuentes están íntegras, pero algunos ejercicios originales de identificación, dibujo y respuesta escrita aún no tienen una representación individual en la práctica. Continuar el cotejo por documento, manteniendo las figuras correctas y separando los enunciados de las soluciones. No inventar opciones ni claves para forzar todas las modalidades a selección múltiple. No mezclar ni publicar en main, ni promover producción.
 
 Los avisos de avance están programados cada hora y deben informar trabajo comprobado y obstáculos reales. No implican ejecución continua entre cada aviso.
+
+## Actualización: verificación en navegador completada con autorización
+
+El usuario autorizó expresamente el enlace temporal para las pruebas («Go for it»). El bloqueo de acceso descrito en el punto anterior quedó resuelto.
+
+Se probó la vista previa del commit `e0f8e7b1399825e1cedacfab40b88bccce534429`: `https://simulador-electricidad-nec2020-1c64jy573-ecer-unitec.vercel.app/`.
+
+Resultados observados en el navegador:
+- Se contestaron y navegaron las 50 preguntas; se entregó el examen y se mostraron 50 entradas de revisión.
+- La prueba seleccionó sistemáticamente la primera opción: 13/50 correctas, 37 incorrectas y 26%. El resultado apareció en el historial.
+- El diagrama de la última pregunta cargó con 700 píxeles de anchura natural.
+- Buscar la frase de los enunciados retirados devolvió cero preguntas.
+- El selector de Originales mostró 40 documentos; buscar «voltaje» devolvió 31 páginas.
+- El PDF no tenía src y las soluciones estaban ocultas antes de pulsar Mostrar fuente. Cambiar el documento volvió a ocultarlas y retiró el src.
+- Se abrió EXAMEN_27, página 4, y se verificó visualmente el PDF con las figuras de los ejercicios 11, 12 y 13 en su disposición original.
+- Los mensajes de error del registro consultado pertenecían a la extensión del navegador, no a los archivos de la aplicación.
+
+Esto resuelve las pruebas funcionales de la vista previa; no completa el cotejo individual de todas las preguntas originales con sus figuras. Ese trabajo sigue pendiente. No se ha publicado en producción.
