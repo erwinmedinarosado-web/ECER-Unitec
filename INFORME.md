@@ -168,3 +168,12 @@ Los tres niveles son educativos, no oficiales. El énfasis prioriza el nivel sol
 Las pruebas scripts/verificar.cjs y scripts/verificar-flujo.cjs comprueban integridad de originales, claves y explicaciones; recuperación de estado tras recarga; vencimiento con página cerrada; práctica de 49 errores; colas mayores de 50; cancelación de entrega; datos guardados corruptos; bloqueo de almacenamiento; y distribución/dificultad. Navegador: modalidad cronometrada, dos respuestas y marca recuperadas tras recarga, reloj persistente, entrega, 50 explicaciones, práctica de errores, progreso acumulado, filtros y fotografías.
 
 Limitaciones: el guardado es exclusivo del navegador y no sincroniza dispositivos ni garantiza carga sin conexión. El reloj usa la hora del dispositivo; no es un sistema de examen supervisado. La edición NEC 2020 y los niveles son referencias didácticas, sin afirmar edición ni porcentajes oficiales de convocatoria.
+
+
+## Rediseño visual y accesibilidad · 29 de octubre de 2026
+
+Las cuatro vistas comparten navegación, enlace de salto, superficies claras, escala tipográfica y colores definidos en accesibilidad.css. Ajustes de lectura: tema claro, oscuro o del dispositivo y texto grande, con persistencia independiente de los intentos. Controles principales de al menos 48 px, foco visible de alto contraste, preferencias de movimiento reducido y colores forzados.
+
+Se agrupan las respuestas con fieldset/legend, se anuncia el progreso con semántica de barra y se mueve el foco al encabezado al cambiar de vista o pregunta. Se añaden textos de estado a aciertos/errores y marcas visibles, descripciones observables de imágenes y avisos de enlaces que abren otra pestaña. Las tablas tienen encabezados y regiones desplazables accesibles.
+
+Comprobaciones: 32 pares de contraste de texto y controles en claro/oscuro; estructura de cuatro páginas; ajustes de lectura persistentes y almacenamiento bloqueado; foco de examen/resultados; pruebas previas del motor, 308 preguntas y fuentes originales. La revisión visual y de teclado en navegador no pudo completarse: dos intentos permitidos agotaron el tiempo de revisión automática de permisos, sin decisión de aprobación ni determinación de inseguridad. No se ha emitido una certificación de conformidad WCAG completa.

@@ -1,0 +1,238 @@
+{
+  "referencia": "WCAG 2.2 AA",
+  "alcance": "Contrastes de tokens y verificaciones estructurales; no es certificación de conformidad completa.",
+  "verificacionNavegador": "No completada: la revisión automática de permisos agotó el tiempo en los dos intentos permitidos.",
+  "pruebasFuncionales": "Motor, guardado, cronómetro, errores, lectura persistente y foco de encabezados validados en entorno de pruebas.",
+  "contrastes": [
+    {
+      "tema": "clara",
+      "texto_o_control": "text",
+      "fondo": "surface",
+      "contraste": 15.21,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "muted",
+      "fondo": "surface",
+      "contraste": 7.07,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "muted",
+      "fondo": "page",
+      "contraste": 6.47,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "muted",
+      "fondo": "surface-alt",
+      "contraste": 6.29,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "on-primary",
+      "fondo": "primary",
+      "contraste": 8.03,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "link",
+      "fondo": "surface",
+      "contraste": 9.23,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "link",
+      "fondo": "surface-alt",
+      "contraste": 8.22,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "text",
+      "fondo": "selected",
+      "contraste": 13.33,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "success",
+      "fondo": "success-bg",
+      "contraste": 6.81,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "danger",
+      "fondo": "danger-bg",
+      "contraste": 6.8,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "warning",
+      "fondo": "warning-bg",
+      "contraste": 7.18,
+      "minimo": 4.5
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "control-border",
+      "fondo": "surface",
+      "contraste": 4.31,
+      "minimo": 3
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "control-border",
+      "fondo": "surface-alt",
+      "contraste": 3.84,
+      "minimo": 3
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "focus",
+      "fondo": "surface",
+      "contraste": 8.29,
+      "minimo": 3
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "focus",
+      "fondo": "page",
+      "contraste": 7.59,
+      "minimo": 3
+    },
+    {
+      "tema": "clara",
+      "texto_o_control": "selection-border",
+      "fondo": "selected",
+      "contraste": 7.04,
+      "minimo": 3
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "text",
+      "fondo": "surface",
+      "contraste": 14.32,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "muted",
+      "fondo": "surface",
+      "contraste": 9.41,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "muted",
+      "fondo": "page",
+      "contraste": 10.83,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "muted",
+      "fondo": "surface-alt",
+      "contraste": 7.7,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "on-primary",
+      "fondo": "primary",
+      "contraste": 8.44,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "link",
+      "fondo": "surface",
+      "contraste": 9.77,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "link",
+      "fondo": "surface-alt",
+      "contraste": 7.98,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "text",
+      "fondo": "selected",
+      "contraste": 10.01,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "success",
+      "fondo": "success-bg",
+      "contraste": 8.06,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "danger",
+      "fondo": "danger-bg",
+      "contraste": 8.17,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "warning",
+      "fondo": "warning-bg",
+      "contraste": 8.63,
+      "minimo": 4.5
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "control-border",
+      "fondo": "surface",
+      "contraste": 6.53,
+      "minimo": 3
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "control-border",
+      "fondo": "surface-alt",
+      "contraste": 5.34,
+      "minimo": 3
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "focus",
+      "fondo": "surface",
+      "contraste": 11.64,
+      "minimo": 3
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "focus",
+      "fondo": "page",
+      "contraste": 13.39,
+      "minimo": 3
+    },
+    {
+      "tema": "oscura",
+      "texto_o_control": "selection-border",
+      "fondo": "selected",
+      "contraste": 6.48,
+      "minimo": 3
+    }
+  ],
+  "paginas": [
+    "index.html",
+    "repaso.html",
+    "originales.html",
+    "practica.html"
+  ]
+}
