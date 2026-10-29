@@ -1,0 +1,97 @@
+{
+  "removedAnswerLeaks": [
+    {
+      "id": 110,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? X",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 116,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? TB",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 121,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? TA",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 126,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? T",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 130,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? LR",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 134,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? L",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 138,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? LB",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 142,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? E",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 146,
+      "question": "En la nomenclatura de conduleto, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? C",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 150,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FS",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 154,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FSC",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 158,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FSS",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 162,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FSLA",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 166,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FSCT",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 170,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FSCC",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 174,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FST",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    },
+    {
+      "id": 178,
+      "question": "En la nomenclatura de caja tipo f, ¿cuál de estas designaciones corresponde a una identificación incluida en los repasos? FSX",
+      "reason": "Incluía la clave al final del enunciado; no es resoluble limpiamente sin una figura cotejada."
+    }
+  ],
+  "identicalSourceCopiesOmitted": 20,
+  "uniqueSources": 40,
+  "originalPages": 254,
+  "practiceQuestions": 983,
+  "identicalPracticeQuestionsRemoved": 0,
+  "note": "Se preservan las fuentes originales completas. Las copias duplicadas no se almacenan en el proyecto; el inventario conserva su trazabilidad.",
+  "duplicateGalleryEntriesOmitted": 531,
+  "uniqueGalleryImages": 515
+}

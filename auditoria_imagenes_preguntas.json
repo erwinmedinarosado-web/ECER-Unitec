@@ -1,0 +1,106 @@
+{
+  "practiceQuestions": 983,
+  "sourceLocatedAdaptations": 24,
+  "wordingMatchesWithAdaptedOptions": 2,
+  "diagramQuestions": [
+    {
+      "id": "original-4",
+      "file": "imagenes/af93baad19e0766b007d.svg",
+      "sha256": "af93baad19e0766b007d655dec61deec2e46bddd6907b40da6808b318dce85c8",
+      "source": {
+        "document": "EXAMEN_5",
+        "page": 1,
+        "question": 1,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    },
+    {
+      "id": "original-5",
+      "file": "imagenes/fc2c134f8192fda0ab5a.svg",
+      "sha256": "fc2c134f8192fda0ab5a3132ecfae00e83b75f6d995061611fa11421ac85ac11",
+      "source": {
+        "document": "EXAMEN_7",
+        "page": 1,
+        "question": 1,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    },
+    {
+      "id": "original-6",
+      "file": "imagenes/fc2c134f8192fda0ab5a.svg",
+      "sha256": "fc2c134f8192fda0ab5a3132ecfae00e83b75f6d995061611fa11421ac85ac11",
+      "source": {
+        "document": "EXAMEN_7",
+        "page": 1,
+        "question": 2,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    },
+    {
+      "id": "original-7",
+      "file": "imagenes/98612d8d54fd00d094bf.svg",
+      "sha256": "79a23e67ee474705357398403187640f435dc11ae8df41dd66882bfd393272f8",
+      "source": {
+        "document": "EXAMEN_7",
+        "page": 1,
+        "question": 3,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    },
+    {
+      "id": "original-8",
+      "file": "imagenes/80e1e98213efca71fdbc.svg",
+      "sha256": "0e5f2595bee29ca235d6ecfacb5ce31d32793bf0966b954e6a983ddad5f8337a",
+      "source": {
+        "document": "EXAMEN_7",
+        "page": 2,
+        "question": 9,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    },
+    {
+      "id": "original-9",
+      "file": "imagenes/3c47ba9e98cc01cd7968.svg",
+      "sha256": "3c47ba9e98cc01cd796880d0df245a5d4ace024c1c48caa13346e07616c72882",
+      "source": {
+        "document": "EXAMEN_8",
+        "page": 3,
+        "question": 14,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    },
+    {
+      "id": "original-10",
+      "file": "imagenes/f03f2310e4b156c2f60f.svg",
+      "sha256": "f03f2310e4b156c2f60f3960a760c47ade607f85ccbc6cc85d34f8ccd42d73f8",
+      "source": {
+        "document": "EXAMEN_8",
+        "page": 3,
+        "question": 15,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    },
+    {
+      "id": "original-12",
+      "file": "imagenes/781952efb105a3ea16ad.svg",
+      "sha256": "2586bf8afcc6d553375c8c0b57e4ccbdc5f204f39830a7c479933a3176c3ac6c",
+      "source": {
+        "document": "EXAMEN_6",
+        "page": 1,
+        "question": 3,
+        "status": "Adaptación cotejada con los datos y el concepto de la fuente; no transcripción literal"
+      },
+      "status": "Datos, topología y ausencia de solución visible cotejados"
+    }
+  ],
+  "textOnlyQuestions": 975,
+  "unverifiedExtractedImagesInPractice": 0,
+  "note": "Las figuras del examen de práctica son esquemas didácticos cotejados con sus propios enunciados. Las fotografías extraídas no se asignan por semejanza temática. Los originales completos conservan su disposición de origen."
+}
