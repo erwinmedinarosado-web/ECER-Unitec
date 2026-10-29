@@ -1,0 +1,51 @@
+{
+  "fecha": "2026-10-29",
+  "basePreservada": 220,
+  "preguntasNuevas": 72,
+  "total": 292,
+  "porTema": {
+    "Ley de Ohm": 44,
+    "Potencia": 14,
+    "Circuitos en serie": 56,
+    "Circuitos en paralelo": 52,
+    "Fundamentos": 11,
+    "Legislación": 6,
+    "Controles": 5,
+    "Materiales": 1,
+    "Receptáculos": 4,
+    "Instrumentos": 5,
+    "Cajas y accesorios": 5,
+    "Conductores": 3,
+    "Tuberías": 6,
+    "Empalmes": 2,
+    "Seguridad": 2,
+    "Distribución": 1,
+    "Capacitancia": 3,
+    "Identificación visual": 8,
+    "Puesta a tierra y bonding": 8,
+    "Conductores y protecciones": 8,
+    "Seguridad práctica": 8,
+    "NEC básico aplicado": 8,
+    "Planos y conexiones": 8,
+    "Instrumentos aplicados": 8,
+    "Legislación y servicio local": 8,
+    "Energía renovable básica": 8
+  },
+  "porGrupo": {
+    "calculos": 58,
+    "circuitos": 108,
+    "aplicaciones": 126
+  },
+  "cuotasExamen": {
+    "calculos": 10,
+    "circuitos": 8,
+    "aplicaciones": 32
+  },
+  "verificacionAutomatica": {
+    "intentosConCuotas": 1000,
+    "documentosOriginales": 40,
+    "paginasOriginales": 254,
+    "integridadFuentes": "SHA-256 conservado"
+  },
+  "edicionDidactica": "NEC 2020; edición de convocatoria no confirmada"
+}

@@ -12,7 +12,7 @@ const bank = JSON.parse(vm.runInNewContext(main.slice(0, main.indexOf(';let exam
 const photos = JSON.parse(vm.runInNewContext(gallery.split(';(()=>')[0] + ';JSON.stringify(PHOTOS)'));
 assert.equal(photos.length, 515);
 assert.equal(new Set(photos.map(p=>p.file)).size, photos.length, 'Fotografía duplicada en la galería');
-assert.equal(bank.length, 220);
+assert.equal(bank.length, 292);
 assert.equal(new Set(bank.map(q => q.id)).size, bank.length);
 const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 assert.equal(new Set(bank.map(q => normalize(q.q))).size, bank.length);
@@ -34,7 +34,7 @@ for (const q of bank) {
    assert.ok(!normalize(svg.replace(/<[^>]+>/g,' ')).includes(normalize(q.options[q.answer])),'Solución escrita en el diagrama: '+q.id);
   }
 }
-const refs = new Set([...photos.map(p => p.file), ...bank.flatMap(q => [q.diagram, ...(q.original_images || [])]).filter(Boolean)]);
+const refs = new Set([...photos.map(p => p.file), ...bank.flatMap(q => [q.visual, q.diagram, ...(q.original_images || [])]).filter(Boolean)]);
 for (const file of refs) {
   const resolved = path.resolve(root, file);
   assert.ok(resolved.startsWith(root + path.sep), file);
@@ -125,9 +125,28 @@ assert.ok(!/id="visor-solucion"[^>]*\bsrc=/.test(read('practica.html')),'Soluci�
 console.log('OK: 40 hojas PDF, 221 páginas de práctica y disposición de las 254 páginas fuente; avisos de las limitaciones presentes.');
 
 const distribution=JSON.parse(read('auditoria_distribucion.json'));
-assert.equal(bank.length,distribution.total);
+assert.equal(distribution.total,220); // Audit of the published baseline, preserved as history.
 assert.equal(distribution.removedAdditionalIds.length,763);
 assert.ok(bank.filter(q=>distribution.limitedTopics.includes(q.topic)).length/bank.length<=0.20);
 function canonical(value){if(Array.isArray(value))return value.map(canonical);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])]));return value;}
-for(const entry of distribution.preservedSourceQuestions){const q=bank.find(q=>q.id===entry.id);assert.ok(q,'Pregunta original eliminada: '+entry.id);assert.equal(crypto.createHash('sha256').update(JSON.stringify(canonical(q))).digest('hex'),entry.sha256,'Pregunta original modificada: '+entry.id);}
-console.log('OK: 220 preguntas; Ohm y Potencia 44 (20%); 136 preguntas de fuente conservadas íntegramente; máximo 10 de 50 en cada examen.');
+const baseline=JSON.parse(read('auditoria_base_220.json'));
+assert.equal(baseline.length,220);
+for(const original of baseline){
+ const current=bank.find(q=>q.id===original.id);assert.ok(current,'Pregunta previa eliminada: '+original.id);
+ for(const field of ['q','options','answer','diagram','originalEvidence','original_images'])assert.deepEqual(current[field],original[field],'Contenido original alterado: '+original.id+' '+field);
+}
+for(const q of bank){assert.ok(q.explanation && q.explanation.length>20,'Falta explicación: '+q.id);assert.ok(q.references && q.references.length,'Falta referencia: '+q.id);if(q.optionExplanations)assert.equal(q.optionExplanations.length,4)}
+assert.equal(bank.filter(q=>String(q.id).startsWith('ampliacion-')).length,72);
+assert.equal(bank.filter(q=>q.visual&&q.visual.endsWith('.jpg')).length,4);
+const expandedContext=vm.createContext({BANK:bank,shuffle:a=>[...a].sort(()=>Math.random()-.5)});
+vm.runInContext(main.slice(start,end),expandedContext);
+for(let i=0;i<1000;i++){
+ const selected=vm.runInContext('balancedQuestions()',expandedContext);
+ for(const [group,n] of [['calculos',10],['circuitos',8],['aplicaciones',32]])assert.equal(selected.filter(q=>q.examGroup===group).length,n);
+ assert.equal(new Set(selected.map(q=>q.id)).size,50);
+}
+assert.deepEqual(JSON.parse(read('banco-ampliado.json')),bank);
+for(const f of ['repaso.html','index.html'])assert.ok(read(f).includes('292'));
+assert.ok(read('index.html').includes('repaso.html'));
+assert.ok(read('repaso.html').includes('NEC 2020'));
+console.log('OK: 292 preguntas, 72 nuevas, 220 previas conservadas; explicaciones y fuentes completas; 1,000 exámenes con cuotas 10/8/32.');

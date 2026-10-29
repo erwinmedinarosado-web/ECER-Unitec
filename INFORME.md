@@ -142,3 +142,16 @@ Se ensayó además la conversión directa del Word original para EXAMEN_3, 8, 9 
 Reproducción: `python scripts/preparar_originales.py`, después `python scripts/catalogar_practicas.py`; requieren PyMuPDF y la fuente DejaVu Sans. La revisión de distribución y la separación de soluciones no certifican el contenido normativo de las claves originales.
 
 La implementación se entrega en la rama de revisión y en vista previa. No se publica en producción ni se mezcla en main. Las pruebas finales del navegador se registrarán a continuación con el commit y despliegue exactos.
+
+
+## Ampliación del 29 de octubre de 2026
+
+Banco: 292 preguntas (220 previas conservadas y 72 nuevas). Nueve bloques de aplicación, cuatro fotos de fabricante y dos esquemas propios. Se conservan las 40 fuentes originales, sus 254 páginas y las 221 páginas de práctica.
+
+Cada examen selecciona 10 preguntas de Ohm/potencia, 8 de circuitos y 32 de aplicación y otros conceptos, sin repetir preguntas. La distribución es didáctica, no oficial. Las adaptaciones se clasifican por contenido y conservan su evidencia de procedencia.
+
+La revisión muestra explicación y referencias para todas las preguntas. Las 72 nuevas incluyen razones para cada distractor que se mantienen asociadas al mezclar opciones. Hay resultados por tema y una guía en repaso.html con enlaces al banco filtrado.
+
+Referencia didáctica NEC 2020; no se afirma que sea la edición de una convocatoria concreta. Las respuestas antiguas de motores indican expresamente el supuesto de factor de potencia unitario. Se distingue FEM de diferencia de potencial y descargador de sobretensiones de captador de rayos en las notas existentes.
+
+Validación: scripts/verificar.cjs comprueba integridad de originales, preservación de enunciados/opciones/claves, figuras, 292 preguntas, 72 nuevas y 1,000 selecciones con cuotas 10/8/32. Navegador: examen completo de 50 respuestas, calificación, 50 explicaciones, razones de distractores, imágenes del repaso y filtros.

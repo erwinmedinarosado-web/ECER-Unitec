@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-10-29",
+  "edicionDidactica": "NEC 2020; no se afirma edición de convocatoria",
+  "fuentes": {
+    "material": {
+      "label": "Arlington · catálogo AnyBODY",
+      "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
+    },
+    "ground": {
+      "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
+      "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+    },
+    "wire": {
+      "label": "Southwire · ficha de conductores THHN/THWN-2",
+      "url": "https://www.southwire.com/wire-cable/building-wire/simpull-sup-sup-thhn-thwn-2-copper/p/SPEC10000"
+    },
+    "safety": {
+      "label": "OSHA · 1910.333, prácticas de trabajo eléctrico",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+    },
+    "code": {
+      "label": "Eaton · protecciones AFCI y GFCI; estudio NEC 2020, 210.8 y 210.12",
+      "url": "https://www.eaton.com/us/en-us/products/wiring-devices-connectivity/afci-gfci-afgf.html"
+    },
+    "box": {
+      "label": "Leviton · llenado de cajas; NEC 2020, 314.16",
+      "url": "https://captaincode2020.leviton.com/node/246"
+    },
+    "meter": {
+      "label": "Fluke · continuidad y medición",
+      "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+    },
+    "law": {
+      "label": "OGP · Ley 115-1976, según enmendada; arts. 1, 2, 5 y 8",
+      "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
+    },
+    "local": {
+      "label": "LUMA · componentes de acometida y medición",
+      "url": "https://lumapr.com/contadores-inteligentes/"
+    },
+    "solar": {
+      "label": "DOE · diseño básico de sistemas fotovoltaicos",
+      "url": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics"
+    },
+    "plans": {
+      "label": "Esquemas didácticos propios · interruptores ideales",
+      "url": "repaso.html#planos"
+    },
+    "math": {
+      "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
+      "url": "repaso.html#calculos"
+    }
+  },
+  "fotografias": {
+    "autor": "Arlington Industries",
+    "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934",
+    "archivos": [
+      "imagenes/materiales/arlington-930-1.jpg",
+      "imagenes/materiales/arlington-930-2.jpg",
+      "imagenes/materiales/arlington-930-4.jpg",
+      "imagenes/materiales/arlington-930-5.jpg"
+    ]
+  },
+  "nuevas": 72,
+  "total": 292
+}
