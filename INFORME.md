@@ -177,3 +177,14 @@ Las cuatro vistas comparten navegación, enlace de salto, superficies claras, es
 Se agrupan las respuestas con fieldset/legend, se anuncia el progreso con semántica de barra y se mueve el foco al encabezado al cambiar de vista o pregunta. Se añaden textos de estado a aciertos/errores y marcas visibles, descripciones observables de imágenes y avisos de enlaces que abren otra pestaña. Las tablas tienen encabezados y regiones desplazables accesibles.
 
 Comprobaciones: 32 pares de contraste de texto y controles en claro/oscuro; estructura de cuatro páginas; ajustes de lectura persistentes y almacenamiento bloqueado; foco de examen/resultados; pruebas previas del motor, 308 preguntas y fuentes originales. La revisión visual y de teclado en navegador no pudo completarse: dos intentos permitidos agotaron el tiempo de revisión automática de permisos, sin decisión de aprobación ni determinación de inseguridad. No se ha emitido una certificación de conformidad WCAG completa.
+
+
+## Aprendizaje y control de calidad · 29 de octubre de 2026
+
+Banco: 320 preguntas, con las 308 previas intactas y 12 preguntas nuevas sobre seis esquemas propios de errores de instalación. Los 166 ejercicios de cálculos/circuitos tienen desarrollo; 152 resultados numéricos fueron cotejados. Se conservan claves, enunciados y explicaciones anteriores.
+
+Los repasos locales usan intervalos de 1, 3, 7, 14 y 30 días. Un fallo reinicia la secuencia; un acierto avanza hasta un máximo de 30 días. Se migran los errores anteriores sin eliminar historial. Las tandas de repaso contienen hasta 50 preguntas, y las prácticas del plan por tema hasta 10. Los exámenes mantienen las cuotas 10/8/32.
+
+El plan muestra hasta tres temas con menor porcentaje de aciertos acumulados. Los reportes por pregunta se guardan localmente, se validan y exportan como CSV con protección frente a fórmulas. No hay envío automático. La ficha de revisión profesional contiene las 320 preguntas; toda validación por un perito acreditado permanece pendiente.
+
+Pruebas: secuencia completa de intervalos, reinicio, recuperación de intento espaciado y por tema, historial, claves y redondeos; exportación de reportes, persistencia bloqueada y preservación de las 308 preguntas. Navegador: revisión visual anteriormente pendiente completada, temas claro/oscuro, texto grande, enlace de salto por teclado, foco de pregunta/resultados, campo de respuestas, modal, descarga de reportes, esquema y plan verificados. No se emite certificación WCAG ni validación profesional.

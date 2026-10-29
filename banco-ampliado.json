@@ -7969,5 +7969,389 @@
       }
     ],
     "similarityFamily": "un cable da pitido de continuidad. ¿puede concluirse que su aislamiento esta en buen estado para cualquier tension?"
+  },
+  {
+    "id": "instalacion-1",
+    "q": "En el subpanel mostrado, situado después del desconectivo de servicio y sin excepción aplicable, ¿qué conexión debe revisarse?",
+    "options": [
+      "El puente entre neutro y gabinete",
+      "La presencia de cuatro conductores",
+      "La identificación de L1 y L2",
+      "El tamaño del dibujo"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-1",
+    "visual": "imagenes/instalaciones/subpanel.svg",
+    "visualAlt": "Diagrama de subpanel de cuatro hilos: N está conectado por un puente a la envolvente metálica; PE también llega al gabinete.",
+    "explanation": "El dibujo muestra una unión aguas abajo entre el neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
+    "optionExplanations": [
+      "El dibujo muestra una unión aguas abajo entre el neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
+      "El supuesto del ejercicio es precisamente una alimentación de cuatro conductores.",
+      "Esas etiquetas no explican la unión adicional mostrada.",
+      "La escala gráfica no es el problema eléctrico."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-2",
+    "q": "¿Qué decisión corresponde ante la unión del subpanel descrito, antes de corregirla?",
+    "options": [
+      "Solicitar evaluación al perito y controlar todas las fuentes antes de intervenir",
+      "Retirar el puente con el equipo energizado",
+      "Eliminar el conductor PE",
+      "Usar el gabinete como retorno normal"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-1",
+    "visual": "imagenes/instalaciones/subpanel.svg",
+    "visualAlt": "Diagrama de subpanel de cuatro hilos: N está conectado por un puente a la envolvente metálica; PE también llega al gabinete.",
+    "explanation": "La corrección requiere verificar el tipo de alimentación y las excepciones, aislar las fuentes y seguir el procedimiento seguro; no se interviene basándose solo en un dibujo.",
+    "optionExplanations": [
+      "La corrección requiere verificar el tipo de alimentación y las excepciones, aislar las fuentes y seguir el procedimiento seguro; no se interviene basándose solo en un dibujo.",
+      "El esquema no autoriza una intervención energizada.",
+      "No corrige la conexión y elimina una trayectoria de protección.",
+      "La envolvente no debe actuar como conductor normal de carga."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-3",
+    "q": "¿Qué defecto visible tiene la extensión del esquema?",
+    "options": [
+      "La cubierta deja metal conductor expuesto",
+      "Un exceso de instrumentos de medición",
+      "Una frecuencia incorrecta",
+      "Un contador mal ubicado"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-2",
+    "visual": "imagenes/instalaciones/extension.svg",
+    "visualAlt": "Dibujo de una extensión cuya cubierta está abierta y permite ver los conductores en la zona dañada.",
+    "explanation": "La abertura de la cubierta deja partes conductoras expuestas y exige retirar el equipo del servicio para evaluación.",
+    "optionExplanations": [
+      "La abertura de la cubierta deja partes conductoras expuestas y exige retirar el equipo del servicio para evaluación.",
+      "El esquema no muestra instrumentos.",
+      "La frecuencia no puede deducirse de ese daño.",
+      "No aparece un contador."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-4",
+    "q": "¿Qué corresponde hacer con la extensión dañada de este ejercicio?",
+    "options": [
+      "Retirarla de servicio hasta su reparación apropiada o reemplazo",
+      "Seguir usándola si no llueve",
+      "Cubrirla con la mano durante el uso",
+      "Aumentar el amperaje del breaker"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-2",
+    "visual": "imagenes/instalaciones/extension.svg",
+    "visualAlt": "Dibujo de una extensión cuya cubierta está abierta y permite ver los conductores en la zona dañada.",
+    "explanation": "OSHA 1910.334(a)(2) exige retirar de servicio los equipos dañados que puedan exponer a lesiones, hasta realizar las reparaciones y pruebas necesarias.",
+    "optionExplanations": [
+      "OSHA 1910.334(a)(2) exige retirar de servicio los equipos dañados que puedan exponer a lesiones, hasta realizar las reparaciones y pruebas necesarias.",
+      "La ausencia de lluvia no elimina el daño.",
+      "Expone a contacto eléctrico.",
+      "No restaura el aislamiento."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-5",
+    "q": "El selector está en V CA, pero la punta que va a L está conectada al borne A. ¿Qué debe verificarse?",
+    "options": [
+      "La incompatibilidad entre el borne usado y la medición prevista",
+      "Solo la marca de la funda",
+      "La cantidad de caracteres de la pantalla",
+      "Que toda medición de voltaje requiere intercalar A"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-3",
+    "visual": "imagenes/instalaciones/medidor.svg",
+    "visualAlt": "Instrumento en V CA: la punta conectada a L llega al borne A y la punta conectada a N al borne COM; el borne V Ω queda libre.",
+    "explanation": "El borne A puede ofrecer una trayectoria de baja impedancia. La configuración debe revisarse con el manual antes de medir.",
+    "optionExplanations": [
+      "El borne A puede ofrecer una trayectoria de baja impedancia. La configuración debe revisarse con el manual antes de medir.",
+      "La funda no determina la conexión de medición.",
+      "No explica el riesgo de los bornes.",
+      "La entrada de corriente no se usa de ese modo para medir tensión."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-6",
+    "q": "¿Cuál es la acción adecuada antes de utilizar el multímetro dibujado?",
+    "options": [
+      "Desconectar las puntas del circuito y configurar el equipo según el manual y el procedimiento seguro",
+      "Cambiar el selector mientras se mantienen las conexiones peligrosas",
+      "Retirar su fusible",
+      "Suponer que la lectura cero confirma seguridad"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-3",
+    "visual": "imagenes/instalaciones/medidor.svg",
+    "visualAlt": "Instrumento en V CA: la punta conectada a L llega al borne A y la punta conectada a N al borne COM; el borne V Ω queda libre.",
+    "explanation": "Se verifica función, bornes, rango, categoría y estado del instrumento antes del uso por personal autorizado.",
+    "optionExplanations": [
+      "Se verifica función, bornes, rango, categoría y estado del instrumento antes del uso por personal autorizado.",
+      "El ajuste no debe improvisarse con el instrumento conectado así.",
+      "Anula una protección.",
+      "Una lectura en configuración incorrecta no prueba ausencia de tensión."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-7",
+    "q": "El equipo clase I requiere conductor de protección. ¿Qué problema muestra su enchufe?",
+    "options": [
+      "Falta la espiga correspondiente a esa protección",
+      "Toda clavija de dos espigas es peligrosa por definición",
+      "El cable tiene necesariamente calibre insuficiente",
+      "La fuente es necesariamente de corriente continua"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-4",
+    "visual": "imagenes/instalaciones/enchufe.svg",
+    "visualAlt": "Enchufe de equipo clase I con dos espigas y el espacio de la tercera marcado por un contorno discontinuo; la tercera espiga está ausente.",
+    "explanation": "En el equipo especificado la espiga faltante interrumpe una conexión de seguridad. No debe generalizarse a todos los equipos de dos espigas.",
+    "optionExplanations": [
+      "En el equipo especificado la espiga faltante interrumpe una conexión de seguridad. No debe generalizarse a todos los equipos de dos espigas.",
+      "Existen equipos de otras clases; el supuesto aquí es un equipo que requiere PE.",
+      "El dibujo no permite establecer el calibre.",
+      "La forma no demuestra ese tipo de fuente."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-8",
+    "q": "¿Qué corresponde ante el enchufe incompleto del equipo especificado?",
+    "options": [
+      "Retirar el equipo de uso y gestionar reparación apropiada",
+      "Usar un adaptador que elimine la necesidad de PE",
+      "Pintar la clavija de verde",
+      "Unir la carcasa al neutro en cualquier tomacorriente"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-4",
+    "visual": "imagenes/instalaciones/enchufe.svg",
+    "visualAlt": "Enchufe de equipo clase I con dos espigas y el espacio de la tercera marcado por un contorno discontinuo; la tercera espiga está ausente.",
+    "explanation": "Se restablece la configuración aprobada del equipo mediante personal competente; no se anulan protecciones para hacerlo funcionar.",
+    "optionExplanations": [
+      "Se restablece la configuración aprobada del equipo mediante personal competente; no se anulan protecciones para hacerlo funcionar.",
+      "Un adaptador no elimina la necesidad de protección del equipo.",
+      "El color no restaura la conexión.",
+      "Una unión improvisada puede crear peligros."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-9",
+    "q": "¿Qué función se compromete por la interrupción de PE mostrada en el gabinete?",
+    "options": [
+      "La continuidad de una trayectoria de protección ante falla",
+      "La unidad en que se mide capacitancia",
+      "La conversión automática de CA en CC",
+      "La lectura de energía de un contador"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-5",
+    "visual": "imagenes/instalaciones/gabinete.svg",
+    "visualAlt": "Un gabinete alimenta una lámpara por L y N. El conductor identificado PE muestra un espacio sin conexión antes del punto de unión al gabinete.",
+    "explanation": "La conexión de protección ayuda a conducir corriente de falla hacia la fuente; una interrupción puede impedir la actuación eficaz de la protección.",
+    "optionExplanations": [
+      "La conexión de protección ayuda a conducir corriente de falla hacia la fuente; una interrupción puede impedir la actuación eficaz de la protección.",
+      "No depende de esa conexión.",
+      "No hay un convertidor en el esquema.",
+      "No aparece un medidor de energía."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-10",
+    "q": "¿Basta una varilla en el terreno para sustituir por sí sola la trayectoria de falla del caso mostrado?",
+    "options": [
+      "No; se necesita una trayectoria efectiva de retorno hacia la fuente",
+      "Sí, cualquier terreno dispara todos los breakers",
+      "Sí, si la caja se pinta",
+      "Sí, si se suprime la protección de sobrecorriente"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-5",
+    "visual": "imagenes/instalaciones/gabinete.svg",
+    "visualAlt": "Un gabinete alimenta una lámpara por L y N. El conductor identificado PE muestra un espacio sin conexión antes del punto de unión al gabinete.",
+    "explanation": "El terreno no se considera por sí solo una trayectoria eficaz de corriente de falla; referencia de estudio NEC 2020, 250.4(A)(5).",
+    "optionExplanations": [
+      "El terreno no se considera por sí solo una trayectoria eficaz de corriente de falla; referencia de estudio NEC 2020, 250.4(A)(5).",
+      "La impedancia del suelo puede limitar la corriente.",
+      "La pintura no crea la trayectoria requerida.",
+      "Eliminarla aumenta el riesgo."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-11",
+    "q": "La ficha identifica el receptáculo para interior seco. ¿Qué debe revisarse al colocarlo expuesto a lluvia?",
+    "options": [
+      "La clasificación ambiental y la protección del conjunto para ese lugar",
+      "Solo la existencia del botón TEST",
+      "Únicamente el color de la placa",
+      "La facilidad de conexión del enchufe"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-6",
+    "visual": "imagenes/instalaciones/ambiente.svg",
+    "visualAlt": "Receptáculo marcado GFCI e INTERIOR SECO, dibujado expuesto a gotas de lluvia y sin protección ambiental.",
+    "explanation": "Debe seleccionarse un conjunto apto para el ambiente y su uso. La función GFCI no equivale a impermeabilidad.",
+    "optionExplanations": [
+      "Debe seleccionarse un conjunto apto para el ambiente y su uso. La función GFCI no equivale a impermeabilidad.",
+      "Ese botón no acredita protección frente a lluvia.",
+      "No establece aptitud ambiental.",
+      "No sustituye el listado y la envolvente apropiados."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.eaton.com/us/en-us/products/wiring-devices-connectivity/afci-gfci-afgf.html"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
+  },
+  {
+    "id": "instalacion-12",
+    "q": "¿Por qué no debe suponerse que GFCI resuelve por sí solo el problema ambiental mostrado?",
+    "options": [
+      "Porque la protección contra falla a tierra y la clasificación ambiental cumplen funciones diferentes",
+      "Porque GFCI significa equipo impermeable",
+      "Porque no existen receptáculos para exteriores",
+      "Porque la lluvia elimina las fallas eléctricas"
+    ],
+    "answer": 0,
+    "topic": "Errores de instalación",
+    "source": "Esquema didáctico propio",
+    "examGroup": "aplicaciones",
+    "difficulty": "analisis",
+    "similarityFamily": "instalacion-caso-6",
+    "visual": "imagenes/instalaciones/ambiente.svg",
+    "visualAlt": "Receptáculo marcado GFCI e INTERIOR SECO, dibujado expuesto a gotas de lluvia y sin protección ambiental.",
+    "explanation": "El GFCI atiende determinadas fallas eléctricas; la aptitud frente al agua depende de la clasificación e instalación del conjunto.",
+    "optionExplanations": [
+      "El GFCI atiende determinadas fallas eléctricas; la aptitud frente al agua depende de la clasificación e instalación del conjunto.",
+      "La sigla no significa eso.",
+      "Sí hay conjuntos adecuados; se verifica su aplicación.",
+      "La humedad puede agravar los riesgos."
+    ],
+    "references": [
+      {
+        "label": "Referencia para revisar el concepto y sus condiciones",
+        "url": "https://www.eaton.com/us/en-us/products/wiring-devices-connectivity/afci-gfci-afgf.html"
+      }
+    ],
+    "review_status": "Pendiente de revisión por perito acreditado"
   }
 ]

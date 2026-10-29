@@ -4,15 +4,15 @@ const path = require('node:path');
 const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
 const read = name => fs.readFileSync(path.join(root, name), 'utf8');
-const main = read('programa-1.js')+read('motor-estudio.js');
+const main = read('programa-1.js')+read('pasos-calculo.js')+read('aprendizaje.js')+read('motor-estudio.js');
 const gallery = read('programa-2.js');
 new vm.Script(main);
 new vm.Script(gallery);
-const bank = JSON.parse(vm.runInNewContext(main.slice(0, main.indexOf(';let exam=')) + ';JSON.stringify(BANK)'));
+const bank = JSON.parse(vm.runInNewContext(read('programa-1.js') + ';JSON.stringify(BANK)'));
 const photos = JSON.parse(vm.runInNewContext(gallery.split(';(()=>')[0] + ';JSON.stringify(PHOTOS)'));
 assert.equal(photos.length, 515);
 assert.equal(new Set(photos.map(p=>p.file)).size, photos.length, 'Fotografía duplicada en la galería');
-assert.equal(bank.length, 308);
+assert.equal(bank.length, 320);
 assert.equal(new Set(bank.map(q => q.id)).size, bank.length);
 const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 assert.equal(new Set(bank.map(q => normalize(q.q))).size, bank.length);
@@ -146,10 +146,10 @@ for(let i=0;i<1000;i++){
  assert.equal(new Set(selected.map(q=>q.id)).size,50);
 }
 assert.deepEqual(JSON.parse(read('banco-ampliado.json')),bank);
-for(const f of ['repaso.html','index.html'])assert.ok(read(f).includes('308'));
+for(const f of ['repaso.html','index.html'])assert.ok(read(f).includes('320'));
 assert.ok(read('index.html').includes('repaso.html'));
 assert.ok(read('repaso.html').includes('NEC 2020'));
-console.log('OK: 308 preguntas, 88 nuevas, 220 previas conservadas; explicaciones y fuentes completas; 1,000 exámenes con cuotas 10/8/32.');
+console.log('OK: 320 preguntas, 100 nuevas, 220 previas conservadas; explicaciones y fuentes completas; 1,000 exámenes con cuotas 10/8/32.');
 
 assert.ok(read('index.html').includes('motor-estudio.js'));
 for(const q of bank){assert.ok(['basica','aplicacion','analisis'].includes(q.difficulty));assert.ok(q.similarityFamily);}

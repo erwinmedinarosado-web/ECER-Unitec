@@ -1,0 +1,766 @@
+{
+  "ejerciciosConPasos": 166,
+  "calculosCotejados": [
+    {
+      "id": "original-1",
+      "resultadoCalculado": 3.0,
+      "clave": "3 A"
+    },
+    {
+      "id": "original-2",
+      "resultadoCalculado": 960.0,
+      "clave": "960 W"
+    },
+    {
+      "id": "original-3",
+      "resultadoCalculado": 144.0,
+      "clave": "144 Ω"
+    },
+    {
+      "id": "original-4",
+      "resultadoCalculado": 100,
+      "clave": "100 V"
+    },
+    {
+      "id": "original-5",
+      "resultadoCalculado": 40.0,
+      "clave": "40 Ω"
+    },
+    {
+      "id": "original-6",
+      "resultadoCalculado": 6.25,
+      "clave": "6.25 A"
+    },
+    {
+      "id": "original-7",
+      "resultadoCalculado": 28.57142857142857,
+      "clave": "28.57 Ω"
+    },
+    {
+      "id": "original-8",
+      "resultadoCalculado": 0.025,
+      "clave": "0.025 Ω"
+    },
+    {
+      "id": "original-9",
+      "resultadoCalculado": 0.25,
+      "clave": "0.25 A"
+    },
+    {
+      "id": "original-10",
+      "resultadoCalculado": 0.16666666666666666,
+      "clave": "0.167 A"
+    },
+    {
+      "id": "original-11",
+      "resultadoCalculado": 2.5,
+      "clave": "2.5 A"
+    },
+    {
+      "id": "original-12",
+      "resultadoCalculado": 1.5,
+      "clave": "1.5 Ω"
+    },
+    {
+      "id": "original-13",
+      "resultadoCalculado": 4.0,
+      "clave": "4 A"
+    },
+    {
+      "id": "original-14",
+      "resultadoCalculado": 2.0,
+      "clave": "2 A"
+    },
+    {
+      "id": "original-15",
+      "resultadoCalculado": 25.0,
+      "clave": "25 Ω"
+    },
+    {
+      "id": "original-16",
+      "resultadoCalculado": 192.0,
+      "clave": "192 Ω"
+    },
+    {
+      "id": "original-17",
+      "resultadoCalculado": 6.0,
+      "clave": "6 Ω"
+    },
+    {
+      "id": "original-18",
+      "resultadoCalculado": 0.5,
+      "clave": "0.5 A"
+    },
+    {
+      "id": 1,
+      "resultadoCalculado": 9.6,
+      "clave": "9.6 A"
+    },
+    {
+      "id": 2,
+      "resultadoCalculado": 0.6,
+      "clave": "0.6 A"
+    },
+    {
+      "id": 3,
+      "resultadoCalculado": 26.0,
+      "clave": "26 A"
+    },
+    {
+      "id": 4,
+      "resultadoCalculado": 3.0,
+      "clave": "3 A"
+    },
+    {
+      "id": 5,
+      "resultadoCalculado": 10.416666666666666,
+      "clave": "10.4167 A"
+    },
+    {
+      "id": 6,
+      "resultadoCalculado": 0.8,
+      "clave": "0.8 A"
+    },
+    {
+      "id": 7,
+      "resultadoCalculado": 3.0,
+      "clave": "3 A"
+    },
+    {
+      "id": 8,
+      "resultadoCalculado": 8.0,
+      "clave": "8 A"
+    },
+    {
+      "id": 9,
+      "resultadoCalculado": 0.8,
+      "clave": "0.8 A"
+    },
+    {
+      "id": 10,
+      "resultadoCalculado": 6.0,
+      "clave": "6 A"
+    },
+    {
+      "id": 11,
+      "resultadoCalculado": 2.0,
+      "clave": "2 A"
+    },
+    {
+      "id": 12,
+      "resultadoCalculado": 24.0,
+      "clave": "24 A"
+    },
+    {
+      "id": 13,
+      "resultadoCalculado": 4.8,
+      "clave": "4.8 A"
+    },
+    {
+      "id": 14,
+      "resultadoCalculado": 0.48,
+      "clave": "0.48 A"
+    },
+    {
+      "id": 15,
+      "resultadoCalculado": 16.666666666666668,
+      "clave": "16.6667 A"
+    },
+    {
+      "id": 16,
+      "resultadoCalculado": 0.15,
+      "clave": "0.15 A"
+    },
+    {
+      "id": 17,
+      "resultadoCalculado": 2.0833333333333335,
+      "clave": "2.08333 A"
+    },
+    {
+      "id": 18,
+      "resultadoCalculado": 22.0,
+      "clave": "22 A"
+    },
+    {
+      "id": 19,
+      "resultadoCalculado": 1.0,
+      "clave": "1 A"
+    },
+    {
+      "id": 20,
+      "resultadoCalculado": 2.4,
+      "clave": "2.4 A"
+    },
+    {
+      "id": 21,
+      "resultadoCalculado": 44.0,
+      "clave": "44 A"
+    },
+    {
+      "id": 22,
+      "resultadoCalculado": 0.75,
+      "clave": "0.75 A"
+    },
+    {
+      "id": 23,
+      "resultadoCalculado": 12.5,
+      "clave": "12.5 A"
+    },
+    {
+      "id": 24,
+      "resultadoCalculado": 0.6,
+      "clave": "0.6 A"
+    },
+    {
+      "id": 25,
+      "resultadoCalculado": 3.0,
+      "clave": "3 A"
+    },
+    {
+      "id": 30,
+      "resultadoCalculado": 6.0,
+      "clave": "6 A"
+    },
+    {
+      "id": 31,
+      "resultadoCalculado": 2.0,
+      "clave": "2 A"
+    },
+    {
+      "id": 32,
+      "resultadoCalculado": 8,
+      "clave": "8 A"
+    },
+    {
+      "id": 33,
+      "resultadoCalculado": 40.0,
+      "clave": "40 Ω"
+    },
+    {
+      "id": 34,
+      "resultadoCalculado": 2.5,
+      "clave": "2.5 A"
+    },
+    {
+      "id": 35,
+      "resultadoCalculado": 25.0,
+      "clave": "25 Ω"
+    },
+    {
+      "id": 36,
+      "resultadoCalculado": 3.0,
+      "clave": "3 A"
+    },
+    {
+      "id": 37,
+      "resultadoCalculado": 960.0,
+      "clave": "960 W"
+    },
+    {
+      "id": 38,
+      "resultadoCalculado": 144.0,
+      "clave": "144 Ω"
+    },
+    {
+      "id": 39,
+      "resultadoCalculado": 0.25,
+      "clave": "0.25 A"
+    },
+    {
+      "id": 40,
+      "resultadoCalculado": 0.16666666666666666,
+      "clave": "0.167 A (aprox.)"
+    },
+    {
+      "id": 41,
+      "resultadoCalculado": 0.025,
+      "clave": "0.025 Ω"
+    },
+    {
+      "id": 42,
+      "resultadoCalculado": 100,
+      "clave": "100 V"
+    },
+    {
+      "id": 43,
+      "resultadoCalculado": 10.0,
+      "clave": "10 Ω"
+    },
+    {
+      "id": 44,
+      "resultadoCalculado": 30.0,
+      "clave": "30 Ω"
+    },
+    {
+      "id": 45,
+      "resultadoCalculado": 3.0,
+      "clave": "3 Ω"
+    },
+    {
+      "id": 46,
+      "resultadoCalculado": 4.0,
+      "clave": "4 A"
+    },
+    {
+      "id": 83,
+      "resultadoCalculado": 7.2,
+      "clave": "7.2 Ω"
+    },
+    {
+      "id": 94,
+      "resultadoCalculado": 12.0,
+      "clave": "12 V"
+    },
+    {
+      "id": 95,
+      "resultadoCalculado": 25.0,
+      "clave": "25 W"
+    },
+    {
+      "id": 101,
+      "resultadoCalculado": 3.0,
+      "clave": "3 A"
+    },
+    {
+      "id": 102,
+      "resultadoCalculado": 960.0,
+      "clave": "960 W"
+    },
+    {
+      "id": 103,
+      "resultadoCalculado": 8.0,
+      "clave": "8 Ω"
+    },
+    {
+      "id": 108,
+      "resultadoCalculado": 144.0,
+      "clave": "144 Ω"
+    },
+    {
+      "id": 109,
+      "resultadoCalculado": 9.999999999999998,
+      "clave": "10 A"
+    },
+    {
+      "id": 115,
+      "resultadoCalculado": 5.0,
+      "clave": "5 Ω"
+    },
+    {
+      "id": 120,
+      "resultadoCalculado": 1.2000000000000002,
+      "clave": "1.20 Ω"
+    },
+    {
+      "id": 129,
+      "resultadoCalculado": 1.3333333333333333,
+      "clave": "1.33 Ω"
+    },
+    {
+      "id": 133,
+      "resultadoCalculado": 7.0,
+      "clave": "7 Ω"
+    },
+    {
+      "id": 141,
+      "resultadoCalculado": 8.0,
+      "clave": "8 Ω"
+    },
+    {
+      "id": 145,
+      "resultadoCalculado": 1.5,
+      "clave": "1.50 Ω"
+    },
+    {
+      "id": 153,
+      "resultadoCalculado": 1.6,
+      "clave": "1.60 Ω"
+    },
+    {
+      "id": 157,
+      "resultadoCalculado": 12.0,
+      "clave": "12 Ω"
+    },
+    {
+      "id": 165,
+      "resultadoCalculado": 14.0,
+      "clave": "14 Ω"
+    },
+    {
+      "id": 169,
+      "resultadoCalculado": 1.7142857142857142,
+      "clave": "1.71 Ω"
+    },
+    {
+      "id": 177,
+      "resultadoCalculado": 1.7647058823529411,
+      "clave": "1.76 Ω"
+    },
+    {
+      "id": 181,
+      "resultadoCalculado": 22.0,
+      "clave": "22 Ω"
+    },
+    {
+      "id": 187,
+      "resultadoCalculado": 26.0,
+      "clave": "26 Ω"
+    },
+    {
+      "id": 190,
+      "resultadoCalculado": 1.8461538461538463,
+      "clave": "1.85 Ω"
+    },
+    {
+      "id": 196,
+      "resultadoCalculado": 1.875,
+      "clave": "1.88 Ω"
+    },
+    {
+      "id": 199,
+      "resultadoCalculado": 42.0,
+      "clave": "42 Ω"
+    },
+    {
+      "id": 205,
+      "resultadoCalculado": 52.0,
+      "clave": "52 Ω"
+    },
+    {
+      "id": 208,
+      "resultadoCalculado": 1.923076923076923,
+      "clave": "1.92 Ω"
+    },
+    {
+      "id": 211,
+      "resultadoCalculado": 62.0,
+      "clave": "62 Ω"
+    },
+    {
+      "id": 217,
+      "resultadoCalculado": 82.0,
+      "clave": "82 Ω"
+    },
+    {
+      "id": 220,
+      "resultadoCalculado": 1.9512195121951221,
+      "clave": "1.95 Ω"
+    },
+    {
+      "id": 226,
+      "resultadoCalculado": 1.9607843137254901,
+      "clave": "1.96 Ω"
+    },
+    {
+      "id": 229,
+      "resultadoCalculado": 122.0,
+      "clave": "122 Ω"
+    },
+    {
+      "id": 235,
+      "resultadoCalculado": 7.0,
+      "clave": "7 Ω"
+    },
+    {
+      "id": 238,
+      "resultadoCalculado": 1.7142857142857144,
+      "clave": "1.71 Ω"
+    },
+    {
+      "id": 244,
+      "resultadoCalculado": 1.875,
+      "clave": "1.88 Ω"
+    },
+    {
+      "id": 247,
+      "resultadoCalculado": 9.0,
+      "clave": "9 Ω"
+    },
+    {
+      "id": 253,
+      "resultadoCalculado": 11.0,
+      "clave": "11 Ω"
+    },
+    {
+      "id": 256,
+      "resultadoCalculado": 2.181818181818182,
+      "clave": "2.18 Ω"
+    },
+    {
+      "id": 262,
+      "resultadoCalculado": 2.3076923076923075,
+      "clave": "2.31 Ω"
+    },
+    {
+      "id": 265,
+      "resultadoCalculado": 15.0,
+      "clave": "15 Ω"
+    },
+    {
+      "id": 271,
+      "resultadoCalculado": 18.0,
+      "clave": "18 Ω"
+    },
+    {
+      "id": 274,
+      "resultadoCalculado": 2.5,
+      "clave": "2.50 Ω"
+    },
+    {
+      "id": 280,
+      "resultadoCalculado": 2.608695652173913,
+      "clave": "2.61 Ω"
+    },
+    {
+      "id": 283,
+      "resultadoCalculado": 27.0,
+      "clave": "27 Ω"
+    },
+    {
+      "id": 286,
+      "resultadoCalculado": 2.6666666666666665,
+      "clave": "2.67 Ω"
+    },
+    {
+      "id": 292,
+      "resultadoCalculado": 2.7272727272727275,
+      "clave": "2.73 Ω"
+    },
+    {
+      "id": 295,
+      "resultadoCalculado": 43.0,
+      "clave": "43 Ω"
+    },
+    {
+      "id": 301,
+      "resultadoCalculado": 53.0,
+      "clave": "53 Ω"
+    },
+    {
+      "id": 304,
+      "resultadoCalculado": 2.830188679245283,
+      "clave": "2.83 Ω"
+    },
+    {
+      "id": 310,
+      "resultadoCalculado": 2.857142857142857,
+      "clave": "2.86 Ω"
+    },
+    {
+      "id": 313,
+      "resultadoCalculado": 83.0,
+      "clave": "83 Ω"
+    },
+    {
+      "id": 319,
+      "resultadoCalculado": 103.0,
+      "clave": "103 Ω"
+    },
+    {
+      "id": 322,
+      "resultadoCalculado": 2.912621359223301,
+      "clave": "2.91 Ω"
+    },
+    {
+      "id": 328,
+      "resultadoCalculado": 2.926829268292683,
+      "clave": "2.93 Ω"
+    },
+    {
+      "id": 331,
+      "resultadoCalculado": 7.0,
+      "clave": "7 Ω"
+    },
+    {
+      "id": 337,
+      "resultadoCalculado": 9.0,
+      "clave": "9 Ω"
+    },
+    {
+      "id": 340,
+      "resultadoCalculado": 2.2222222222222223,
+      "clave": "2.22 Ω"
+    },
+    {
+      "id": 346,
+      "resultadoCalculado": 2.4000000000000004,
+      "clave": "2.40 Ω"
+    },
+    {
+      "id": 349,
+      "resultadoCalculado": 12.0,
+      "clave": "12 Ω"
+    },
+    {
+      "id": 352,
+      "resultadoCalculado": 2.6666666666666665,
+      "clave": "2.67 Ω"
+    },
+    {
+      "id": 358,
+      "resultadoCalculado": 2.857142857142857,
+      "clave": "2.86 Ω"
+    },
+    {
+      "id": 361,
+      "resultadoCalculado": 16.0,
+      "clave": "16 Ω"
+    },
+    {
+      "id": 367,
+      "resultadoCalculado": 19.0,
+      "clave": "19 Ω"
+    },
+    {
+      "id": 370,
+      "resultadoCalculado": 3.1578947368421053,
+      "clave": "3.16 Ω"
+    },
+    {
+      "id": 376,
+      "resultadoCalculado": 3.3333333333333335,
+      "clave": "3.33 Ω"
+    },
+    {
+      "id": 379,
+      "resultadoCalculado": 28.0,
+      "clave": "28 Ω"
+    },
+    {
+      "id": 385,
+      "resultadoCalculado": 34.0,
+      "clave": "34 Ω"
+    },
+    {
+      "id": 388,
+      "resultadoCalculado": 3.5294117647058822,
+      "clave": "3.53 Ω"
+    },
+    {
+      "id": 394,
+      "resultadoCalculado": 3.6363636363636362,
+      "clave": "3.64 Ω"
+    },
+    {
+      "id": 397,
+      "resultadoCalculado": 54.0,
+      "clave": "54 Ω"
+    },
+    {
+      "id": 403,
+      "resultadoCalculado": 64.0,
+      "clave": "64 Ω"
+    },
+    {
+      "id": 406,
+      "resultadoCalculado": 3.75,
+      "clave": "3.75 Ω"
+    },
+    {
+      "id": 412,
+      "resultadoCalculado": 3.8095238095238093,
+      "clave": "3.81 Ω"
+    },
+    {
+      "id": 415,
+      "resultadoCalculado": 104.0,
+      "clave": "104 Ω"
+    },
+    {
+      "id": 421,
+      "resultadoCalculado": 124.0,
+      "clave": "124 Ω"
+    },
+    {
+      "id": 424,
+      "resultadoCalculado": 3.8709677419354835,
+      "clave": "3.87 Ω"
+    },
+    {
+      "id": 427,
+      "resultadoCalculado": 8.0,
+      "clave": "8 Ω"
+    },
+    {
+      "id": 433,
+      "resultadoCalculado": 9.0,
+      "clave": "9 Ω"
+    },
+    {
+      "id": 436,
+      "resultadoCalculado": 2.2222222222222223,
+      "clave": "2.22 Ω"
+    },
+    {
+      "id": 442,
+      "resultadoCalculado": 2.727272727272727,
+      "clave": "2.73 Ω"
+    },
+    {
+      "id": 445,
+      "resultadoCalculado": 13.0,
+      "clave": "13 Ω"
+    },
+    {
+      "id": 451,
+      "resultadoCalculado": 15.0,
+      "clave": "15 Ω"
+    },
+    {
+      "id": 454,
+      "resultadoCalculado": 3.333333333333333,
+      "clave": "3.33 Ω"
+    },
+    {
+      "id": 460,
+      "resultadoCalculado": 3.5294117647058822,
+      "clave": "3.53 Ω"
+    },
+    {
+      "id": 463,
+      "resultadoCalculado": 20.0,
+      "clave": "20 Ω"
+    },
+    {
+      "id": 469,
+      "resultadoCalculado": 25.0,
+      "clave": "25 Ω"
+    },
+    {
+      "id": 472,
+      "resultadoCalculado": 4.0,
+      "clave": "4.00 Ω"
+    },
+    {
+      "id": 478,
+      "resultadoCalculado": 4.137931034482759,
+      "clave": "4.14 Ω"
+    },
+    {
+      "id": 481,
+      "resultadoCalculado": 35.0,
+      "clave": "35 Ω"
+    },
+    {
+      "id": 487,
+      "resultadoCalculado": 45.0,
+      "clave": "45 Ω"
+    },
+    {
+      "id": 490,
+      "resultadoCalculado": 4.444444444444445,
+      "clave": "4.44 Ω"
+    },
+    {
+      "id": 496,
+      "resultadoCalculado": 4.545454545454546,
+      "clave": "4.55 Ω"
+    },
+    {
+      "id": 499,
+      "resultadoCalculado": 65.0,
+      "clave": "65 Ω"
+    }
+  ],
+  "nota": "Los enunciados y claves se conservan. Los motores de CA usan el supuesto simplificado declarado de factor de potencia unitario."
+}

@@ -19,3 +19,4 @@ label[for],.row>label,.respuesta{color:var(--text);font-size:.94rem;font-weight:
 :root{background:var(--page);color:var(--text)}body{min-height:100vh}.panel>p,.learning>p,.study-banner>p,.guidance>p{max-width:72ch}
 
 .brand{min-width:0;max-width:100%}.brand-copy{min-width:0}
+#questionReport{max-width:620px;width:calc(100% - 32px);max-height:calc(100vh - 48px);overflow:auto;border:1px solid var(--control-border);border-radius:14px;padding:28px;background:var(--surface);color:var(--text)}#questionReport::backdrop{background:#0b1727b3}#questionReport label{margin-top:16px}#questionReport select,#questionReport textarea{width:100%}.report-question{margin-top:18px;font-size:.875rem}.study-plan{padding-left:24px}.study-plan li{margin:20px 0}.study-plan h3{margin-bottom:10px}.study-plan button{margin-top:8px}.calculation-steps{border:1px solid var(--border);border-radius:10px;padding:8px 16px;margin:16px 0}.calculation-steps li{font-variant-numeric:tabular-nums}

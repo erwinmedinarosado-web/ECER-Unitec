@@ -1,7 +1,7 @@
 {
   "referencia": "WCAG 2.2 AA",
   "alcance": "Contrastes de tokens y verificaciones estructurales; no es certificación de conformidad completa.",
-  "verificacionNavegador": "No completada: la revisión automática de permisos agotó el tiempo en los dos intentos permitidos.",
+  "verificacionNavegador": "Completada en esta actualización: interfaz clara/oscura, texto grande, enlace de salto por teclado, foco de examen y resultados, formulario modal y esquema comprobados en navegador.",
   "pruebasFuncionales": "Motor, guardado, cronómetro, errores, lectura persistente y foco de encabezados validados en entorno de pruebas.",
   "contrastes": [
     {
@@ -233,6 +233,7 @@
     "index.html",
     "repaso.html",
     "originales.html",
-    "practica.html"
+    "practica.html",
+    "revision-profesional.html"
   ]
 }
