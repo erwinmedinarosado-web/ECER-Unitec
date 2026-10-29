@@ -1,5 +1,6 @@
 let exam=[],answers=[],flags=[],index=0,attempt=null,active=false,timerHandle=null,lastResult=null,markedOnly=false;
 const $=id=>document.getElementById(id);
+const BANK_REVISION='2026-10-29-auditoria320';
 const ATTEMPT_KEY='electricidadAttemptV3',PROFILE_KEY='electricidadStudyV3';
 const LEVELS={basica:'Básica',aplicacion:'Aplicación',analisis:'Análisis'};
 let storageAvailable=true;
@@ -31,7 +32,7 @@ function balancedQuestions(level='mixta'){
 function show(id){for(const x of ['home','exam','results','bank'])$(x).classList.toggle('hidden',x!==id);window.scrollTo(0,0);if(id!=='exam')focusHeading(id)}
 function focusHeading(id){const key={home:'homeTitle',exam:'question',results:'resultsTitle',bank:'bankTitle'}[id];const heading=$(key);if(heading&&typeof heading.focus==='function')heading.focus({preventScroll:false})}
 function orderedQuestion(q,order){return {...q,optionOrder:order,options:order.map(i=>q.options[i]),answer:order.indexOf(q.answer),optionExplanations:q.optionExplanations?order.map(i=>q.optionExplanations[i]):undefined}}
-function saveAttempt(){if(!attempt||!active)return false;const record={version:3,...attempt,index,answers:[...answers],flags:[...flags],questions:exam.map(q=>({id:q.id,order:q.optionOrder})),updatedAt:Date.now()};const ok=writeStore(ATTEMPT_KEY,record);announce(ok?'Avance guardado en este navegador.':'No se pudo guardar el avance. Mantén esta página abierta.');return ok}
+function saveAttempt(){if(!attempt||!active)return false;const record={version:3,...attempt,bankRevision:BANK_REVISION,index,answers:[...answers],flags:[...flags],questions:exam.map(q=>({id:q.id,order:q.optionOrder})),updatedAt:Date.now()};const ok=writeStore(ATTEMPT_KEY,record);announce(ok?'Avance guardado en este navegador.':'No se pudo guardar el avance. Mantén esta página abierta.');return ok}
 function newId(){return Date.now().toString(36)+'-'+Math.random().toString(36).slice(2)}
 function start(kind='exam',topic=''){
  if(readStore(ATTEMPT_KEY,null)&&!confirm('Hay un intento guardado. Comenzar otro lo reemplazará. ¿Deseas continuar?'))return;
@@ -54,6 +55,9 @@ function restoreRecord(record){
  if(!Number.isInteger(record.index)||record.index<0||record.index>=record.questions.length||!Number.isFinite(record.startedAt))throw new Error('Posición no válida');
  if(record.timed&&(!Number.isFinite(record.deadline)||record.kind!=='exam'))throw new Error('Cronómetro no válido');
  const seen=new Set();const restored=record.questions.map((item,i)=>{const q=BANK.find(q=>q.id===item.id);if(!q||seen.has(String(q.id))||!Array.isArray(item.order)||item.order.length!==4||item.order.some(x=>!Number.isInteger(x))||[...item.order].sort().join(',')!=='0,1,2,3')throw new Error('Pregunta no válida');seen.add(String(q.id));if(record.answers[i]!==null&&(!Number.isInteger(record.answers[i])||record.answers[i]<0||record.answers[i]>3))throw new Error('Respuesta no válida');if(typeof record.flags[i]!=='boolean')throw new Error('Marca no válida');return orderedQuestion(q,item.order)});
+ // Earlier versions presented two identical 1 A answers for question 19.
+ // Accept either historical 1 A choice, without accepting the new 2 A distractor.
+ if(record.bankRevision===undefined){record.questions.forEach((item,i)=>{if(item.id===19&&record.answers[i]!==null&&item.order[record.answers[i]]===1)record.answers[i]=item.order.indexOf(0)})}
  return restored;
 }
 function resume(){const record=readStore(ATTEMPT_KEY,null);try{const restored=restoreRecord(record);exam=restored;answers=[...record.answers];flags=[...record.flags];index=record.index;attempt={id:record.id,kind:record.kind,timed:!!record.timed,level:record.level,startedAt:record.startedAt,deadline:record.deadline};active=true;markedOnly=false;lastResult=null;$('questionMap').classList.add('hidden');show('exam');render();focusHeading('exam');startTimer()}catch(error){announce('El intento guardado no se puede recuperar. Puedes comenzar uno nuevo.');$('resume').disabled=true}}

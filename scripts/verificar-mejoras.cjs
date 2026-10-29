@@ -4,7 +4,7 @@ const bank=JSON.parse(read('banco-ampliado.json')),motor=read('motor-estudio.js'
 const store=new Map();let failAt=-1,writes=0;
 const storage={get length(){return store.size},key:i=>[...store.keys()][i],getItem:k=>store.get(k)??null,removeItem:k=>store.delete(k),setItem(k,v){if(++writes===failAt)throw Error('Quota');store.set(k,v)}};
 const ctx=vm.createContext({localStorage:storage,TextEncoder,Date,Intl,console});
-vm.runInContext('const BANK='+JSON.stringify(bank)+';'+read('aprendizaje.js')+motor.slice(motor.indexOf('function orderedQuestion('),motor.indexOf('function saveAttempt('))+motor.slice(motor.indexOf('function restoreRecord('),motor.indexOf('function resume('))+read('mejoras-estudio.js'),ctx);
+vm.runInContext("const BANK_REVISION='2026-10-29-auditoria320';const BANK="+JSON.stringify(bank)+';'+read('aprendizaje.js')+motor.slice(motor.indexOf('function orderedQuestion('),motor.indexOf('function saveAttempt('))+motor.slice(motor.indexOf('function restoreRecord('),motor.indexOf('function resume('))+read('mejoras-estudio.js'),ctx);
 const run=s=>vm.runInContext(s,ctx);const json=s=>JSON.parse(run('JSON.stringify('+s+')'));
 const profile={version:3,history:[{id:'sample',kind:'topic',date:'29/10/2026',pct:50,good:1,total:2}],topics:{[bank[0].topic]:{total:2,good:1,seen:[String(bank[0].id)]}},mistakes:[String(bank[0].id)],srs:{[bank[0].id]:{stage:0,due:1793280000000,lastAt:null}}};
 store.set('electricidadStudyV3',JSON.stringify(profile));store.set('electricidadReadingV1',JSON.stringify({theme:'dark',text:'large'}));store.set('ecer-original-Examen_1-2','Notas con ñ, fórmulas y <texto>.');store.set('otro-sitio','no tocar');

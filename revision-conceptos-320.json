@@ -1,0 +1,2835 @@
+[
+  {
+    "id": "original-19",
+    "reviewedAnswer": 0,
+    "reviewedText": "Ley de Ohm",
+    "reviewedQuestion": "¿Qué ley relaciona voltaje, corriente y resistencia?",
+    "reviewedExplanation": "V = I × R es la Ley de Ohm.",
+    "reviewedOptions": [
+      "Ley de Ohm",
+      "Ley de gravitación",
+      "Ley de Boyle",
+      "Ley de Faraday de electrólisis"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": "original-20",
+    "reviewedAnswer": 0,
+    "reviewedText": "Protón",
+    "reviewedQuestion": "¿Qué partícula del átomo tiene carga positiva?",
+    "reviewedExplanation": "El protón tiene carga positiva; el electrón negativa y el neutrón no tiene carga eléctrica neta.",
+    "reviewedOptions": [
+      "Protón",
+      "Electrón",
+      "Neutrón",
+      "Fotón"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": "original-21",
+    "reviewedAnswer": 0,
+    "reviewedText": "Aumenta",
+    "reviewedQuestion": "Si se eleva el voltaje manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
+    "reviewedExplanation": "I = V/R; con R constante, I aumenta al aumentar V.",
+    "reviewedOptions": [
+      "Aumenta",
+      "Disminuye",
+      "Se vuelve cero",
+      "No cambia"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": "original-22",
+    "reviewedAnswer": 0,
+    "reviewedText": "I = V/R",
+    "reviewedQuestion": "¿Cuál es la expresión correcta para calcular corriente eléctrica mediante la Ley de Ohm?",
+    "reviewedExplanation": "La corriente es el voltaje dividido entre la resistencia.",
+    "reviewedOptions": [
+      "I = V/R",
+      "I = V × R",
+      "I = R/V",
+      "I = V + R"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": "original-23",
+    "reviewedAnswer": 0,
+    "reviewedText": "R = V/I",
+    "reviewedQuestion": "¿Cuál es la expresión correcta para calcular la resistencia?",
+    "reviewedExplanation": "Despejando la Ley de Ohm: R = V/I.",
+    "reviewedOptions": [
+      "R = V/I",
+      "R = I/V",
+      "R = V × I",
+      "R = V + I"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": "original-24",
+    "reviewedAnswer": 0,
+    "reviewedText": "V = I × R",
+    "reviewedQuestion": "¿Cuál es la expresión correcta para calcular voltaje?",
+    "reviewedExplanation": "La Ley de Ohm establece V = I × R.",
+    "reviewedOptions": [
+      "V = I × R",
+      "V = I/R",
+      "V = R/I",
+      "V = I + R"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 26,
+    "reviewedAnswer": 0,
+    "reviewedText": "Ley 131 del 28 de junio de 1969",
+    "reviewedQuestion": "¿Qué ley creó el Colegio de Peritos Electricistas de Puerto Rico?",
+    "reviewedExplanation": "La Ley 131-1969 establece el Colegio. La Ley 115-1976 crea la Junta, que cumple una función distinta.",
+    "reviewedOptions": [
+      "Ley 131 del 28 de junio de 1969",
+      "Ley 115 del 2 de junio de 1976",
+      "Ley 86 del 6 de noviembre de 1992",
+      "Ley 83 del 1 de septiembre de 1990"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 27,
+    "reviewedAnswer": 0,
+    "reviewedText": "Ley 86 del 6 de noviembre de 1992",
+    "reviewedQuestion": "¿Qué ley incorporó la categoría de Ayudante de Perito Electricista mediante enmiendas a la Ley 115 de 1976?",
+    "reviewedExplanation": "La Ley 86-1992 enmienda la Ley 115 para incorporar la categoría de ayudante; no se confunde con otras leyes que comparten el número 86.",
+    "reviewedOptions": [
+      "Ley 86 del 6 de noviembre de 1992",
+      "Ley 131 de 1969",
+      "Ley 83 de 1990",
+      "Ley 13 de 1923"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 28,
+    "reviewedAnswer": 0,
+    "reviewedText": "Protón",
+    "reviewedQuestion": "¿Cuál partícula del átomo tiene carga positiva?",
+    "reviewedExplanation": "El protón tiene carga positiva; el electrón negativa y el neutrón no tiene carga eléctrica neta.",
+    "reviewedOptions": [
+      "Protón",
+      "Electrón",
+      "Neutrón",
+      "Fotón"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 29,
+    "reviewedAnswer": 0,
+    "reviewedText": "Voltaje, amperaje y número de polos",
+    "reviewedQuestion": "¿Qué tres criterios se mencionan para seleccionar un interruptor temporizador (timer switch)?",
+    "reviewedExplanation": "La tensión debe ser compatible, la corriente nominal suficiente y el número de polos adecuado al circuito. También se revisa el tipo de carga y listado.",
+    "reviewedOptions": [
+      "Voltaje, amperaje y número de polos",
+      "Color, tamaño y peso",
+      "Resistencia, inductancia y longitud",
+      "Temperatura, brillo y frecuencia"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 47,
+    "reviewedAnswer": 0,
+    "reviewedText": "Tubería metálica flexible hermética a líquidos",
+    "reviewedQuestion": "¿Qué tipo de canalización se identifica como LFMC en el material?",
+    "reviewedExplanation": "LFMC es canalización metálica flexible con cubierta para la clasificación indicada. LFNC corresponde a la variante no metálica.",
+    "reviewedOptions": [
+      "Tubería metálica flexible hermética a líquidos",
+      "Tubería EMT rígida",
+      "Canalización PVC rígida",
+      "Cable NM"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 48,
+    "reviewedAnswer": 0,
+    "reviewedText": "Resistente a manipulación (tamper-resistant)",
+    "reviewedQuestion": "¿Qué clase de receptáculo se menciona para viviendas?",
+    "reviewedExplanation": "TR incorpora obturadores que dificultan introducir objetos extraños. No equivale por sí solo a GFCI, IG ni clasificación para intemperie.",
+    "reviewedOptions": [
+      "Resistente a manipulación (tamper-resistant)",
+      "Solo grado hospital",
+      "Solo de 50 amperios",
+      "Solo aislado IG"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 49,
+    "reviewedAnswer": 0,
+    "reviewedText": "Ley de Ohm; conocimientos generales e identificación de materiales; leyes profesionales; reglamentos aplicables, NEC y AEE",
+    "reviewedQuestion": "Según el artículo 8(B)(6) de la Ley 115 de 1976, según enmendada, ¿qué materias comprende el examen teórico de ayudante?",
+    "reviewedExplanation": "El artículo 8(B)(6) enumera las cuatro materias. No limita el examen a tres áreas ni establece aquí pesos porcentuales.",
+    "reviewedOptions": [
+      "Ley de Ohm; conocimientos generales e identificación de materiales; leyes profesionales; reglamentos aplicables, NEC y AEE",
+      "Solo matemática, física y química",
+      "Motores, electrónica y programación",
+      "Alumbrado, plomería y soldadura"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 50,
+    "reviewedAnswer": 0,
+    "reviewedText": "Amperímetro",
+    "reviewedQuestion": "Para medir únicamente corriente con un instrumento convencional de inserción, ¿cuál se intercala en serie con la carga?",
+    "reviewedExplanation": "El amperímetro con puntas se intercala en la trayectoria; el voltímetro se conecta entre dos puntos. Una pinza utiliza otro método.",
+    "reviewedOptions": [
+      "Amperímetro",
+      "Voltímetro",
+      "Ohmímetro",
+      "Vatímetro"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 51,
+    "reviewedAnswer": 0,
+    "reviewedText": "Diferencia de potencial eléctrico entre esos puntos",
+    "reviewedQuestion": "¿Qué significa el voltaje entre dos puntos de un circuito?",
+    "reviewedExplanation": "El voltaje entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión.",
+    "reviewedOptions": [
+      "Diferencia de potencial eléctrico entre esos puntos",
+      "Intensidad de corriente",
+      "Oposición al flujo de electrones",
+      "Potencia del circuito"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 52,
+    "reviewedAnswer": 1,
+    "reviewedText": "Amperímetro",
+    "reviewedQuestion": "¿Qué instrumento mide la corriente eléctrica?",
+    "reviewedExplanation": "El amperímetro mide corriente en amperios. El voltímetro mide tensión y el ohmímetro resistencia.",
+    "reviewedOptions": [
+      "Pirómetro",
+      "Amperímetro",
+      "Voltímetro",
+      "Ohmímetro"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 53,
+    "reviewedAnswer": 1,
+    "reviewedText": "V = I × R",
+    "reviewedQuestion": "¿Qué fórmula expresa la Ley de Ohm para el voltaje?",
+    "reviewedExplanation": "Ley de Ohm: el voltaje es corriente por resistencia, V = I × R.",
+    "reviewedOptions": [
+      "V = I / R",
+      "V = I × R",
+      "V = R / I",
+      "V = P × R"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 54,
+    "reviewedAnswer": 2,
+    "reviewedText": "P = V × I",
+    "reviewedQuestion": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de voltaje y corriente?",
+    "reviewedExplanation": "Para corriente continua o carga resistiva de factor de potencia unitario, P = V × I. En CA general también se considera el factor de potencia.",
+    "reviewedOptions": [
+      "P = I / V",
+      "P = R / I",
+      "P = V × I",
+      "P = V / I"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 55,
+    "reviewedAnswer": 0,
+    "reviewedText": "Es la suma de las resistencias",
+    "reviewedQuestion": "¿Qué sucede con la resistencia total en serie?",
+    "reviewedExplanation": "En serie la corriente es la misma y las caídas se suman: Rt = R1 + R2 + ….",
+    "reviewedOptions": [
+      "Es la suma de las resistencias",
+      "Siempre es cero",
+      "Es igual a la mayor",
+      "Es menor que la menor"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 56,
+    "reviewedAnswer": 3,
+    "reviewedText": "Shallow (llana)",
+    "reviewedQuestion": "¿Qué significa la S en cajas tipo FS?",
+    "reviewedExplanation": "En la nomenclatura de estas cajas, FS identifica la versión llana y FD la profunda. La letra no especifica por sí sola volumen ni aptitud ambiental.",
+    "reviewedOptions": [
+      "Serie",
+      "Seguridad",
+      "Sólida",
+      "Shallow (llana)"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 57,
+    "reviewedAnswer": 1,
+    "reviewedText": "Cable de entrada de servicio soterrado",
+    "reviewedQuestion": "¿Qué es un cable USE?",
+    "reviewedExplanation": "USE significa Underground Service Entrance. Debe consultarse el marcado completo para conocer las condiciones y limitaciones de uso.",
+    "reviewedOptions": [
+      "Cable de fibra óptica",
+      "Cable de entrada de servicio soterrado",
+      "Cable coaxial",
+      "Cable de control de motor"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 58,
+    "reviewedAnswer": 0,
+    "reviewedText": "Electrical Metallic Tubing",
+    "reviewedQuestion": "¿Qué significa EMT?",
+    "reviewedExplanation": "EMT es tubo metálico eléctrico; no significa tubería flexible. Se utilizan accesorios compatibles con el sistema.",
+    "reviewedOptions": [
+      "Electrical Metallic Tubing",
+      "Electrical Motor Terminal",
+      "Energy Meter Transfer",
+      "External Metal Transformer"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 59,
+    "reviewedAnswer": 2,
+    "reviewedText": "Receptáculo de tierra aislada",
+    "reviewedQuestion": "¿Qué es un receptáculo IG?",
+    "reviewedExplanation": "IG significa isolated ground: el contacto de tierra está aislado de la montura según el diseño. No significa ausencia del conductor de protección.",
+    "reviewedOptions": [
+      "Receptáculo de corriente continua",
+      "Receptáculo sin tierra",
+      "Receptáculo de tierra aislada",
+      "Receptáculo de iluminación"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 60,
+    "reviewedAnswer": 1,
+    "reviewedText": "Tap Joint",
+    "reviewedQuestion": "¿Qué empalme conecta una derivación a un conductor principal?",
+    "reviewedExplanation": "Tap Joint designa una derivación desde un conductor principal. La unión en línea cumple otra función; en obra se usa un método aprobado para la aplicación.",
+    "reviewedOptions": [
+      "Western Union",
+      "Tap Joint",
+      "Pigtail Splice",
+      "Fixture Splice"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 61,
+    "reviewedAnswer": 2,
+    "reviewedText": "Limitar sobretensiones transitorias y desviar corrientes de impulso",
+    "reviewedQuestion": "¿Cuál es la función de un dispositivo de protección contra sobretensiones transitorias (SPD)?",
+    "reviewedExplanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida del voltaje.",
+    "reviewedOptions": [
+      "Medir la temperatura del circuito",
+      "Encender y apagar la iluminación",
+      "Limitar sobretensiones transitorias y desviar corrientes de impulso",
+      "Transformar la corriente para un instrumento de medida"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 62,
+    "reviewedAnswer": 3,
+    "reviewedText": "Transformador montado en poste para suministro monofásico",
+    "reviewedQuestion": "¿Qué es un transformador monofásico tipo poste?",
+    "reviewedExplanation": "Un transformador de poste se instala elevado y adapta la tensión para distribución. El contador registra energía y no cumple esa función.",
+    "reviewedOptions": [
+      "Motor de inducción",
+      "Generador de frecuencia",
+      "Interruptor termomagnético",
+      "Transformador montado en poste para suministro monofásico"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 63,
+    "reviewedAnswer": 2,
+    "reviewedText": "Normalmente abierto",
+    "reviewedQuestion": "¿Qué significa N.O. en un contacto?",
+    "reviewedExplanation": "NO describe un contacto abierto en su estado normal, sin actuación. Al accionarlo puede cerrar según su diseño.",
+    "reviewedOptions": [
+      "No operable",
+      "Normalmente ocupado",
+      "Normalmente abierto",
+      "Nivel óptimo"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 64,
+    "reviewedAnswer": 1,
+    "reviewedText": "Faradio",
+    "reviewedQuestion": "¿Cuál es la unidad de capacitancia?",
+    "reviewedExplanation": "La capacitancia se expresa en faradios (F). Ohmios miden resistencia y henrios inductancia.",
+    "reviewedOptions": [
+      "Ohmio",
+      "Faradio",
+      "Henrio",
+      "Vatio"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 65,
+    "reviewedAnswer": 1,
+    "reviewedText": "Ley 115 del 2 de junio de 1976",
+    "reviewedQuestion": "¿Qué ley creó la Junta Examinadora de Peritos Electricistas de Puerto Rico?",
+    "reviewedExplanation": "La Ley 115-1976 crea la Junta Examinadora. El Colegio se establece mediante la Ley 131-1969.",
+    "reviewedOptions": [
+      "Ley 86 del 6 de noviembre de 1992",
+      "Ley 115 del 2 de junio de 1976",
+      "Ley 83 del 1 de septiembre de 1990",
+      "Ley 115 del 22 de junio de 1976"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 66,
+    "reviewedAnswer": 2,
+    "reviewedText": "Intensidad de corriente",
+    "reviewedQuestion": "¿Qué significa amperaje?",
+    "reviewedExplanation": "El amperaje es la intensidad de corriente, medida en amperios. No debe confundirse con tensión en voltios o potencia en vatios.",
+    "reviewedOptions": [
+      "Potencia",
+      "Voltaje",
+      "Intensidad de corriente",
+      "Resistencia"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 67,
+    "reviewedAnswer": 2,
+    "reviewedText": "En serie",
+    "reviewedQuestion": "¿Cómo se conecta un amperímetro convencional para medir corriente?",
+    "reviewedExplanation": "Un amperímetro convencional de inserción se conecta en serie. Conectarlo directamente entre dos potenciales puede provocar cortocircuito.",
+    "reviewedOptions": [
+      "Sin cerrar el circuito",
+      "A tierra únicamente",
+      "En serie",
+      "En paralelo"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 68,
+    "reviewedAnswer": 3,
+    "reviewedText": "I = V / R",
+    "reviewedQuestion": "¿Qué fórmula calcula la corriente?",
+    "reviewedExplanation": "Despejando V = I × R resulta I = V/R.",
+    "reviewedOptions": [
+      "I = P × R",
+      "I = V × R",
+      "I = R / V",
+      "I = V / R"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 69,
+    "reviewedAnswer": 2,
+    "reviewedText": "V = I² × R",
+    "reviewedQuestion": "En un circuito resistivo ideal de corriente continua, ¿cuál de estas relaciones es incorrecta?",
+    "reviewedExplanation": "I² × R expresa potencia (W), no voltaje. El voltaje se obtiene con V = I × R.",
+    "reviewedOptions": [
+      "I = P / V",
+      "P = V × I",
+      "V = I² × R",
+      "R = V / I"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 70,
+    "reviewedAnswer": 0,
+    "reviewedText": "Es menor que la menor resistencia individual",
+    "reviewedQuestion": "¿Qué sucede con la resistencia total de resistores positivos en paralelo?",
+    "reviewedExplanation": "Las conductancias se suman: 1/Rt = 1/R1 + 1/R2 + …; con resistencias positivas, Rt es menor que cualquiera de las ramas.",
+    "reviewedOptions": [
+      "Es menor que la menor resistencia individual",
+      "Es siempre cero",
+      "Es siempre mayor",
+      "Es su suma"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 71,
+    "reviewedAnswer": 0,
+    "reviewedText": "Deep (profunda)",
+    "reviewedQuestion": "¿Qué significa la D en cajas tipo FD?",
+    "reviewedExplanation": "FD corresponde a una caja profunda frente a la versión FS llana. Se cotejan dimensiones y listado del fabricante.",
+    "reviewedOptions": [
+      "Deep (profunda)",
+      "Directa",
+      "Doble",
+      "Diámetro"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 72,
+    "reviewedAnswer": 0,
+    "reviewedText": "Cobre",
+    "reviewedQuestion": "¿Qué material se usa comúnmente como conductor eléctrico?",
+    "reviewedExplanation": "El cobre tiene buena conductividad y se usa en conductores eléctricos. La porcelana, por el contrario, se utiliza como aislante.",
+    "reviewedOptions": [
+      "Cobre",
+      "Porcelana",
+      "Vidrio",
+      "Goma"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 73,
+    "reviewedAnswer": 1,
+    "reviewedText": "Flexible Metal Conduit",
+    "reviewedQuestion": "¿Qué significa FMC?",
+    "reviewedExplanation": "FMC significa Flexible Metal Conduit: canalización metálica flexible. No implica por sí sola la clasificación liquidtight.",
+    "reviewedOptions": [
+      "Flexible Motor Circuit",
+      "Flexible Metal Conduit",
+      "Fixed Main Cable",
+      "Fuse Metal Connector"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 74,
+    "reviewedAnswer": 3,
+    "reviewedText": "Diseñado y certificado para requisitos de uso hospitalario",
+    "reviewedQuestion": "¿Qué significa Hospital Grade en un receptáculo?",
+    "reviewedExplanation": "Hospital Grade identifica requisitos específicos de desempeño y certificación. No es sinónimo automático de GFCI, TR o tierra aislada.",
+    "reviewedOptions": [
+      "Exclusivamente de 240 V",
+      "Sin conexión a tierra",
+      "Solo para exteriores",
+      "Diseñado y certificado para requisitos de uso hospitalario"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 75,
+    "reviewedAnswer": 3,
+    "reviewedText": "Western Union",
+    "reviewedQuestion": "¿Qué empalme se usa típicamente para unir dos conductores en línea?",
+    "reviewedExplanation": "Western Union es una unión tradicional en línea. Su estudio no autoriza cualquier método de empalme en una instalación real; se sigue el método aprobado.",
+    "reviewedOptions": [
+      "Pigtail Splice",
+      "Conector EMT",
+      "Tap Joint",
+      "Western Union"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 76,
+    "reviewedAnswer": 0,
+    "reviewedText": "Protección que abre el circuito ante sobrecorriente",
+    "reviewedQuestion": "¿Qué representa un fusible?",
+    "reviewedExplanation": "El fusible abre por la fusión de su elemento ante determinadas sobrecorrientes. Se reemplaza por el tipo y capacidad apropiados; nunca se puentea.",
+    "reviewedOptions": [
+      "Protección que abre el circuito ante sobrecorriente",
+      "Condensador",
+      "Resistencia variable",
+      "Fuente de tensión"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 77,
+    "reviewedAnswer": 3,
+    "reviewedText": "Normalmente cerrado",
+    "reviewedQuestion": "¿Qué significa N.C. en un contacto?",
+    "reviewedExplanation": "NC describe un contacto cerrado en su estado normal. Al actuar el mecanismo puede abrirlo.",
+    "reviewedOptions": [
+      "No conectado",
+      "Nivel de corriente",
+      "Neutral común",
+      "Normalmente cerrado"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 78,
+    "reviewedAnswer": 0,
+    "reviewedText": "Se suman sus capacitancias",
+    "reviewedQuestion": "¿Qué ocurre con capacitores conectados en paralelo?",
+    "reviewedExplanation": "En paralelo todos reciben el mismo voltaje y sus capacitancias se suman: Ct = C1 + C2 + ….",
+    "reviewedOptions": [
+      "Se suman sus capacitancias",
+      "Solo cuenta el menor",
+      "Se suman sus inversos",
+      "La capacitancia es cero"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 79,
+    "reviewedAnswer": 2,
+    "reviewedText": "24 meses",
+    "reviewedQuestion": "Según la Ley 115 de 1976, según enmendada, ¿cuál es la duración de la licencia expedida de Ayudante de Perito Electricista?",
+    "reviewedExplanation": "24 meses equivalen a dos años, la vigencia establecida para la licencia de ayudante. Los trámites y plazos de renovación se consultan por separado.",
+    "reviewedOptions": [
+      "2 meses",
+      "22 años",
+      "24 meses",
+      "24 años"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 80,
+    "reviewedAnswer": 2,
+    "reviewedText": "Ohmio",
+    "reviewedQuestion": "¿Qué unidad representa Ω?",
+    "reviewedExplanation": "Ω es el símbolo del ohmio, unidad de resistencia eléctrica. A, V y W corresponden a corriente, tensión y potencia.",
+    "reviewedOptions": [
+      "Amperio",
+      "Voltio",
+      "Ohmio",
+      "Vatio"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 81,
+    "reviewedAnswer": 1,
+    "reviewedText": "Pirómetro",
+    "reviewedQuestion": "¿Qué instrumento mide temperaturas elevadas sin contacto?",
+    "reviewedExplanation": "El pirómetro determina temperatura a distancia mediante radiación térmica. La emisividad y el modelo afectan la interpretación.",
+    "reviewedOptions": [
+      "Ohmímetro",
+      "Pirómetro",
+      "Galvanómetro",
+      "Amperímetro"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 82,
+    "reviewedAnswer": 3,
+    "reviewedText": "R = V / I",
+    "reviewedQuestion": "¿Qué fórmula calcula la resistencia?",
+    "reviewedExplanation": "Despejando V = I × R resulta R = V/I.",
+    "reviewedOptions": [
+      "R = V × I",
+      "R = P × V",
+      "R = I / V",
+      "R = V / I"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 84,
+    "reviewedAnswer": 0,
+    "reviewedText": "Voltaje",
+    "reviewedQuestion": "¿Qué magnitud es igual en todas las ramas paralelas?",
+    "reviewedExplanation": "Las ramas se conectan a los mismos dos nodos, por eso comparten voltaje. Las corrientes dependen de cada resistencia.",
+    "reviewedOptions": [
+      "Voltaje",
+      "Potencia individual",
+      "Corriente individual",
+      "Resistencia"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 85,
+    "reviewedAnswer": 2,
+    "reviewedText": "Tipo X",
+    "reviewedQuestion": "¿Qué tipo de conduleto tiene cuatro salidas en cruz?",
+    "reviewedExplanation": "El tipo X presenta cuatro bocas en cruz. El T tiene tres y el C dos opuestas.",
+    "reviewedOptions": [
+      "Tipo E",
+      "Tipo LB",
+      "Tipo X",
+      "Tipo C"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 86,
+    "reviewedAnswer": 3,
+    "reviewedText": "Porcelana",
+    "reviewedQuestion": "¿Cuál es un material aislante eléctrico?",
+    "reviewedExplanation": "La porcelana es un material aislante usado en aplicaciones eléctricas. El cobre y aluminio son conductores.",
+    "reviewedOptions": [
+      "Plata",
+      "Aluminio",
+      "Cobre",
+      "Porcelana"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 87,
+    "reviewedAnswer": 2,
+    "reviewedText": "Liquidtight Flexible Nonmetallic Conduit",
+    "reviewedQuestion": "¿Qué significa LFNC?",
+    "reviewedExplanation": "LFNC significa Liquidtight Flexible Nonmetallic Conduit. La ausencia de metal lo distingue de LFMC.",
+    "reviewedOptions": [
+      "Line Feed Network Conduit",
+      "Low Frequency Neutral Cable",
+      "Liquidtight Flexible Nonmetallic Conduit",
+      "Light Fixture Neutral Connector"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 88,
+    "reviewedAnswer": 3,
+    "reviewedText": "Protección contra inserción accidental de objetos",
+    "reviewedQuestion": "¿Qué significa Tamper Resistant?",
+    "reviewedExplanation": "TR usa barreras internas para dificultar inserciones ajenas a un enchufe. No garantiza protección frente a todo contacto eléctrico.",
+    "reviewedOptions": [
+      "Aislamiento térmico",
+      "Medición de potencia",
+      "Protección contra sobrevoltaje",
+      "Protección contra inserción accidental de objetos"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 89,
+    "reviewedAnswer": 3,
+    "reviewedText": "Regula la intensidad luminosa",
+    "reviewedQuestion": "¿Qué hace un dimmer de iluminación?",
+    "reviewedExplanation": "El dimmer ajusta la salida luminosa de cargas compatibles. Debe seleccionarse para el tipo de lámpara y su capacidad.",
+    "reviewedOptions": [
+      "Convierte CA en CC siempre",
+      "Protege contra cortocircuitos",
+      "Mide la resistencia",
+      "Regula la intensidad luminosa"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 90,
+    "reviewedAnswer": 1,
+    "reviewedText": "Se suman los inversos de las capacitancias",
+    "reviewedQuestion": "¿Qué ocurre con capacitores conectados en serie?",
+    "reviewedExplanation": "En serie: 1/Ct = 1/C1 + 1/C2 + …; con capacitancias positivas, Ct es menor que cada una. La suma directa corresponde al paralelo.",
+    "reviewedOptions": [
+      "La capacitancia es infinita",
+      "Se suman los inversos de las capacitancias",
+      "Solo cuenta el mayor",
+      "Se suman directamente"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 91,
+    "reviewedAnswer": 1,
+    "reviewedText": "Ley 86 del 6 de noviembre de 1992",
+    "reviewedQuestion": "¿Qué ley creó la clase de Ayudante de Perito Electricista?",
+    "reviewedExplanation": "La Ley 86 de 6 de noviembre de 1992 incorpora disposiciones del ayudante mediante enmiendas a la Ley 115-1976.",
+    "reviewedOptions": [
+      "Ley 83 del 1 de septiembre de 1990",
+      "Ley 86 del 6 de noviembre de 1992",
+      "Ley 83 del 6 de noviembre de 1992",
+      "Ley 86 del 6 de noviembre de 1990"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 92,
+    "reviewedAnswer": 0,
+    "reviewedText": "Vatio (W)",
+    "reviewedQuestion": "¿En qué unidad se mide la potencia eléctrica?",
+    "reviewedExplanation": "El vatio (W) es unidad de potencia, es decir, rapidez de transferencia de energía. El kWh mide energía acumulada.",
+    "reviewedOptions": [
+      "Vatio (W)",
+      "Amperio (A)",
+      "Ohmio (Ω)",
+      "Voltio (V)"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 93,
+    "reviewedAnswer": 3,
+    "reviewedText": "Energía eléctrica consumida",
+    "reviewedQuestion": "¿Qué mide un contador de kWh?",
+    "reviewedExplanation": "Un contador de kWh integra energía a lo largo del tiempo. No mide únicamente la potencia instantánea.",
+    "reviewedOptions": [
+      "Resistencia de aislamiento",
+      "Frecuencia de la red solamente",
+      "Corriente instantánea solamente",
+      "Energía eléctrica consumida"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 96,
+    "reviewedAnswer": 0,
+    "reviewedText": "Corriente",
+    "reviewedQuestion": "¿Qué magnitud es igual en todos los resistores en serie?",
+    "reviewedExplanation": "En una sola trayectoria en serie no hay división de corriente; el mismo flujo atraviesa cada resistor.",
+    "reviewedOptions": [
+      "Corriente",
+      "Potencia",
+      "Caída de voltaje",
+      "Resistencia"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 97,
+    "reviewedAnswer": 2,
+    "reviewedText": "Tipo C",
+    "reviewedQuestion": "¿Qué tipo de conduleto es recto, con entrada y salida opuestas?",
+    "reviewedExplanation": "La forma C tiene entrada y salida opuestas y alineadas. Las formas de codo cambian de dirección.",
+    "reviewedOptions": [
+      "Tipo LB",
+      "Tipo X",
+      "Tipo C",
+      "Tipo T"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 98,
+    "reviewedAnswer": 1,
+    "reviewedText": "Rigid Metal Conduit",
+    "reviewedQuestion": "¿Qué significa RMC?",
+    "reviewedExplanation": "RMC significa Rigid Metal Conduit, canalización metálica rígida. Se distingue de EMT y de las canalizaciones flexibles.",
+    "reviewedOptions": [
+      "Remote Meter Control",
+      "Rigid Metal Conduit",
+      "Reinforced Motor Cable",
+      "Residential Main Circuit"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 99,
+    "reviewedAnswer": 1,
+    "reviewedText": "Interruptor de acción rápida",
+    "reviewedQuestion": "¿Qué es un micro switch?",
+    "reviewedExplanation": "Un micro switch es un interruptor de acción rápida accionado por un pequeño desplazamiento. La aplicación depende de sus valores nominales.",
+    "reviewedOptions": [
+      "Transformador de potencia",
+      "Interruptor de acción rápida",
+      "Fusible de cartucho",
+      "Condensador electrolítico"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 100,
+    "reviewedAnswer": 3,
+    "reviewedText": "Interruptor",
+    "reviewedQuestion": "¿Qué elemento permite abrir o cerrar intencionalmente la trayectoria de corriente de un circuito?",
+    "reviewedExplanation": "Un interruptor abre o cierra una trayectoria de corriente. No transforma tensión ni sustituye automáticamente un dispositivo de protección.",
+    "reviewedOptions": [
+      "Conductor desnudo",
+      "Aislante",
+      "Resistencia fija",
+      "Interruptor"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 104,
+    "reviewedAnswer": 3,
+    "reviewedText": "Tuerca con resorte para canal de soporte",
+    "reviewedQuestion": "¿Qué es un spring nut para Unistrut?",
+    "reviewedExplanation": "La tuerca con resorte se posiciona en un canal de soporte y permite fijar accesorios compatibles. No es un terminal eléctrico por definición.",
+    "reviewedOptions": [
+      "Interruptor de presión",
+      "Conductor de cobre",
+      "Fusible térmico",
+      "Tuerca con resorte para canal de soporte"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 105,
+    "reviewedAnswer": 2,
+    "reviewedText": "Intermediate Metal Conduit",
+    "reviewedQuestion": "¿Qué significa IMC?",
+    "reviewedExplanation": "IMC significa Intermediate Metal Conduit, un tipo de canalización metálica. No es una designación de conductor.",
+    "reviewedOptions": [
+      "Internal Motor Control",
+      "Industrial Meter Cable",
+      "Intermediate Metal Conduit",
+      "Insulated Main Circuit"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 106,
+    "reviewedAnswer": 2,
+    "reviewedText": "Corriente alterna",
+    "reviewedQuestion": "¿Qué significa CA?",
+    "reviewedExplanation": "CA significa corriente alterna: cambia de dirección periódicamente. CC mantiene una dirección de flujo.",
+    "reviewedOptions": [
+      "Carga activa",
+      "Conductor aislado",
+      "Corriente alterna",
+      "Corriente acumulada"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 111,
+    "reviewedAnswer": 1,
+    "reviewedText": "Policloruro de vinilo",
+    "reviewedQuestion": "¿Qué significa PVC?",
+    "reviewedExplanation": "PVC es policloruro de vinilo, un material plástico. La canalización debe tener la clasificación adecuada para la instalación.",
+    "reviewedOptions": [
+      "Acero galvanizado",
+      "Policloruro de vinilo",
+      "Cobre revestido",
+      "Polietileno de alta densidad"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 112,
+    "reviewedAnswer": 3,
+    "reviewedText": "Corriente continua",
+    "reviewedQuestion": "¿Qué significa CC?",
+    "reviewedExplanation": "CC significa corriente continua. No significa necesariamente que su valor sea constante en todo instante.",
+    "reviewedOptions": [
+      "Conductor común",
+      "Corriente capacitiva",
+      "Circuito cerrado",
+      "Corriente continua"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 117,
+    "reviewedAnswer": 0,
+    "reviewedText": "Kilovoltio",
+    "reviewedQuestion": "¿Qué significa kV?",
+    "reviewedExplanation": "El prefijo kilo equivale a mil: 1 kV = 1,000 V.",
+    "reviewedOptions": [
+      "Kilovoltio",
+      "Kiloohmio",
+      "Kilovatio-hora",
+      "Kilovatio"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": 122,
+    "reviewedAnswer": 1,
+    "reviewedText": "Kilovatio-hora",
+    "reviewedQuestion": "¿Qué significa kWh?",
+    "reviewedExplanation": "El kWh es energía: 1 kW usado durante 1 h equivale a 1 kWh. No es una unidad de corriente.",
+    "reviewedOptions": [
+      "Kilohertz",
+      "Kilovatio-hora",
+      "Kiloohmio",
+      "Kilovoltio-hora"
+    ],
+    "reviewedOptionExplanations": null
+  },
+  {
+    "id": "ampliacion-1",
+    "reviewedAnswer": 0,
+    "reviewedText": "Cuerpo de canalización con tapa desmontable",
+    "reviewedQuestion": "¿Qué accesorio aparece en la fotografía A?",
+    "reviewedExplanation": "Las bocas conectan canalizaciones y la tapa permite acceso al interior.",
+    "reviewedOptions": [
+      "Cuerpo de canalización con tapa desmontable",
+      "Contador de energía",
+      "Transformador de poste",
+      "Interruptor termomagnético"
+    ],
+    "reviewedOptionExplanations": [
+      "Las bocas conectan canalizaciones y la tapa permite acceso al interior.",
+      "Un contador integra un sistema de medición; aquí se ven bocas de canalización y una tapa.",
+      "No se observan devanados ni estructura de transformador.",
+      "No hay mecanismo de disparo ni palanca."
+    ]
+  },
+  {
+    "id": "ampliacion-2",
+    "reviewedAnswer": 0,
+    "reviewedText": "Tres entradas en forma de T",
+    "reviewedQuestion": "¿Qué disposición de entradas se observa en la fotografía B?",
+    "reviewedExplanation": "Dos entradas están alineadas y otra sale perpendicularmente; corresponde a una disposición T.",
+    "reviewedOptions": [
+      "Tres entradas en forma de T",
+      "Dos entradas opuestas únicamente",
+      "Una sola entrada",
+      "Cuatro entradas en cruz"
+    ],
+    "reviewedOptionExplanations": [
+      "Dos entradas están alineadas y otra sale perpendicularmente; corresponde a una disposición T.",
+      "También se observa una tercera entrada lateral.",
+      "La pieza muestra más de una boca.",
+      "La fotografía muestra tres bocas, no cuatro."
+    ]
+  },
+  {
+    "id": "ampliacion-3",
+    "reviewedAnswer": 0,
+    "reviewedText": "Entrada y salida alineadas",
+    "reviewedQuestion": "¿Qué trayectoria de canalización muestra la fotografía C?",
+    "reviewedExplanation": "La configuración recta permite pasar conductores entre bocas opuestas; se conoce como tipo C.",
+    "reviewedOptions": [
+      "Entrada y salida alineadas",
+      "Tres ramales en T",
+      "Cuatro ramales en cruz",
+      "Cambio de dirección de 90 grados"
+    ],
+    "reviewedOptionExplanations": [
+      "La configuración recta permite pasar conductores entre bocas opuestas; se conoce como tipo C.",
+      "No aparece una tercera boca en esta configuración.",
+      "No se ven cuatro entradas.",
+      "Las dos bocas están en extremos opuestos."
+    ]
+  },
+  {
+    "id": "ampliacion-4",
+    "reviewedAnswer": 0,
+    "reviewedText": "Dar acceso para el tendido e inspección",
+    "reviewedQuestion": "¿Para qué sirve la tapa retirada en la fotografía D?",
+    "reviewedExplanation": "La abertura facilita trabajar con los conductores. La tapa se reinstala después conforme al producto.",
+    "reviewedOptions": [
+      "Dar acceso para el tendido e inspección",
+      "Medir la energía consumida",
+      "Transformar CA en CC",
+      "Aumentar automáticamente el calibre"
+    ],
+    "reviewedOptionExplanations": [
+      "La abertura facilita trabajar con los conductores. La tapa se reinstala después conforme al producto.",
+      "La tapa no es un instrumento de medición.",
+      "No contiene un rectificador.",
+      "El calibre pertenece al conductor y no cambia con la tapa."
+    ]
+  },
+  {
+    "id": "ampliacion-5",
+    "reviewedAnswer": 0,
+    "reviewedText": "El conector termina la tubería en una caja; el cople une dos tramos",
+    "reviewedQuestion": "¿Qué permite distinguir visualmente un conector de un cople de EMT?",
+    "reviewedExplanation": "Se identifica por su función y extremos de conexión; debe corresponder al tipo y tamaño de tubería.",
+    "reviewedOptions": [
+      "El conector termina la tubería en una caja; el cople une dos tramos",
+      "Ambos son instrumentos para medir voltaje",
+      "El cople siempre incorpora un breaker",
+      "El conector genera electricidad"
+    ],
+    "reviewedOptionExplanations": [
+      "Se identifica por su función y extremos de conexión; debe corresponder al tipo y tamaño de tubería.",
+      "Son accesorios mecánicos de canalización.",
+      "El cople no proporciona protección de sobrecorriente.",
+      "Es un accesorio de unión, no una fuente."
+    ]
+  },
+  {
+    "id": "ampliacion-6",
+    "reviewedAnswer": 0,
+    "reviewedText": "Pelacables del calibre apropiado",
+    "reviewedQuestion": "¿Qué herramienta se utiliza para quitar aislamiento sin cortar el metal del conductor?",
+    "reviewedExplanation": "La abertura adecuada retira el aislamiento preservando los hilos; una muesca debilita el conductor.",
+    "reviewedOptions": [
+      "Pelacables del calibre apropiado",
+      "Martillo",
+      "Cinta de medir",
+      "Llave de tubo"
+    ],
+    "reviewedOptionExplanations": [
+      "La abertura adecuada retira el aislamiento preservando los hilos; una muesca debilita el conductor.",
+      "Golpear puede deteriorar conductor y aislamiento.",
+      "Mide longitud, no retira aislamiento.",
+      "No está diseñada para pelar conductores."
+    ]
+  },
+  {
+    "id": "ampliacion-7",
+    "reviewedAnswer": 0,
+    "reviewedText": "Compatibilidad con el tipo, tamaño y ambiente de uso",
+    "reviewedQuestion": "¿Qué dato se debe cotejar al seleccionar un accesorio de tubería?",
+    "reviewedExplanation": "Una pieza que parece encajar puede no estar aprobada para esa canalización o ambiente.",
+    "reviewedOptions": [
+      "Compatibilidad con el tipo, tamaño y ambiente de uso",
+      "Solo el brillo del metal",
+      "Únicamente el color de la caja",
+      "Que todas las piezas sean del mismo peso"
+    ],
+    "reviewedOptionExplanations": [
+      "Una pieza que parece encajar puede no estar aprobada para esa canalización o ambiente.",
+      "El acabado no demuestra compatibilidad.",
+      "El color no determina el listado ni el ajuste.",
+      "El peso no es criterio de compatibilidad."
+    ]
+  },
+  {
+    "id": "ampliacion-8",
+    "reviewedAnswer": 0,
+    "reviewedText": "Caja de conexiones apropiada",
+    "reviewedQuestion": "¿Qué componente proporciona espacio protegido para conexiones y derivaciones?",
+    "reviewedExplanation": "La caja aloja conexiones con el volumen y protección adecuados; su selección depende del ambiente y contenido.",
+    "reviewedOptions": [
+      "Caja de conexiones apropiada",
+      "Portalámparas sin caja",
+      "Amperímetro de gancho",
+      "Electrodo de tierra"
+    ],
+    "reviewedOptionExplanations": [
+      "La caja aloja conexiones con el volumen y protección adecuados; su selección depende del ambiente y contenido.",
+      "Sostener una lámpara no equivale a alojar derivaciones.",
+      "Es un instrumento de medición.",
+      "Es parte del sistema de puesta a tierra."
+    ]
+  },
+  {
+    "id": "ampliacion-9",
+    "reviewedAnswer": 0,
+    "reviewedText": "Establecer continuidad para una trayectoria de falla",
+    "reviewedQuestion": "¿Cuál es el propósito de unir eléctricamente las partes metálicas expuestas?",
+    "reviewedExplanation": "El bonding mantiene continuidad entre partes conductoras para que la corriente de falla pueda regresar a la fuente.",
+    "reviewedOptions": [
+      "Establecer continuidad para una trayectoria de falla",
+      "Usarlas como conductor normal de carga",
+      "Sustituir todos los dispositivos de protección",
+      "Eliminar la necesidad de aislamiento"
+    ],
+    "reviewedOptionExplanations": [
+      "El bonding mantiene continuidad entre partes conductoras para que la corriente de falla pueda regresar a la fuente.",
+      "Las envolventes no deben conducir corriente normal de carga.",
+      "La unión trabaja junto con las protecciones.",
+      "El aislamiento sigue siendo indispensable."
+    ]
+  },
+  {
+    "id": "ampliacion-10",
+    "reviewedAnswer": 0,
+    "reviewedText": "Neutro",
+    "reviewedQuestion": "¿Qué conductor puede transportar corriente de retorno durante funcionamiento normal en un circuito de 120 V?",
+    "reviewedExplanation": "El neutro participa en el circuito de carga; el conductor de protección cumple una función diferente.",
+    "reviewedOptions": [
+      "Neutro",
+      "Conductor de protección del equipo",
+      "Varilla de tierra",
+      "Tapa metálica de la caja"
+    ],
+    "reviewedOptionExplanations": [
+      "El neutro participa en el circuito de carga; el conductor de protección cumple una función diferente.",
+      "Su función no es conducir corriente normal de carga.",
+      "No es el retorno normal de la carga.",
+      "No es un conductor de retorno intencional."
+    ]
+  },
+  {
+    "id": "ampliacion-11",
+    "reviewedAnswer": 0,
+    "reviewedText": "Facilitar el retorno de corriente de falla a la fuente",
+    "reviewedQuestion": "¿Qué función tiene el conductor de protección del equipo ante una falla de aislamiento?",
+    "reviewedExplanation": "La trayectoria conductora de baja impedancia favorece la actuación de la protección contra sobrecorriente.",
+    "reviewedOptions": [
+      "Facilitar el retorno de corriente de falla a la fuente",
+      "Regular la frecuencia",
+      "Reducir siempre el consumo a la mitad",
+      "Almacenar energía para un apagón"
+    ],
+    "reviewedOptionExplanations": [
+      "La trayectoria conductora de baja impedancia favorece la actuación de la protección contra sobrecorriente.",
+      "No determina los ciclos de la fuente.",
+      "No cambia la potencia de la carga de esa manera.",
+      "No es una batería."
+    ]
+  },
+  {
+    "id": "ampliacion-12",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; se requiere una trayectoria efectiva hacia la fuente",
+    "reviewedQuestion": "¿Puede utilizarse únicamente el terreno como trayectoria efectiva para despejar una falla a una carcasa?",
+    "reviewedExplanation": "La resistencia del suelo puede impedir una corriente suficiente para el disparo. Referencia de estudio: NEC 2020, 250.4(A)(5).",
+    "reviewedOptions": [
+      "No; se requiere una trayectoria efectiva hacia la fuente",
+      "Sí, cualquier suelo dispara inmediatamente el breaker",
+      "Sí, si se pinta la carcasa",
+      "Sí, si se retira el neutro"
+    ],
+    "reviewedOptionExplanations": [
+      "La resistencia del suelo puede impedir una corriente suficiente para el disparo. Referencia de estudio: NEC 2020, 250.4(A)(5).",
+      "La impedancia del terreno puede limitar demasiado la corriente.",
+      "La pintura no proporciona la trayectoria requerida.",
+      "Retirar conductores no corrige la falla."
+    ]
+  },
+  {
+    "id": "ampliacion-13",
+    "reviewedAnswer": 0,
+    "reviewedText": "El electrodo conecta con el terreno; el conductor enlaza equipos con la trayectoria de protección",
+    "reviewedQuestion": "¿Qué diferencia hay entre un electrodo y el conductor de protección del equipo?",
+    "reviewedExplanation": "El sistema de electrodos y la trayectoria de falla se complementan; no son intercambiables.",
+    "reviewedOptions": [
+      "El electrodo conecta con el terreno; el conductor enlaza equipos con la trayectoria de protección",
+      "Son siempre la misma pieza",
+      "Ambos son interruptores automáticos",
+      "El electrodo reemplaza toda unión de gabinetes"
+    ],
+    "reviewedOptionExplanations": [
+      "El sistema de electrodos y la trayectoria de falla se complementan; no son intercambiables.",
+      "Sus funciones y ubicaciones son distintas.",
+      "Ninguno incorpora por definición un disparo.",
+      "Las partes metálicas requieren continuidad apropiada."
+    ]
+  },
+  {
+    "id": "ampliacion-14",
+    "reviewedAnswer": 0,
+    "reviewedText": "Posible energización de la envolvente y falla de protección",
+    "reviewedQuestion": "¿Qué condición necesita atención si una caja metálica accesible da choque al tocarla?",
+    "reviewedExplanation": "Debe suspenderse el contacto y notificarse al responsable para aislar y evaluar el circuito con procedimientos seguros.",
+    "reviewedOptions": [
+      "Posible energización de la envolvente y falla de protección",
+      "Una condición normal de funcionamiento",
+      "Un ahorro de energía",
+      "Una batería descargada en todos los casos"
+    ],
+    "reviewedOptionExplanations": [
+      "Debe suspenderse el contacto y notificarse al responsable para aislar y evaluar el circuito con procedimientos seguros.",
+      "Una envolvente accesible no debe provocar choque.",
+      "El choque no indica eficiencia.",
+      "No permite concluir eso."
+    ]
+  },
+  {
+    "id": "ampliacion-15",
+    "reviewedAnswer": 0,
+    "reviewedText": "Interrumpir o aumentar la impedancia de la trayectoria de falla",
+    "reviewedQuestion": "¿Qué efecto puede tener una unión de protección floja o corroída?",
+    "reviewedExplanation": "La continuidad depende de conexiones adecuadas; corrosión y aflojamiento pueden impedir que la protección actúe eficazmente.",
+    "reviewedOptions": [
+      "Interrumpir o aumentar la impedancia de la trayectoria de falla",
+      "Aumentar garantizadamente la seguridad",
+      "Cambiar 60 Hz a 50 Hz",
+      "Convertir el neutro en aislante"
+    ],
+    "reviewedOptionExplanations": [
+      "La continuidad depende de conexiones adecuadas; corrosión y aflojamiento pueden impedir que la protección actúe eficazmente.",
+      "El mal contacto degrada la protección.",
+      "No modifica la frecuencia de la fuente.",
+      "No cambia el material del conductor."
+    ]
+  },
+  {
+    "id": "ampliacion-16",
+    "reviewedAnswer": 0,
+    "reviewedText": "Separados; el neutro aislado de la envolvente",
+    "reviewedQuestion": "En un subpanel de cuatro conductores aguas abajo del desconectivo de servicio, sin excepciones aplicables, ¿cómo se mantienen neutro y protección?",
+    "reviewedExplanation": "Separarlos evita trayectorias paralelas de corriente normal por metales de protección. Referencia didáctica: NEC 2020, 250.24(A)(5); las excepciones se estudian por separado.",
+    "reviewedOptions": [
+      "Separados; el neutro aislado de la envolvente",
+      "Unidos por cualquier tornillo",
+      "Con el conductor de protección eliminado",
+      "Usando el gabinete como retorno normal"
+    ],
+    "reviewedOptionExplanations": [
+      "El neutro queda aislado de la envolvente y la barra de protección se une al gabinete.",
+      "Esa unión aguas abajo puede crear un camino de corriente normal por metal expuesto.",
+      "Eliminar la protección interrumpe una trayectoria de seguridad.",
+      "La envolvente no debe funcionar como conductor normal de retorno."
+    ]
+  },
+  {
+    "id": "ampliacion-17",
+    "reviewedAnswer": 0,
+    "reviewedText": "El de 12 AWG",
+    "reviewedQuestion": "Entre 14 AWG y 12 AWG de cobre, ¿cuál tiene mayor sección transversal?",
+    "reviewedExplanation": "La escala AWG es inversa en este intervalo: 12 AWG es más grueso que 14 AWG.",
+    "reviewedOptions": [
+      "El de 12 AWG",
+      "14 AWG",
+      "Ambos tienen siempre la misma sección",
+      "El tamaño depende solo del color"
+    ],
+    "reviewedOptionExplanations": [
+      "La escala AWG es inversa en este intervalo: 12 AWG es más grueso que 14 AWG.",
+      "En esta escala, el número menor corresponde a mayor sección.",
+      "Los calibres corresponden a tamaños distintos.",
+      "El color no define la sección."
+    ]
+  },
+  {
+    "id": "ampliacion-18",
+    "reviewedAnswer": 0,
+    "reviewedText": "Cobre",
+    "reviewedQuestion": "¿Qué indica CU en el marcado de un conductor?",
+    "reviewedExplanation": "CU es la identificación del conductor de cobre; no expresa su ampacidad.",
+    "reviewedOptions": [
+      "Cobre",
+      "Aluminio",
+      "Corriente universal",
+      "Capacitancia unitaria"
+    ],
+    "reviewedOptionExplanations": [
+      "CU es la identificación del conductor de cobre; no expresa su ampacidad.",
+      "El aluminio se identifica como AL.",
+      "No es el significado del marcado del material.",
+      "No identifica el metal."
+    ]
+  },
+  {
+    "id": "ampliacion-19",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; también influyen material, aislamiento, temperatura y condiciones de instalación",
+    "reviewedQuestion": "¿Basta conocer el calibre para decidir la corriente admisible de una instalación?",
+    "reviewedExplanation": "Deben cotejarse tablas, terminales, correcciones y límites de protección aplicables.",
+    "reviewedOptions": [
+      "No; también influyen material, aislamiento, temperatura y condiciones de instalación",
+      "Sí, el color determina todo",
+      "Sí, cualquier aislamiento admite lo mismo",
+      "Sí, el breaker aumenta la ampacidad del cable"
+    ],
+    "reviewedOptionExplanations": [
+      "Deben cotejarse tablas, terminales, correcciones y límites de protección aplicables.",
+      "El color no fija la ampacidad.",
+      "Las clasificaciones y condiciones importan.",
+      "La protección no cambia la capacidad física del conductor."
+    ]
+  },
+  {
+    "id": "ampliacion-20",
+    "reviewedAnswer": 0,
+    "reviewedText": "Que su marcado y listado permitan ese ambiente",
+    "reviewedQuestion": "¿Qué debe comprobarse para usar un conductor en lugar mojado?",
+    "reviewedExplanation": "Se verifica la designación completa, por ejemplo THWN-2 cuando corresponda, y las instrucciones del fabricante.",
+    "reviewedOptions": [
+      "Que su marcado y listado permitan ese ambiente",
+      "Que sea de cualquier color oscuro",
+      "Que esté dentro de cualquier tubería",
+      "Que su cubierta se vea nueva"
+    ],
+    "reviewedOptionExplanations": [
+      "Se verifica la designación completa, por ejemplo THWN-2 cuando corresponda, y las instrucciones del fabricante.",
+      "El color no acredita aptitud para agua.",
+      "Una canalización no convierte automáticamente el lugar en seco.",
+      "La apariencia no sustituye la clasificación."
+    ]
+  },
+  {
+    "id": "ampliacion-21",
+    "reviewedAnswer": 0,
+    "reviewedText": "Investigar la causa con el perito antes de modificar la protección",
+    "reviewedQuestion": "¿Qué debe hacerse si un breaker dispara repetidamente?",
+    "reviewedExplanation": "Sobrecarga, falla o equipo defectuoso requieren diagnóstico; aumentar el amperaje no es una reparación automática.",
+    "reviewedOptions": [
+      "Investigar la causa con el perito antes de modificar la protección",
+      "Instalar uno mayor sin revisar conductores",
+      "Amarrar la palanca para impedir el disparo",
+      "Eliminar el conductor de protección"
+    ],
+    "reviewedOptionExplanations": [
+      "Sobrecarga, falla o equipo defectuoso requieren diagnóstico; aumentar el amperaje no es una reparación automática.",
+      "Puede dejar el cable sin protección adecuada.",
+      "Anula una función de seguridad.",
+      "No resuelve la causa y agrega riesgo."
+    ]
+  },
+  {
+    "id": "ampliacion-22",
+    "reviewedAnswer": 0,
+    "reviewedText": "Conductores y equipos frente a corrientes excesivas",
+    "reviewedQuestion": "¿Qué protege principalmente un dispositivo de sobrecorriente correctamente seleccionado?",
+    "reviewedExplanation": "La protección debe coordinarse con el circuito; no reemplaza GFCI, aislamiento ni prácticas seguras.",
+    "reviewedOptions": [
+      "Conductores y equipos frente a corrientes excesivas",
+      "Contra toda descarga eléctrica en cualquier situación",
+      "Contra humedad sin necesidad de envolvente",
+      "Contra interrupciones del servicio de la red"
+    ],
+    "reviewedOptionExplanations": [
+      "La protección debe coordinarse con el circuito; no reemplaza GFCI, aislamiento ni prácticas seguras.",
+      "Un breaker común no cubre todos los peligros de choque.",
+      "No sella el equipo.",
+      "No es una fuente de respaldo."
+    ]
+  },
+  {
+    "id": "ampliacion-23",
+    "reviewedAnswer": 0,
+    "reviewedText": "Que el terminal admita ese material y se siga su procedimiento de instalación",
+    "reviewedQuestion": "¿Qué debe verificarse al terminar aluminio en un borne?",
+    "reviewedExplanation": "Se siguen el listado y las instrucciones, incluyendo preparación y torque cuando se especifiquen.",
+    "reviewedOptions": [
+      "Que el terminal admita ese material y se siga su procedimiento de instalación",
+      "Que todo borne para cobre acepta aluminio",
+      "Que el conductor se pinte verde",
+      "Que se apriete sin límite"
+    ],
+    "reviewedOptionExplanations": [
+      "Se siguen el listado y las instrucciones, incluyendo preparación y torque cuando se especifiquen.",
+      "La compatibilidad no se presume.",
+      "La pintura no cambia la compatibilidad metalúrgica.",
+      "El exceso de torque puede dañar la conexión."
+    ]
+  },
+  {
+    "id": "ampliacion-24",
+    "reviewedAnswer": 0,
+    "reviewedText": "Por la menor disipación del calor generado",
+    "reviewedQuestion": "¿Por qué puede reducirse la ampacidad al agrupar más conductores portadores de corriente?",
+    "reviewedExplanation": "Las condiciones térmicas pueden exigir ajustes; se consulta la regla y tabla aplicables al montaje.",
+    "reviewedOptions": [
+      "Por la menor disipación del calor generado",
+      "Porque cambia la frecuencia de la red",
+      "Porque se convierten en aislantes",
+      "Porque el voltaje nominal siempre se duplica"
+    ],
+    "reviewedOptionExplanations": [
+      "Las condiciones térmicas pueden exigir ajustes; se consulta la regla y tabla aplicables al montaje.",
+      "La agrupación no altera la frecuencia.",
+      "El material sigue conduciendo.",
+      "No ocurre ese cambio automático."
+    ]
+  },
+  {
+    "id": "ampliacion-25",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; se requiere aislamiento, control de reconexión y verificación",
+    "reviewedQuestion": "¿Es suficiente colocar un interruptor en OFF para considerar seguro tocar los conductores?",
+    "reviewedExplanation": "La condición desenergizada se comprueba con el procedimiento y equipo apropiados por personal autorizado.",
+    "reviewedOptions": [
+      "No; se requiere aislamiento, control de reconexión y verificación",
+      "Sí, la posición garantiza ausencia de tensión",
+      "Sí, si se trabaja rápido",
+      "Sí, si la lámpara está apagada"
+    ],
+    "reviewedOptionExplanations": [
+      "La condición desenergizada se comprueba con el procedimiento y equipo apropiados por personal autorizado.",
+      "Puede haber fallas, identificación incorrecta o fuentes adicionales.",
+      "La rapidez no elimina el peligro.",
+      "Una lámpara apagada no prueba ausencia de tensión."
+    ]
+  },
+  {
+    "id": "ampliacion-26",
+    "reviewedAnswer": 0,
+    "reviewedText": "Impedir reconexión inadvertida e identificar el trabajo",
+    "reviewedQuestion": "¿Para qué se aplica bloqueo y etiquetado durante mantenimiento?",
+    "reviewedExplanation": "El control de energías evita arranques o energización inesperada durante la intervención.",
+    "reviewedOptions": [
+      "Impedir reconexión inadvertida e identificar el trabajo",
+      "Para aumentar el voltaje",
+      "Para sustituir la prueba de ausencia de tensión",
+      "Para permitir que cualquiera quite el candado"
+    ],
+    "reviewedOptionExplanations": [
+      "El control de energías evita arranques o energización inesperada durante la intervención.",
+      "No modifica la fuente.",
+      "El bloqueo no reemplaza esa verificación.",
+      "El retiro sigue un procedimiento autorizado."
+    ]
+  },
+  {
+    "id": "ampliacion-27",
+    "reviewedAnswer": 0,
+    "reviewedText": "Retirarla de servicio y comunicar el defecto",
+    "reviewedQuestion": "¿Qué debe hacerse al encontrar aislamiento roto en una extensión?",
+    "reviewedExplanation": "Un cable deteriorado requiere reparación apropiada o reemplazo; no se utiliza mientras presente el defecto.",
+    "reviewedOptions": [
+      "Retirarla de servicio y comunicar el defecto",
+      "Tapar el daño con la mano",
+      "Usarla solo si no está lloviendo",
+      "Quitar la espiga de tierra"
+    ],
+    "reviewedOptionExplanations": [
+      "Un cable deteriorado requiere reparación apropiada o reemplazo; no se utiliza mientras presente el defecto.",
+      "Expone al contacto eléctrico.",
+      "El aislamiento defectuoso sigue siendo peligroso.",
+      "Agrega un defecto de protección."
+    ]
+  },
+  {
+    "id": "ampliacion-28",
+    "reviewedAnswer": 0,
+    "reviewedText": "Energía almacenada",
+    "reviewedQuestion": "¿Qué riesgo persiste después de desconectar un equipo con capacitores?",
+    "reviewedExplanation": "Debe seguirse el método del fabricante para descarga y verificación; no se improvisan cortocircuitos.",
+    "reviewedOptions": [
+      "Energía almacenada",
+      "Solo ruido acústico",
+      "Aumento automático de frecuencia",
+      "Ningún riesgo eléctrico posible"
+    ],
+    "reviewedOptionExplanations": [
+      "Debe seguirse el método del fabricante para descarga y verificación; no se improvisan cortocircuitos.",
+      "El peligro relevante es la energía eléctrica almacenada, no solo ruido acústico.",
+      "Desconectar el equipo no aumenta automáticamente la frecuencia.",
+      "Un capacitor puede conservar tensión."
+    ]
+  },
+  {
+    "id": "ampliacion-29",
+    "reviewedAnswer": 0,
+    "reviewedText": "Adecuación al riesgo, clasificación y estado del equipo",
+    "reviewedQuestion": "¿Qué se revisa al elegir guantes y protección eléctrica?",
+    "reviewedExplanation": "La selección depende de la evaluación de peligros y de las especificaciones y revisiones del equipo.",
+    "reviewedOptions": [
+      "Adecuación al riesgo, clasificación y estado del equipo",
+      "Solo el color del guante",
+      "Que sean guantes domésticos",
+      "Que permitan omitir la desenergización"
+    ],
+    "reviewedOptionExplanations": [
+      "La selección depende de la evaluación de peligros y de las especificaciones y revisiones del equipo.",
+      "No indica protección eléctrica suficiente.",
+      "No equivalen a equipo dieléctrico adecuado.",
+      "El equipo no sustituye el procedimiento seguro."
+    ]
+  },
+  {
+    "id": "ampliacion-30",
+    "reviewedAnswer": 0,
+    "reviewedText": "Detener la intervención y avisar al perito responsable",
+    "reviewedQuestion": "¿Qué debe hacer un ayudante si descubre una fuente eléctrica no identificada?",
+    "reviewedExplanation": "Las fuentes deben identificarse y controlarse antes de continuar, incluyendo red, generador, solar y baterías.",
+    "reviewedOptions": [
+      "Detener la intervención y avisar al perito responsable",
+      "Suponer que no tiene tensión",
+      "Cortar todos los cables al mismo tiempo",
+      "Continuar por tratarse de bajo voltaje"
+    ],
+    "reviewedOptionExplanations": [
+      "Las fuentes deben identificarse y controlarse antes de continuar, incluyendo red, generador, solar y baterías.",
+      "La suposición no controla el riesgo.",
+      "Puede causar choque o arco.",
+      "Bajo voltaje también puede causar lesiones."
+    ]
+  },
+  {
+    "id": "ampliacion-31",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; debe utilizarse el método de verificación adecuado al circuito",
+    "reviewedQuestion": "¿Puede un detector sin contacto por sí solo garantizar ausencia de tensión en todos los conductores?",
+    "reviewedExplanation": "La verificación requiere equipo adecuado, comprobación de funcionamiento y procedimiento autorizado.",
+    "reviewedOptions": [
+      "No; debe utilizarse el método de verificación adecuado al circuito",
+      "Sí, siempre y en toda configuración",
+      "Sí, aunque su batería esté agotada",
+      "Sí, sin revisar su funcionamiento"
+    ],
+    "reviewedOptionExplanations": [
+      "La verificación requiere equipo adecuado, comprobación de funcionamiento y procedimiento autorizado.",
+      "Tiene limitaciones de detección y aplicación.",
+      "Un instrumento inoperante no verifica nada.",
+      "Debe comprobarse la aptitud del equipo."
+    ]
+  },
+  {
+    "id": "ampliacion-32",
+    "reviewedAnswer": 0,
+    "reviewedText": "Activar la emergencia y cortar la energía de forma segura sin tocarla directamente",
+    "reviewedQuestion": "¿Qué acción corresponde si una persona permanece en contacto con una fuente energizada?",
+    "reviewedExplanation": "Primero se evita una segunda víctima; la asistencia y reanimación se realizan cuando el área es segura y conforme al entrenamiento.",
+    "reviewedOptions": [
+      "Activar la emergencia y cortar la energía de forma segura sin tocarla directamente",
+      "Jalarla inmediatamente con las manos",
+      "Echar agua sobre el equipo",
+      "Esperar a que el breaker dispare por sí solo"
+    ],
+    "reviewedOptionExplanations": [
+      "Primero se evita una segunda víctima; la asistencia y reanimación se realizan cuando el área es segura y conforme al entrenamiento.",
+      "El rescatador puede quedar energizado.",
+      "Puede extender el peligro eléctrico.",
+      "La corriente por una persona puede no provocar su disparo."
+    ]
+  },
+  {
+    "id": "ampliacion-33",
+    "reviewedAnswer": 0,
+    "reviewedText": "El primero detecta desequilibrio de corriente; el segundo fallas de arco",
+    "reviewedQuestion": "¿Qué diferencia funcional hay entre GFCI y AFCI?",
+    "reviewedExplanation": "Son protecciones para peligros diferentes. Referencias de estudio: NEC 2020, 210.8 y 210.12.",
+    "reviewedOptions": [
+      "El primero detecta desequilibrio de corriente; el segundo fallas de arco",
+      "Ambos solo miden kWh",
+      "El AFCI es un transformador",
+      "El GFCI regula la frecuencia"
+    ],
+    "reviewedOptionExplanations": [
+      "Son protecciones para peligros diferentes. Referencias de estudio: NEC 2020, 210.8 y 210.12.",
+      "No son contadores de energía.",
+      "Es un dispositivo de protección.",
+      "No controla la frecuencia de la red."
+    ]
+  },
+  {
+    "id": "ampliacion-34",
+    "reviewedAnswer": 0,
+    "reviewedText": "Protección de personas ante determinadas fallas a tierra",
+    "reviewedQuestion": "¿Qué significa que un receptáculo tenga protección GFCI?",
+    "reviewedExplanation": "El desequilibrio entre corriente que sale y regresa provoca la actuación; no cubre todos los peligros eléctricos.",
+    "reviewedOptions": [
+      "Protección de personas ante determinadas fallas a tierra",
+      "Protección garantizada ante todo contacto entre fase y neutro",
+      "Eliminación de toda protección de sobrecorriente",
+      "Conversión de 120 V a 12 V"
+    ],
+    "reviewedOptionExplanations": [
+      "El desequilibrio entre corriente que sale y regresa provoca la actuación; no cubre todos los peligros eléctricos.",
+      "El GFCI no protege contra todos los contactos posibles.",
+      "El circuito sigue necesitando protección adecuada.",
+      "No es un transformador."
+    ]
+  },
+  {
+    "id": "ampliacion-35",
+    "reviewedAnswer": 0,
+    "reviewedText": "Usar TEST y RESET según las instrucciones del fabricante",
+    "reviewedQuestion": "¿Qué acción comprueba el mecanismo de prueba de un receptáculo GFCI?",
+    "reviewedExplanation": "Se utiliza la prueba incorporada y la periodicidad indicada; la respuesta debe verificarse como especifica el producto.",
+    "reviewedOptions": [
+      "Usar TEST y RESET según las instrucciones del fabricante",
+      "Unir fase con tierra mediante un alambre",
+      "Mojarlo para observar si dispara",
+      "Aumentar el breaker"
+    ],
+    "reviewedOptionExplanations": [
+      "Se utiliza la prueba incorporada y la periodicidad indicada; la respuesta debe verificarse como especifica el producto.",
+      "Provocar una falla es peligroso.",
+      "Introduce un riesgo de choque.",
+      "No comprueba la función GFCI."
+    ]
+  },
+  {
+    "id": "ampliacion-36",
+    "reviewedAnswer": 0,
+    "reviewedText": "Dificultar la inserción de objetos ajenos al enchufe",
+    "reviewedQuestion": "¿Qué función tienen las barreras internas de un receptáculo TR?",
+    "reviewedExplanation": "Tamper Resistant describe un mecanismo de obturación; no implica protección GFCI ni aptitud para intemperie.",
+    "reviewedOptions": [
+      "Dificultar la inserción de objetos ajenos al enchufe",
+      "Proporcionar respaldo con batería",
+      "Reemplazar la puesta a tierra",
+      "Medir la resistencia de la carga"
+    ],
+    "reviewedOptionExplanations": [
+      "Tamper Resistant describe un mecanismo de obturación; no implica protección GFCI ni aptitud para intemperie.",
+      "No almacenan energía.",
+      "Son una protección diferente.",
+      "No son un instrumento."
+    ]
+  },
+  {
+    "id": "ampliacion-37",
+    "reviewedAnswer": 0,
+    "reviewedText": "Volumen disponible frente al volumen requerido por su contenido",
+    "reviewedQuestion": "¿Qué se compara al comprobar el llenado de una caja?",
+    "reviewedExplanation": "Los conductores y otros elementos requieren asignaciones según la regla; referencia de estudio: NEC 2020, 314.16.",
+    "reviewedOptions": [
+      "Volumen disponible frente al volumen requerido por su contenido",
+      "Solo el color de los cables",
+      "Únicamente el peso de la tapa",
+      "La longitud total de la vivienda"
+    ],
+    "reviewedOptionExplanations": [
+      "Los conductores y otros elementos requieren asignaciones según la regla; referencia de estudio: NEC 2020, 314.16.",
+      "No determina el volumen requerido.",
+      "No representa la ocupación de conductores y dispositivos.",
+      "No determina la capacidad de la caja."
+    ]
+  },
+  {
+    "id": "ampliacion-39",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; debe verificarse también su clasificación y la envolvente requerida",
+    "reviewedQuestion": "¿Puede deducirse que un dispositivo es apto para intemperie solo porque incorpora GFCI?",
+    "reviewedExplanation": "La función contra falla a tierra y la protección frente al ambiente son características distintas.",
+    "reviewedOptions": [
+      "No; debe verificarse también su clasificación y la envolvente requerida",
+      "Sí, GFCI significa impermeable",
+      "Sí, si el botón es rojo",
+      "Sí, sin necesidad de tapa"
+    ],
+    "reviewedOptionExplanations": [
+      "La función contra falla a tierra y la protección frente al ambiente son características distintas.",
+      "GFCI describe una protección eléctrica.",
+      "El color del botón no establece aptitud ambiental.",
+      "La protección ambiental sigue siendo necesaria."
+    ]
+  },
+  {
+    "id": "ampliacion-40",
+    "reviewedAnswer": 0,
+    "reviewedText": "Edición, condiciones del caso y excepciones aplicables",
+    "reviewedQuestion": "¿Qué debe revisarse antes de aplicar una regla del NEC a una pregunta de práctica?",
+    "reviewedExplanation": "Este repaso usa NEC 2020 como edición didáctica; la edición de la convocatoria debe confirmarse con la Junta.",
+    "reviewedOptions": [
+      "Edición, condiciones del caso y excepciones aplicables",
+      "Solo el número de página de cualquier libro",
+      "Que el valor sea fácil de memorizar",
+      "La respuesta más repetida en redes"
+    ],
+    "reviewedOptionExplanations": [
+      "Este repaso usa NEC 2020 como edición didáctica; la edición de la convocatoria debe confirmarse con la Junta.",
+      "La paginación no confirma edición ni alcance.",
+      "La facilidad no demuestra validez.",
+      "La popularidad no sustituye la referencia."
+    ]
+  },
+  {
+    "id": "ampliacion-41",
+    "reviewedAnswer": 0,
+    "reviewedText": "Interruptor sencillo de control",
+    "reviewedQuestion": "En el esquema A, ¿qué representa S1?",
+    "reviewedExplanation": "S1 interrumpe el conductor de fase del circuito didáctico; N vuelve directamente desde la carga.",
+    "reviewedOptions": [
+      "Interruptor sencillo de control",
+      "Transformador",
+      "Electrodo de puesta a tierra",
+      "Contador de energía"
+    ],
+    "reviewedOptionExplanations": [
+      "S1 interrumpe el conductor de fase del circuito didáctico; N vuelve directamente desde la carga.",
+      "El símbolo abre o cierra una trayectoria, no muestra devanados.",
+      "No muestra conexión con el terreno.",
+      "No mide consumo."
+    ]
+  },
+  {
+    "id": "ampliacion-42",
+    "reviewedAnswer": 0,
+    "reviewedText": "La trayectoria de corriente está interrumpida",
+    "reviewedQuestion": "En el esquema A, ¿por qué la lámpara no enciende con S1 abierto?",
+    "reviewedExplanation": "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión.",
+    "reviewedOptions": [
+      "La trayectoria de corriente está interrumpida",
+      "Porque el neutro produce energía",
+      "Porque la lámpara se vuelve un capacitor",
+      "Porque el voltaje de la fuente necesariamente es cero"
+    ],
+    "reviewedOptionExplanations": [
+      "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión.",
+      "El neutro no es una fuente independiente.",
+      "Abrir un interruptor no cambia el tipo de carga.",
+      "Un circuito abierto puede conservar tensión en parte de él."
+    ]
+  },
+  {
+    "id": "ampliacion-43",
+    "reviewedAnswer": 0,
+    "reviewedText": "Voltímetro conectado entre dos puntos",
+    "reviewedQuestion": "En el esquema B, ¿qué elemento permite medir tensión sin abrir la trayectoria de la carga?",
+    "reviewedExplanation": "El voltímetro se conecta en paralelo a los puntos cuya diferencia de potencial se estudia.",
+    "reviewedOptions": [
+      "Voltímetro conectado entre dos puntos",
+      "Amperímetro colocado directamente entre fase y neutro",
+      "Interruptor en serie sin instrumento",
+      "Varilla de tierra adicional"
+    ],
+    "reviewedOptionExplanations": [
+      "El voltímetro se conecta en paralelo a los puntos cuya diferencia de potencial se estudia.",
+      "Esa conexión puede provocar un cortocircuito.",
+      "No mide voltaje.",
+      "No es un instrumento de medición."
+    ]
+  },
+  {
+    "id": "ampliacion-44",
+    "reviewedAnswer": 0,
+    "reviewedText": "Significado de símbolos y abreviaturas del proyecto",
+    "reviewedQuestion": "¿Qué información aporta la leyenda de un plano eléctrico?",
+    "reviewedExplanation": "Los símbolos deben interpretarse con la leyenda del proyecto para evitar asumir convenciones incorrectas.",
+    "reviewedOptions": [
+      "Significado de símbolos y abreviaturas del proyecto",
+      "La puntuación del examen",
+      "La garantía de que todo está desenergizado",
+      "La eliminación de las especificaciones"
+    ],
+    "reviewedOptionExplanations": [
+      "Los símbolos deben interpretarse con la leyenda del proyecto para evitar asumir convenciones incorrectas.",
+      "No es información del plano.",
+      "Un dibujo no acredita la condición real.",
+      "La leyenda complementa las especificaciones."
+    ]
+  },
+  {
+    "id": "ampliacion-45",
+    "reviewedAnswer": 0,
+    "reviewedText": "Ofrecer trayectorias alternativas para controlar una carga desde dos puntos",
+    "reviewedQuestion": "¿Para qué sirven los dos viajeros entre interruptores de tres vías convencionales?",
+    "reviewedExplanation": "Cada interruptor conecta su común con uno de los viajeros; la combinación determina si hay trayectoria completa.",
+    "reviewedOptions": [
+      "Ofrecer trayectorias alternativas para controlar una carga desde dos puntos",
+      "Transportar siempre corriente trifásica",
+      "Sustituir el conductor de protección",
+      "Medir kWh"
+    ],
+    "reviewedOptionExplanations": [
+      "Cada interruptor conecta su común con uno de los viajeros; la combinación determina si hay trayectoria completa.",
+      "Tres vías no significa tres fases.",
+      "Los viajeros son conductores funcionales del control.",
+      "No son medidores."
+    ]
+  },
+  {
+    "id": "ampliacion-46",
+    "reviewedAnswer": 0,
+    "reviewedText": "El unifilar resume conexiones; el plano sitúa elementos físicamente",
+    "reviewedQuestion": "¿Qué diferencia básica hay entre diagrama unifilar y plano de ubicación?",
+    "reviewedExplanation": "Uno ayuda a entender la organización eléctrica y el otro la distribución espacial.",
+    "reviewedOptions": [
+      "El unifilar resume conexiones; el plano sitúa elementos físicamente",
+      "Ambos muestran obligatoriamente cada hilo a escala",
+      "El unifilar certifica ausencia de tensión",
+      "El plano de ubicación reemplaza todas las especificaciones"
+    ],
+    "reviewedOptionExplanations": [
+      "Uno ayuda a entender la organización eléctrica y el otro la distribución espacial.",
+      "Un unifilar simplifica la representación.",
+      "Ningún plano realiza esa verificación.",
+      "Se complementa con diagramas y detalles."
+    ]
+  },
+  {
+    "id": "ampliacion-47",
+    "reviewedAnswer": 0,
+    "reviewedText": "Consultar al responsable y aclarar la documentación antes de intervenir",
+    "reviewedQuestion": "¿Qué debe hacerse si el dibujo y la leyenda identifican de forma contradictoria un conductor?",
+    "reviewedExplanation": "Las discrepancias se aclaran antes del trabajo; después se verifica la instalación conforme al procedimiento seguro.",
+    "reviewedOptions": [
+      "Consultar al responsable y aclarar la documentación antes de intervenir",
+      "Elegir la interpretación más rápida",
+      "Guiarse solo por el color de la pared",
+      "Omitir el conductor de protección"
+    ],
+    "reviewedOptionExplanations": [
+      "Las discrepancias se aclaran antes del trabajo; después se verifica la instalación conforme al procedimiento seguro.",
+      "Una suposición puede llevar a una conexión errónea.",
+      "No identifica la función eléctrica.",
+      "No resuelve la contradicción."
+    ]
+  },
+  {
+    "id": "ampliacion-48",
+    "reviewedAnswer": 0,
+    "reviewedText": "Una relación eléctrica entre puntos",
+    "reviewedQuestion": "¿Qué representa una línea de conexión en un esquema didáctico?",
+    "reviewedExplanation": "Debe distinguirse la conectividad del esquema de las rutas y detalles constructivos del plano.",
+    "reviewedOptions": [
+      "Una relación eléctrica entre puntos",
+      "Siempre la ruta física exacta del cable",
+      "La sección AWG en todos los casos",
+      "La autorización para trabajar energizado"
+    ],
+    "reviewedOptionExplanations": [
+      "Debe distinguirse la conectividad del esquema de las rutas y detalles constructivos del plano.",
+      "El esquema funcional no fija necesariamente la ruta real.",
+      "El calibre necesita indicación adicional.",
+      "Un dibujo no concede esa autorización."
+    ]
+  },
+  {
+    "id": "ampliacion-49",
+    "reviewedAnswer": 0,
+    "reviewedText": "Sin tensión y con energía almacenada controlada",
+    "reviewedQuestion": "¿En qué condición se prueba continuidad de un componente?",
+    "reviewedExplanation": "El multímetro aplica su propia pequeña señal; la tensión externa invalida la prueba y puede causar daño.",
+    "reviewedOptions": [
+      "Sin tensión y con energía almacenada controlada",
+      "Con el circuito energizado",
+      "Con puntas en el borne de amperios por defecto",
+      "Tocando el metal expuesto con los dedos"
+    ],
+    "reviewedOptionExplanations": [
+      "El multímetro aplica su propia pequeña señal; la tensión externa invalida la prueba y puede causar daño.",
+      "La prueba de continuidad no se realiza con tensión presente.",
+      "Se usan función y bornes correspondientes al instrumento.",
+      "No es una técnica segura de comprobación."
+    ]
+  },
+  {
+    "id": "ampliacion-50",
+    "reviewedAnswer": 0,
+    "reviewedText": "Circuito abierto o resistencia fuera de rango",
+    "reviewedQuestion": "¿Qué indica OL en una medición de resistencia, según el rango del instrumento?",
+    "reviewedExplanation": "Se interpreta el modo y rango; OL no distingue por sí solo todas las causas de una lectura alta.",
+    "reviewedOptions": [
+      "Circuito abierto o resistencia fuera de rango",
+      "Siempre cero ohmios",
+      "Voltaje exactamente igual a 120 V",
+      "Una batería externa completamente cargada"
+    ],
+    "reviewedOptionExplanations": [
+      "Se interpreta el modo y rango; OL no distingue por sí solo todas las causas de una lectura alta.",
+      "Cero indica resistencia muy baja, no fuera de rango.",
+      "OL en modo resistencia no es una lectura de voltaje.",
+      "No permite esa conclusión."
+    ]
+  },
+  {
+    "id": "ampliacion-51",
+    "reviewedAnswer": 0,
+    "reviewedText": "Revisar y cambiar los bornes y selector según el manual",
+    "reviewedQuestion": "¿Qué se hace antes de cambiar de medir corriente con puntas a medir voltaje?",
+    "reviewedExplanation": "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión es peligrosa.",
+    "reviewedOptions": [
+      "Revisar y cambiar los bornes y selector según el manual",
+      "Dejar siempre la punta roja en A",
+      "Unir las puntas con un alambre",
+      "Retirar los fusibles del medidor"
+    ],
+    "reviewedOptionExplanations": [
+      "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión es peligrosa.",
+      "Puede crear un cortocircuito al medir tensión.",
+      "No prepara el instrumento para la medición.",
+      "Anula protecciones."
+    ]
+  },
+  {
+    "id": "ampliacion-52",
+    "reviewedAnswer": 0,
+    "reviewedText": "Un solo conductor portador de esa corriente",
+    "reviewedQuestion": "¿Qué encierra una pinza para medir corriente de carga en un circuito monofásico de dos hilos?",
+    "reviewedExplanation": "La pinza responde al campo neto; para corriente de carga se abraza el conductor adecuado individualmente.",
+    "reviewedOptions": [
+      "Un solo conductor portador de esa corriente",
+      "Fase y neutro juntos para leer la carga",
+      "Todo el cordón por defecto",
+      "Solo el aislamiento sin ningún conductor"
+    ],
+    "reviewedOptionExplanations": [
+      "La pinza responde al campo neto; para corriente de carga se abraza el conductor adecuado individualmente.",
+      "Sus campos tienden a cancelarse; esa disposición puede servir para otra medición, no la carga individual.",
+      "Puede encerrar ida y retorno y cancelar la lectura.",
+      "No hay corriente de carga que medir ahí."
+    ]
+  },
+  {
+    "id": "ampliacion-53",
+    "reviewedAnswer": 0,
+    "reviewedText": "Tensión CA con rango y categoría adecuados",
+    "reviewedQuestion": "Para medir el voltaje de una alimentación de CA, ¿qué función se selecciona?",
+    "reviewedExplanation": "El símbolo de CA y el rango deben corresponder; la categoría de seguridad también debe ser apropiada al lugar.",
+    "reviewedOptions": [
+      "Tensión CA con rango y categoría adecuados",
+      "Resistencia con la fuente conectada",
+      "Continuidad con la fuente conectada",
+      "Capacitancia sin aislar el equipo"
+    ],
+    "reviewedOptionExplanations": [
+      "El símbolo de CA y el rango deben corresponder; la categoría de seguridad también debe ser apropiada al lugar.",
+      "No se usa ohmímetro sobre una fuente energizada.",
+      "Ese modo requiere ausencia de tensión.",
+      "No mide la tensión de la fuente."
+    ]
+  },
+  {
+    "id": "ampliacion-54",
+    "reviewedAnswer": 0,
+    "reviewedText": "Aislamiento, integridad y clasificación adecuados",
+    "reviewedQuestion": "¿Qué debe verificarse en las puntas de prueba antes de usarlas?",
+    "reviewedExplanation": "Una punta dañada o de clasificación insuficiente puede comprometer una medición aunque el medidor funcione.",
+    "reviewedOptions": [
+      "Aislamiento, integridad y clasificación adecuados",
+      "Solo que sean del mismo color",
+      "Que tengan metal expuesto adicional",
+      "Que se haya eliminado su protección"
+    ],
+    "reviewedOptionExplanations": [
+      "Una punta dañada o de clasificación insuficiente puede comprometer una medición aunque el medidor funcione.",
+      "El color no acredita estado ni categoría.",
+      "Aumenta el riesgo de contacto accidental.",
+      "Quitar protecciones reduce seguridad."
+    ]
+  },
+  {
+    "id": "ampliacion-55",
+    "reviewedAnswer": 0,
+    "reviewedText": "Aislando apropiadamente el componente con el circuito desenergizado",
+    "reviewedQuestion": "¿Cómo se reduce el efecto de caminos en paralelo al medir una resistencia individual?",
+    "reviewedExplanation": "Un camino paralelo reduce la resistencia equivalente y puede impedir conocer el valor del componente.",
+    "reviewedOptions": [
+      "Aislando apropiadamente el componente con el circuito desenergizado",
+      "Aumentando el voltaje de la fuente",
+      "Midiendo siempre el conjunto completo",
+      "Usando el modo de temperatura"
+    ],
+    "reviewedOptionExplanations": [
+      "Un camino paralelo reduce la resistencia equivalente y puede impedir conocer el valor del componente.",
+      "La resistencia no se mide con tensión aplicada.",
+      "La lectura puede incluir caminos alternos.",
+      "No mide resistencia eléctrica."
+    ]
+  },
+  {
+    "id": "ampliacion-56",
+    "reviewedAnswer": 0,
+    "reviewedText": "Que existe una trayectoria de resistencia suficientemente baja para ese instrumento",
+    "reviewedQuestion": "¿Qué significa un pitido de continuidad en un cable aislado y desenergizado?",
+    "reviewedExplanation": "El umbral depende del medidor; el pitido no reemplaza pruebas de aislamiento ni otras verificaciones.",
+    "reviewedOptions": [
+      "Que existe una trayectoria de resistencia suficientemente baja para ese instrumento",
+      "Que el aislamiento soporta cualquier voltaje",
+      "Que el cable admite cualquier corriente",
+      "Que se certificó toda la instalación"
+    ],
+    "reviewedOptionExplanations": [
+      "El umbral depende del medidor; el pitido no reemplaza pruebas de aislamiento ni otras verificaciones.",
+      "La continuidad no prueba resistencia dieléctrica.",
+      "La ampacidad depende de otras condiciones.",
+      "Es una comprobación limitada."
+    ]
+  },
+  {
+    "id": "ampliacion-57",
+    "reviewedAnswer": 0,
+    "reviewedText": "La de un perito electricista colegiado",
+    "reviewedQuestion": "¿Bajo qué supervisión trabaja legalmente el ayudante de perito electricista?",
+    "reviewedExplanation": "El artículo 2(c) define al ayudante como persona autorizada para ayudar bajo esa supervisión.",
+    "reviewedOptions": [
+      "La de un perito electricista colegiado",
+      "La de cualquier vecino",
+      "Sin supervisión por haber aprobado el examen",
+      "Solo la de un vendedor de materiales"
+    ],
+    "reviewedOptionExplanations": [
+      "El artículo 2(c) define al ayudante como persona autorizada para ayudar bajo esa supervisión.",
+      "La ley define una supervisión profesional específica.",
+      "La licencia de ayudante no equivale a la de perito.",
+      "Esa función no satisface la definición legal."
+    ]
+  },
+  {
+    "id": "ampliacion-58",
+    "reviewedAnswer": 0,
+    "reviewedText": "Junta Examinadora de Peritos Electricistas",
+    "reviewedQuestion": "¿Qué organismo autoriza el ejercicio mediante licencia de ayudante?",
+    "reviewedExplanation": "La Junta tiene la facultad de conceder licencias; no debe confundirse con el Colegio ni con el patrono.",
+    "reviewedOptions": [
+      "Junta Examinadora de Peritos Electricistas",
+      "La ferretería",
+      "El dueño de la obra",
+      "La empresa fabricante de cables"
+    ],
+    "reviewedOptionExplanations": [
+      "La Junta tiene la facultad de conceder licencias; no debe confundirse con el Colegio ni con el patrono.",
+      "Vender materiales no implica autoridad para licenciar.",
+      "Contratar no equivale a expedir licencia.",
+      "El fabricante no licencia profesionales."
+    ]
+  },
+  {
+    "id": "ampliacion-59",
+    "reviewedAnswer": 0,
+    "reviewedText": "El aprendiz se autoriza mediante certificado y el ayudante mediante licencia",
+    "reviewedQuestion": "¿Qué diferencia legal básica existe entre aprendiz y ayudante?",
+    "reviewedExplanation": "Los artículos 2 y 5 distinguen categorías, documentos y el trabajo bajo supervisión.",
+    "reviewedOptions": [
+      "El aprendiz se autoriza mediante certificado y el ayudante mediante licencia",
+      "Ambos son automáticamente peritos",
+      "El aprendiz no necesita autorización alguna",
+      "El ayudante puede certificar cualquier trabajo sin supervisión"
+    ],
+    "reviewedOptionExplanations": [
+      "Los artículos 2 y 5 distinguen categorías, documentos y el trabajo bajo supervisión.",
+      "Son categorías distintas.",
+      "La ley prevé su autorización.",
+      "No corresponde a su definición."
+    ]
+  },
+  {
+    "id": "ampliacion-60",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; debe completar el trámite y los requisitos de licencia",
+    "reviewedQuestion": "¿Aprobar el examen convierte por sí solo a la persona en titular de una licencia expedida?",
+    "reviewedExplanation": "El examen es parte de los requisitos del artículo 8; aprobarlo y obtener la licencia son pasos diferentes.",
+    "reviewedOptions": [
+      "No; debe completar el trámite y los requisitos de licencia",
+      "Sí, basta una captura de la nota",
+      "Sí, la escuela expide la licencia profesional",
+      "Sí, basta comprar herramientas"
+    ],
+    "reviewedOptionExplanations": [
+      "El examen es parte de los requisitos del artículo 8; aprobarlo y obtener la licencia son pasos diferentes.",
+      "La nota no sustituye la expedición.",
+      "La autoridad es la Junta.",
+      "No es un requisito que otorgue licencia."
+    ]
+  },
+  {
+    "id": "ampliacion-61",
+    "reviewedAnswer": 0,
+    "reviewedText": "Contador eléctrico",
+    "reviewedQuestion": "¿Qué equipo registra la energía que consume una residencia?",
+    "reviewedExplanation": "Se distingue el contador del receptáculo o base que lo aloja.",
+    "reviewedOptions": [
+      "Contador eléctrico",
+      "Base del contador",
+      "Soporte de acometida",
+      "Tapa de conduleto"
+    ],
+    "reviewedOptionExplanations": [
+      "Se distingue el contador del receptáculo o base que lo aloja.",
+      "La base sostiene y conecta el medidor, no es el elemento que registra.",
+      "Sujeta la acometida; no mide energía.",
+      "Da acceso y protección, no registra consumo."
+    ]
+  },
+  {
+    "id": "ampliacion-62",
+    "reviewedAnswer": 0,
+    "reviewedText": "Base del contador",
+    "reviewedQuestion": "¿Qué componente sostiene físicamente el contador y permite su conexión?",
+    "reviewedExplanation": "LUMA distingue la base del equipo medidor; en su guía se identifica la base entre los equipos del cliente.",
+    "reviewedOptions": [
+      "Base del contador",
+      "Transformador de distribución",
+      "Panel fotovoltaico",
+      "Electrodo de tierra"
+    ],
+    "reviewedOptionExplanations": [
+      "LUMA distingue la base del equipo medidor; en su guía se identifica la base entre los equipos del cliente.",
+      "Su función principal es transformar voltaje.",
+      "Produce energía solar, no aloja el medidor.",
+      "Conecta el sistema de puesta a tierra con el terreno."
+    ]
+  },
+  {
+    "id": "ampliacion-63",
+    "reviewedAnswer": 0,
+    "reviewedText": "Adaptar el voltaje de distribución al servicio",
+    "reviewedQuestion": "¿Qué función cumple normalmente el transformador de distribución que alimenta una vivienda?",
+    "reviewedExplanation": "El transformador modifica niveles de tensión; no es un contador ni almacenamiento de respaldo.",
+    "reviewedOptions": [
+      "Adaptar el voltaje de distribución al servicio",
+      "Medir por sí solo el consumo facturado",
+      "Sustituir todo breaker de la vivienda",
+      "Almacenar energía como una batería"
+    ],
+    "reviewedOptionExplanations": [
+      "El transformador modifica niveles de tensión; no es un contador ni almacenamiento de respaldo.",
+      "Esa función corresponde al contador.",
+      "No reemplaza las protecciones de los circuitos.",
+      "No cumple esa función."
+    ]
+  },
+  {
+    "id": "ampliacion-64",
+    "reviewedAnswer": 0,
+    "reviewedText": "La guía vigente de responsabilidades de la empresa y la condición del servicio",
+    "reviewedQuestion": "¿Qué debe consultarse antes de asumir quién repara un componente de la acometida?",
+    "reviewedExplanation": "LUMA distingue componentes de la empresa y del cliente; la identificación concreta debe cotejarse antes de gestionar trabajos.",
+    "reviewedOptions": [
+      "La guía vigente de responsabilidades de la empresa y la condición del servicio",
+      "Solo quién lo ve desde la calle",
+      "El color del gabinete",
+      "La opinión de una persona ajena al servicio"
+    ],
+    "reviewedOptionExplanations": [
+      "LUMA distingue componentes de la empresa y del cliente; la identificación concreta debe cotejarse antes de gestionar trabajos.",
+      "La visibilidad no determina propiedad.",
+      "No define responsabilidades.",
+      "No sustituye la documentación oficial."
+    ]
+  },
+  {
+    "id": "ampliacion-65",
+    "reviewedAnswer": 0,
+    "reviewedText": "Corriente continua",
+    "reviewedQuestion": "¿Qué tipo de corriente entregan directamente las células fotovoltaicas?",
+    "reviewedExplanation": "Las células convierten luz en electricidad CC; otros equipos acondicionan la energía.",
+    "reviewedOptions": [
+      "Corriente continua",
+      "Corriente alterna de 60 Hz por sí solas",
+      "Corriente trifásica sin equipo adicional",
+      "Solo corriente mecánica"
+    ],
+    "reviewedOptionExplanations": [
+      "Las células convierten luz en electricidad CC; otros equipos acondicionan la energía.",
+      "La conversión a CA la realiza el inversor.",
+      "No la generan directamente las células.",
+      "La salida es energía eléctrica."
+    ]
+  },
+  {
+    "id": "ampliacion-66",
+    "reviewedAnswer": 0,
+    "reviewedText": "Convertir CC en CA",
+    "reviewedQuestion": "¿Qué función principal cumple un inversor fotovoltaico?",
+    "reviewedExplanation": "La CA puede alimentar cargas o interactuar con la red según el diseño del sistema.",
+    "reviewedOptions": [
+      "Convertir CC en CA",
+      "Convertir una varilla en batería",
+      "Medir únicamente temperatura",
+      "Eliminar todos los dispositivos de protección"
+    ],
+    "reviewedOptionExplanations": [
+      "La CA puede alimentar cargas o interactuar con la red según el diseño del sistema.",
+      "No es un proceso eléctrico del inversor.",
+      "No es su función principal.",
+      "Las protecciones siguen siendo necesarias."
+    ]
+  },
+  {
+    "id": "ampliacion-67",
+    "reviewedAnswer": 0,
+    "reviewedText": "Guardar energía para usarla después",
+    "reviewedQuestion": "¿Qué función cumple una batería en un sistema solar con almacenamiento?",
+    "reviewedExplanation": "El almacenamiento permite usar energía cuando la producción es insuficiente, según capacidad y configuración.",
+    "reviewedOptions": [
+      "Guardar energía para usarla después",
+      "Producir luz solar",
+      "Eliminar la necesidad de un inversor para toda carga de CA",
+      "Sustituir el conductor de protección"
+    ],
+    "reviewedOptionExplanations": [
+      "El almacenamiento permite usar energía cuando la producción es insuficiente, según capacidad y configuración.",
+      "La batería no es fuente de radiación solar.",
+      "La conversión sigue siendo necesaria cuando corresponda.",
+      "No cumple esa función."
+    ]
+  },
+  {
+    "id": "ampliacion-68",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; depende del diseño y del equipo de respaldo e interconexión",
+    "reviewedQuestion": "¿Todo sistema solar conectado a la red proporciona respaldo durante un apagón?",
+    "reviewedExplanation": "Se necesitan funciones y equipos apropiados para alimentar cargas con la red ausente de manera segura.",
+    "reviewedOptions": [
+      "No; depende del diseño y del equipo de respaldo e interconexión",
+      "Sí, cualquier panel garantiza energía en los tomacorrientes",
+      "Sí, aunque no haya luz ni almacenamiento",
+      "Sí, solo con cambiar el contador"
+    ],
+    "reviewedOptionExplanations": [
+      "Se necesitan funciones y equipos apropiados para alimentar cargas con la red ausente de manera segura.",
+      "No todos los sistemas están diseñados para operar aislados.",
+      "No hay fuente disponible en esa condición.",
+      "El contador no crea capacidad de respaldo."
+    ]
+  },
+  {
+    "id": "ampliacion-69",
+    "reviewedAnswer": 0,
+    "reviewedText": "Sí, los módulos iluminados pueden seguir generando CC",
+    "reviewedQuestion": "¿Puede un circuito fotovoltaico mantener tensión aunque se abra el interruptor de CA?",
+    "reviewedExplanation": "Deben identificarse y controlarse todas las fuentes; desconectar un lado no garantiza aislamiento completo.",
+    "reviewedOptions": [
+      "Sí, los módulos iluminados pueden seguir generando CC",
+      "No, todo el sistema queda necesariamente sin tensión",
+      "No, el sol solo produce calor",
+      "No, si se apaga una lámpara de la vivienda"
+    ],
+    "reviewedOptionExplanations": [
+      "Deben identificarse y controlarse todas las fuentes; desconectar un lado no garantiza aislamiento completo.",
+      "Abrir CA no elimina la generación en los módulos.",
+      "Las células generan electricidad.",
+      "Esa acción no aísla los módulos."
+    ]
+  },
+  {
+    "id": "ampliacion-70",
+    "reviewedAnswer": 0,
+    "reviewedText": "Reducir su producción según configuración y electrónica",
+    "reviewedQuestion": "¿Qué efecto puede tener la sombra sobre un arreglo fotovoltaico?",
+    "reviewedExplanation": "El impacto depende de cómo se conectan los módulos y de los equipos que administran su funcionamiento.",
+    "reviewedOptions": [
+      "Reducir su producción según configuración y electrónica",
+      "Aumentar siempre la potencia",
+      "Convertir la salida del panel en CA",
+      "Eliminar todo voltaje peligroso"
+    ],
+    "reviewedOptionExplanations": [
+      "El impacto depende de cómo se conectan los módulos y de los equipos que administran su funcionamiento.",
+      "La menor irradiancia no garantiza mayor producción.",
+      "El sombreado no actúa como inversor.",
+      "La sombra no demuestra ausencia de tensión."
+    ]
+  },
+  {
+    "id": "ampliacion-71",
+    "reviewedAnswer": 0,
+    "reviewedText": "kWh",
+    "reviewedQuestion": "¿Qué unidad expresa energía almacenada o entregada durante un período?",
+    "reviewedExplanation": "Potencia y energía son distintas: una carga de 1 kW durante una hora utiliza 1 kWh.",
+    "reviewedOptions": [
+      "kWh",
+      "kW",
+      "Hz",
+      "AWG"
+    ],
+    "reviewedOptionExplanations": [
+      "Potencia y energía son distintas: una carga de 1 kW durante una hora utiliza 1 kWh.",
+      "Mide potencia, no energía acumulada.",
+      "Mide frecuencia.",
+      "Identifica tamaño de conductor."
+    ]
+  },
+  {
+    "id": "ampliacion-72",
+    "reviewedAnswer": 0,
+    "reviewedText": "Porque puede haber más de una fuente que energice el equipo",
+    "reviewedQuestion": "¿Por qué es importante identificar red, paneles, baterías y generador antes del mantenimiento?",
+    "reviewedExplanation": "Se consulta el diagrama y se aplica el procedimiento de control de energías a todas las fuentes relevantes.",
+    "reviewedOptions": [
+      "Porque puede haber más de una fuente que energice el equipo",
+      "Porque todas se apagan con cualquier interruptor",
+      "Porque las baterías no son eléctricas",
+      "Porque la identificación reemplaza la verificación"
+    ],
+    "reviewedOptionExplanations": [
+      "Se consulta el diagrama y se aplica el procedimiento de control de energías a todas las fuentes relevantes.",
+      "Cada fuente requiere el aislamiento correspondiente.",
+      "Pueden entregar corriente y energía peligrosas.",
+      "Identificar fuentes es un paso, no toda la comprobación."
+    ]
+  },
+  {
+    "id": "mejora-1",
+    "reviewedAnswer": 0,
+    "reviewedText": "Probar y restablecer la protección contra falla a tierra",
+    "reviewedQuestion": "¿Qué función tienen los botones TEST y RESET en el dispositivo de la fotografía 1?",
+    "reviewedExplanation": "El dispositivo es un receptáculo GFCI. Los botones sirven para su prueba y restablecimiento conforme a las instrucciones del fabricante.",
+    "reviewedOptions": [
+      "Probar y restablecer la protección contra falla a tierra",
+      "Cambiar la frecuencia de la red",
+      "Aumentar el calibre de los conductores",
+      "Transformar 120 V a 12 V"
+    ],
+    "reviewedOptionExplanations": [
+      "El dispositivo es un receptáculo GFCI. Los botones sirven para su prueba y restablecimiento conforme a las instrucciones del fabricante.",
+      "Esos botones no cambian la frecuencia de alimentación.",
+      "El calibre es una propiedad física del conductor.",
+      "El receptáculo no actúa como transformador."
+    ]
+  },
+  {
+    "id": "mejora-2",
+    "reviewedAnswer": 0,
+    "reviewedText": "Clasificación para uso hospitalario",
+    "reviewedQuestion": "¿Qué indica el punto verde del receptáculo de la fotografía 2?",
+    "reviewedExplanation": "El punto verde identifica Hospital Grade. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
+    "reviewedOptions": [
+      "Clasificación para uso hospitalario",
+      "Ausencia del conductor de protección",
+      "Compatibilidad con cualquier voltaje",
+      "Que solo puede conectarse corriente continua"
+    ],
+    "reviewedOptionExplanations": [
+      "El punto verde identifica Hospital Grade. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
+      "La marca no significa que deba omitirse la tierra.",
+      "Debe respetarse su valor nominal.",
+      "Su ficha indica la clasificación de alimentación del producto."
+    ]
+  },
+  {
+    "id": "mejora-3",
+    "reviewedAnswer": 0,
+    "reviewedText": "La mordaza alrededor de un conductor adecuado",
+    "reviewedQuestion": "¿Qué parte del instrumento de la fotografía 3 permite medir corriente de CA sin intercalar las puntas en serie?",
+    "reviewedExplanation": "La pinza detecta el campo del conductor. Para corriente de carga se abraza uno solo, respetando el manual y los procedimientos de seguridad.",
+    "reviewedOptions": [
+      "La mordaza alrededor de un conductor adecuado",
+      "La funda de transporte",
+      "Las baterías fuera del instrumento",
+      "La punta roja tocando directamente el neutro y la fase"
+    ],
+    "reviewedOptionExplanations": [
+      "La pinza detecta el campo del conductor. Para corriente de carga se abraza uno solo, respetando el manual y los procedimientos de seguridad.",
+      "Solo protege el instrumento durante traslado.",
+      "Son su alimentación, no el sensor de corriente de la carga.",
+      "Esa conexión puede provocar una falla peligrosa."
+    ]
+  },
+  {
+    "id": "mejora-4",
+    "reviewedAnswer": 0,
+    "reviewedText": "Retirar aislamiento con la abertura apropiada al conductor",
+    "reviewedQuestion": "¿Qué uso corresponde a la herramienta de la fotografía 4?",
+    "reviewedExplanation": "El pelacables tiene aberturas para calibres determinados; no debe marcar ni cortar el metal que se desea conservar.",
+    "reviewedOptions": [
+      "Retirar aislamiento con la abertura apropiada al conductor",
+      "Medir resistencia dieléctrica",
+      "Verificar ausencia de tensión por contacto con el mango",
+      "Apretar bornes con torque certificado"
+    ],
+    "reviewedOptionExplanations": [
+      "El pelacables tiene aberturas para calibres determinados; no debe marcar ni cortar el metal que se desea conservar.",
+      "No es un medidor de aislamiento.",
+      "Un mango no comprueba ausencia de tensión.",
+      "Se requiere la herramienta de torque adecuada."
+    ]
+  },
+  {
+    "id": "mejora-5",
+    "reviewedAnswer": 0,
+    "reviewedText": "20 A",
+    "reviewedQuestion": "¿Qué corriente nominal indica la palanca del dispositivo de la fotografía 5?",
+    "reviewedExplanation": "El modelo mostrado está nominalmente clasificado para 20 A. Esto no permite usarlo en cualquier tablero o conductor; debe comprobarse compatibilidad.",
+    "reviewedOptions": [
+      "20 A",
+      "20 V",
+      "20 Hz",
+      "20 kWh"
+    ],
+    "reviewedOptionExplanations": [
+      "El modelo mostrado está nominalmente clasificado para 20 A. Esto no permite usarlo en cualquier tablero o conductor; debe comprobarse compatibilidad.",
+      "La cifra de la palanca corresponde aquí a corriente, no a tensión.",
+      "No expresa frecuencia.",
+      "No es una indicación de energía acumulada."
+    ]
+  },
+  {
+    "id": "mejora-6",
+    "reviewedAnswer": 0,
+    "reviewedText": "El extremo roscado exterior",
+    "reviewedQuestion": "¿Qué extremo del accesorio de la fotografía 6 se fija a la caja mediante una contratuerca?",
+    "reviewedExplanation": "La pieza es un conector: termina la canalización en una caja. Se siguen su listado y las instrucciones de instalación.",
+    "reviewedOptions": [
+      "El extremo roscado exterior",
+      "La boca de compresión para tubería",
+      "Cualquiera de sus extremos de forma indistinta",
+      "Una pieza sin relación con la rosca"
+    ],
+    "reviewedOptionExplanations": [
+      "La pieza es un conector: termina la canalización en una caja. Se siguen su listado y las instrucciones de instalación.",
+      "Ese lado sujeta la canalización compatible.",
+      "Los extremos tienen funciones distintas.",
+      "La fijación de caja corresponde a la rosca y su medio de sujeción."
+    ]
+  },
+  {
+    "id": "mejora-7",
+    "reviewedAnswer": 0,
+    "reviewedText": "Unir dos tramos de canalización compatibles",
+    "reviewedQuestion": "¿Qué función cumple la pieza de la fotografía 7?",
+    "reviewedExplanation": "El cople une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
+    "reviewedOptions": [
+      "Unir dos tramos de canalización compatibles",
+      "Proporcionar una salida de energía para un enchufe",
+      "Abrir automáticamente por sobrecorriente",
+      "Registrar energía consumida"
+    ],
+    "reviewedOptionExplanations": [
+      "El cople une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
+      "No es un receptáculo.",
+      "No contiene un mecanismo de protección.",
+      "No es un contador."
+    ]
+  },
+  {
+    "id": "mejora-8",
+    "reviewedAnswer": 0,
+    "reviewedText": "Que esté desenergizado y se use la abertura del calibre adecuado",
+    "reviewedQuestion": "Antes de pelar el conductor de la fotografía 8, ¿qué debe comprobarse?",
+    "reviewedExplanation": "Se controla y verifica la energía antes de intervenir. Después se usa la abertura correspondiente al calibre y tipo de conductor para evitar dañar el metal.",
+    "reviewedOptions": [
+      "Que esté desenergizado y se use la abertura del calibre adecuado",
+      "Que la mano sirva como detector de tensión",
+      "Que cualquier abertura retire el aislamiento sin dañar el metal",
+      "Que el color del mango autorice trabajar energizado"
+    ],
+    "reviewedOptionExplanations": [
+      "Primero se verifica la condición segura; luego se selecciona la abertura compatible con el conductor.",
+      "La mano nunca se utiliza para comprobar tensión.",
+      "Una abertura incorrecta puede cortar o marcar los hilos.",
+      "El color del mango no determina aislamiento eléctrico ni autorización para trabajo energizado."
+    ]
+  },
+  {
+    "id": "mejora-9",
+    "reviewedAnswer": 0,
+    "reviewedText": "Identificar y controlar también esa fuente de energía",
+    "reviewedQuestion": "Un equipo apagado conserva una batería interna conectada. ¿Qué debe hacerse antes de intervenir?",
+    "reviewedExplanation": "Aislar la red no elimina todas las fuentes. Se sigue el procedimiento del fabricante y del responsable del trabajo para cada energía presente.",
+    "reviewedOptions": [
+      "Identificar y controlar también esa fuente de energía",
+      "Dar por seguro el equipo porque el enchufe está retirado",
+      "Cortocircuitar la batería para descargarla",
+      "Ocultar la batería para evitar tocarla"
+    ],
+    "reviewedOptionExplanations": [
+      "Aislar la red no elimina todas las fuentes. Se sigue el procedimiento del fabricante y del responsable del trabajo para cada energía presente.",
+      "La batería sigue siendo una fuente posible.",
+      "Puede causar quemaduras, arco o incendio.",
+      "No controla su capacidad de energizar el equipo."
+    ]
+  },
+  {
+    "id": "mejora-10",
+    "reviewedAnswer": 0,
+    "reviewedText": "Detenerse y configurar bornes y función según el manual",
+    "reviewedQuestion": "Una persona dejó la punta roja del multímetro en A y quiere medir tensión entre fase y neutro. ¿Qué corresponde?",
+    "reviewedExplanation": "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión antes de medir con el procedimiento seguro.",
+    "reviewedOptions": [
+      "Detenerse y configurar bornes y función según el manual",
+      "Medir inmediatamente porque el color es correcto",
+      "Unir ambas puntas para evitar errores",
+      "Retirar el fusible de protección del instrumento"
+    ],
+    "reviewedOptionExplanations": [
+      "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión antes de medir con el procedimiento seguro.",
+      "El color de la punta no determina su conexión interna.",
+      "No configura el instrumento ni hace segura la medición.",
+      "Eliminar una protección aumenta el riesgo."
+    ]
+  },
+  {
+    "id": "mejora-11",
+    "reviewedAnswer": 0,
+    "reviewedText": "Corriente normal por trayectorias metálicas de protección",
+    "reviewedQuestion": "En un subpanel de cuatro hilos se encuentra un puente entre neutro y gabinete, sin excepción aplicable. ¿Qué problema puede provocar?",
+    "reviewedExplanation": "La unión aguas abajo puede crear caminos paralelos de retorno. En el caso descrito el neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
+    "reviewedOptions": [
+      "Corriente normal por trayectorias metálicas de protección",
+      "Una reducción garantizada del consumo",
+      "Transformación automática de CA en CC",
+      "Que el gabinete se convierta en aislante"
+    ],
+    "reviewedOptionExplanations": [
+      "La unión aguas abajo puede crear caminos paralelos de retorno. En el caso descrito el neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
+      "Ese puente no es una medida de eficiencia.",
+      "La unión no rectifica corriente.",
+      "El metal continúa siendo conductor."
+    ]
+  },
+  {
+    "id": "mejora-12",
+    "reviewedAnswer": 0,
+    "reviewedText": "Investigar la causa y verificar conductores y protección antes de cambiarlo",
+    "reviewedQuestion": "Un breaker dispara y alguien propone cambiarlo por otro de mayor amperaje sin revisar nada. ¿Cuál es la respuesta adecuada?",
+    "reviewedExplanation": "El disparo puede indicar sobrecarga, falla o defecto. El perito debe diagnosticarlo y seleccionar la protección que corresponda al circuito.",
+    "reviewedOptions": [
+      "Investigar la causa y verificar conductores y protección antes de cambiarlo",
+      "Aumentarlo siempre hasta que no dispare",
+      "Bloquear la palanca con cinta",
+      "Quitar la puesta a tierra para disminuir corriente"
+    ],
+    "reviewedOptionExplanations": [
+      "El disparo puede indicar sobrecarga, falla o defecto. El perito debe diagnosticarlo y seleccionar la protección que corresponda al circuito.",
+      "Puede dejar los conductores insuficientemente protegidos.",
+      "Impide una función de seguridad.",
+      "No corrige la falla y elimina protección."
+    ]
+  },
+  {
+    "id": "mejora-13",
+    "reviewedAnswer": 0,
+    "reviewedText": "Si el sistema está diseñado y equipado para respaldo",
+    "reviewedQuestion": "Durante un apagón, una casa con paneles solares no tiene energía. ¿Qué dato conviene revisar primero?",
+    "reviewedExplanation": "Un sistema conectado a la red puede dejar de alimentar al perderla. Respaldo requiere diseño y equipos adecuados; la presencia de paneles no lo garantiza.",
+    "reviewedOptions": [
+      "Si el sistema está diseñado y equipado para respaldo",
+      "Solo la cantidad de tomacorrientes de la casa",
+      "El color del contador",
+      "Si todos los paneles tienen el mismo logotipo"
+    ],
+    "reviewedOptionExplanations": [
+      "Un sistema conectado a la red puede dejar de alimentar al perderla. Respaldo requiere diseño y equipos adecuados; la presencia de paneles no lo garantiza.",
+      "No determina capacidad de operar sin red.",
+      "No demuestra funcionamiento en isla.",
+      "La marca por sí sola no garantiza respaldo."
+    ]
+  },
+  {
+    "id": "mejora-14",
+    "reviewedAnswer": 0,
+    "reviewedText": "Suspender su uso y pedir evaluación o reemplazo por personal autorizado",
+    "reviewedQuestion": "Un receptáculo GFCI no interrumpe como indican las instrucciones al presionar TEST. ¿Qué corresponde?",
+    "reviewedExplanation": "Una prueba fallida requiere atención conforme al fabricante. No se da por operativa la protección ni se provocan fallas improvisadas.",
+    "reviewedOptions": [
+      "Suspender su uso y pedir evaluación o reemplazo por personal autorizado",
+      "Suponer que protege porque aún entrega energía",
+      "Crear un cortocircuito con un alambre para probarlo",
+      "Retirar el botón para impedir nuevas pruebas"
+    ],
+    "reviewedOptionExplanations": [
+      "Una prueba fallida requiere atención conforme al fabricante. No se da por operativa la protección ni se provocan fallas improvisadas.",
+      "Entregar energía no confirma la función de protección.",
+      "Es una prueba peligrosa.",
+      "No soluciona el defecto."
+    ]
+  },
+  {
+    "id": "mejora-15",
+    "reviewedAnswer": 0,
+    "reviewedText": "El que tenga compatibilidad y clasificación adecuadas",
+    "reviewedQuestion": "Dos accesorios parecen iguales, pero uno no está aprobado para el tipo de tubería. ¿Cuál debe elegirse?",
+    "reviewedExplanation": "La selección depende de canalización, tamaño, ambiente y listado, no solo del aspecto.",
+    "reviewedOptions": [
+      "El que tenga compatibilidad y clasificación adecuadas",
+      "El más brillante independientemente del listado",
+      "El que necesite forzarse para encajar",
+      "Cualquiera si se cubre con cinta"
+    ],
+    "reviewedOptionExplanations": [
+      "La selección depende de canalización, tamaño, ambiente y listado, no solo del aspecto.",
+      "El acabado no determina aptitud.",
+      "La fuerza no acredita compatibilidad.",
+      "La cinta no corrige un accesorio incompatible."
+    ]
+  },
+  {
+    "id": "mejora-16",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; la continuidad no demuestra resistencia del aislamiento",
+    "reviewedQuestion": "Un cable da pitido de continuidad. ¿Puede concluirse que su aislamiento está en buen estado para cualquier tensión?",
+    "reviewedExplanation": "La continuidad comprueba una trayectoria conductora con el equipo desenergizado. El aislamiento se evalúa mediante inspección y pruebas apropiadas para esa función.",
+    "reviewedOptions": [
+      "No; la continuidad no demuestra resistencia del aislamiento",
+      "Sí, el pitido certifica toda la instalación",
+      "Sí, porque el pitido mide el calibre",
+      "Sí, aunque haya aislamiento roto visible"
+    ],
+    "reviewedOptionExplanations": [
+      "La continuidad comprueba una trayectoria conductora con el equipo desenergizado. El aislamiento se evalúa mediante inspección y pruebas apropiadas para esa función.",
+      "La prueba tiene un alcance limitado.",
+      "La continuidad no determina sección.",
+      "El daño visible requiere atención."
+    ]
+  },
+  {
+    "id": "instalacion-1",
+    "reviewedAnswer": 0,
+    "reviewedText": "El puente entre neutro y gabinete",
+    "reviewedQuestion": "En el subpanel mostrado, situado después del desconectivo de servicio y sin excepción aplicable, ¿qué conexión debe revisarse?",
+    "reviewedExplanation": "El dibujo muestra una unión aguas abajo entre el neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
+    "reviewedOptions": [
+      "El puente entre neutro y gabinete",
+      "La presencia de cuatro conductores",
+      "La identificación de L1 y L2",
+      "El tamaño del dibujo"
+    ],
+    "reviewedOptionExplanations": [
+      "El dibujo muestra una unión aguas abajo entre el neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
+      "El supuesto del ejercicio es precisamente una alimentación de cuatro conductores.",
+      "Esas etiquetas no explican la unión adicional mostrada.",
+      "La escala gráfica no es el problema eléctrico."
+    ]
+  },
+  {
+    "id": "instalacion-2",
+    "reviewedAnswer": 0,
+    "reviewedText": "Solicitar evaluación al perito y controlar todas las fuentes antes de intervenir",
+    "reviewedQuestion": "¿Qué decisión corresponde ante la unión del subpanel descrito, antes de corregirla?",
+    "reviewedExplanation": "La corrección requiere verificar el tipo de alimentación y las excepciones, aislar las fuentes y seguir el procedimiento seguro; no se interviene basándose solo en un dibujo.",
+    "reviewedOptions": [
+      "Solicitar evaluación al perito y controlar todas las fuentes antes de intervenir",
+      "Retirar el puente con el equipo energizado",
+      "Eliminar el conductor PE",
+      "Usar el gabinete como retorno normal"
+    ],
+    "reviewedOptionExplanations": [
+      "La corrección requiere verificar el tipo de alimentación y las excepciones, aislar las fuentes y seguir el procedimiento seguro; no se interviene basándose solo en un dibujo.",
+      "El esquema no autoriza una intervención energizada.",
+      "No corrige la conexión y elimina una trayectoria de protección.",
+      "La envolvente no debe actuar como conductor normal de carga."
+    ]
+  },
+  {
+    "id": "instalacion-3",
+    "reviewedAnswer": 0,
+    "reviewedText": "La cubierta deja metal conductor expuesto",
+    "reviewedQuestion": "¿Qué defecto visible tiene la extensión del esquema?",
+    "reviewedExplanation": "La abertura de la cubierta deja partes conductoras expuestas y exige retirar el equipo del servicio para evaluación.",
+    "reviewedOptions": [
+      "La cubierta deja metal conductor expuesto",
+      "Un exceso de instrumentos de medición",
+      "Una frecuencia incorrecta",
+      "Un contador mal ubicado"
+    ],
+    "reviewedOptionExplanations": [
+      "La abertura de la cubierta deja partes conductoras expuestas y exige retirar el equipo del servicio para evaluación.",
+      "El esquema no muestra instrumentos.",
+      "La frecuencia no puede deducirse de ese daño.",
+      "No aparece un contador."
+    ]
+  },
+  {
+    "id": "instalacion-4",
+    "reviewedAnswer": 0,
+    "reviewedText": "Retirarla de servicio hasta su reparación apropiada o reemplazo",
+    "reviewedQuestion": "¿Qué corresponde hacer con la extensión dañada de este ejercicio?",
+    "reviewedExplanation": "OSHA 1910.334(a)(2) exige retirar de servicio los equipos dañados que puedan exponer a lesiones, hasta realizar las reparaciones y pruebas necesarias.",
+    "reviewedOptions": [
+      "Retirarla de servicio hasta su reparación apropiada o reemplazo",
+      "Seguir usándola si no llueve",
+      "Cubrirla con la mano durante el uso",
+      "Aumentar el amperaje del breaker"
+    ],
+    "reviewedOptionExplanations": [
+      "OSHA 1910.334(a)(2) exige retirar de servicio los equipos dañados que puedan exponer a lesiones, hasta realizar las reparaciones y pruebas necesarias.",
+      "La ausencia de lluvia no elimina el daño.",
+      "Expone a contacto eléctrico.",
+      "No restaura el aislamiento."
+    ]
+  },
+  {
+    "id": "instalacion-5",
+    "reviewedAnswer": 0,
+    "reviewedText": "La incompatibilidad entre el borne usado y la medición prevista",
+    "reviewedQuestion": "El selector está en V CA, pero la punta que va a L está conectada al borne A. ¿Qué debe verificarse?",
+    "reviewedExplanation": "El borne A puede ofrecer una trayectoria de baja impedancia. La configuración debe revisarse con el manual antes de medir.",
+    "reviewedOptions": [
+      "La incompatibilidad entre el borne usado y la medición prevista",
+      "Solo la marca de la funda",
+      "La cantidad de caracteres de la pantalla",
+      "Que toda medición de voltaje requiere intercalar A"
+    ],
+    "reviewedOptionExplanations": [
+      "El borne A puede ofrecer una trayectoria de baja impedancia. La configuración debe revisarse con el manual antes de medir.",
+      "La funda no determina la conexión de medición.",
+      "No explica el riesgo de los bornes.",
+      "La entrada de corriente no se usa de ese modo para medir tensión."
+    ]
+  },
+  {
+    "id": "instalacion-6",
+    "reviewedAnswer": 0,
+    "reviewedText": "Desconectar las puntas del circuito y configurar el equipo según el manual y el procedimiento seguro",
+    "reviewedQuestion": "¿Cuál es la acción adecuada antes de utilizar el multímetro dibujado?",
+    "reviewedExplanation": "Se verifica función, bornes, rango, categoría y estado del instrumento antes del uso por personal autorizado.",
+    "reviewedOptions": [
+      "Desconectar las puntas del circuito y configurar el equipo según el manual y el procedimiento seguro",
+      "Cambiar el selector mientras se mantienen las conexiones peligrosas",
+      "Retirar su fusible",
+      "Suponer que la lectura cero confirma seguridad"
+    ],
+    "reviewedOptionExplanations": [
+      "Se verifica función, bornes, rango, categoría y estado del instrumento antes del uso por personal autorizado.",
+      "El ajuste no debe improvisarse con el instrumento conectado así.",
+      "Anula una protección.",
+      "Una lectura en configuración incorrecta no prueba ausencia de tensión."
+    ]
+  },
+  {
+    "id": "instalacion-7",
+    "reviewedAnswer": 0,
+    "reviewedText": "Falta la espiga correspondiente a esa protección",
+    "reviewedQuestion": "El equipo clase I requiere conductor de protección. ¿Qué problema muestra su enchufe?",
+    "reviewedExplanation": "En el equipo especificado la espiga faltante interrumpe una conexión de seguridad. No debe generalizarse a todos los equipos de dos espigas.",
+    "reviewedOptions": [
+      "Falta la espiga correspondiente a esa protección",
+      "Toda clavija de dos espigas es peligrosa por definición",
+      "El cable tiene necesariamente calibre insuficiente",
+      "La fuente es necesariamente de corriente continua"
+    ],
+    "reviewedOptionExplanations": [
+      "En el equipo especificado la espiga faltante interrumpe una conexión de seguridad. No debe generalizarse a todos los equipos de dos espigas.",
+      "Existen equipos de otras clases; el supuesto aquí es un equipo que requiere PE.",
+      "El dibujo no permite establecer el calibre.",
+      "La forma no demuestra ese tipo de fuente."
+    ]
+  },
+  {
+    "id": "instalacion-8",
+    "reviewedAnswer": 0,
+    "reviewedText": "Retirar el equipo de uso y gestionar reparación apropiada",
+    "reviewedQuestion": "¿Qué corresponde ante el enchufe incompleto del equipo especificado?",
+    "reviewedExplanation": "Se restablece la configuración aprobada del equipo mediante personal competente; no se anulan protecciones para hacerlo funcionar.",
+    "reviewedOptions": [
+      "Retirar el equipo de uso y gestionar reparación apropiada",
+      "Usar un adaptador que elimine la necesidad de PE",
+      "Pintar la clavija de verde",
+      "Unir la carcasa al neutro en cualquier tomacorriente"
+    ],
+    "reviewedOptionExplanations": [
+      "Se restablece la configuración aprobada del equipo mediante personal competente; no se anulan protecciones para hacerlo funcionar.",
+      "Un adaptador no elimina la necesidad de protección del equipo.",
+      "El color no restaura la conexión.",
+      "Una unión improvisada puede crear peligros."
+    ]
+  },
+  {
+    "id": "instalacion-9",
+    "reviewedAnswer": 0,
+    "reviewedText": "La continuidad de una trayectoria de protección ante falla",
+    "reviewedQuestion": "¿Qué función se compromete por la interrupción de PE mostrada en el gabinete?",
+    "reviewedExplanation": "La conexión de protección ayuda a conducir corriente de falla hacia la fuente; una interrupción puede impedir la actuación eficaz de la protección.",
+    "reviewedOptions": [
+      "La continuidad de una trayectoria de protección ante falla",
+      "La unidad en que se mide capacitancia",
+      "La conversión automática de CA en CC",
+      "La lectura de energía de un contador"
+    ],
+    "reviewedOptionExplanations": [
+      "La conexión de protección ayuda a conducir corriente de falla hacia la fuente; una interrupción puede impedir la actuación eficaz de la protección.",
+      "No depende de esa conexión.",
+      "No hay un convertidor en el esquema.",
+      "No aparece un medidor de energía."
+    ]
+  },
+  {
+    "id": "instalacion-10",
+    "reviewedAnswer": 0,
+    "reviewedText": "No; se necesita una trayectoria efectiva de retorno hacia la fuente",
+    "reviewedQuestion": "¿Basta una varilla en el terreno para sustituir por sí sola la trayectoria de falla del caso mostrado?",
+    "reviewedExplanation": "El terreno no se considera por sí solo una trayectoria eficaz de corriente de falla; referencia de estudio NEC 2020, 250.4(A)(5).",
+    "reviewedOptions": [
+      "No; se necesita una trayectoria efectiva de retorno hacia la fuente",
+      "Sí, cualquier terreno dispara todos los breakers",
+      "Sí, si la caja se pinta",
+      "Sí, si se suprime la protección de sobrecorriente"
+    ],
+    "reviewedOptionExplanations": [
+      "El terreno no se considera por sí solo una trayectoria eficaz de corriente de falla; referencia de estudio NEC 2020, 250.4(A)(5).",
+      "La impedancia del suelo puede limitar la corriente.",
+      "La pintura no crea la trayectoria requerida.",
+      "Eliminarla aumenta el riesgo."
+    ]
+  },
+  {
+    "id": "instalacion-11",
+    "reviewedAnswer": 0,
+    "reviewedText": "La clasificación ambiental y la protección del conjunto para ese lugar",
+    "reviewedQuestion": "La ficha identifica el receptáculo para interior seco. ¿Qué debe revisarse al colocarlo expuesto a lluvia?",
+    "reviewedExplanation": "Debe seleccionarse un conjunto apto para el ambiente y su uso. La función GFCI no equivale a impermeabilidad.",
+    "reviewedOptions": [
+      "La clasificación ambiental y la protección del conjunto para ese lugar",
+      "Solo la existencia del botón TEST",
+      "Únicamente el color de la placa",
+      "La facilidad de conexión del enchufe"
+    ],
+    "reviewedOptionExplanations": [
+      "Debe seleccionarse un conjunto apto para el ambiente y su uso. La función GFCI no equivale a impermeabilidad.",
+      "Ese botón no acredita protección frente a lluvia.",
+      "No establece aptitud ambiental.",
+      "No sustituye el listado y la envolvente apropiados."
+    ]
+  },
+  {
+    "id": "instalacion-12",
+    "reviewedAnswer": 0,
+    "reviewedText": "Porque la protección contra falla a tierra y la clasificación ambiental cumplen funciones diferentes",
+    "reviewedQuestion": "¿Por qué no debe suponerse que GFCI resuelve por sí solo el problema ambiental mostrado?",
+    "reviewedExplanation": "El GFCI atiende determinadas fallas eléctricas; la aptitud frente al agua depende de la clasificación e instalación del conjunto.",
+    "reviewedOptions": [
+      "Porque la protección contra falla a tierra y la clasificación ambiental cumplen funciones diferentes",
+      "Porque GFCI significa equipo impermeable",
+      "Porque no existen receptáculos para exteriores",
+      "Porque la lluvia elimina las fallas eléctricas"
+    ],
+    "reviewedOptionExplanations": [
+      "El GFCI atiende determinadas fallas eléctricas; la aptitud frente al agua depende de la clasificación e instalación del conjunto.",
+      "La sigla no significa eso.",
+      "Sí hay conjuntos adecuados; se verifica su aplicación.",
+      "La humedad puede agravar los riesgos."
+    ]
+  }
+]

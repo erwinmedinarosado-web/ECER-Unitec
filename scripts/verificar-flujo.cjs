@@ -1,8 +1,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
 const root=path.join(__dirname,'..'),read=f=>fs.readFileSync(path.join(root,f),'utf8');
 const source=read('programa-1.js')+read('pasos-calculo.js')+read('aprendizaje.js')+read('motor-estudio.js'),bank=JSON.parse(read('banco-ampliado.json'));
-const corrections=JSON.parse(read('correcciones-calculo.json'));
-const expectedQuestion=q=>{const fix=corrections.find(c=>c.id===q.id);if(fix){assert.equal(q.explanation,fix.before);return {...q,explanation:fix.after}}return q};
+const expectedQuestion=require('./revision-esperada.cjs');
 const ids=[...read('index.html').matchAll(/id="([^"]+)"/g)].map(m=>m[1]);
 function element(){const classes=new Set();return {children:[],style:{},attrs:{},className:'',classList:{toggle(k,on){if(on===undefined)on=!classes.has(k);on?classes.add(k):classes.delete(k)},add(k){classes.add(k)},remove(k){classes.delete(k)},contains(k){return classes.has(k)}},append(...nodes){this.children.push(...nodes)},replaceChildren(...nodes){this.children=nodes},setAttribute(k,v){this.attrs[k]=v},focus(){this.focused=true},textContent:'',innerHTML:'',value:'',disabled:false}}
 let now=1793280000000;const store=new Map();let blocked=false;
@@ -44,4 +43,10 @@ app.run('openQuestionReport(BANK[0])');app.elements.get('reportNote').value='cor
 for(const old of JSON.parse(read('auditoria_base_308.json'))){const current=bank.find(q=>q.id===old.id);assert.deepEqual(current,expectedQuestion(old),'Cambió una pregunta previa sin corrección documentada: '+old.id)}
 const stepsAudit=JSON.parse(read('auditoria_pasos.json'));assert.equal(stepsAudit.ejerciciosConPasos,166);assert.equal(stepsAudit.calculosCotejados.length,152);assert.equal(app.run('Object.keys(CALC_STEPS).length'),166);
 store.clear();store.set('electricidadStudyV3',JSON.stringify({version:3,history:[],topics:{},mistakes:['original-1']}));app=boot();assert.equal(app.run('dueQuestions(getProfile()).length'),1);
-console.log('OK: SRS 1/3/7/14/30 días, recuperación de repaso, reinicio por fallos, migración sin perder historial; plan por resultados, práctica por tema, reportes locales y CSV seguro; 308 preguntas cotejadas, tres explicaciones corregidas y 166 desarrollos.');
+console.log('OK: SRS 1/3/7/14/30 días, recuperación de repaso, reinicio por fallos, migración sin perder historial; plan por resultados, práctica por tema, reportes locales y CSV seguro; 308 preguntas cotejadas con las correcciones documentadas y 166 desarrollos.');
+
+// A historical duplicate 1 A choice is accepted, while the corrected 2 A choice is not.
+store.clear();app=boot();
+app.run("const historical={version:3,id:'historical-duplicate',kind:'topic',questions:[{id:19,order:[1,3,0,2]}],answers:[0],flags:[false],index:0,startedAt:Date.now(),timed:false};const current=JSON.parse(JSON.stringify(historical));current.bankRevision=BANK_REVISION;restoreRecord(historical);restoreRecord(current)");
+assert.equal(app.run('historical.answers[0]'),2);assert.equal(app.run('current.answers[0]'),0);
+console.log('OK: migración de opciones 1 A históricas sin aceptar el distractor 2 A de intentos nuevos.');

@@ -30,7 +30,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Cuál es la potencia de un motor que consume 4 A a 240 V?",
+    "q": "En un modelo monofásico ideal de CA, un motor consume 4 A RMS a 240 V RMS con factor de potencia 1. ¿Cuál es su potencia eléctrica activa de entrada?",
     "options": [
       "960 W",
       "60 W",
@@ -40,7 +40,7 @@
     "answer": 0,
     "topic": "Potencia",
     "source": "EXAMEN_9 (adaptación con datos originales)",
-    "explanation": "P = V × I = 240 × 4 = 960 W. Este cálculo supone factor de potencia 1; en CA real se requiere el factor de potencia.",
+    "explanation": "Para el modelo monofásico indicado: P = V RMS × I RMS × FP = 240 × 4 × 1 = 960 W. Se calcula potencia eléctrica activa de entrada, no potencia mecánica de salida.",
     "review_status": "Verificada por cálculo o concepto",
     "id": "original-2",
     "originalEvidence": {
@@ -60,7 +60,7 @@
     "similarityFamily": "calculo-potencia"
   },
   {
-    "q": "¿Qué resistencia tiene una carga de 100 W alimentada a 120 V?",
+    "q": "¿Qué resistencia tiene una carga resistiva de 100 W alimentada a 120 V?",
     "options": [
       "144 Ω",
       "1.2 Ω",
@@ -193,7 +193,7 @@
     "answer": 0,
     "topic": "Circuitos en paralelo",
     "source": "EXAMEN_7 (adaptación con datos originales)",
-    "explanation": "1/R = 1/100 + 1/200 + 1/50 = 0.035.",
+    "explanation": "1/R equivalente = 1/100 + 1/200 + 1/50 = 0.035 Ω⁻¹. Por tanto, R equivalente = 1/0.035 ≈ 28.57 Ω.",
     "review_status": "Verificada por cálculo o concepto",
     "id": "original-7",
     "diagram": "imagenes/98612d8d54fd00d094bf.svg",
@@ -307,7 +307,7 @@
     "similarityFamily": "circuit-series-current-multiple"
   },
   {
-    "q": "Una bombilla de 300 W funciona a 120 V. ¿Qué corriente consume?",
+    "q": "Una bombilla incandescente de 300 W funciona a 120 V. ¿Qué corriente consume?",
     "options": [
       "2.5 A",
       "0.4 A",
@@ -428,7 +428,7 @@
     "similarityFamily": "circuit-series-current-multiple"
   },
   {
-    "q": "Un aparato recibe 250 V y consume 10 A. ¿Cuál es su resistencia?",
+    "q": "Una carga resistiva recibe 250 V y consume 10 A. ¿Cuál es su resistencia?",
     "options": [
       "25 Ω",
       "2500 Ω",
@@ -458,7 +458,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "Una lámpara de 300 W funciona a 240 V. ¿Cuál es su resistencia equivalente?",
+    "q": "Una lámpara incandescente de 300 W funciona a 240 V. ¿Cuál es su resistencia equivalente?",
     "options": [
       "192 Ω",
       "0.8 Ω",
@@ -488,7 +488,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "Una carga consume 20 A a 120 V. ¿Cuál es su resistencia?",
+    "q": "Una carga resistiva consume 20 A a 120 V. ¿Cuál es su resistencia?",
     "options": [
       "6 Ω",
       "2400 Ω",
@@ -518,7 +518,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "Un foco de 60 W conectado a 120 V consume una corriente de:",
+    "q": "Un foco incandescente de 60 W conectado a 120 V consume una corriente de:",
     "options": [
       "0.5 A",
       "2 A",
@@ -1163,7 +1163,7 @@
     "q": "En un circuito resistivo de 12 V y 12 Ω, ¿cuál es la corriente?",
     "options": [
       "1 A",
-      "1 A",
+      "2 A",
       "24 A",
       "144 A"
     ],
@@ -1344,8 +1344,8 @@
     "explanation": "La Ley 131-1969 establece el Colegio. La Ley 115-1976 crea la Junta, que cumple una función distinta.",
     "references": [
       {
-        "label": "OGP · Ley 115-1976, según enmendada; arts. 1, 2, 5 y 8",
-        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
+        "label": "OGP · Ley 131-1969, artículo 1: creación del Colegio",
+        "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/131-1969.pdf"
       }
     ],
     "examGroup": "aplicaciones",
@@ -1353,7 +1353,7 @@
     "similarityFamily": "¿que ley creo el colegio de peritos electricistas de puerto rico?"
   },
   {
-    "q": "¿Qué ley creó la clase de Ayudante de Perito Electricista, según el material?",
+    "q": "¿Qué ley incorporó la categoría de Ayudante de Perito Electricista mediante enmiendas a la Ley 115 de 1976?",
     "options": [
       "Ley 86 del 6 de noviembre de 1992",
       "Ley 131 de 1969",
@@ -1516,7 +1516,7 @@
     "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
-    "q": "¿Qué corriente consume una lámpara de 300 W conectada a 120 V?",
+    "q": "¿Qué corriente consume una lámpara incandescente de 300 W conectada a 120 V?",
     "options": [
       "2.5 A",
       "0.4 A",
@@ -1539,7 +1539,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Qué resistencia tiene un artefacto de 250 V que consume 10 A?",
+    "q": "¿Qué resistencia tiene una carga resistiva de 250 V que consume 10 A?",
     "options": [
       "25 Ω",
       "2500 Ω",
@@ -1585,7 +1585,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Qué potencia consume un motor de 240 V a 4 A?",
+    "q": "¿Qué potencia eléctrica activa de entrada consume un motor monofásico de CA a 240 V RMS y 4 A RMS, suponiendo factor de potencia 1?",
     "options": [
       "960 W",
       "60 W",
@@ -1596,7 +1596,7 @@
     "topic": "Potencia",
     "source": "Examen 9, pregunta 7",
     "id": 37,
-    "explanation": "En el modelo simplificado con factor de potencia 1: P = V × I = 240 × 4 = 960 W. En un motor de CA real debe considerarse el factor de potencia.",
+    "explanation": "Para el modelo monofásico indicado: P = V RMS × I RMS × FP = 240 × 4 × 1 = 960 W. Se calcula potencia eléctrica activa de entrada, no potencia mecánica de salida.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -1608,7 +1608,7 @@
     "similarityFamily": "calculo-potencia"
   },
   {
-    "q": "¿Cuál es la resistencia de una bombilla de 100 W alimentada a 120 V?",
+    "q": "¿Cuál es la resistencia de una bombilla incandescente de 100 W alimentada a 120 V?",
     "options": [
       "144 Ω",
       "1.2 Ω",
@@ -1723,7 +1723,7 @@
     "similarityFamily": "circuit-series-voltage-two"
   },
   {
-    "q": "¿Cuál es la resistencia de unas tenazas de cabello que consumen 10 A a 100 V?",
+    "q": "¿Qué resistencia tiene el elemento calefactor resistivo de unas tenazas de cabello si recibe 100 V y consume 10 A?",
     "options": [
       "10 Ω",
       "1000 Ω",
@@ -1886,7 +1886,7 @@
     "similarityFamily": "segun el articulo N(b)(N) de la ley N de N, segun enmendada, ¿que materias comprende el examen teorico de ayudante?"
   },
   {
-    "q": "¿Qué instrumento se conecta en serie para medir la corriente?",
+    "q": "Para medir únicamente corriente con un instrumento convencional de inserción, ¿cuál se intercala en serie con la carga?",
     "options": [
       "Amperímetro",
       "Voltímetro",
@@ -1900,8 +1900,8 @@
     "explanation": "El amperímetro con puntas se intercala en la trayectoria; el voltímetro se conecta entre dos puntos. Una pinza utiliza otro método.",
     "references": [
       {
-        "label": "Fluke · continuidad y medición",
-        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+        "label": "Fluke · ABCs of DMMs, conexión de corriente en serie",
+        "url": "https://media.fluke.com/ade6b718-4577-4b57-903b-b10600664c67_original%20file.pdf"
       }
     ],
     "examGroup": "aplicaciones",
@@ -1909,9 +1909,9 @@
     "similarityFamily": "instrumento-amperimetro"
   },
   {
-    "q": "¿Qué significa voltaje?",
+    "q": "¿Qué significa el voltaje entre dos puntos de un circuito?",
     "options": [
-      "Fuerza electromotriz",
+      "Diferencia de potencial eléctrico entre esos puntos",
       "Intensidad de corriente",
       "Oposición al flujo de electrones",
       "Potencia del circuito"
@@ -1926,11 +1926,11 @@
       "question": 1,
       "status": "Enunciado coincidente; opciones adaptadas"
     },
-    "explanation": "En este ejercicio se usa fuerza electromotriz como denominación del voltaje. Con precisión, el voltaje entre dos puntos es diferencia de potencial; la FEM caracteriza la energía aportada por una fuente por unidad de carga.",
+    "explanation": "El voltaje entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión.",
     "references": [
       {
-        "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
-        "url": "repaso.html#fundamentos"
+        "label": "NIST · diferencia de potencial eléctrico y unidad voltio",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes"
       }
     ],
     "examGroup": "aplicaciones",
@@ -1984,7 +1984,7 @@
     "similarityFamily": "formula-V"
   },
   {
-    "q": "¿Cuál es la fórmula de potencia?",
+    "q": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de voltaje y corriente?",
     "options": [
       "P = I / V",
       "P = R / I",
@@ -2044,8 +2044,8 @@
     "explanation": "En la nomenclatura de estas cajas, FS identifica la versión llana y FD la profunda. La letra no especifica por sí sola volumen ni aptitud ambiental.",
     "references": [
       {
-        "label": "Arlington · catálogo AnyBODY",
-        "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
+        "label": "Eaton Crouse-Hinds · cajas FS (shallow) y FD (deep)",
+        "url": "https://www.eaton.com/content/dam/eaton/products/conduit-cable-and-wire-management/crouse-hinds/catalog-pages/crouse-hinds-fs-fd-single-multi-blank-device-boxes-covers-catalog-page.pdf"
       }
     ],
     "examGroup": "aplicaciones",
@@ -2145,22 +2145,22 @@
     "similarityFamily": "¿que empalme conecta una derivacion a un conductor principal?"
   },
   {
-    "q": "¿Qué es un pararrayos en sistemas eléctricos?",
+    "q": "¿Cuál es la función de un dispositivo de protección contra sobretensiones transitorias (SPD)?",
     "options": [
-      "Instrumento de medida",
-      "Interruptor de luz",
-      "Dispositivo de protección contra sobretensiones",
-      "Transformador de corriente"
+      "Medir la temperatura del circuito",
+      "Encender y apagar la iluminación",
+      "Limitar sobretensiones transitorias y desviar corrientes de impulso",
+      "Transformar la corriente para un instrumento de medida"
     ],
     "answer": 2,
     "topic": "Seguridad",
     "source": "Exámenes adjuntos",
     "id": 61,
-    "explanation": "Aquí pararrayos se usa en el sentido de descargador de sobretensiones. No debe confundirse con el terminal captador de un sistema externo de protección contra rayos.",
+    "explanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida del voltaje.",
     "references": [
       {
-        "label": "OSHA · 1910.333, prácticas de trabajo eléctrico",
-        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+        "label": "Schneider Electric · función de los dispositivos SPD",
+        "url": "https://www.se.com/us/en/faqs/FA300698/"
       }
     ],
     "examGroup": "aplicaciones",
@@ -2230,6 +2230,10 @@
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
         "url": "repaso.html#fundamentos"
+      },
+      {
+        "label": "OpenStax · capacitores en serie y en paralelo",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/8-2-capacitors-in-series-and-in-parallel"
       }
     ],
     "examGroup": "aplicaciones",
@@ -2305,8 +2309,8 @@
     "explanation": "Un amperímetro convencional de inserción se conecta en serie. Conectarlo directamente entre dos potenciales puede provocar cortocircuito.",
     "references": [
       {
-        "label": "Fluke · continuidad y medición",
-        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+        "label": "Fluke · ABCs of DMMs, conexión de corriente en serie",
+        "url": "https://media.fluke.com/ade6b718-4577-4b57-903b-b10600664c67_original%20file.pdf"
       }
     ],
     "examGroup": "aplicaciones",
@@ -2337,7 +2341,7 @@
     "similarityFamily": "formula-I"
   },
   {
-    "q": "¿Qué fórmula se identifica como incorrecta?",
+    "q": "En un circuito resistivo ideal de corriente continua, ¿cuál de estas relaciones es incorrecta?",
     "options": [
       "I = P / V",
       "P = V × I",
@@ -2397,8 +2401,8 @@
     "explanation": "FD corresponde a una caja profunda frente a la versión FS llana. Se cotejan dimensiones y listado del fabricante.",
     "references": [
       {
-        "label": "Arlington · catálogo AnyBODY",
-        "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
+        "label": "Eaton Crouse-Hinds · cajas FS (shallow) y FD (deep)",
+        "url": "https://www.eaton.com/content/dam/eaton/products/conduit-cable-and-wire-management/crouse-hinds/catalog-pages/crouse-hinds-fs-fd-single-multi-blank-device-boxes-covers-catalog-page.pdf"
       }
     ],
     "examGroup": "aplicaciones",
@@ -2560,6 +2564,10 @@
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
         "url": "repaso.html#fundamentos"
+      },
+      {
+        "label": "OpenStax · capacitores en serie y en paralelo",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/8-2-capacitors-in-series-and-in-parallel"
       }
     ],
     "examGroup": "aplicaciones",
@@ -2567,7 +2575,7 @@
     "similarityFamily": "¿que ocurre con capacitores conectados en paralelo?"
   },
   {
-    "q": "¿Cuál es la vigencia indicada para la licencia de Ayudante Perito?",
+    "q": "Según la Ley 115 de 1976, según enmendada, ¿cuál es la duración de la licencia expedida de Ayudante de Perito Electricista?",
     "options": [
       "2 meses",
       "22 años",
@@ -2583,7 +2591,7 @@
     "explanation": "24 meses equivalen a dos años, la vigencia establecida para la licencia de ayudante. Los trámites y plazos de renovación se consultan por separado.",
     "references": [
       {
-        "label": "OGP · Ley 115-1976, según enmendada; arts. 1, 2, 5 y 8",
+        "label": "OGP · Ley 115-1976, artículo 8: vigencia de la licencia de ayudante (dos años)",
         "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/115-1976.pdf"
       }
     ],
@@ -2661,7 +2669,7 @@
     "similarityFamily": "formula-R"
   },
   {
-    "q": "¿Cuánto vale R para una carga de 2,000 W a 120 V?",
+    "q": "¿Cuánto vale R para una carga resistiva de 2,000 W a 120 V?",
     "options": [
       "14,400 Ω",
       "16.66 Ω",
@@ -2838,6 +2846,10 @@
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
         "url": "repaso.html#fundamentos"
+      },
+      {
+        "label": "OpenStax · capacitores en serie y en paralelo",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/8-2-capacitors-in-series-and-in-parallel"
       }
     ],
     "examGroup": "aplicaciones",
@@ -3054,7 +3066,7 @@
     "similarityFamily": "¿que es un micro switch?"
   },
   {
-    "q": "¿Qué elemento se usa para controlar el paso de corriente?",
+    "q": "¿Qué elemento permite abrir o cerrar intencionalmente la trayectoria de corriente de un circuito?",
     "options": [
       "Conductor desnudo",
       "Aislante",
@@ -3100,7 +3112,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Cuál es la potencia de un motor de 240 V y 4 A?",
+    "q": "Un motor monofásico ideal de CA recibe 240 V RMS y consume 4 A RMS. Con factor de potencia 1, ¿cuál es la potencia eléctrica activa de entrada?",
     "options": [
       "960 W",
       "60 W",
@@ -3111,7 +3123,7 @@
     "topic": "Potencia",
     "source": "Examen 9, pregunta 7",
     "id": 102,
-    "explanation": "En el modelo simplificado con factor de potencia 1: P = V × I = 240 × 4 = 960 W. En un motor de CA real debe considerarse el factor de potencia.",
+    "explanation": "Para el modelo monofásico indicado: P = V RMS × I RMS × FP = 240 × 4 × 1 = 960 W. Se calcula potencia eléctrica activa de entrada, no potencia mecánica de salida.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -3215,7 +3227,7 @@
     "similarityFamily": "¿que significa ca?"
   },
   {
-    "q": "¿Cuál es la resistencia de una bombilla de 100 W a 120 V?",
+    "q": "¿Cuál es la resistencia de una bombilla incandescente de 100 W a 120 V?",
     "options": [
       "144 Ω",
       "100 Ω",
@@ -5501,8 +5513,8 @@
     ],
     "references": [
       {
-        "label": "Arlington · catálogo AnyBODY",
-        "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
+        "label": "OSHA · 1910.303(b), aptitud, listado e instrucciones de los equipos",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.303"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5561,8 +5573,8 @@
     ],
     "references": [
       {
-        "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5591,8 +5603,8 @@
     ],
     "references": [
       {
-        "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5621,8 +5633,8 @@
     ],
     "references": [
       {
-        "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5651,8 +5663,8 @@
     ],
     "references": [
       {
-        "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5681,8 +5693,8 @@
     ],
     "references": [
       {
-        "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5711,8 +5723,8 @@
     ],
     "references": [
       {
-        "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5741,8 +5753,8 @@
     ],
     "references": [
       {
-        "label": "NFPA · puesta a tierra; NEC 2020, art. 250",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5925,8 +5937,8 @@
     ],
     "references": [
       {
-        "label": "Southwire · ficha de conductores THHN/THWN-2",
-        "url": "https://www.southwire.com/wire-cable/building-wire/simpull-sup-sup-thhn-thwn-2-copper/p/SPEC10000"
+        "label": "OSHA · 1910.334(b)(2)-(3), actuación y modificación de protecciones",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -5985,8 +5997,8 @@
     ],
     "references": [
       {
-        "label": "Southwire · ficha de conductores THHN/THWN-2",
-        "url": "https://www.southwire.com/wire-cable/building-wire/simpull-sup-sup-thhn-thwn-2-copper/p/SPEC10000"
+        "label": "OSHA · 1910.303(b), aptitud, listado e instrucciones de los equipos",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.303"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -6129,8 +6141,8 @@
     "explanation": "Debe seguirse el método del fabricante para descarga y verificación; no se improvisan cortocircuitos.",
     "optionExplanations": [
       "Debe seguirse el método del fabricante para descarga y verificación; no se improvisan cortocircuitos.",
-      "La desconexión no elimina necesariamente la energía eléctrica almacenada.",
-      "No es el peligro característico.",
+      "El peligro relevante es la energía eléctrica almacenada, no solo ruido acústico.",
+      "Desconectar el equipo no aumenta automáticamente la frecuencia.",
       "Un capacitor puede conservar tensión."
     ],
     "references": [
@@ -6165,8 +6177,8 @@
     ],
     "references": [
       {
-        "label": "OSHA · 1910.333, prácticas de trabajo eléctrico",
-        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+        "label": "OSHA · 1910.335(a)(1), selección y estado del equipo de protección",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.335"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -6345,8 +6357,8 @@
     ],
     "references": [
       {
-        "label": "Eaton · protecciones AFCI y GFCI; estudio NEC 2020, 210.8 y 210.12",
-        "url": "https://www.eaton.com/us/en-us/products/wiring-devices-connectivity/afci-gfci-afgf.html"
+        "label": "Leviton · GFTR1-W, receptáculo GFCI y hoja de instrucciones",
+        "url": "https://leviton.com/products/gftr1-w"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -6831,8 +6843,8 @@
     ],
     "references": [
       {
-        "label": "Fluke · continuidad y medición",
-        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+        "label": "Fluke · medición de tensión CA, bornes V y riesgo de usar A",
+        "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -6891,8 +6903,8 @@
     ],
     "references": [
       {
-        "label": "Fluke · continuidad y medición",
-        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+        "label": "Fluke · medición de tensión CA, bornes V y riesgo de usar A",
+        "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
       }
     ],
     "review_status": "Cotejo conceptual con fuente primaria · 29/10/2026",
@@ -7790,8 +7802,8 @@
     "difficulty": "analisis",
     "references": [
       {
-        "label": "Fluke · continuidad y alcance de la prueba",
-        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+        "label": "Fluke · medición de tensión CA, bornes V y riesgo de usar A",
+        "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
       }
     ],
     "similarityFamily": "una persona dejo la punta roja del multimetro en a y quiere medir tension entre fase y neutro. ¿que corresponde?"
@@ -7848,8 +7860,8 @@
     "difficulty": "analisis",
     "references": [
       {
-        "label": "OSHA · 1910.333, selección de prácticas seguras",
-        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+        "label": "OSHA · 1910.334(b)(2)-(3), actuación y modificación de protecciones",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
       }
     ],
     "similarityFamily": "un breaker dispara y alguien propone cambiarlo por otro de mayor amperaje sin revisar nada. ¿cual es la respuesta adecuada?"
@@ -7906,8 +7918,8 @@
     "difficulty": "analisis",
     "references": [
       {
-        "label": "OSHA · 1910.333, selección de prácticas seguras",
-        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+        "label": "Leviton · GFTR1-W, receptáculo GFCI y hoja de instrucciones",
+        "url": "https://leviton.com/products/gftr1-w"
       }
     ],
     "similarityFamily": "un receptaculo gfci no interrumpe como indican las instrucciones al presionar test. ¿que corresponde?"
@@ -7935,8 +7947,8 @@
     "difficulty": "analisis",
     "references": [
       {
-        "label": "OSHA · 1910.333, selección de prácticas seguras",
-        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
+        "label": "OSHA · 1910.303(b), aptitud, listado e instrucciones de los equipos",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.303"
       }
     ],
     "similarityFamily": "dos accesorios parecen iguales, pero uno no esta aprobado para el tipo de tuberia. ¿cual debe elegirse?"
@@ -8028,8 +8040,8 @@
     ],
     "references": [
       {
-        "label": "Referencia para revisar el concepto y sus condiciones",
-        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+        "label": "OSHA · 1910.333(b), aislamiento y verificación antes de intervenir",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
       }
     ],
     "review_status": "Pendiente de revisión por perito acreditado"
@@ -8124,8 +8136,8 @@
     ],
     "references": [
       {
-        "label": "Referencia para revisar el concepto y sus condiciones",
-        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+        "label": "Fluke · medición de tensión CA, bornes V y riesgo de usar A",
+        "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
       }
     ],
     "review_status": "Pendiente de revisión por perito acreditado"
@@ -8156,8 +8168,8 @@
     ],
     "references": [
       {
-        "label": "Referencia para revisar el concepto y sus condiciones",
-        "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
+        "label": "Fluke · medición de tensión CA, bornes V y riesgo de usar A",
+        "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
       }
     ],
     "review_status": "Pendiente de revisión por perito acreditado"
@@ -8252,8 +8264,8 @@
     ],
     "references": [
       {
-        "label": "Referencia para revisar el concepto y sus condiciones",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Pendiente de revisión por perito acreditado"
@@ -8284,8 +8296,8 @@
     ],
     "references": [
       {
-        "label": "Referencia para revisar el concepto y sus condiciones",
-        "url": "https://www.nfpa.org/es/News-Blogs-and-Articles/Blogs/2021/09/27/Grounding-Understanding-the-Essentials-for-Building-the-Foundation-of-a-Structures-Electrical-System"
+        "label": "NFPA 70 · acceso a la edición de estudio; art. 250, puesta a tierra y bonding",
+        "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
       }
     ],
     "review_status": "Pendiente de revisión por perito acreditado"
@@ -8318,6 +8330,10 @@
       {
         "label": "Referencia para revisar el concepto y sus condiciones",
         "url": "https://www.eaton.com/us/en-us/products/wiring-devices-connectivity/afci-gfci-afgf.html"
+      },
+      {
+        "label": "OSHA · 1910.334(a)(4), equipos adecuados para lugares mojados",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
       }
     ],
     "review_status": "Pendiente de revisión por perito acreditado"
@@ -8350,6 +8366,10 @@
       {
         "label": "Referencia para revisar el concepto y sus condiciones",
         "url": "https://www.eaton.com/us/en-us/products/wiring-devices-connectivity/afci-gfci-afgf.html"
+      },
+      {
+        "label": "OSHA · 1910.334(a)(4), equipos adecuados para lugares mojados",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.334"
       }
     ],
     "review_status": "Pendiente de revisión por perito acreditado"

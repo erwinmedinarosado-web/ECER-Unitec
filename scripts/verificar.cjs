@@ -129,11 +129,12 @@ assert.equal(distribution.total,220); // Audit of the published baseline, preser
 assert.equal(distribution.removedAdditionalIds.length,763);
 assert.ok(bank.filter(q=>distribution.limitedTopics.includes(q.topic)).length/bank.length<=0.20);
 function canonical(value){if(Array.isArray(value))return value.map(canonical);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])]));return value;}
+const expectedAudit=require('./revision-esperada.cjs');
 const baseline=JSON.parse(read('auditoria_base_220.json'));
 assert.equal(baseline.length,220);
 for(const original of baseline){
  const current=bank.find(q=>q.id===original.id);assert.ok(current,'Pregunta previa eliminada: '+original.id);
- for(const field of ['q','options','answer','diagram','originalEvidence','original_images'])assert.deepEqual(current[field],original[field],'Contenido original alterado: '+original.id+' '+field);
+ for(const field of ['q','options','answer','diagram','originalEvidence','original_images'])assert.deepEqual(current[field],expectedAudit(original)[field],'Contenido original alterado: '+original.id+' '+field);
 }
 for(const q of bank){assert.ok(q.explanation && q.explanation.length>20,'Falta explicación: '+q.id);assert.ok(q.references && q.references.length,'Falta referencia: '+q.id);if(q.optionExplanations)assert.equal(q.optionExplanations.length,4)}
 assert.equal(bank.filter(q=>String(q.id).startsWith('ampliacion-')).length,72);
