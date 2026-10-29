@@ -1,0 +1,20 @@
+[
+  {
+    "id": 31,
+    "before": "Ley de Ohm: I = V/R = 120/20 = 2 A. V × R o R/V no calculan corriente.",
+    "after": "En serie, R total = 20 + 20 + 20 = 60 Ω. Ley de Ohm: I = V/R total = 120/60 = 2 A.",
+    "reason": "Sustituir la resistencia individual por la suma de resistencias en serie. Clave y opciones sin cambios."
+  },
+  {
+    "id": 39,
+    "before": "Ley de Ohm: I = V/R = 6/12 = 0.25 A. V × R o R/V no calculan corriente.",
+    "after": "En serie, R total = 12 + 12 = 24 Ω. Ley de Ohm: I = V/R total = 6/24 = 0.25 A.",
+    "reason": "Sustituir la resistencia individual por la suma de resistencias en serie. Clave y opciones sin cambios."
+  },
+  {
+    "id": 40,
+    "before": "Ley de Ohm: I = V/R = 5/5 = 0.167 A (aprox.). V × R o R/V no calculan corriente.",
+    "after": "En serie, R total = 5 + 10 + 15 = 30 Ω. Ley de Ohm: I = V/R total = 5/30 ≈ 0.167 A.",
+    "reason": "Sustituir la resistencia individual por la suma de resistencias en serie. Clave y opciones sin cambios."
+  }
+]

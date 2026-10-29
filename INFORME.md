@@ -192,3 +192,15 @@ Pruebas: secuencia completa de intervalos, reinicio, recuperación de intento es
 ## Fechas de convocatoria · 29 de octubre de 2026
 
 Calendario dinámico de Didaxis contrastado en navegador: teórico de ayudante y teórico de perito comienzan el 14 de diciembre de 2026; práctico de perito los días 4, 5 y 6 de diciembre. Radicación: 1 de octubre a 5 de noviembre de 2026. Fuente: https://www.didaxispr.com/calendario. La portada enlaza requisitos, fuente oficial y fecha real de comprobación. El estado del plazo y periodos vencidos se calcula con fecha civil de Puerto Rico; tras ocho días sin verificación registrada se indica falta de actualización. Los datos de referencia están en fechas-examenes.json y el contenido visible en index.html. La tarea semanal debe actualizar ambos solo tras comprobar la fuente y publicar.
+
+## Continuidad de estudio, calendario y pruebas con personas
+
+Copia JSON con vista previa y reemplazo explícito: incluye las claves permitidas de historial, SRS, intento, reportes, lectura, objetivo y notas originales. Valida tamaño, esquema, IDs y orden de opciones antes de modificar; intenta revertir ante fallo de almacenamiento y ofrece descargar la copia previa si falla. El intento importado conserva su vencimiento. No hay sincronización ni envío.
+
+Plan de los próximos siete días hasta una fecha objetivo, minutos diarios y prioridades por rendimiento. El objetivo de perito no convierte el banco en preparación completa del práctico. Registro de fallos recurrentes desde esta actualización, con opción errónea en índice canónico y explicación específica si existe; no se inventa información histórica. Exportación ICS de periodos y cierre con UID estable, DTEND exclusivo, escape y plegado UTF-8. Es copia sin actualización automática.
+
+Protocolo y hoja CSV de 12 tareas para pruebas reales, incluido teclado, lector de pantalla, teléfono, recuperación y calendario. Sesiones y revisión por perito acreditado permanecen pendientes de participantes humanos. No se contactó a terceros ni se atribuyeron resultados inexistentes.
+
+Durante la prueba del repaso se detectaron tres errores previos de sustitución en las explicaciones de las preguntas 31, 39 y 40: 120/20 en lugar de 120/60; 6/12 en lugar de 6/24; 5/5 en lugar de 5/30. Se corrigieron únicamente esas explicaciones en ambos bancos y la ficha profesional. Claves, enunciados, opciones y fuentes originales permanecen intactos; antes/después documentados en correcciones-calculo.json y contrastados con las bases históricas en las pruebas.
+
+Validación: suites de motor, mejoras, lectura, accesibilidad y fuentes completas aprobadas. En navegador de prueba: plan guardado y persistente; copia JSON descargada, seleccionada, validada e importada con recuperación del historial y del plan; recurrencia de preguntas tras dos entregas y revisión de su explicación. La estructura de los tres calendarios ICS y sus fechas se comprobó mediante pruebas; el navegador automatizado no devolvió el evento de descarga ICS, por lo que no se atribuye una importación comprobada en una aplicación de calendario. No se efectuaron pruebas con participantes ni con un lector de pantalla real.

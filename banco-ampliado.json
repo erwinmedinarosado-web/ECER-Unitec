@@ -1458,7 +1458,7 @@
     "topic": "Circuitos en serie",
     "source": "Examen 37, pregunta 12",
     "id": 31,
-    "explanation": "Ley de Ohm: I = V/R = 120/20 = 2 A. V × R o R/V no calculan corriente.",
+    "explanation": "En serie, R total = 20 + 20 + 20 = 60 Ω. Ley de Ohm: I = V/R total = 120/60 = 2 A.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -1642,7 +1642,7 @@
     "topic": "Circuitos en serie",
     "source": "Examen 8, pregunta 14",
     "id": 39,
-    "explanation": "Ley de Ohm: I = V/R = 6/12 = 0.25 A. V × R o R/V no calculan corriente.",
+    "explanation": "En serie, R total = 12 + 12 = 24 Ω. Ley de Ohm: I = V/R total = 6/24 = 0.25 A.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -1665,7 +1665,7 @@
     "topic": "Circuitos en serie",
     "source": "Examen 8, pregunta 15",
     "id": 40,
-    "explanation": "Ley de Ohm: I = V/R = 5/5 = 0.167 A (aprox.). V × R o R/V no calculan corriente.",
+    "explanation": "En serie, R total = 5 + 10 + 15 = 30 Ω. Ley de Ohm: I = V/R total = 5/30 ≈ 0.167 A.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",

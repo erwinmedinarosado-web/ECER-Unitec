@@ -1,7 +1,7 @@
 const REPORTS_KEY='electricidadQuestionReportsV1';
 const REVIEW_DAYS=[1,3,7,14,30];
 function prepareReviewProfile(p){if(!p.srs||typeof p.srs!=='object'||Array.isArray(p.srs))p.srs={};for(const id of p.mistakes)if(!p.srs[String(id)])p.srs[String(id)]={stage:0,due:Date.now(),lastAt:null};return p}
-function updateReviewCard(p,q,correct,now=Date.now()){prepareReviewProfile(p);const old=p.srs[String(q.id)];const stage=correct?Math.min(Math.max(old&&Number.isInteger(old.stage)?old.stage:0,0)+1,REVIEW_DAYS.length-1):0;p.srs[String(q.id)]={stage,due:now+REVIEW_DAYS[stage]*86400000,lastAt:now,lastCorrect:correct};}
+function updateReviewCard(p,q,correct,now=Date.now(),chosen=undefined){prepareReviewProfile(p);const old=p.srs[String(q.id)];const stage=correct?Math.min(Math.max(old&&Number.isInteger(old.stage)?old.stage:0,0)+1,REVIEW_DAYS.length-1):0;const card={...old,stage,due:now+REVIEW_DAYS[stage]*86400000,lastAt:now,lastCorrect:correct,wrongCount:(old&&Number.isInteger(old.wrongCount)?old.wrongCount:0)+(correct?0:1)};if(!correct&&chosen!==undefined)card.lastWrongOption=chosen===null?null:q.optionOrder?q.optionOrder[chosen]:chosen;p.srs[String(q.id)]=card;}
 function dueQuestions(p=getProfile(),now=Date.now()){prepareReviewProfile(p);return BANK.filter(q=>{const c=p.srs[String(q.id)];return c&&Number.isFinite(c.due)&&c.due<=now}).sort((a,b)=>p.srs[String(a.id)].due-p.srs[String(b.id)].due)}
 function learningQuestions(kind,topic){const p=getProfile();return kind==='spaced'?dueQuestions(p).slice(0,50):shuffle(BANK.filter(q=>q.topic===topic)).slice(0,10)}
 function kindLabel(kind){return {exam:'Examen',errors:'Práctica de errores',spaced:'Repaso espaciado',topic:'Práctica por tema',legacy:'Examen'}[kind]||'Práctica'}
