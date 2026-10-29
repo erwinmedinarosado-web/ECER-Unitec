@@ -11,6 +11,7 @@
   function renderPage() {
    const doc=data.documents.find(d=>d.id===select.value),number=Number(pages.value)||1;
    const page=doc.pages.find(p=>p.number===number);
+   renderLegalNotes(doc.id,number,byId('correcciones-legales-original'));
    byId('titulo-original').textContent=doc.id.replace('_',' ');
    byId('contenido-fuente').hidden=true;
    byId('visor-original').removeAttribute('src');

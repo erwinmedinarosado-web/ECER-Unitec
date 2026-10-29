@@ -7,9 +7,10 @@
  function hideSolution(){el('solucion-practica').hidden=true;el('visor-solucion').removeAttribute('src');el('mostrar-solucion').hidden=false;}
  function render(){
   doc=data.documents.find(d=>d.id===select.value);page=doc.pages.find(p=>p.sourcePage===Number(pageSelect.value));
-  hideSolution();el('titulo-practica').textContent=doc.id.replace('_',' ')+' · página original '+page.sourcePage;
+  hideSolution();renderLegalNotes(doc.id,page.sourcePage,el('correcciones-legales-practica'));el('titulo-practica').textContent=doc.id.replace('_',' ')+' · página original '+page.sourcePage;
   const url=doc.practiceFile+'#page='+page.pdfPage+'&view=FitH';el('visor-practica').src=url;el('abrir-practica').href=url;
   el('avisos-practica').replaceChildren();for(const warning of [...(doc.warnings||[]),...(page.warnings||[])]){const p=document.createElement('p');p.className='aviso';p.textContent=warning;el('avisos-practica').append(p);}
+  if(LEGAL_NOTES.some(n=>n.documents.includes(doc.id)&&n.pages.includes(page.sourcePage))){const p=document.createElement('p');p.className='aviso';p.textContent='Esta hoja tiene correcciones de legislación. Consúltalas después de responder mediante «Consultar original y posibles soluciones».';el('avisos-practica').append(p);}
   el('respuesta-practica').value='';try{el('respuesta-practica').value=localStorage.getItem(storageKey())||'';}catch{}
   el('guardado-practica').textContent='Tus notas se guardan únicamente en este navegador.';
   const i=doc.pages.indexOf(page);el('anterior-practica').disabled=i===0;el('siguiente-practica').disabled=i===doc.pages.length-1;
