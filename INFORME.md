@@ -80,3 +80,21 @@ Las 24 adaptaciones iniciales tienen documento, página y número de ejercicio d
 La galería antigua contenía 1,046 entradas para 515 fotografías distintas. Se eliminan las 531 entradas repetidas, conservando sus referencias documentales como metadatos. La galería no se inserta en los intentos de práctica.
 
 La preservación de 40 documentos y 254 páginas está verificada. Sigue pendiente una transcripción individual completa de los ejercicios originales al banco calificable; no se declara ese trabajo terminado.
+
+## Punto de continuación: 28 de octubre de 2026
+
+Commit de implementación: `6a4a9e570a19753928f1d086ba2a5c934cbef7ee`, rama `ecer/modular-verificada-20261028`, PR #1 en borrador.
+
+- GitHub Actions del commit: éxito.
+- Vista previa Vercel: `dpl_585383A6xQomQXZfDNjkfJmo2JSX`, estado READY, vinculada al mismo commit. Sin destino de producción.
+- Los 95 archivos transferidos coinciden con sus hashes de blob Git locales.
+- Revisión independiente de 847 ejercicios aritméticos mediante cálculo: sin discrepancias dentro de la precisión mostrada.
+- Prueba local de interacción mediante DOM simulado: examen de 50 preguntas, selección y conservación de respuestas al navegar, entrega, 50 entradas de revisión, historial, búsqueda en 983 preguntas y apertura/búsqueda/cambio de los 40 originales: correcto. La prueba no verifica el aspecto visual ni el renderizado de imágenes.
+- Las fuentes con posibles respuestas impresas empiezan ocultas y vuelven a ocultarse al cambiar de documento. El visor no carga el PDF hasta pulsar «Mostrar fuente».
+- Verificación visual de esta versión en el navegador de Vercel: pendiente. La revisión automática de permisos rechazó el acceso mediante enlace temporal. El enlace de la rama creado para esta prueba fue revocado. No se debe recrear ni usar ese mecanismo sin autorización explícita posterior del usuario.
+
+### Trabajo que sigue pendiente
+
+No declarar finalizada la cobertura individual de todos los ejercicios originales. Las fuentes están íntegras, pero algunos ejercicios originales de identificación, dibujo y respuesta escrita aún no tienen una representación individual en la práctica. Continuar el cotejo por documento, manteniendo las figuras correctas y separando los enunciados de las soluciones. No inventar opciones ni claves para forzar todas las modalidades a selección múltiple. No mezclar ni publicar en main, ni promover producción.
+
+Los avisos de avance están programados cada hora y deben informar trabajo comprobado y obstáculos reales. No implican ejecución continua entre cada aviso.
