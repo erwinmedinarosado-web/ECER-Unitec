@@ -233,3 +233,8 @@ Las pruebas verifican los 320 registros frente a una base inmutable anterior: se
 
 
 Preferencia de vocabulario adicional: toda aparición de tensión en el banco y su material explicativo se presenta como tensión/voltaje, a petición del usuario. Se verificó automáticamente la ausencia de tensión sin su equivalencia.
+
+
+## Pestaña Exámenes · 30 de octubre de 2026
+
+Las convocatorias, fechas, radicación, requisitos, fuentes, estado de verificación y descarga ICS se trasladaron de la portada a examenes.html. La navegación común incluye Fechas de exámenes y señala la página activa. El plan de estudio sigue en el simulador con un enlace a las convocatorias; los datos y la comprobación de antigüedad de fechas se conservan. La exportación de calendario funciona de forma independiente del motor del examen.
