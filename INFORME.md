@@ -222,3 +222,11 @@ El mensaje de calendario ahora indica que se solicitó la descarga y pide compro
 Entregables públicos: auditoria-preguntas-320.csv y .json, enlazados desde Inicio y Revisión profesional. Cada fila registra método, clave y alcance; incluye huella del objeto revisado. Revisión por perito acreditado, sesiones con estudiantes y auditoría con lector de pantalla real permanecen pendientes.
 
 Comprobación de presentación de esta auditoría en navegador: la pregunta de voltaje muestra diferencia de potencial y su referencia NIST; las tres preguntas de motores exponen fase, RMS y factor de potencia en el enunciado; la ficha profesional muestra el registro de 320 preguntas y el enlace CSV. Las pruebas de datos, recálculos, motor, migración, copias, lectura y accesibilidad finalizaron correctamente.
+
+## Normalización del idioma · 30 de octubre de 2026
+
+Se revisaron las 320 preguntas y se normalizaron 189: 154 enunciados y 57 conjuntos de opciones, además de explicaciones, desarrollos y etiquetas cuando correspondía. Se prefieren tensión, interruptor automático, ampacidad, unión, conductor de puesta a tierra del equipo y panel de distribución secundario. Se mantienen las siglas de equipos, las marcaciones literales y los nombres propios. El glosario terminologia.html y normalizacion-idioma.csv documentan las equivalencias y los cambios.
+
+Se consultó material público en español de NFPA y la copia electrónica del Reglamento Complementario de la AEE alojada por UPRM. De Electricidad Moderna, E. Vázquez Chévere, solo estuvo disponible la ficha editorial. No se atribuye un cotejo íntegro del NEC 2023 en español ni del libro. La adaptación es lingüística: las referencias didácticas siguen en NEC 2020; no se cambia su edición normativa por sustitución de texto.
+
+Las pruebas verifican los 320 registros frente a una base inmutable anterior: se conservan los datos numéricos, los índices de las respuestas correctas y las claves internas de los temas para mantener el historial. Los tres esquemas propios usan EGC de forma congruente; los documentos originales permanecen intactos. Pasaron las pruebas de cálculos, fuentes, flujo de examen, migración, mejoras, lectura y accesibilidad automatizada. Se comprobó en navegador el glosario y la búsqueda del banco con la terminología normalizada; no se atribuye revisión profesional independiente.

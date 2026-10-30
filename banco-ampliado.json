@@ -90,7 +90,7 @@
     "similarityFamily": "calculo-resistencia"
   },
   {
-    "q": "Tres resistencias en serie tienen caídas de 75 V, 75 V y una tercera desconocida. Si la fuente es de 250 V, ¿cuál es la tercera caída?",
+    "q": "Tres resistores en serie tienen caídas de 75 V, 75 V y una tercera desconocida. Si la fuente es de 250 V, ¿cuál es la tercera caída?",
     "options": [
       "100 V",
       "75 V",
@@ -121,7 +121,7 @@
     "similarityFamily": "circuit-series-voltage-multiple"
   },
   {
-    "q": "Tres resistencias de 11 Ω, 12 Ω y 17 Ω están en serie. ¿Cuál es la resistencia total?",
+    "q": "Tres resistores de 11 Ω, 12 Ω y 17 Ω están en serie. ¿Cuál es la resistencia total?",
     "options": [
       "40 Ω",
       "17 Ω",
@@ -152,7 +152,7 @@
     "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
-    "q": "Una fuente de 250 V alimenta resistencias en serie de 11 Ω, 12 Ω y 17 Ω. ¿Cuál es la corriente?",
+    "q": "Una fuente de 250 V alimenta resistores en serie de 11 Ω, 12 Ω y 17 Ω. ¿Cuál es la corriente?",
     "options": [
       "6.25 A",
       "10 A",
@@ -214,7 +214,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "¿Cuál es la resistencia equivalente de 200 resistencias de 5 Ω idénticas conectadas en paralelo?",
+    "q": "¿Cuál es la resistencia equivalente de 200 resistores de 5 Ω idénticas conectadas en paralelo?",
     "options": [
       "0.025 Ω",
       "1000 Ω",
@@ -245,7 +245,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "Dos resistencias de 12 Ω están en serie conectadas a 6 V. ¿Cuál es la corriente total?",
+    "q": "Dos resistores de 12 Ω están en serie conectadas a 6 V. ¿Cuál es la corriente total?",
     "options": [
       "0.25 A",
       "0.5 A",
@@ -276,7 +276,7 @@
     "similarityFamily": "circuit-series-current-two"
   },
   {
-    "q": "Tres resistencias de 5 Ω, 10 Ω y 15 Ω están en serie con 5 V. ¿Cuál es la corriente total?",
+    "q": "Tres resistores de 5 Ω, 10 Ω y 15 Ω están en serie con 5 V. ¿Cuál es la corriente total?",
     "options": [
       "0.167 A",
       "1.5 A",
@@ -337,7 +337,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Cuál es la resistencia total de 10 resistencias de 15 Ω iguales conectadas en paralelo?",
+    "q": "¿Cuál es la resistencia total de 10 resistores de 15 Ω iguales conectadas en paralelo?",
     "options": [
       "1.5 Ω",
       "150 Ω",
@@ -398,7 +398,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "Tres resistencias de 20 Ω están en serie conectadas a 120 V. ¿Cuál es la corriente?",
+    "q": "Tres resistores de 20 Ω están en serie conectadas a 120 V. ¿Cuál es la corriente?",
     "options": [
       "2 A",
       "6 A",
@@ -548,7 +548,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Qué ley relaciona voltaje, corriente y resistencia?",
+    "q": "¿Qué ley relaciona tensión, corriente y resistencia?",
     "options": [
       "Ley de Ohm",
       "Ley de gravitación",
@@ -608,7 +608,7 @@
     "similarityFamily": "concepto-proton"
   },
   {
-    "q": "Si se eleva el voltaje manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
+    "q": "Si se eleva la tensión manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
     "options": [
       "Aumenta",
       "Disminuye",
@@ -648,7 +648,7 @@
     "answer": 0,
     "topic": "Ley de Ohm",
     "source": "EXAMEN_9 (adaptación con datos originales)",
-    "explanation": "La corriente es el voltaje dividido entre la resistencia.",
+    "explanation": "La intensidad de corriente es el cociente entre la tensión aplicada y la resistencia del circuito: I = V/R.",
     "review_status": "Verificada por cálculo o concepto",
     "id": "original-22",
     "originalEvidence": {
@@ -698,7 +698,7 @@
     "similarityFamily": "formula-R"
   },
   {
-    "q": "¿Cuál es la expresión correcta para calcular voltaje?",
+    "q": "¿Cuál es la expresión correcta para calcular tensión?",
     "options": [
       "V = I × R",
       "V = I/R",
@@ -1401,9 +1401,9 @@
     "similarityFamily": "concepto-proton"
   },
   {
-    "q": "¿Qué tres criterios se mencionan para seleccionar un interruptor temporizador (timer switch)?",
+    "q": "¿Cuáles son tres características eléctricas básicas para seleccionar un interruptor temporizador?",
     "options": [
-      "Voltaje, amperaje y número de polos",
+      "Tensión nominal, corriente nominal y número de polos",
       "Color, tamaño y peso",
       "Resistencia, inductancia y longitud",
       "Temperatura, brillo y frecuencia"
@@ -1447,7 +1447,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Cuál es la corriente total de tres resistencias de 20 Ω en serie conectadas a 120 V?",
+    "q": "¿Cuál es la corriente total de tres resistores de 20 Ω en serie conectadas a 120 V?",
     "options": [
       "2 A",
       "6 A",
@@ -1493,7 +1493,7 @@
     "similarityFamily": "circuit-parallel-current-multiple"
   },
   {
-    "q": "¿Qué resistencia total tienen tres resistencias de 11 Ω, 12 Ω y 17 Ω conectadas en serie?",
+    "q": "¿Qué resistencia total tienen tres resistores de 11 Ω, 12 Ω y 17 Ω conectadas en serie?",
     "options": [
       "40 Ω",
       "13.33 Ω",
@@ -1631,7 +1631,7 @@
     "similarityFamily": "calculo-resistencia"
   },
   {
-    "q": "¿Qué corriente total resulta de dos resistencias de 12 Ω en serie conectadas a 6 V?",
+    "q": "¿Qué corriente total resulta de dos resistores de 12 Ω en serie conectadas a 6 V?",
     "options": [
       "0.25 A",
       "1 A",
@@ -1654,7 +1654,7 @@
     "similarityFamily": "circuit-series-current-two"
   },
   {
-    "q": "¿Qué corriente total resulta de tres resistencias de 5 Ω, 10 Ω y 15 Ω en serie conectadas a 5 V?",
+    "q": "¿Qué corriente total resulta de tres resistores de 5 Ω, 10 Ω y 15 Ω en serie conectadas a 5 V?",
     "options": [
       "0.167 A (aprox.)",
       "6 A",
@@ -1677,7 +1677,7 @@
     "similarityFamily": "circuit-series-current-multiple"
   },
   {
-    "q": "¿Cuál es la resistencia equivalente de 200 resistencias de 5 Ω iguales conectadas en paralelo?",
+    "q": "¿Cuál es la resistencia equivalente de 200 resistores de 5 Ω iguales conectadas en paralelo?",
     "options": [
       "0.025 Ω",
       "1000 Ω",
@@ -1700,7 +1700,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "En un circuito serie con fuente de 250 V, dos resistencias tienen caídas de 75 V cada una. ¿Qué voltaje cae en la tercera?",
+    "q": "En un circuito serie con fuente de 250 V, dos resistores tienen caídas de 75 V cada una. ¿Qué tensión cae en la tercera?",
     "options": [
       "100 V",
       "75 V",
@@ -1711,7 +1711,7 @@
     "topic": "Circuitos en serie",
     "source": "Examen 5, pregunta 1",
     "id": 42,
-    "explanation": "En serie las caídas suman el voltaje de fuente: V3 = 250 − 75 − 75 = 100 V.",
+    "explanation": "En serie las caídas suman la tensión de fuente: V3 = 250 − 75 − 75 = 100 V.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -1769,7 +1769,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "¿Cuál es la resistencia total de tres resistencias de 12 Ω, 12 Ω y 6 Ω en paralelo?",
+    "q": "¿Cuál es la resistencia total de tres resistores de 12 Ω, 12 Ω y 6 Ω en paralelo?",
     "options": [
       "3 Ω",
       "30 Ω",
@@ -1792,7 +1792,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "¿Cuál es la corriente total si la resistencia equivalente es 55 Ω y el voltaje 220 V?",
+    "q": "¿Cuál es la corriente total si la resistencia equivalente es 55 Ω y la tensión 220 V?",
     "options": [
       "4 A",
       "12 A",
@@ -1815,18 +1815,18 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Qué tipo de canalización se identifica como LFMC en el material?",
+    "q": "¿Qué tipo de canalización se identifica con la designación LFMC?",
     "options": [
-      "Tubería metálica flexible hermética a líquidos",
-      "Tubería EMT rígida",
-      "Canalización PVC rígida",
-      "Cable NM"
+      "Conducto metálico flexible hermético a líquidos",
+      "Tubería eléctrica metálica EMT",
+      "Conducto rígido de PVC",
+      "Cable tipo NM"
     ],
     "answer": 0,
     "topic": "Materiales",
     "source": "Examen 29A, pregunta 6",
     "id": 47,
-    "explanation": "LFMC es canalización metálica flexible con cubierta para la clasificación indicada. LFNC corresponde a la variante no metálica.",
+    "explanation": "LFMC designa un conducto metálico flexible hermético a líquidos, utilizado conforme a su listado. LFNC designa la variante no metálica.",
     "references": [
       {
         "label": "Arlington · catálogo AnyBODY",
@@ -1838,12 +1838,12 @@
     "similarityFamily": "¿que tipo de canalizacion se identifica como lfmc en el material?"
   },
   {
-    "q": "¿Qué clase de receptáculo se menciona para viviendas?",
+    "q": "¿Qué designación identifica un receptáculo resistente a la inserción de objetos extraños?",
     "options": [
-      "Resistente a manipulación (tamper-resistant)",
-      "Solo grado hospital",
-      "Solo de 50 amperios",
-      "Solo aislado IG"
+      "Resistente a la manipulación (TR)",
+      "Grado hospitalario únicamente",
+      "Corriente nominal de 50 A únicamente",
+      "Puesta a tierra aislada (IG) únicamente"
     ],
     "answer": 0,
     "topic": "Receptáculos",
@@ -1897,7 +1897,7 @@
     "topic": "Instrumentos",
     "source": "Examen 28, pregunta 2 (diagrama)",
     "id": 50,
-    "explanation": "El amperímetro con puntas se intercala en la trayectoria; el voltímetro se conecta entre dos puntos. Una pinza utiliza otro método.",
+    "explanation": "El amperímetro de inserción se intercala en la trayectoria de corriente; el voltímetro se conecta entre dos puntos. Un amperímetro de gancho utiliza otro método de medición.",
     "references": [
       {
         "label": "Fluke · ABCs of DMMs, conexión de corriente en serie",
@@ -1909,7 +1909,7 @@
     "similarityFamily": "instrumento-amperimetro"
   },
   {
-    "q": "¿Qué significa el voltaje entre dos puntos de un circuito?",
+    "q": "¿Qué significa la tensión entre dos puntos de un circuito?",
     "options": [
       "Diferencia de potencial eléctrico entre esos puntos",
       "Intensidad de corriente",
@@ -1926,7 +1926,7 @@
       "question": 1,
       "status": "Enunciado coincidente; opciones adaptadas"
     },
-    "explanation": "El voltaje entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión.",
+    "explanation": "La tensión entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión.",
     "references": [
       {
         "label": "NIST · diferencia de potencial eléctrico y unidad voltio",
@@ -1961,7 +1961,7 @@
     "similarityFamily": "¿que instrumento mide la corriente electrica?"
   },
   {
-    "q": "¿Qué fórmula expresa la Ley de Ohm para el voltaje?",
+    "q": "¿Qué fórmula expresa la Ley de Ohm para la tensión?",
     "options": [
       "V = I / R",
       "V = I × R",
@@ -1972,7 +1972,7 @@
     "topic": "Ley de Ohm",
     "source": "Exámenes adjuntos",
     "id": 53,
-    "explanation": "Ley de Ohm: el voltaje es corriente por resistencia, V = I × R.",
+    "explanation": "Ley de Ohm: la tensión es corriente por resistencia, V = I × R.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -1984,7 +1984,7 @@
     "similarityFamily": "formula-V"
   },
   {
-    "q": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de voltaje y corriente?",
+    "q": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de tensión y corriente?",
     "options": [
       "P = I / V",
       "P = R / I",
@@ -2035,7 +2035,7 @@
       "Serie",
       "Seguridad",
       "Sólida",
-      "Shallow (llana)"
+      "Poco profunda (shallow)"
     ],
     "answer": 3,
     "topic": "Cajas y accesorios",
@@ -2053,12 +2053,12 @@
     "similarityFamily": "¿que significa la s en cajas tipo fs?"
   },
   {
-    "q": "¿Qué es un cable USE?",
+    "q": "¿Qué designa el tipo de cable USE?",
     "options": [
       "Cable de fibra óptica",
-      "Cable de entrada de servicio soterrado",
+      "Cable de entrada de acometida subterránea",
       "Cable coaxial",
-      "Cable de control de motor"
+      "Cable para control de motores"
     ],
     "answer": 1,
     "topic": "Conductores",
@@ -2076,18 +2076,18 @@
     "similarityFamily": "¿que es un cable use?"
   },
   {
-    "q": "¿Qué significa EMT?",
+    "q": "¿Qué tipo de canalización se designa con la sigla EMT?",
     "options": [
-      "Electrical Metallic Tubing",
-      "Electrical Motor Terminal",
-      "Energy Meter Transfer",
-      "External Metal Transformer"
+      "Tubería eléctrica metálica",
+      "Terminal de motor eléctrico",
+      "Equipo de transferencia de medición",
+      "Transformador metálico exterior"
     ],
     "answer": 0,
     "topic": "Tuberías",
     "source": "Exámenes adjuntos",
     "id": 58,
-    "explanation": "EMT es tubo metálico eléctrico; no significa tubería flexible. Se utilizan accesorios compatibles con el sistema.",
+    "explanation": "EMT corresponde a Electrical Metallic Tubing: tubería eléctrica metálica. Se emplean conectores y acoplamientos identificados para esa canalización.",
     "references": [
       {
         "label": "Arlington · catálogo AnyBODY",
@@ -2099,18 +2099,18 @@
     "similarityFamily": "¿que significa emt?"
   },
   {
-    "q": "¿Qué es un receptáculo IG?",
+    "q": "¿Qué indica la marcación IG en un receptáculo?",
     "options": [
-      "Receptáculo de corriente continua",
-      "Receptáculo sin tierra",
-      "Receptáculo de tierra aislada",
-      "Receptáculo de iluminación"
+      "Receptáculo para corriente continua",
+      "Receptáculo sin conexión de puesta a tierra",
+      "Receptáculo con puesta a tierra aislada",
+      "Receptáculo para alumbrado"
     ],
     "answer": 2,
     "topic": "Receptáculos",
     "source": "Exámenes adjuntos",
     "id": 59,
-    "explanation": "IG significa isolated ground: el contacto de tierra está aislado de la montura según el diseño. No significa ausencia del conductor de protección.",
+    "explanation": "IG (isolated ground) identifica un receptáculo cuyo contacto de puesta a tierra está aislado de la montura, conforme al diseño. No significa que se omita el conductor de puesta a tierra del equipo.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2122,18 +2122,18 @@
     "similarityFamily": "¿que es un receptaculo ig?"
   },
   {
-    "q": "¿Qué empalme conecta una derivación a un conductor principal?",
+    "q": "¿Qué tipo de empalme permite conectar una derivación a un conductor principal?",
     "options": [
-      "Western Union",
-      "Tap Joint",
-      "Pigtail Splice",
-      "Fixture Splice"
+      "Empalme en prolongación tipo Western Union",
+      "Empalme en derivación",
+      "Empalme de cola de rata",
+      "Empalme para conexión de luminaria"
     ],
     "answer": 1,
     "topic": "Empalmes",
     "source": "Exámenes adjuntos",
     "id": 60,
-    "explanation": "Tap Joint designa una derivación desde un conductor principal. La unión en línea cumple otra función; en obra se usa un método aprobado para la aplicación.",
+    "explanation": "El empalme en derivación conecta un ramal a un conductor principal. En una instalación se emplean conectores o métodos identificados para la aplicación y las condiciones de uso.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2156,7 +2156,7 @@
     "topic": "Seguridad",
     "source": "Exámenes adjuntos",
     "id": 61,
-    "explanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida del voltaje.",
+    "explanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida de la tensión.",
     "references": [
       {
         "label": "Schneider Electric · función de los dispositivos SPD",
@@ -2191,7 +2191,7 @@
     "similarityFamily": "¿que es un transformador monofasico tipo poste?"
   },
   {
-    "q": "¿Qué significa N.O. en un contacto?",
+    "q": "¿Qué indica la marcación N.O. de un contacto de control en su estado normal, sin accionamiento?",
     "options": [
       "No operable",
       "Normalmente ocupado",
@@ -2266,10 +2266,10 @@
     "similarityFamily": "¿que ley creo la junta examinadora de peritos electricistas de puerto rico?"
   },
   {
-    "q": "¿Qué significa amperaje?",
+    "q": "¿Qué magnitud eléctrica se mide en amperios (A)?",
     "options": [
       "Potencia",
-      "Voltaje",
+      "Tensión",
       "Intensidad de corriente",
       "Resistencia"
     ],
@@ -2283,7 +2283,7 @@
       "question": 2,
       "status": "Enunciado coincidente; opciones adaptadas"
     },
-    "explanation": "El amperaje es la intensidad de corriente, medida en amperios. No debe confundirse con tensión en voltios o potencia en vatios.",
+    "explanation": "La intensidad de corriente eléctrica se mide en amperios (A). La tensión se mide en voltios (V), y la potencia, en vatios (W).",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2352,7 +2352,7 @@
     "topic": "Potencia",
     "source": "Examen 19, pregunta 5",
     "id": 69,
-    "explanation": "I² × R expresa potencia (W), no voltaje. El voltaje se obtiene con V = I × R.",
+    "explanation": "I² × R expresa potencia (W), no tensión. La tensión se obtiene con V = I × R.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -2364,7 +2364,7 @@
     "similarityFamily": "formula-V"
   },
   {
-    "q": "¿Qué sucede con la resistencia total de resistores positivos en paralelo?",
+    "q": "¿Cómo se compara la resistencia equivalente de dos o más resistores de resistencia positiva conectados en paralelo con la resistencia de cada resistor?",
     "options": [
       "Es menor que la menor resistencia individual",
       "Es siempre cero",
@@ -2389,7 +2389,7 @@
   {
     "q": "¿Qué significa la D en cajas tipo FD?",
     "options": [
-      "Deep (profunda)",
+      "Profunda (deep)",
       "Directa",
       "Doble",
       "Diámetro"
@@ -2433,18 +2433,18 @@
     "similarityFamily": "¿que material se usa comunmente como conductor electrico?"
   },
   {
-    "q": "¿Qué significa FMC?",
+    "q": "¿Qué tipo de canalización se designa con la sigla FMC?",
     "options": [
-      "Flexible Motor Circuit",
-      "Flexible Metal Conduit",
-      "Fixed Main Cable",
-      "Fuse Metal Connector"
+      "Circuito de motor flexible",
+      "Conducto metálico flexible",
+      "Cable principal fijo",
+      "Conector metálico para fusible"
     ],
     "answer": 1,
     "topic": "Tuberías",
     "source": "Exámenes adjuntos",
     "id": 73,
-    "explanation": "FMC significa Flexible Metal Conduit: canalización metálica flexible. No implica por sí sola la clasificación liquidtight.",
+    "explanation": "FMC corresponde a Flexible Metal Conduit: conducto metálico flexible. Esa designación, por sí sola, no indica una clasificación hermética a líquidos.",
     "references": [
       {
         "label": "Arlington · catálogo AnyBODY",
@@ -2456,18 +2456,18 @@
     "similarityFamily": "¿que significa fmc?"
   },
   {
-    "q": "¿Qué significa Hospital Grade en un receptáculo?",
+    "q": "¿Qué indica la marcación «Hospital Grade» de un receptáculo?",
     "options": [
-      "Exclusivamente de 240 V",
-      "Sin conexión a tierra",
-      "Solo para exteriores",
-      "Diseñado y certificado para requisitos de uso hospitalario"
+      "Uso exclusivo a 240 V",
+      "Ausencia de conexión de puesta a tierra",
+      "Uso exclusivo a la intemperie",
+      "Clasificación y certificación para uso hospitalario"
     ],
     "answer": 3,
     "topic": "Receptáculos",
     "source": "Exámenes adjuntos",
     "id": 74,
-    "explanation": "Hospital Grade identifica requisitos específicos de desempeño y certificación. No es sinónimo automático de GFCI, TR o tierra aislada.",
+    "explanation": "Grado hospitalario identifica requisitos específicos de desempeño y certificación. No es sinónimo automático de GFCI, TR o puesta a tierra aislada.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2479,12 +2479,12 @@
     "similarityFamily": "¿que significa hospital grade en un receptaculo?"
   },
   {
-    "q": "¿Qué empalme se usa típicamente para unir dos conductores en línea?",
+    "q": "¿Qué tipo de empalme tradicional se utiliza para unir dos conductores en prolongación?",
     "options": [
-      "Pigtail Splice",
-      "Conector EMT",
-      "Tap Joint",
-      "Western Union"
+      "Empalme de cola de rata",
+      "Conector para tubería EMT",
+      "Empalme en derivación",
+      "Empalme tipo Western Union"
     ],
     "answer": 3,
     "topic": "Empalmes",
@@ -2559,7 +2559,7 @@
     "topic": "Capacitancia",
     "source": "Exámenes adjuntos",
     "id": 78,
-    "explanation": "En paralelo todos reciben el mismo voltaje y sus capacitancias se suman: Ct = C1 + C2 + ….",
+    "explanation": "En paralelo, los capacitores tienen la misma tensión entre sus terminales y sus capacitancias se suman: Ct = C1 + C2 + ….",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2694,7 +2694,7 @@
   {
     "q": "¿Qué magnitud es igual en todas las ramas paralelas?",
     "options": [
-      "Voltaje",
+      "Tensión",
       "Potencia individual",
       "Corriente individual",
       "Resistencia"
@@ -2703,7 +2703,7 @@
     "topic": "Circuitos en serie",
     "source": "Exámenes adjuntos",
     "id": 84,
-    "explanation": "Las ramas se conectan a los mismos dos nodos, por eso comparten voltaje. Las corrientes dependen de cada resistencia.",
+    "explanation": "Las ramas se conectan a los mismos dos nodos, por eso comparten tensión. Las corrientes dependen de cada resistencia.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -2715,7 +2715,7 @@
     "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
-    "q": "¿Qué tipo de conduleto tiene cuatro salidas en cruz?",
+    "q": "¿Qué tipo de cuerpo de canalización tiene cuatro salidas en cruz?",
     "options": [
       "Tipo E",
       "Tipo LB",
@@ -2761,18 +2761,18 @@
     "similarityFamily": "¿cual es un material aislante electrico?"
   },
   {
-    "q": "¿Qué significa LFNC?",
+    "q": "¿Qué tipo de canalización se designa con la sigla LFNC?",
     "options": [
-      "Line Feed Network Conduit",
-      "Low Frequency Neutral Cable",
-      "Liquidtight Flexible Nonmetallic Conduit",
-      "Light Fixture Neutral Connector"
+      "Conducto para una red de alimentación",
+      "Cable neutro de baja frecuencia",
+      "Conducto flexible no metálico hermético a líquidos",
+      "Conector neutro para luminaria"
     ],
     "answer": 2,
     "topic": "Tuberías",
     "source": "Exámenes adjuntos",
     "id": 87,
-    "explanation": "LFNC significa Liquidtight Flexible Nonmetallic Conduit. La ausencia de metal lo distingue de LFMC.",
+    "explanation": "LFNC corresponde a Liquidtight Flexible Nonmetallic Conduit: conducto flexible no metálico hermético a líquidos. Su construcción no metálica lo distingue de LFMC.",
     "references": [
       {
         "label": "Arlington · catálogo AnyBODY",
@@ -2784,18 +2784,18 @@
     "similarityFamily": "¿que significa lfnc?"
   },
   {
-    "q": "¿Qué significa Tamper Resistant?",
+    "q": "¿Qué característica identifica la designación TR en un receptáculo?",
     "options": [
       "Aislamiento térmico",
       "Medición de potencia",
-      "Protección contra sobrevoltaje",
-      "Protección contra inserción accidental de objetos"
+      "Protección contra sobretensiones",
+      "Mecanismo que dificulta la inserción de objetos extraños"
     ],
     "answer": 3,
     "topic": "Receptáculos",
     "source": "Exámenes adjuntos",
     "id": 88,
-    "explanation": "TR usa barreras internas para dificultar inserciones ajenas a un enchufe. No garantiza protección frente a todo contacto eléctrico.",
+    "explanation": "La designación TR identifica obturadores internos que dificultan la inserción de objetos extraños. No garantiza protección frente a todo contacto eléctrico.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2807,18 +2807,18 @@
     "similarityFamily": "¿que significa tamper resistant?"
   },
   {
-    "q": "¿Qué hace un dimmer de iluminación?",
+    "q": "¿Qué función cumple un atenuador de iluminación?",
     "options": [
-      "Convierte CA en CC siempre",
-      "Protege contra cortocircuitos",
-      "Mide la resistencia",
-      "Regula la intensidad luminosa"
+      "Convertir siempre corriente alterna en continua",
+      "Proteger contra cortocircuitos",
+      "Medir resistencia",
+      "Regular la intensidad luminosa"
     ],
     "answer": 3,
     "topic": "Controles",
     "source": "Exámenes adjuntos",
     "id": 89,
-    "explanation": "El dimmer ajusta la salida luminosa de cargas compatibles. Debe seleccionarse para el tipo de lámpara y su capacidad.",
+    "explanation": "El atenuador de iluminación ajusta la salida luminosa de cargas compatibles. Debe seleccionarse para el tipo de lámpara y su capacidad.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2928,7 +2928,7 @@
     "similarityFamily": "¿que mide un contador de kwh?"
   },
   {
-    "q": "¿Qué voltaje produce 2 A a través de 6 Ω?",
+    "q": "¿Qué tensión produce 2 A a través de 6 Ω?",
     "options": [
       "0.33 V",
       "3 V",
@@ -2978,7 +2978,7 @@
     "options": [
       "Corriente",
       "Potencia",
-      "Caída de voltaje",
+      "Caída de tensión",
       "Resistencia"
     ],
     "answer": 0,
@@ -2997,7 +2997,7 @@
     "similarityFamily": "circuit-series-resistance-multiple"
   },
   {
-    "q": "¿Qué tipo de conduleto es recto, con entrada y salida opuestas?",
+    "q": "¿Qué tipo de cuerpo de canalización es recto, con entrada y salida opuestas?",
     "options": [
       "Tipo LB",
       "Tipo X",
@@ -3020,18 +3020,18 @@
     "similarityFamily": "¿que tipo de conduleto es recto, con entrada y salida opuestas?"
   },
   {
-    "q": "¿Qué significa RMC?",
+    "q": "¿Qué tipo de canalización se designa con la sigla RMC?",
     "options": [
-      "Remote Meter Control",
-      "Rigid Metal Conduit",
-      "Reinforced Motor Cable",
-      "Residential Main Circuit"
+      "Control remoto de medición",
+      "Conducto metálico rígido",
+      "Cable reforzado para motores",
+      "Circuito principal residencial"
     ],
     "answer": 1,
     "topic": "Tuberías",
     "source": "Exámenes adjuntos",
     "id": 98,
-    "explanation": "RMC significa Rigid Metal Conduit, canalización metálica rígida. Se distingue de EMT y de las canalizaciones flexibles.",
+    "explanation": "RMC corresponde a Rigid Metal Conduit: conducto metálico rígido. Se distingue de la tubería EMT y de los conductos flexibles.",
     "references": [
       {
         "label": "Arlington · catálogo AnyBODY",
@@ -3043,7 +3043,7 @@
     "similarityFamily": "¿que significa rmc?"
   },
   {
-    "q": "¿Qué es un micro switch?",
+    "q": "¿Qué es un microinterruptor?",
     "options": [
       "Transformador de potencia",
       "Interruptor de acción rápida",
@@ -3054,7 +3054,7 @@
     "topic": "Controles",
     "source": "Exámenes adjuntos",
     "id": 99,
-    "explanation": "Un micro switch es un interruptor de acción rápida accionado por un pequeño desplazamiento. La aplicación depende de sus valores nominales.",
+    "explanation": "Un microinterruptor es un interruptor de acción rápida accionado por un pequeño desplazamiento. La aplicación depende de sus valores nominales.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -3158,7 +3158,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "¿Qué es un spring nut para Unistrut?",
+    "q": "¿Qué accesorio de fijación incorpora un resorte para utilizarse en un canal de soporte tipo Unistrut?",
     "options": [
       "Interruptor de presión",
       "Conductor de cobre",
@@ -3181,18 +3181,18 @@
     "similarityFamily": "¿que es un spring nut para unistrut?"
   },
   {
-    "q": "¿Qué significa IMC?",
+    "q": "¿Qué tipo de canalización se designa con la sigla IMC?",
     "options": [
-      "Internal Motor Control",
-      "Industrial Meter Cable",
-      "Intermediate Metal Conduit",
-      "Insulated Main Circuit"
+      "Control interno de motor",
+      "Cable industrial de medición",
+      "Conducto metálico intermedio",
+      "Circuito principal aislado"
     ],
     "answer": 2,
     "topic": "Tuberías",
     "source": "Exámenes adjuntos",
     "id": 105,
-    "explanation": "IMC significa Intermediate Metal Conduit, un tipo de canalización metálica. No es una designación de conductor.",
+    "explanation": "IMC corresponde a Intermediate Metal Conduit: conducto metálico intermedio. La sigla identifica una canalización, no un tipo de conductor.",
     "references": [
       {
         "label": "Arlington · catálogo AnyBODY",
@@ -3319,7 +3319,7 @@
     "similarityFamily": "¿que significa cc?"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "5 Ω",
       "1.20 Ω",
@@ -3365,7 +3365,7 @@
     "similarityFamily": "¿que significa kv?"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 3 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 3 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "6 Ω",
       "1.20 Ω",
@@ -3411,7 +3411,7 @@
     "similarityFamily": "¿que significa kwh?"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "4 Ω",
       "6 Ω",
@@ -3434,7 +3434,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 5 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 5 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "10 Ω",
       "7 Ω",
@@ -3457,7 +3457,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 6 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 6 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "12 Ω",
       "6 Ω",
@@ -3480,7 +3480,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "1.50 Ω",
       "12 Ω",
@@ -3503,7 +3503,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "1.60 Ω",
       "10 Ω",
@@ -3526,7 +3526,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 10 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 10 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "1.67 Ω",
       "20 Ω",
@@ -3549,7 +3549,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "12 Ω",
       "14 Ω",
@@ -3572,7 +3572,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 12 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 12 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "12 Ω",
       "24 Ω",
@@ -3595,7 +3595,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "30 Ω",
       "17 Ω",
@@ -3618,7 +3618,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 20 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 20 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "1.82 Ω",
       "20 Ω",
@@ -3641,7 +3641,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "24 Ω",
       "1.85 Ω",
@@ -3664,7 +3664,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "1.85 Ω",
       "26 Ω",
@@ -3687,7 +3687,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "1.88 Ω",
       "32 Ω",
@@ -3710,7 +3710,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "40 Ω",
       "80 Ω",
@@ -3733,7 +3733,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "50 Ω",
       "52 Ω",
@@ -3756,7 +3756,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "100 Ω",
       "52 Ω",
@@ -3779,7 +3779,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "60 Ω",
       "120 Ω",
@@ -3802,7 +3802,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 80 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 80 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "82 Ω",
       "80 Ω",
@@ -3825,7 +3825,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 80 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 80 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "160 Ω",
       "82 Ω",
@@ -3848,7 +3848,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 100 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 2 Ω y 100 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "102 Ω",
       "1.96 Ω",
@@ -3871,7 +3871,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 2 Ω y 120 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 2 Ω y 120 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "122 Ω",
       "1.97 Ω",
@@ -3894,7 +3894,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 4 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 4 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "1.71 Ω",
       "7 Ω",
@@ -3917,7 +3917,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "4 Ω",
       "1.71 Ω",
@@ -3940,7 +3940,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 5 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 5 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "8 Ω",
       "15 Ω",
@@ -3963,7 +3963,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 6 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 6 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "18 Ω",
       "6 Ω",
@@ -3986,7 +3986,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "8 Ω",
       "24 Ω",
@@ -4009,7 +4009,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "8 Ω",
       "11 Ω",
@@ -4032,7 +4032,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "2.31 Ω",
       "30 Ω",
@@ -4055,7 +4055,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "36 Ω",
       "15 Ω",
@@ -4078,7 +4078,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "15 Ω",
       "45 Ω",
@@ -4101,7 +4101,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "18 Ω",
       "2.50 Ω",
@@ -4124,7 +4124,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "2.61 Ω",
       "60 Ω",
@@ -4147,7 +4147,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "2.67 Ω",
       "27 Ω",
@@ -4170,7 +4170,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "2.67 Ω",
       "72 Ω",
@@ -4193,7 +4193,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "2.73 Ω",
       "33 Ω",
@@ -4216,7 +4216,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "40 Ω",
       "2.79 Ω",
@@ -4239,7 +4239,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "150 Ω",
       "53 Ω",
@@ -4262,7 +4262,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "150 Ω",
       "53 Ω",
@@ -4285,7 +4285,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 60 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 60 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "60 Ω",
       "2.86 Ω",
@@ -4308,7 +4308,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 80 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 80 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "83 Ω",
       "240 Ω",
@@ -4331,7 +4331,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 100 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 3 Ω y 100 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "2.91 Ω",
       "103 Ω",
@@ -4354,7 +4354,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 100 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 100 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "300 Ω",
       "103 Ω",
@@ -4377,7 +4377,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 3 Ω y 120 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 3 Ω y 120 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "2.93 Ω",
       "123 Ω",
@@ -4400,7 +4400,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "4 Ω",
       "7 Ω",
@@ -4423,7 +4423,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 5 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 5 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "9 Ω",
       "5 Ω",
@@ -4446,7 +4446,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 5 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 5 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "2.22 Ω",
       "20 Ω",
@@ -4469,7 +4469,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "10 Ω",
       "24 Ω",
@@ -4492,7 +4492,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "2.67 Ω",
       "32 Ω",
@@ -4515,7 +4515,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 8 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "12 Ω",
       "8 Ω",
@@ -4538,7 +4538,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "14 Ω",
       "2.86 Ω",
@@ -4561,7 +4561,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 12 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "3.00 Ω",
       "16 Ω",
@@ -4584,7 +4584,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "3.16 Ω",
       "15 Ω",
@@ -4607,7 +4607,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 15 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "15 Ω",
       "3.16 Ω",
@@ -4630,7 +4630,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "20 Ω",
       "24 Ω",
@@ -4653,7 +4653,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 24 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "28 Ω",
       "24 Ω",
@@ -4676,7 +4676,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 30 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 30 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "34 Ω",
       "120 Ω",
@@ -4699,7 +4699,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 30 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "3.53 Ω",
       "34 Ω",
@@ -4722,7 +4722,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 40 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 40 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "44 Ω",
       "40 Ω",
@@ -4745,7 +4745,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 50 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "3.70 Ω",
       "50 Ω",
@@ -4768,7 +4768,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "3.75 Ω",
       "64 Ω",
@@ -4791,7 +4791,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 60 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 60 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "64 Ω",
       "240 Ω",
@@ -4814,7 +4814,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 80 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 80 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "3.81 Ω",
       "84 Ω",
@@ -4837,7 +4837,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 100 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 100 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "3.85 Ω",
       "400 Ω",
@@ -4860,7 +4860,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 120 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 4 Ω y 120 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "124 Ω",
       "480 Ω",
@@ -4883,7 +4883,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 4 Ω y 120 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 4 Ω y 120 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "3.87 Ω",
       "480 Ω",
@@ -4906,7 +4906,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 3 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "15 Ω",
       "5 Ω",
@@ -4929,7 +4929,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 4 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 4 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "2.22 Ω",
       "20 Ω",
@@ -4952,7 +4952,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 4 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "2.22 Ω",
       "20 Ω",
@@ -4975,7 +4975,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 6 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "11 Ω",
       "30 Ω",
@@ -4998,7 +4998,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 8 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "8 Ω",
       "13 Ω",
@@ -5021,7 +5021,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 10 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 10 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "50 Ω",
       "15 Ω",
@@ -5044,7 +5044,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 10 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "10 Ω",
       "15 Ω",
@@ -5067,7 +5067,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 12 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 12 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "3.53 Ω",
       "17 Ω",
@@ -5090,7 +5090,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 15 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "3.75 Ω",
       "20 Ω",
@@ -5113,7 +5113,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 20 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 20 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "4.00 Ω",
       "20 Ω",
@@ -5136,7 +5136,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 20 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "20 Ω",
       "100 Ω",
@@ -5159,7 +5159,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 24 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "24 Ω",
       "120 Ω",
@@ -5182,7 +5182,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 30 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 30 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "150 Ω",
       "4.29 Ω",
@@ -5205,7 +5205,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 40 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "4.44 Ω",
       "45 Ω",
@@ -5228,7 +5228,7 @@
     "similarityFamily": "circuit-series-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 40 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 40 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "40 Ω",
       "200 Ω",
@@ -5251,7 +5251,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
+    "q": "Dos resistores de 5 Ω y 50 Ω se conectan en paralelo. ¿Cuál es R equivalente?",
     "options": [
       "250 Ω",
       "50 Ω",
@@ -5274,7 +5274,7 @@
     "similarityFamily": "circuit-parallel-resistance-two"
   },
   {
-    "q": "Dos resistencias de 5 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
+    "q": "Dos resistores de 5 Ω y 60 Ω se conectan en serie. ¿Cuál es R total?",
     "options": [
       "300 Ω",
       "60 Ω",
@@ -5434,11 +5434,11 @@
   },
   {
     "id": "ampliacion-5",
-    "q": "¿Qué permite distinguir visualmente un conector de un cople de EMT?",
+    "q": "¿Qué permite distinguir visualmente un conector de un acoplamiento de EMT?",
     "options": [
-      "El conector termina la tubería en una caja; el cople une dos tramos",
-      "Ambos son instrumentos para medir voltaje",
-      "El cople siempre incorpora un breaker",
+      "El conector termina la tubería en una caja; el acoplamiento une dos tramos",
+      "Ambos son instrumentos para medir tensión",
+      "El acoplamiento siempre incorpora un interruptor automático",
       "El conector genera electricidad"
     ],
     "answer": 0,
@@ -5448,7 +5448,7 @@
     "optionExplanations": [
       "Se identifica por su función y extremos de conexión; debe corresponder al tipo y tamaño de tubería.",
       "Son accesorios mecánicos de canalización.",
-      "El cople no proporciona protección de sobrecorriente.",
+      "El acoplamiento no proporciona protección de sobrecorriente.",
       "Es un accesorio de unión, no una fuente."
     ],
     "references": [
@@ -5554,7 +5554,7 @@
   },
   {
     "id": "ampliacion-9",
-    "q": "¿Cuál es el propósito de unir eléctricamente las partes metálicas expuestas?",
+    "q": "¿Cuál es el propósito de la unión eléctrica de las partes metálicas expuestas?",
     "options": [
       "Establecer continuidad para una trayectoria de falla",
       "Usarlas como conductor normal de carga",
@@ -5564,9 +5564,9 @@
     "answer": 0,
     "topic": "Puesta a tierra y bonding",
     "source": "Ampliación didáctica",
-    "explanation": "El bonding mantiene continuidad entre partes conductoras para que la corriente de falla pueda regresar a la fuente.",
+    "explanation": "La unión proporciona continuidad eléctrica entre partes conductoras para establecer una trayectoria de corriente de falla de retorno a la fuente.",
     "optionExplanations": [
-      "El bonding mantiene continuidad entre partes conductoras para que la corriente de falla pueda regresar a la fuente.",
+      "El unión mantiene continuidad entre partes conductoras para que la corriente de falla pueda regresar a la fuente.",
       "Las envolventes no deben conducir corriente normal de carga.",
       "La unión trabaja junto con las protecciones.",
       "El aislamiento sigue siendo indispensable."
@@ -5586,17 +5586,17 @@
     "id": "ampliacion-10",
     "q": "¿Qué conductor puede transportar corriente de retorno durante funcionamiento normal en un circuito de 120 V?",
     "options": [
-      "Neutro",
-      "Conductor de protección del equipo",
-      "Varilla de tierra",
+      "Conductor neutro",
+      "Conductor de puesta a tierra del equipo",
+      "Electrodo de puesta a tierra",
       "Tapa metálica de la caja"
     ],
     "answer": 0,
     "topic": "Puesta a tierra y bonding",
     "source": "Ampliación didáctica",
-    "explanation": "El neutro participa en el circuito de carga; el conductor de protección cumple una función diferente.",
+    "explanation": "El conductor neutro participa en el circuito de carga; el conductor de puesta a tierra del equipo cumple una función diferente.",
     "optionExplanations": [
-      "El neutro participa en el circuito de carga; el conductor de protección cumple una función diferente.",
+      "El conductor neutro participa en el circuito de carga; el conductor de puesta a tierra del equipo cumple una función diferente.",
       "Su función no es conducir corriente normal de carga.",
       "No es el retorno normal de la carga.",
       "No es un conductor de retorno intencional."
@@ -5614,7 +5614,7 @@
   },
   {
     "id": "ampliacion-11",
-    "q": "¿Qué función tiene el conductor de protección del equipo ante una falla de aislamiento?",
+    "q": "¿Qué función tiene el conductor de puesta a tierra del equipo ante una falla de aislamiento?",
     "options": [
       "Facilitar el retorno de corriente de falla a la fuente",
       "Regular la frecuencia",
@@ -5647,9 +5647,9 @@
     "q": "¿Puede utilizarse únicamente el terreno como trayectoria efectiva para despejar una falla a una carcasa?",
     "options": [
       "No; se requiere una trayectoria efectiva hacia la fuente",
-      "Sí, cualquier suelo dispara inmediatamente el breaker",
+      "Sí, cualquier suelo dispara inmediatamente el interruptor automático",
       "Sí, si se pinta la carcasa",
-      "Sí, si se retira el neutro"
+      "Sí, si se retira el conductor neutro"
     ],
     "answer": 0,
     "topic": "Puesta a tierra y bonding",
@@ -5674,7 +5674,7 @@
   },
   {
     "id": "ampliacion-13",
-    "q": "¿Qué diferencia hay entre un electrodo y el conductor de protección del equipo?",
+    "q": "¿Qué diferencia hay entre un electrodo y el conductor de puesta a tierra del equipo?",
     "options": [
       "El electrodo conecta con el terreno; el conductor enlaza equipos con la trayectoria de protección",
       "Son siempre la misma pieza",
@@ -5739,7 +5739,7 @@
       "Interrumpir o aumentar la impedancia de la trayectoria de falla",
       "Aumentar garantizadamente la seguridad",
       "Cambiar 60 Hz a 50 Hz",
-      "Convertir el neutro en aislante"
+      "Convertir el conductor neutro en aislante"
     ],
     "answer": 0,
     "topic": "Puesta a tierra y bonding",
@@ -5764,20 +5764,20 @@
   },
   {
     "id": "ampliacion-16",
-    "q": "En un subpanel de cuatro conductores aguas abajo del desconectivo de servicio, sin excepciones aplicables, ¿cómo se mantienen neutro y protección?",
+    "q": "En un panel de distribución secundario alimentado por cuatro conductores, situado en el lado de carga del medio de desconexión de acometida y sin excepción aplicable, ¿cómo se disponen el conductor neutro y el conductor de puesta a tierra del equipo?",
     "options": [
-      "Separados; el neutro aislado de la envolvente",
-      "Unidos por cualquier tornillo",
-      "Con el conductor de protección eliminado",
-      "Usando el gabinete como retorno normal"
+      "Separados; el conductor neutro queda aislado de la envolvente",
+      "Unidos mediante cualquier tornillo",
+      "Se omite el conductor de puesta a tierra del equipo",
+      "Se utiliza la envolvente como trayectoria normal de retorno"
     ],
     "answer": 0,
     "topic": "Puesta a tierra y bonding",
     "source": "Ampliación didáctica",
     "explanation": "Separarlos evita trayectorias paralelas de corriente normal por metales de protección. Referencia didáctica: NEC 2020, 250.24(A)(5); las excepciones se estudian por separado.",
     "optionExplanations": [
-      "El neutro queda aislado de la envolvente y la barra de protección se une al gabinete.",
-      "Esa unión aguas abajo puede crear un camino de corriente normal por metal expuesto.",
+      "El conductor neutro queda aislado de la envolvente y la barra de protección se une al gabinete.",
+      "Esa unión en el lado de carga puede crear un camino de corriente normal por metal expuesto.",
       "Eliminar la protección interrumpe una trayectoria de seguridad.",
       "La envolvente no debe funcionar como conductor normal de retorno."
     ],
@@ -5858,12 +5858,12 @@
   },
   {
     "id": "ampliacion-19",
-    "q": "¿Basta conocer el calibre para decidir la corriente admisible de una instalación?",
+    "q": "¿Es suficiente conocer el calibre para determinar la ampacidad de un conductor instalado?",
     "options": [
       "No; también influyen material, aislamiento, temperatura y condiciones de instalación",
       "Sí, el color determina todo",
       "Sí, cualquier aislamiento admite lo mismo",
-      "Sí, el breaker aumenta la ampacidad del cable"
+      "Sí, el interruptor automático aumenta la ampacidad del cable"
     ],
     "answer": 0,
     "topic": "Conductores y protecciones",
@@ -5918,19 +5918,19 @@
   },
   {
     "id": "ampliacion-21",
-    "q": "¿Qué debe hacerse si un breaker dispara repetidamente?",
+    "q": "¿Qué debe hacerse si un interruptor automático dispara repetidamente?",
     "options": [
       "Investigar la causa con el perito antes de modificar la protección",
       "Instalar uno mayor sin revisar conductores",
       "Amarrar la palanca para impedir el disparo",
-      "Eliminar el conductor de protección"
+      "Eliminar el conductor de puesta a tierra del equipo"
     ],
     "answer": 0,
     "topic": "Conductores y protecciones",
     "source": "Ampliación didáctica",
-    "explanation": "Sobrecarga, falla o equipo defectuoso requieren diagnóstico; aumentar el amperaje no es una reparación automática.",
+    "explanation": "Sobrecarga, falla o equipo defectuoso requieren diagnóstico; aumentar la corriente nominal no es una reparación automática.",
     "optionExplanations": [
-      "Sobrecarga, falla o equipo defectuoso requieren diagnóstico; aumentar el amperaje no es una reparación automática.",
+      "Sobrecarga, falla o equipo defectuoso requieren diagnóstico; aumentar la corriente nominal no es una reparación automática.",
       "Puede dejar el cable sin protección adecuada.",
       "Anula una función de seguridad.",
       "No resuelve la causa y agrega riesgo."
@@ -5961,7 +5961,7 @@
     "explanation": "La protección debe coordinarse con el circuito; no reemplaza GFCI, aislamiento ni prácticas seguras.",
     "optionExplanations": [
       "La protección debe coordinarse con el circuito; no reemplaza GFCI, aislamiento ni prácticas seguras.",
-      "Un breaker común no cubre todos los peligros de choque.",
+      "Un interruptor automático común no cubre todos los peligros de choque.",
       "No sella el equipo.",
       "No es una fuente de respaldo."
     ],
@@ -6013,7 +6013,7 @@
       "Por la menor disipación del calor generado",
       "Porque cambia la frecuencia de la red",
       "Porque se convierten en aislantes",
-      "Porque el voltaje nominal siempre se duplica"
+      "Porque la tensión nominal siempre se duplica"
     ],
     "answer": 0,
     "topic": "Conductores y protecciones",
@@ -6071,7 +6071,7 @@
     "q": "¿Para qué se aplica bloqueo y etiquetado durante mantenimiento?",
     "options": [
       "Impedir reconexión inadvertida e identificar el trabajo",
-      "Para aumentar el voltaje",
+      "Para aumentar la tensión",
       "Para sustituir la prueba de ausencia de tensión",
       "Para permitir que cualquiera quite el candado"
     ],
@@ -6098,12 +6098,12 @@
   },
   {
     "id": "ampliacion-27",
-    "q": "¿Qué debe hacerse al encontrar aislamiento roto en una extensión?",
+    "q": "¿Qué acción corresponde al identificar aislamiento deteriorado en un cordón de extensión?",
     "options": [
-      "Retirarla de servicio y comunicar el defecto",
-      "Tapar el daño con la mano",
-      "Usarla solo si no está lloviendo",
-      "Quitar la espiga de tierra"
+      "Retirarlo de servicio y comunicar el defecto",
+      "Cubrir el daño con la mano",
+      "Utilizarlo únicamente cuando no llueva",
+      "Eliminar la espiga de puesta a tierra"
     ],
     "answer": 0,
     "topic": "Seguridad práctica",
@@ -6193,7 +6193,7 @@
       "Detener la intervención y avisar al perito responsable",
       "Suponer que no tiene tensión",
       "Cortar todos los cables al mismo tiempo",
-      "Continuar por tratarse de bajo voltaje"
+      "Continuar por tratarse de baja tensión"
     ],
     "answer": 0,
     "topic": "Seguridad práctica",
@@ -6203,7 +6203,7 @@
       "Las fuentes deben identificarse y controlarse antes de continuar, incluyendo red, generador, solar y baterías.",
       "La suposición no controla el riesgo.",
       "Puede causar choque o arco.",
-      "Bajo voltaje también puede causar lesiones."
+      "La baja tensión también puede causar lesiones."
     ],
     "references": [
       {
@@ -6253,7 +6253,7 @@
       "Activar la emergencia y cortar la energía de forma segura sin tocarla directamente",
       "Jalarla inmediatamente con las manos",
       "Echar agua sobre el equipo",
-      "Esperar a que el breaker dispare por sí solo"
+      "Esperar a que el interruptor automático dispare por sí solo"
     ],
     "answer": 0,
     "topic": "Seguridad práctica",
@@ -6278,7 +6278,7 @@
   },
   {
     "id": "ampliacion-33",
-    "q": "¿Qué diferencia funcional hay entre GFCI y AFCI?",
+    "q": "¿Cuál es la diferencia de operación entre las protecciones GFCI y AFCI?",
     "options": [
       "El primero detecta desequilibrio de corriente; el segundo fallas de arco",
       "Ambos solo miden kWh",
@@ -6288,7 +6288,7 @@
     "answer": 0,
     "topic": "NEC básico aplicado",
     "source": "Ampliación didáctica",
-    "explanation": "Son protecciones para peligros diferentes. Referencias de estudio: NEC 2020, 210.8 y 210.12.",
+    "explanation": "El interruptor de circuito por falla a tierra (GFCI) responde al desequilibrio de corriente propio de su función; el interruptor de circuito por falla de arco (AFCI) detecta características de arco. Son protecciones diferentes. Referencias de estudio: NEC 2020, 210.8 y 210.12.",
     "optionExplanations": [
       "Son protecciones para peligros diferentes. Referencias de estudio: NEC 2020, 210.8 y 210.12.",
       "No son contadores de energía.",
@@ -6338,12 +6338,12 @@
   },
   {
     "id": "ampliacion-35",
-    "q": "¿Qué acción comprueba el mecanismo de prueba de un receptáculo GFCI?",
+    "q": "¿Qué procedimiento permite comprobar la función de prueba de un receptáculo con protección GFCI?",
     "options": [
-      "Usar TEST y RESET según las instrucciones del fabricante",
-      "Unir fase con tierra mediante un alambre",
-      "Mojarlo para observar si dispara",
-      "Aumentar el breaker"
+      "Accionar TEST (prueba) y RESET (restablecimiento) conforme a las instrucciones del fabricante",
+      "Conectar fase y tierra mediante un alambre",
+      "Mojar el receptáculo para observar si opera",
+      "Aumentar la corriente nominal del interruptor automático"
     ],
     "answer": 0,
     "topic": "NEC básico aplicado",
@@ -6370,7 +6370,7 @@
     "id": "ampliacion-36",
     "q": "¿Qué función tienen las barreras internas de un receptáculo TR?",
     "options": [
-      "Dificultar la inserción de objetos ajenos al enchufe",
+      "Dificultar la inserción de objetos distintos de una clavija",
       "Proporcionar respaldo con batería",
       "Reemplazar la puesta a tierra",
       "Medir la resistencia de la carga"
@@ -6378,9 +6378,9 @@
     "answer": 0,
     "topic": "NEC básico aplicado",
     "source": "Ampliación didáctica",
-    "explanation": "Tamper Resistant describe un mecanismo de obturación; no implica protección GFCI ni aptitud para intemperie.",
+    "explanation": "La designación TR corresponde a un mecanismo de obturación resistente a la manipulación; no implica protección GFCI ni aptitud para intemperie.",
     "optionExplanations": [
-      "Tamper Resistant describe un mecanismo de obturación; no implica protección GFCI ni aptitud para intemperie.",
+      "Resistente a la manipulación describe un mecanismo de obturación; no implica protección GFCI ni aptitud para intemperie.",
       "No almacenan energía.",
       "Son una protección diferente.",
       "No son un instrumento."
@@ -6553,9 +6553,9 @@
     "q": "En el esquema A, ¿por qué la lámpara no enciende con S1 abierto?",
     "options": [
       "La trayectoria de corriente está interrumpida",
-      "Porque el neutro produce energía",
+      "Porque el conductor neutro produce energía",
       "Porque la lámpara se vuelve un capacitor",
-      "Porque el voltaje de la fuente necesariamente es cero"
+      "Porque la tensión de la fuente necesariamente es cero"
     ],
     "answer": 0,
     "topic": "Planos y conexiones",
@@ -6563,7 +6563,7 @@
     "explanation": "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión.",
     "optionExplanations": [
       "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión.",
-      "El neutro no es una fuente independiente.",
+      "El conductor neutro no es una fuente independiente.",
       "Abrir un interruptor no cambia el tipo de carga.",
       "Un circuito abierto puede conservar tensión en parte de él."
     ],
@@ -6596,7 +6596,7 @@
     "optionExplanations": [
       "El voltímetro se conecta en paralelo a los puntos cuya diferencia de potencial se estudia.",
       "Esa conexión puede provocar un cortocircuito.",
-      "No mide voltaje.",
+      "No mide tensión.",
       "No es un instrumento de medición."
     ],
     "references": [
@@ -6648,7 +6648,7 @@
     "options": [
       "Ofrecer trayectorias alternativas para controlar una carga desde dos puntos",
       "Transportar siempre corriente trifásica",
-      "Sustituir el conductor de protección",
+      "Sustituir el conductor de puesta a tierra del equipo",
       "Medir kWh"
     ],
     "answer": 0,
@@ -6709,7 +6709,7 @@
       "Consultar al responsable y aclarar la documentación antes de intervenir",
       "Elegir la interpretación más rápida",
       "Guiarse solo por el color de la pared",
-      "Omitir el conductor de protección"
+      "Omitir el conductor de puesta a tierra del equipo"
     ],
     "answer": 0,
     "topic": "Planos y conexiones",
@@ -6798,7 +6798,7 @@
     "options": [
       "Circuito abierto o resistencia fuera de rango",
       "Siempre cero ohmios",
-      "Voltaje exactamente igual a 120 V",
+      "Tensión exactamente igual a 120 V",
       "Una batería externa completamente cargada"
     ],
     "answer": 0,
@@ -6808,7 +6808,7 @@
     "optionExplanations": [
       "Se interpreta el modo y rango; OL no distingue por sí solo todas las causas de una lectura alta.",
       "Cero indica resistencia muy baja, no fuera de rango.",
-      "OL en modo resistencia no es una lectura de voltaje.",
+      "OL en modo resistencia no es una lectura de tensión.",
       "No permite esa conclusión."
     ],
     "references": [
@@ -6824,7 +6824,7 @@
   },
   {
     "id": "ampliacion-51",
-    "q": "¿Qué se hace antes de cambiar de medir corriente con puntas a medir voltaje?",
+    "q": "¿Qué se hace antes de cambiar de medir corriente con puntas a medir tensión?",
     "options": [
       "Revisar y cambiar los bornes y selector según el manual",
       "Dejar siempre la punta roja en A",
@@ -6854,17 +6854,17 @@
   },
   {
     "id": "ampliacion-52",
-    "q": "¿Qué encierra una pinza para medir corriente de carga en un circuito monofásico de dos hilos?",
+    "q": "Para medir la corriente de carga con un amperímetro de gancho en un circuito monofásico de dos conductores, ¿qué se introduce dentro de la mordaza?",
     "options": [
-      "Un solo conductor portador de esa corriente",
-      "Fase y neutro juntos para leer la carga",
-      "Todo el cordón por defecto",
-      "Solo el aislamiento sin ningún conductor"
+      "Un solo conductor que transporte la corriente de carga",
+      "Los conductores de fase y neutro juntos",
+      "Todo el cordón de alimentación",
+      "Únicamente aislamiento, sin conductor"
     ],
     "answer": 0,
     "topic": "Instrumentos aplicados",
     "source": "Ampliación didáctica",
-    "explanation": "La pinza responde al campo neto; para corriente de carga se abraza el conductor adecuado individualmente.",
+    "explanation": "El amperímetro de gancho responde al campo magnético neto. Para medir corriente de carga, la mordaza rodea un solo conductor apropiado.",
     "optionExplanations": [
       "La pinza responde al campo neto; para corriente de carga se abraza el conductor adecuado individualmente.",
       "Sus campos tienden a cancelarse; esa disposición puede servir para otra medición, no la carga individual.",
@@ -6884,7 +6884,7 @@
   },
   {
     "id": "ampliacion-53",
-    "q": "Para medir el voltaje de una alimentación de CA, ¿qué función se selecciona?",
+    "q": "Para medir la tensión de una alimentación de CA, ¿qué función se selecciona?",
     "options": [
       "Tensión CA con rango y categoría adecuados",
       "Resistencia con la fuente conectada",
@@ -6947,7 +6947,7 @@
     "q": "¿Cómo se reduce el efecto de caminos en paralelo al medir una resistencia individual?",
     "options": [
       "Aislando apropiadamente el componente con el circuito desenergizado",
-      "Aumentando el voltaje de la fuente",
+      "Aumentando la tensión de la fuente",
       "Midiendo siempre el conjunto completo",
       "Usando el modo de temperatura"
     ],
@@ -6977,7 +6977,7 @@
     "q": "¿Qué significa un pitido de continuidad en un cable aislado y desenergizado?",
     "options": [
       "Que existe una trayectoria de resistencia suficientemente baja para ese instrumento",
-      "Que el aislamiento soporta cualquier voltaje",
+      "Que el aislamiento soporta cualquier tensión",
       "Que el cable admite cualquier corriente",
       "Que se certificó toda la instalación"
     ],
@@ -7129,7 +7129,7 @@
       "Contador eléctrico",
       "Base del contador",
       "Soporte de acometida",
-      "Tapa de conduleto"
+      "Tapa de cuerpo de canalización"
     ],
     "answer": 0,
     "topic": "Legislación y servicio local",
@@ -7167,7 +7167,7 @@
     "explanation": "LUMA distingue la base del equipo medidor; en su guía se identifica la base entre los equipos del cliente.",
     "optionExplanations": [
       "LUMA distingue la base del equipo medidor; en su guía se identifica la base entre los equipos del cliente.",
-      "Su función principal es transformar voltaje.",
+      "Su función principal es transformar tensión.",
       "Produce energía solar, no aloja el medidor.",
       "Conecta el sistema de puesta a tierra con el terreno."
     ],
@@ -7186,9 +7186,9 @@
     "id": "ampliacion-63",
     "q": "¿Qué función cumple normalmente el transformador de distribución que alimenta una vivienda?",
     "options": [
-      "Adaptar el voltaje de distribución al servicio",
+      "Adaptar la tensión de distribución al servicio",
       "Medir por sí solo el consumo facturado",
-      "Sustituir todo breaker de la vivienda",
+      "Sustituir todo interruptor automático de la vivienda",
       "Almacenar energía como una batería"
     ],
     "answer": 0,
@@ -7309,7 +7309,7 @@
       "Guardar energía para usarla después",
       "Producir luz solar",
       "Eliminar la necesidad de un inversor para toda carga de CA",
-      "Sustituir el conductor de protección"
+      "Sustituir el conductor de puesta a tierra del equipo"
     ],
     "answer": 0,
     "topic": "Energía renovable básica",
@@ -7399,7 +7399,7 @@
       "Reducir su producción según configuración y electrónica",
       "Aumentar siempre la potencia",
       "Convertir la salida del panel en CA",
-      "Eliminar todo voltaje peligroso"
+      "Eliminar toda tensión peligrosa"
     ],
     "answer": 0,
     "topic": "Energía renovable básica",
@@ -7484,7 +7484,7 @@
   },
   {
     "id": "mejora-1",
-    "q": "¿Qué función tienen los botones TEST y RESET en el dispositivo de la fotografía 1?",
+    "q": "¿Qué función cumplen los botones TEST y RESET del dispositivo de la fotografía 1?",
     "options": [
       "Probar y restablecer la protección contra falla a tierra",
       "Cambiar la frecuencia de la red",
@@ -7495,7 +7495,7 @@
     "topic": "Identificación visual",
     "examGroup": "aplicaciones",
     "source": "Ampliación visual y situaciones prácticas",
-    "explanation": "El dispositivo es un receptáculo GFCI. Los botones sirven para su prueba y restablecimiento conforme a las instrucciones del fabricante.",
+    "explanation": "El dispositivo es un receptáculo con protección GFCI. TEST corresponde a la prueba y RESET al restablecimiento, conforme a las instrucciones del fabricante.",
     "optionExplanations": [
       "El dispositivo es un receptáculo GFCI. Los botones sirven para su prueba y restablecimiento conforme a las instrucciones del fabricante.",
       "Esos botones no cambian la frecuencia de alimentación.",
@@ -7520,17 +7520,17 @@
     "q": "¿Qué indica el punto verde del receptáculo de la fotografía 2?",
     "options": [
       "Clasificación para uso hospitalario",
-      "Ausencia del conductor de protección",
-      "Compatibilidad con cualquier voltaje",
+      "Ausencia del conductor de puesta a tierra del equipo",
+      "Compatibilidad con cualquier tensión",
       "Que solo puede conectarse corriente continua"
     ],
     "answer": 0,
     "topic": "Identificación visual",
     "examGroup": "aplicaciones",
     "source": "Ampliación visual y situaciones prácticas",
-    "explanation": "El punto verde identifica Hospital Grade. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
+    "explanation": "El punto verde identifica el grado hospitalario. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
     "optionExplanations": [
-      "El punto verde identifica Hospital Grade. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
+      "El punto verde identifica Grado hospitalario. En este modelo también hay función GFCI; son características distintas y pueden coexistir.",
       "La marca no significa que deba omitirse la tierra.",
       "Debe respetarse su valor nominal.",
       "Su ficha indica la clasificación de alimentación del producto."
@@ -7550,18 +7550,18 @@
   },
   {
     "id": "mejora-3",
-    "q": "¿Qué parte del instrumento de la fotografía 3 permite medir corriente de CA sin intercalar las puntas en serie?",
+    "q": "¿Qué parte del instrumento de la fotografía 3 permite medir corriente alterna sin intercalar las puntas de prueba en serie?",
     "options": [
       "La mordaza alrededor de un conductor adecuado",
       "La funda de transporte",
       "Las baterías fuera del instrumento",
-      "La punta roja tocando directamente el neutro y la fase"
+      "La punta roja tocando directamente el conductor neutro y la fase"
     ],
     "answer": 0,
     "topic": "Identificación visual",
     "examGroup": "aplicaciones",
     "source": "Ampliación visual y situaciones prácticas",
-    "explanation": "La pinza detecta el campo del conductor. Para corriente de carga se abraza uno solo, respetando el manual y los procedimientos de seguridad.",
+    "explanation": "El amperímetro de gancho detecta el campo producido por la corriente en el conductor. Para medir corriente de carga, su mordaza rodea un solo conductor, conforme al manual y al procedimiento de seguridad.",
     "optionExplanations": [
       "La pinza detecta el campo del conductor. Para corriente de carga se abraza uno solo, respetando el manual y los procedimientos de seguridad.",
       "Solo protege el instrumento durante traslado.",
@@ -7685,7 +7685,7 @@
     "q": "¿Qué función cumple la pieza de la fotografía 7?",
     "options": [
       "Unir dos tramos de canalización compatibles",
-      "Proporcionar una salida de energía para un enchufe",
+      "Proporcionar una salida de energía para una clavija",
       "Abrir automáticamente por sobrecorriente",
       "Registrar energía consumida"
     ],
@@ -7693,9 +7693,9 @@
     "topic": "Identificación visual",
     "examGroup": "aplicaciones",
     "source": "Ampliación visual y situaciones prácticas",
-    "explanation": "El cople une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
+    "explanation": "El acoplamiento une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
     "optionExplanations": [
-      "El cople une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
+      "El acoplamiento une tramos mediante sus extremos de compresión; no se confunde con el conector que termina en una caja.",
       "No es un receptáculo.",
       "No contiene un mecanismo de protección.",
       "No es un contador."
@@ -7755,7 +7755,7 @@
     "q": "Un equipo apagado conserva una batería interna conectada. ¿Qué debe hacerse antes de intervenir?",
     "options": [
       "Identificar y controlar también esa fuente de energía",
-      "Dar por seguro el equipo porque el enchufe está retirado",
+      "Dar por seguro el equipo porque la clavija está retirado",
       "Cortocircuitar la batería para descargarla",
       "Ocultar la batería para evitar tocarla"
     ],
@@ -7810,7 +7810,7 @@
   },
   {
     "id": "mejora-11",
-    "q": "En un subpanel de cuatro hilos se encuentra un puente entre neutro y gabinete, sin excepción aplicable. ¿Qué problema puede provocar?",
+    "q": "En un panel de distribución secundario alimentado por cuatro conductores se identifica un puente entre el conductor neutro y la envolvente, sin excepción aplicable. ¿Qué condición puede originar?",
     "options": [
       "Corriente normal por trayectorias metálicas de protección",
       "Una reducción garantizada del consumo",
@@ -7821,9 +7821,9 @@
     "topic": "Situaciones prácticas",
     "examGroup": "aplicaciones",
     "source": "Ampliación visual y situaciones prácticas",
-    "explanation": "La unión aguas abajo puede crear caminos paralelos de retorno. En el caso descrito el neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
+    "explanation": "La unión en el lado de carga puede crear caminos paralelos de retorno. En el caso descrito el conductor neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
     "optionExplanations": [
-      "La unión aguas abajo puede crear caminos paralelos de retorno. En el caso descrito el neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
+      "La unión en el lado de carga puede crear caminos paralelos de retorno. En el caso descrito el conductor neutro debe quedar aislado del gabinete, conforme a la regla y sus condiciones.",
       "Ese puente no es una medida de eficiencia.",
       "La unión no rectifica corriente.",
       "El metal continúa siendo conductor."
@@ -7839,7 +7839,7 @@
   },
   {
     "id": "mejora-12",
-    "q": "Un breaker dispara y alguien propone cambiarlo por otro de mayor amperaje sin revisar nada. ¿Cuál es la respuesta adecuada?",
+    "q": "Un interruptor automático dispara y alguien propone cambiarlo por otro de mayor corriente nominal sin revisar nada. ¿Cuál es la respuesta adecuada?",
     "options": [
       "Investigar la causa y verificar conductores y protección antes de cambiarlo",
       "Aumentarlo siempre hasta que no dispare",
@@ -7984,12 +7984,12 @@
   },
   {
     "id": "instalacion-1",
-    "q": "En el subpanel mostrado, situado después del desconectivo de servicio y sin excepción aplicable, ¿qué conexión debe revisarse?",
+    "q": "En el panel de distribución secundario mostrado, situado en el lado de carga del medio de desconexión de acometida y sin excepción aplicable, ¿qué conexión requiere revisión?",
     "options": [
-      "El puente entre neutro y gabinete",
+      "El puente entre el conductor neutro y la envolvente",
       "La presencia de cuatro conductores",
       "La identificación de L1 y L2",
-      "El tamaño del dibujo"
+      "La escala del esquema"
     ],
     "answer": 0,
     "topic": "Errores de instalación",
@@ -7998,10 +7998,10 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-1",
     "visual": "imagenes/instalaciones/subpanel.svg",
-    "visualAlt": "Diagrama de subpanel de cuatro hilos: N está conectado por un puente a la envolvente metálica; PE también llega al gabinete.",
-    "explanation": "El dibujo muestra una unión aguas abajo entre el neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
+    "visualAlt": "Esquema de un panel de distribución secundario alimentado por cuatro conductores: N se conecta mediante un puente a la envolvente metálica; EGC también se conecta a la envolvente.",
+    "explanation": "El dibujo muestra una unión en el lado de carga entre el conductor neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
     "optionExplanations": [
-      "El dibujo muestra una unión aguas abajo entre el neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
+      "El dibujo muestra una unión en el lado de carga entre el conductor neutro y la envolvente. Puede crear trayectorias de retorno por metal de protección; referencia didáctica NEC 2020, 250.24(A)(5).",
       "El supuesto del ejercicio es precisamente una alimentación de cuatro conductores.",
       "Esas etiquetas no explican la unión adicional mostrada.",
       "La escala gráfica no es el problema eléctrico."
@@ -8016,11 +8016,11 @@
   },
   {
     "id": "instalacion-2",
-    "q": "¿Qué decisión corresponde ante la unión del subpanel descrito, antes de corregirla?",
+    "q": "¿Qué decisión corresponde ante la unión del panel de distribución secundario descrito, antes de corregirla?",
     "options": [
       "Solicitar evaluación al perito y controlar todas las fuentes antes de intervenir",
       "Retirar el puente con el equipo energizado",
-      "Eliminar el conductor PE",
+      "Eliminar el conductor de puesta a tierra del equipo",
       "Usar el gabinete como retorno normal"
     ],
     "answer": 0,
@@ -8030,7 +8030,7 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-1",
     "visual": "imagenes/instalaciones/subpanel.svg",
-    "visualAlt": "Diagrama de subpanel de cuatro hilos: N está conectado por un puente a la envolvente metálica; PE también llega al gabinete.",
+    "visualAlt": "Esquema de un panel de distribución secundario alimentado por cuatro conductores: N se conecta mediante un puente a la envolvente metálica; EGC también se conecta a la envolvente.",
     "explanation": "La corrección requiere verificar el tipo de alimentación y las excepciones, aislar las fuentes y seguir el procedimiento seguro; no se interviene basándose solo en un dibujo.",
     "optionExplanations": [
       "La corrección requiere verificar el tipo de alimentación y las excepciones, aislar las fuentes y seguir el procedimiento seguro; no se interviene basándose solo en un dibujo.",
@@ -8048,7 +8048,7 @@
   },
   {
     "id": "instalacion-3",
-    "q": "¿Qué defecto visible tiene la extensión del esquema?",
+    "q": "¿Qué defecto visible presenta el cordón de extensión del esquema?",
     "options": [
       "La cubierta deja metal conductor expuesto",
       "Un exceso de instrumentos de medición",
@@ -8062,7 +8062,7 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-2",
     "visual": "imagenes/instalaciones/extension.svg",
-    "visualAlt": "Dibujo de una extensión cuya cubierta está abierta y permite ver los conductores en la zona dañada.",
+    "visualAlt": "Esquema de un cordón de extensión con la cubierta abierta y los conductores visibles en la zona deteriorada.",
     "explanation": "La abertura de la cubierta deja partes conductoras expuestas y exige retirar el equipo del servicio para evaluación.",
     "optionExplanations": [
       "La abertura de la cubierta deja partes conductoras expuestas y exige retirar el equipo del servicio para evaluación.",
@@ -8080,12 +8080,12 @@
   },
   {
     "id": "instalacion-4",
-    "q": "¿Qué corresponde hacer con la extensión dañada de este ejercicio?",
+    "q": "¿Qué acción corresponde respecto al cordón de extensión deteriorado que se muestra?",
     "options": [
-      "Retirarla de servicio hasta su reparación apropiada o reemplazo",
-      "Seguir usándola si no llueve",
-      "Cubrirla con la mano durante el uso",
-      "Aumentar el amperaje del breaker"
+      "Retirarlo de servicio hasta su reparación apropiada o sustitución",
+      "Continuar utilizándolo cuando no llueva",
+      "Cubrirlo con la mano durante el uso",
+      "Aumentar la corriente nominal del interruptor automático"
     ],
     "answer": 0,
     "topic": "Errores de instalación",
@@ -8094,7 +8094,7 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-2",
     "visual": "imagenes/instalaciones/extension.svg",
-    "visualAlt": "Dibujo de una extensión cuya cubierta está abierta y permite ver los conductores en la zona dañada.",
+    "visualAlt": "Esquema de un cordón de extensión con la cubierta abierta y los conductores visibles en la zona deteriorada.",
     "explanation": "OSHA 1910.334(a)(2) exige retirar de servicio los equipos dañados que puedan exponer a lesiones, hasta realizar las reparaciones y pruebas necesarias.",
     "optionExplanations": [
       "OSHA 1910.334(a)(2) exige retirar de servicio los equipos dañados que puedan exponer a lesiones, hasta realizar las reparaciones y pruebas necesarias.",
@@ -8112,12 +8112,12 @@
   },
   {
     "id": "instalacion-5",
-    "q": "El selector está en V CA, pero la punta que va a L está conectada al borne A. ¿Qué debe verificarse?",
+    "q": "El selector está en tensión de CA, pero la punta conectada a L está insertada en el borne A. ¿Qué condición debe verificarse?",
     "options": [
       "La incompatibilidad entre el borne usado y la medición prevista",
       "Solo la marca de la funda",
       "La cantidad de caracteres de la pantalla",
-      "Que toda medición de voltaje requiere intercalar A"
+      "Que toda medición de tensión requiere intercalar A"
     ],
     "answer": 0,
     "topic": "Errores de instalación",
@@ -8176,12 +8176,12 @@
   },
   {
     "id": "instalacion-7",
-    "q": "El equipo clase I requiere conductor de protección. ¿Qué problema muestra su enchufe?",
+    "q": "El equipo de clase I requiere un conductor de puesta a tierra del equipo (EGC). ¿Qué defecto presenta su clavija de conexión?",
     "options": [
-      "Falta la espiga correspondiente a esa protección",
+      "Ausencia de la espiga correspondiente a la puesta a tierra",
       "Toda clavija de dos espigas es peligrosa por definición",
-      "El cable tiene necesariamente calibre insuficiente",
-      "La fuente es necesariamente de corriente continua"
+      "El cordón tiene necesariamente un calibre insuficiente",
+      "La alimentación es necesariamente de corriente continua"
     ],
     "answer": 0,
     "topic": "Errores de instalación",
@@ -8190,11 +8190,11 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-4",
     "visual": "imagenes/instalaciones/enchufe.svg",
-    "visualAlt": "Enchufe de equipo clase I con dos espigas y el espacio de la tercera marcado por un contorno discontinuo; la tercera espiga está ausente.",
+    "visualAlt": "Clavija de un equipo de clase I con dos espigas. Un contorno discontinuo indica la posición de la espiga de puesta a tierra ausente.",
     "explanation": "En el equipo especificado la espiga faltante interrumpe una conexión de seguridad. No debe generalizarse a todos los equipos de dos espigas.",
     "optionExplanations": [
       "En el equipo especificado la espiga faltante interrumpe una conexión de seguridad. No debe generalizarse a todos los equipos de dos espigas.",
-      "Existen equipos de otras clases; el supuesto aquí es un equipo que requiere PE.",
+      "Existen equipos de otras clases; el supuesto aquí es un equipo que requiere EGC.",
       "El dibujo no permite establecer el calibre.",
       "La forma no demuestra ese tipo de fuente."
     ],
@@ -8208,12 +8208,12 @@
   },
   {
     "id": "instalacion-8",
-    "q": "¿Qué corresponde ante el enchufe incompleto del equipo especificado?",
+    "q": "¿Qué acción corresponde ante la clavija incompleta del equipo especificado?",
     "options": [
       "Retirar el equipo de uso y gestionar reparación apropiada",
-      "Usar un adaptador que elimine la necesidad de PE",
+      "Usar un adaptador que suprima la conexión de puesta a tierra",
       "Pintar la clavija de verde",
-      "Unir la carcasa al neutro en cualquier tomacorriente"
+      "Unir la carcasa al conductor neutro en cualquier tomacorriente"
     ],
     "answer": 0,
     "topic": "Errores de instalación",
@@ -8222,7 +8222,7 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-4",
     "visual": "imagenes/instalaciones/enchufe.svg",
-    "visualAlt": "Enchufe de equipo clase I con dos espigas y el espacio de la tercera marcado por un contorno discontinuo; la tercera espiga está ausente.",
+    "visualAlt": "Clavija de un equipo de clase I con dos espigas. Un contorno discontinuo indica la posición de la espiga de puesta a tierra ausente.",
     "explanation": "Se restablece la configuración aprobada del equipo mediante personal competente; no se anulan protecciones para hacerlo funcionar.",
     "optionExplanations": [
       "Se restablece la configuración aprobada del equipo mediante personal competente; no se anulan protecciones para hacerlo funcionar.",
@@ -8240,7 +8240,7 @@
   },
   {
     "id": "instalacion-9",
-    "q": "¿Qué función se compromete por la interrupción de PE mostrada en el gabinete?",
+    "q": "¿Qué función se compromete al interrumpirse el conductor de puesta a tierra del equipo (EGC), como se muestra en la envolvente?",
     "options": [
       "La continuidad de una trayectoria de protección ante falla",
       "La unidad en que se mide capacitancia",
@@ -8254,7 +8254,7 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-5",
     "visual": "imagenes/instalaciones/gabinete.svg",
-    "visualAlt": "Un gabinete alimenta una lámpara por L y N. El conductor identificado PE muestra un espacio sin conexión antes del punto de unión al gabinete.",
+    "visualAlt": "Una envolvente contiene una lámpara conectada a L y N. El conductor identificado como EGC presenta una interrupción antes del punto de unión a la envolvente.",
     "explanation": "La conexión de protección ayuda a conducir corriente de falla hacia la fuente; una interrupción puede impedir la actuación eficaz de la protección.",
     "optionExplanations": [
       "La conexión de protección ayuda a conducir corriente de falla hacia la fuente; una interrupción puede impedir la actuación eficaz de la protección.",
@@ -8275,7 +8275,7 @@
     "q": "¿Basta una varilla en el terreno para sustituir por sí sola la trayectoria de falla del caso mostrado?",
     "options": [
       "No; se necesita una trayectoria efectiva de retorno hacia la fuente",
-      "Sí, cualquier terreno dispara todos los breakers",
+      "Sí, cualquier terreno dispara todos los interruptores automáticos",
       "Sí, si la caja se pinta",
       "Sí, si se suprime la protección de sobrecorriente"
     ],
@@ -8286,7 +8286,7 @@
     "difficulty": "analisis",
     "similarityFamily": "instalacion-caso-5",
     "visual": "imagenes/instalaciones/gabinete.svg",
-    "visualAlt": "Un gabinete alimenta una lámpara por L y N. El conductor identificado PE muestra un espacio sin conexión antes del punto de unión al gabinete.",
+    "visualAlt": "Una envolvente contiene una lámpara conectada a L y N. El conductor identificado como EGC presenta una interrupción antes del punto de unión a la envolvente.",
     "explanation": "El terreno no se considera por sí solo una trayectoria eficaz de corriente de falla; referencia de estudio NEC 2020, 250.4(A)(5).",
     "optionExplanations": [
       "El terreno no se considera por sí solo una trayectoria eficaz de corriente de falla; referencia de estudio NEC 2020, 250.4(A)(5).",
@@ -8309,7 +8309,7 @@
       "La clasificación ambiental y la protección del conjunto para ese lugar",
       "Solo la existencia del botón TEST",
       "Únicamente el color de la placa",
-      "La facilidad de conexión del enchufe"
+      "La facilidad de conexión de la clavija"
     ],
     "answer": 0,
     "topic": "Errores de instalación",

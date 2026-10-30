@@ -13,8 +13,8 @@ for q in b:
  if q['topic'] not in ['Ley de Ohm','Potencia','Circuitos en serie','Circuitos en paralelo'] and q['id']!='ampliacion-38':continue
  s=q['q'];rs=values(s,'Ω');vs=values(s,'V');amps=values(s,'A');watts=values(s,'W');result=None;formula=''
  if q['id']=='ampliacion-38':result=4*2.25;formula='4 × 2.25'
- elif rs and len(rs)>1 and 'paralelo' in s and not vs or rs and 'resistencias' in s and 'paralelo' in s:
-  count=re.search(r'(\d+) resistencias de',s)
+ elif rs and 'paralelo' in s and not vs and (len(rs)>1 or re.search(r'\d+ (?:resistencias|resistores) de',s)):
+  count=re.search(r'(\d+) (?:resistencias|resistores) de',s)
   if len(rs)==1 and count:result=rs[0]/int(count[1]);formula=f'{rs[0]}/{count[1]}'
   else:result=1/sum(1/r for r in rs);formula='1/('+ ' + '.join('1/'+str(r) for r in rs)+')'
  elif rs and ('resistencias' in s or 'resistores' in s) and 'serie' in s:
@@ -41,11 +41,17 @@ assert len(checks)==153 and len(concept)==14,(len(checks),len(concept))
 assert not bad,bad
 import csv,hashlib,sys,copy,unicodedata,ast,operator
 base=json.loads((ROOT/'auditoria_base_320.json').read_text());patches=json.loads((ROOT/'correcciones-auditoria-320.json').read_text());patchby={str(x['id']):x for x in patches}
-assert len(base)==len(b)==320
+language=json.loads((ROOT/'normalizacion-idioma.json').read_text());lb={str(x['id']):x for x in language['changes']}
+languageBase=json.loads((ROOT/'auditoria_base_idioma_320.json').read_text())
+assert len(base)==len(b)==len(languageBase)==320
 for original,current in zip(base,b):
  assert original['id']==current['id'];expected=copy.deepcopy(original);patch=patchby.get(str(current['id']))
  if patch:
   for field,change in patch['changes'].items():assert expected.get(field)==change['before'],(current['id'],field,'before');expected[field]=change['after']
+ assert expected==languageBase[next(i for i,q in enumerate(base) if q['id']==current['id'])],('Base de idioma incoherente',current['id'])
+ wording=lb.get(str(current['id']))
+ if wording:
+  for field,change in wording['changes'].items():assert expected.get(field)==change['before'],(current['id'],field,'idioma before');expected[field]=change['after']
  assert expected==current,('Cambio no documentado',current['id'])
  assert current['answer']==original['answer'],('Índice de clave modificado',current['id'])
  assert len(current['options'])==4 and len(set(current['options']))==4,current['id']
@@ -58,9 +64,14 @@ assert set(cb)|set(nb)=={str(q['id']) for q in b}
 for q in b:
  if str(q['id']) in cb:
   c=cb[str(q['id'])]
-  assert c['reviewedAnswer']==q['answer'] and c['reviewedText']==q['options'][q['answer']]
-  assert c['reviewedQuestion']==q['q'] and c['reviewedExplanation']==q['explanation']
-  assert c['reviewedOptions']==q['options'] and c['reviewedOptionExplanations']==q.get('optionExplanations')
+  reviewed={'q':c['reviewedQuestion'],'options':c['reviewedOptions'],'explanation':c['reviewedExplanation'],'optionExplanations':c['reviewedOptionExplanations']}
+  for field,change in lb.get(str(q['id']),{}).get('changes',{}).items():
+   if field not in reviewed:continue
+   assert reviewed[field]==change['before'],(q['id'],field,'concepto previo')
+   reviewed[field]=change['after']
+  assert c['reviewedAnswer']==q['answer'] and reviewed['options'][c['reviewedAnswer']]==q['options'][q['answer']]
+  assert reviewed['q']==q['q'] and reviewed['explanation']==q['explanation']
+  assert reviewed['options']==q['options'] and reviewed['optionExplanations']==q.get('optionExplanations')
  else:
   s=q['q'].lower();unit='pulgadas cúbicas' if q['id']=='ampliacion-38' else 'V' if q['id'] in ['original-4',42,94] else 'W' if 'potencia' in s else 'A' if ('corriente' in s or 'amperios' in s) else 'Ω'
   assert unit in q['options'][q['answer']],('Unidad incorrecta',q['id'],unit)
@@ -91,6 +102,7 @@ with (ROOT/'revision-profesional.csv').open(encoding='utf-8-sig',newline='') as 
 assert len(professional)==320
 for q,row in zip(b,professional):
  assert None not in row and row['ID']==str(q['id'])
+ assert row['Tema']==language['topicLabels'].get(q['topic'],q['topic'])
  assert row['Pregunta']==q['q'] and row['Clave']==q['options'][q['answer']] and row['Explicación']==q['explanation']
  assert row['Referencias']==' | '.join(r['url'] for r in q['references'])
  assert row['Estado']=='Pendiente de revisión profesional'
@@ -107,13 +119,13 @@ for q in b:
  id=str(q['id']);calc=nb.get(id);method='Recálculo desde los datos; unidades y opciones contrastadas' if calc else 'Revisión conceptual del enunciado, cuatro opciones, clave y explicación'
  note='Concepto revisado; la edición NEC aplicable y el texto íntegro con excepciones requieren cotejo profesional.' if any('nfpa.org' in r['url'] for r in q['references']) else 'Revisión técnica del asistente; no certificación profesional.'
  if q['id'] in [27,91]:note+=' Historia: fecha de enmienda contrastada en compilación OGP y registro de leyes de 1992; definición vigente en art. 2(c).'
- rows.append({'id':q['id'],'topic':q['topic'],'question':q['q'],'options':q['options'],'answerIndex':q['answer'],'answer':q['options'][q['answer']],'explanation':q['explanation'],'method':method,'calculation':calc,'visual':q.get('visual') or q.get('diagram'),'changed':id in patchby,'notes':note,'references':q['references'],'questionSha256':hashlib.sha256(json.dumps(q,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()})
-audit={'date':'2026-10-29','baselineCommit':'66fac87f41190d7d0015c3178001bfb62aa6627d','scope':'Revisión técnica realizada por el asistente. No equivale a una revisión humana independiente, certificación WCAG ni aprobación de la Junta.','summary':{'questions':320,'numericRecalculations':153,'conceptualReviews':167,'printedEqualitiesChecked':len(equalities),'uniqueVisualsInspected':27,'questionsWithVisuals':sum(bool(q.get('visual') or q.get('diagram')) for q in b),'questionsChanged':len(patches),'questionStemsClarified':sum('q' in p['changes'] for p in patches),'questionsWithOptionsChanged':sum('options' in p['changes'] for p in patches),'answerIndicesChanged':0},'limits':['La convocatoria no confirma aquí la edición NEC exigida.','Los documentos públicos de desarrollo NFPA corroboran conceptos; no se afirma haber leído íntegramente una edición del código.','Las sesiones con estudiantes y la revisión por un perito acreditado siguen pendientes.','El historial agregado ya entregado no permite recalificar una antigua respuesta ambigua sin sus respuestas originales. Los intentos antiguos guardados aceptan ambas opciones históricas de 1 A.'],'records':rows}
+ rows.append({'id':q['id'],'topic':language['topicLabels'].get(q['topic'],q['topic']),'question':q['q'],'options':q['options'],'answerIndex':q['answer'],'answer':q['options'][q['answer']],'explanation':q['explanation'],'method':method,'calculation':calc,'visual':q.get('visual') or q.get('diagram'),'changed':id in patchby,'languageNormalized':id in lb,'notes':note,'references':q['references'],'questionSha256':hashlib.sha256(json.dumps(q,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()})
+audit={'date':'2026-10-29','languageNormalizedOn':language['date'],'languageScope':language['scope'],'baselineCommit':'66fac87f41190d7d0015c3178001bfb62aa6627d','scope':'Revisión técnica realizada por el asistente. No equivale a una revisión humana independiente, certificación WCAG ni aprobación de la Junta.','summary':{'questions':320,'numericRecalculations':153,'conceptualReviews':167,'printedEqualitiesChecked':len(equalities),'uniqueVisualsInspected':27,'questionsWithVisuals':sum(bool(q.get('visual') or q.get('diagram')) for q in b),'questionsChanged':len(patches),'questionStemsClarified':sum('q' in p['changes'] for p in patches),'questionsWithOptionsChanged':sum('options' in p['changes'] for p in patches),'answerIndicesChanged':0,'languageNormalizedQuestions':len(lb)},'limits':['La convocatoria no confirma aquí la edición NEC exigida.','Los documentos públicos de desarrollo NFPA corroboran conceptos; no se afirma haber leído íntegramente una edición del código.','Las sesiones con estudiantes y la revisión por un perito acreditado siguen pendientes.','El historial agregado ya entregado no permite recalificar una antigua respuesta ambigua sin sus respuestas originales. Los intentos antiguos guardados aceptan ambas opciones históricas de 1 A.'],'records':rows}
 if '--write' in sys.argv:
  (ROOT/'auditoria-preguntas-320.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
  with (ROOT/'auditoria-preguntas-320.csv').open('w',encoding='utf-8-sig',newline='') as f:
-  w=csv.writer(f,lineterminator='\n');w.writerow(['ID','Tema','Pregunta','Opción A','Opción B','Opción C','Opción D','Clave revisada','Explicación','Método','Cálculo independiente','Modificada','Notas de alcance','Fuentes','SHA256'])
-  for r in rows:w.writerow([r['id'],r['topic'],r['question'],*r['options'],r['answer'],r['explanation'],r['method'],(r['calculation']['formula']+' = '+str(r['calculation']['result'])) if r['calculation'] else '', 'Sí' if r['changed'] else 'No',r['notes'],' | '.join(x['url'] for x in r['references']),r['questionSha256']])
+  w=csv.writer(f,lineterminator='\n');w.writerow(['ID','Tema','Pregunta','Opción A','Opción B','Opción C','Opción D','Clave revisada','Explicación','Método','Cálculo independiente','Modificada técnicamente','Normalizada en español','Notas de alcance','Fuentes','SHA256'])
+  for r in rows:w.writerow([r['id'],r['topic'],r['question'],*r['options'],r['answer'],r['explanation'],r['method'],(r['calculation']['formula']+' = '+str(r['calculation']['result'])) if r['calculation'] else '', 'Sí' if r['changed'] else 'No','Sí' if r['languageNormalized'] else 'No',r['notes'],' | '.join(x['url'] for x in r['references']),r['questionSha256']])
 else:
  saved=json.loads((ROOT/'auditoria-preguntas-320.json').read_text());assert saved==audit,'El banco cambió después de generar su auditoría.'
  with (ROOT/'auditoria-preguntas-320.csv').open(encoding='utf-8-sig',newline='') as f:ar=list(csv.DictReader(f))
