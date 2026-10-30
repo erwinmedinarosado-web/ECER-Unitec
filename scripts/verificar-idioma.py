@@ -18,7 +18,8 @@ for old,q in zip(before,after):
    a=old[field] if isinstance(old[field],list) else [old[field]];z=q[field] if isinstance(q[field],list) else [q[field]]
    assert [re.findall(r'\d+(?:[.,]\d+)*',x) for x in a]==[re.findall(r'\d+(?:[.,]\d+)*',x) for x in z],(q['id'],field,'datos')
  text=' '.join([q['q'],*q['options'],q['explanation'],*q.get('optionExplanations',[]),q.get('visualAlt','')])
- assert not re.search(r'\b(?:breakers?|bonding|subpanel(?:es)?|amperaje|voltajes?|micro switch|dimmer)\b',text,re.I),q['id']
+ assert not re.search(r'\btensión(?!/voltaje)\b',text,re.I),(q['id'],'falta equivalencia voltaje')
+ assert not re.search(r'\b(?:breakers?|bonding|subpanel(?:es)?|amperaje|micro switch|dimmer)\b',text,re.I),q['id']
  assert not re.search(r'\b(?:el|un|todo|mismo|bajo|alto)\s+(?:misma\s+)?tensión\b|tensión dividido',text,re.I),(q['id'],'concordancia')
 for name in ['subpanel.svg','gabinete.svg','enchufe.svg']:
  s=(P/'imagenes/instalaciones'/name).read_text();assert 'EGC' in s and not re.search(r'\bPE\b',s)

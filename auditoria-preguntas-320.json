@@ -15,7 +15,7 @@
     "questionStemsClarified": 23,
     "questionsWithOptionsChanged": 3,
     "answerIndicesChanged": 0,
-    "languageNormalizedQuestions": 189
+    "languageNormalizedQuestions": 206
   },
   "limits": [
     "La convocatoria no confirma aquí la edición NEC exigida.",
@@ -657,7 +657,7 @@
     {
       "id": "original-19",
       "topic": "Ley de Ohm",
-      "question": "¿Qué ley relaciona tensión, corriente y resistencia?",
+      "question": "¿Qué ley relaciona tensión/voltaje, corriente y resistencia?",
       "options": [
         "Ley de Ohm",
         "Ley de gravitación",
@@ -679,7 +679,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "26b6f757b6c6b6302327ba5f0919e91ea57fcc48cf301a7ec853cdcebd2a2e3e"
+      "questionSha256": "682dcd2df411718c89b5680e2a61a24fdee75244890fe40c0ecd3c0556b024c3"
     },
     {
       "id": "original-20",
@@ -711,7 +711,7 @@
     {
       "id": "original-21",
       "topic": "Ley de Ohm",
-      "question": "Si se eleva la tensión manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
+      "question": "Si se eleva la tensión/voltaje manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
       "options": [
         "Aumenta",
         "Disminuye",
@@ -733,7 +733,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "3b2fbc476df966e64da7a09ece941da704ab2818c206d682b7b5fa6716a2f38d"
+      "questionSha256": "2ea91de846a3bfb2dec7cd1475d91f443118e5154020a74a4b4b89f8db9da22b"
     },
     {
       "id": "original-22",
@@ -747,7 +747,7 @@
       ],
       "answerIndex": 0,
       "answer": "I = V/R",
-      "explanation": "La intensidad de corriente es el cociente entre la tensión aplicada y la resistencia del circuito: I = V/R.",
+      "explanation": "La intensidad de corriente es el cociente entre la tensión/voltaje aplicada y la resistencia del circuito: I = V/R.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -760,7 +760,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "79455c52f70f0e71db4e160d07fb5ac13fbf7e7661d9077f96f3c7927dbeb726"
+      "questionSha256": "d2815d51d6df40c60fe5777395efb447006c87cdacfba2c6627e1aa194442c59"
     },
     {
       "id": "original-23",
@@ -792,7 +792,7 @@
     {
       "id": "original-24",
       "topic": "Ley de Ohm",
-      "question": "¿Cuál es la expresión correcta para calcular tensión?",
+      "question": "¿Cuál es la expresión correcta para calcular tensión/voltaje?",
       "options": [
         "V = I × R",
         "V = I/R",
@@ -814,7 +814,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "d97b43efefd10c21c5957376e6c2e83a1caeac20059bcc8c8da6020d812acb2b"
+      "questionSha256": "a5ef61762952d8d64b88c9e7d5c118dd506dd508461e9f56a9281e832c8fbd6c"
     },
     {
       "id": 1,
@@ -1777,14 +1777,14 @@
       "topic": "Controles",
       "question": "¿Cuáles son tres características eléctricas básicas para seleccionar un interruptor temporizador?",
       "options": [
-        "Tensión nominal, corriente nominal y número de polos",
+        "Tensión/voltaje nominal, corriente nominal y número de polos",
         "Color, tamaño y peso",
         "Resistencia, inductancia y longitud",
         "Temperatura, brillo y frecuencia"
       ],
       "answerIndex": 0,
-      "answer": "Tensión nominal, corriente nominal y número de polos",
-      "explanation": "La tensión debe ser compatible, la corriente nominal suficiente y el número de polos adecuado al circuito. También se revisa el tipo de carga y listado.",
+      "answer": "Tensión/voltaje nominal, corriente nominal y número de polos",
+      "explanation": "La tensión/voltaje debe ser compatible, la corriente nominal suficiente y el número de polos adecuado al circuito. También se revisa el tipo de carga y listado.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -1797,7 +1797,7 @@
           "url": "repaso.html#fundamentos"
         }
       ],
-      "questionSha256": "be0f8cc77513fde9ae32d26ac247c09065304f09a71c3c3f31060bf901acb936"
+      "questionSha256": "dc22fa56d0f1c55ae7610757ee7629efb460e710754bd4e934daf1b58aab80d2"
     },
     {
       "id": 30,
@@ -2222,7 +2222,7 @@
     {
       "id": 42,
       "topic": "Circuitos en serie",
-      "question": "En un circuito serie con fuente de 250 V, dos resistores tienen caídas de 75 V cada una. ¿Qué tensión cae en la tercera?",
+      "question": "En un circuito serie con fuente de 250 V, dos resistores tienen caídas de 75 V cada una. ¿Qué tensión/voltaje cae en la tercera?",
       "options": [
         "100 V",
         "75 V",
@@ -2231,7 +2231,7 @@
       ],
       "answerIndex": 0,
       "answer": "100 V",
-      "explanation": "En serie las caídas suman la tensión de fuente: V3 = 250 − 75 − 75 = 100 V.",
+      "explanation": "En serie las caídas suman la tensión/voltaje de fuente: V3 = 250 − 75 − 75 = 100 V.",
       "method": "Recálculo desde los datos; unidades y opciones contrastadas",
       "calculation": {
         "id": 42,
@@ -2252,7 +2252,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "5186ce375d96474d652432d71b5c510b3d8a6a779a6f7211a6fff5c34e010e1d"
+      "questionSha256": "3ba644f73901f181c609096aaa8916c58755f1845763b70e9c4bc14997f05542"
     },
     {
       "id": 43,
@@ -2362,7 +2362,7 @@
     {
       "id": 46,
       "topic": "Ley de Ohm",
-      "question": "¿Cuál es la corriente total si la resistencia equivalente es 55 Ω y la tensión 220 V?",
+      "question": "¿Cuál es la corriente total si la resistencia equivalente es 55 Ω y la tensión/voltaje 220 V?",
       "options": [
         "4 A",
         "12 A",
@@ -2392,7 +2392,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "716ef2938623d2a8e1cb9e11fc9f9a9b9064d5a2fd5106647cca7a577b2fb8f0"
+      "questionSha256": "c0101d0fd7c76e5929da606cfe8f3c667c7966b0e9f409b7f9914db43528f17d"
     },
     {
       "id": 47,
@@ -2505,7 +2505,7 @@
     {
       "id": 51,
       "topic": "Fundamentos",
-      "question": "¿Qué significa la tensión entre dos puntos de un circuito?",
+      "question": "¿Qué significa la tensión/voltaje entre dos puntos de un circuito?",
       "options": [
         "Diferencia de potencial eléctrico entre esos puntos",
         "Intensidad de corriente",
@@ -2514,7 +2514,7 @@
       ],
       "answerIndex": 0,
       "answer": "Diferencia de potencial eléctrico entre esos puntos",
-      "explanation": "La tensión entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión.",
+      "explanation": "La tensión/voltaje entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión/voltaje.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -2527,7 +2527,7 @@
           "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes"
         }
       ],
-      "questionSha256": "fff0230ed4fd31571d0c7a46cd91fb077414169ba973179a3e921a636a0e6329"
+      "questionSha256": "aebde8f40efd44c00ebe4b287c1fa289aba5ee2e4fc9fc1ee2e19297c86a06e4"
     },
     {
       "id": 52,
@@ -2541,12 +2541,12 @@
       ],
       "answerIndex": 1,
       "answer": "Amperímetro",
-      "explanation": "El amperímetro mide corriente en amperios. El voltímetro mide tensión y el ohmímetro resistencia.",
+      "explanation": "El amperímetro mide corriente en amperios. El voltímetro mide tensión/voltaje y el ohmímetro resistencia.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -2554,12 +2554,12 @@
           "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
         }
       ],
-      "questionSha256": "38bdf3221ecf24500500dc41d2c2d95fb8f00ef1290d9147373e2553c1eeac80"
+      "questionSha256": "818eb8476fb4402ab7c4bc413089e9dbf9ebce42f0baabf3c55390c0ea1a6269"
     },
     {
       "id": 53,
       "topic": "Ley de Ohm",
-      "question": "¿Qué fórmula expresa la Ley de Ohm para la tensión?",
+      "question": "¿Qué fórmula expresa la Ley de Ohm para la tensión/voltaje?",
       "options": [
         "V = I / R",
         "V = I × R",
@@ -2568,7 +2568,7 @@
       ],
       "answerIndex": 1,
       "answer": "V = I × R",
-      "explanation": "Ley de Ohm: la tensión es corriente por resistencia, V = I × R.",
+      "explanation": "Ley de Ohm: la tensión/voltaje es corriente por resistencia, V = I × R.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -2581,12 +2581,12 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "c3948fb48d615f6a860c2bef640feda5a3a37c80055f2cfad9e6e8c78eedfede"
+      "questionSha256": "5343ccd8c3d2e1cef814bc0a0e24c6ee0484beab37c6b87a7ebda2d8f427a74a"
     },
     {
       "id": 54,
       "topic": "Potencia",
-      "question": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de tensión y corriente?",
+      "question": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de tensión/voltaje y corriente?",
       "options": [
         "P = I / V",
         "P = R / I",
@@ -2608,7 +2608,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "ae18f8afbeb3c2b7c75bd9f0e0fc8fe5de683b7649780158db40b77959fafa66"
+      "questionSha256": "19e261319eb80ce1dec728bb41def00446ee7872c46a80b8e7c70696a65afaa0"
     },
     {
       "id": 55,
@@ -2784,7 +2784,7 @@
       ],
       "answerIndex": 2,
       "answer": "Limitar sobretensiones transitorias y desviar corrientes de impulso",
-      "explanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida de la tensión.",
+      "explanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida de la tensión/voltaje.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -2797,7 +2797,7 @@
           "url": "https://www.se.com/us/en/faqs/FA300698/"
         }
       ],
-      "questionSha256": "a390cf96cd5ac553b9565b0592f54c2383b1b18b70ddfb30b0ba6cff57ab7add"
+      "questionSha256": "e3b4ea0ac588c63b1e4cc9c0cbef9ea8b97dcc025d8d24ab32a8a75bf292da4a"
     },
     {
       "id": 62,
@@ -2811,12 +2811,12 @@
       ],
       "answerIndex": 3,
       "answer": "Transformador montado en poste para suministro monofásico",
-      "explanation": "Un transformador de poste se instala elevado y adapta la tensión para distribución. El contador registra energía y no cumple esa función.",
+      "explanation": "Un transformador de poste se instala elevado y adapta la tensión/voltaje para distribución. El contador registra energía y no cumple esa función.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -2824,7 +2824,7 @@
           "url": "repaso.html#fundamentos"
         }
       ],
-      "questionSha256": "b5d87c9c1980203b18553c9bd8f80c55add1980f608160987d0d0f5e1b17b5e1"
+      "questionSha256": "19c2c6dd1bce04d011775427cc2c04ead1db9463d769b6915a8c07c639e84136"
     },
     {
       "id": 63,
@@ -2917,13 +2917,13 @@
       "question": "¿Qué magnitud eléctrica se mide en amperios (A)?",
       "options": [
         "Potencia",
-        "Tensión",
+        "Tensión/voltaje",
         "Intensidad de corriente",
         "Resistencia"
       ],
       "answerIndex": 2,
       "answer": "Intensidad de corriente",
-      "explanation": "La intensidad de corriente eléctrica se mide en amperios (A). La tensión se mide en voltios (V), y la potencia, en vatios (W).",
+      "explanation": "La intensidad de corriente eléctrica se mide en amperios (A). La tensión/voltaje se mide en voltios (V), y la potencia, en vatios (W).",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -2936,7 +2936,7 @@
           "url": "repaso.html#fundamentos"
         }
       ],
-      "questionSha256": "0713b9aecb0320619a7c3e753e1d5a2ae9bbec4367991466194de50e192f10a9"
+      "questionSha256": "b26b1550f4cb1b3413b81a90f8e98d68594fd44c0e7507f3ba9ec854242dc04c"
     },
     {
       "id": 67,
@@ -3004,7 +3004,7 @@
       ],
       "answerIndex": 2,
       "answer": "V = I² × R",
-      "explanation": "I² × R expresa potencia (W), no tensión. La tensión se obtiene con V = I × R.",
+      "explanation": "I² × R expresa potencia (W), no tensión/voltaje. La tensión/voltaje se obtiene con V = I × R.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -3017,7 +3017,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "3382bd034723cb7c327b75353e4eee656a3a5ec2a6b9aa8d2bfce53eeb22c782"
+      "questionSha256": "bc8aca624ee8e74896c520ca3234382319ef018a56e0a4cd643c91df299cd5eb"
     },
     {
       "id": 70,
@@ -3189,7 +3189,7 @@
         "Protección que abre el circuito ante sobrecorriente",
         "Condensador",
         "Resistencia variable",
-        "Fuente de tensión"
+        "Fuente de tensión/voltaje"
       ],
       "answerIndex": 0,
       "answer": "Protección que abre el circuito ante sobrecorriente",
@@ -3198,7 +3198,7 @@
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -3206,7 +3206,7 @@
           "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
         }
       ],
-      "questionSha256": "156478ce9f10093a52a2458a580151eea1b1e379fdf93443eef51f8baf23521e"
+      "questionSha256": "26e585be3a03ad0305d39b8b625733e8452aff37e0ce98c8cdc0bba237754f73"
     },
     {
       "id": 77,
@@ -3247,7 +3247,7 @@
       ],
       "answerIndex": 0,
       "answer": "Se suman sus capacitancias",
-      "explanation": "En paralelo, los capacitores tienen la misma tensión entre sus terminales y sus capacitancias se suman: Ct = C1 + C2 + ….",
+      "explanation": "En paralelo, los capacitores tienen la misma tensión/voltaje entre sus terminales y sus capacitancias se suman: Ct = C1 + C2 + ….",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -3264,7 +3264,7 @@
           "url": "https://openstax.org/books/university-physics-volume-2/pages/8-2-capacitors-in-series-and-in-parallel"
         }
       ],
-      "questionSha256": "baefd80f5f6aad84eb9389f50021b6919e763e4e76946b56bd5469b41e38b5d3"
+      "questionSha256": "a4c632c572e1c9daeba21ade22f3f79a7cada0c99f737d8870b07428bfd15bac"
     },
     {
       "id": 79,
@@ -3305,12 +3305,12 @@
       ],
       "answerIndex": 2,
       "answer": "Ohmio",
-      "explanation": "Ω es el símbolo del ohmio, unidad de resistencia eléctrica. A, V y W corresponden a corriente, tensión y potencia.",
+      "explanation": "Ω es el símbolo del ohmio, unidad de resistencia eléctrica. A, V y W corresponden a corriente, tensión/voltaje y potencia.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -3318,7 +3318,7 @@
           "url": "repaso.html#fundamentos"
         }
       ],
-      "questionSha256": "4a1a1b37b87ed4c6befa2ea2d4a4300288953b8cecd4884026dbc6136e118e38"
+      "questionSha256": "436339e04c909ddc235531687d2cba792d4d4ec0a8d1a85819cf4532f6aa5cd2"
     },
     {
       "id": 81,
@@ -3414,14 +3414,14 @@
       "topic": "Circuitos en serie",
       "question": "¿Qué magnitud es igual en todas las ramas paralelas?",
       "options": [
-        "Tensión",
+        "Tensión/voltaje",
         "Potencia individual",
         "Corriente individual",
         "Resistencia"
       ],
       "answerIndex": 0,
-      "answer": "Tensión",
-      "explanation": "Las ramas se conectan a los mismos dos nodos, por eso comparten tensión. Las corrientes dependen de cada resistencia.",
+      "answer": "Tensión/voltaje",
+      "explanation": "Las ramas se conectan a los mismos dos nodos, por eso comparten tensión/voltaje. Las corrientes dependen de cada resistencia.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -3434,7 +3434,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "171820820cee0677240ba58ef12c5700472d31608ba9b56e0865dce2fb290e0b"
+      "questionSha256": "0538dd981a79e9f1c66c8cd6b811cb360e150f157d5341b2cca1c7d7bd448e82"
     },
     {
       "id": 85,
@@ -3686,7 +3686,7 @@
     {
       "id": 94,
       "topic": "Ley de Ohm",
-      "question": "¿Qué tensión produce 2 A a través de 6 Ω?",
+      "question": "¿Qué tensión/voltaje produce 2 A a través de 6 Ω?",
       "options": [
         "0.33 V",
         "3 V",
@@ -3716,7 +3716,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "1e6d6aea3b068f847cc8f03065ecd8130419a8d6a9edb1b4946120d3e0326cb6"
+      "questionSha256": "e01da9fef1e6bb50d7e2b93e7c8fcc98749ac62a9e67d7097de18ed8689cf1f8"
     },
     {
       "id": 95,
@@ -3760,7 +3760,7 @@
       "options": [
         "Corriente",
         "Potencia",
-        "Caída de tensión",
+        "Caída de tensión/voltaje",
         "Resistencia"
       ],
       "answerIndex": 0,
@@ -3778,7 +3778,7 @@
           "url": "repaso.html#calculos"
         }
       ],
-      "questionSha256": "7797da19e5d6fcd6012b7c627c5ed71d498b7754a423a9fa187e50bfcef70bfb"
+      "questionSha256": "71772a800c7ad1daa3e37ef7df655c4fb0c2fc7dce66259475fb3ea27cbe4a4e"
     },
     {
       "id": 97,
@@ -3873,12 +3873,12 @@
       ],
       "answerIndex": 3,
       "answer": "Interruptor",
-      "explanation": "Un interruptor abre o cierra una trayectoria de corriente. No transforma tensión ni sustituye automáticamente un dispositivo de protección.",
+      "explanation": "Un interruptor abre o cierra una trayectoria de corriente. No transforma tensión/voltaje ni sustituye automáticamente un dispositivo de protección.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
       "changed": true,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -3886,7 +3886,7 @@
           "url": "repaso.html#fundamentos"
         }
       ],
-      "questionSha256": "16a37cb62347a65c59dc954ffd0f40f0cc22d7bf6351575ff45f8e13d3c66148"
+      "questionSha256": "d120fb9f044dd1e248280fedad87a6cdfc48542cb86e26099a804dbdc402e984"
     },
     {
       "id": 101,
@@ -7306,7 +7306,7 @@
       "question": "¿Qué permite distinguir visualmente un conector de un acoplamiento de EMT?",
       "options": [
         "El conector termina la tubería en una caja; el acoplamiento une dos tramos",
-        "Ambos son instrumentos para medir tensión",
+        "Ambos son instrumentos para medir tensión/voltaje",
         "El acoplamiento siempre incorpora un interruptor automático",
         "El conector genera electricidad"
       ],
@@ -7325,7 +7325,7 @@
           "url": "https://www.aifittings.com/catalog/conduit-bodies/anybody-metallic-conduit-bodies/934"
         }
       ],
-      "questionSha256": "1ba9c04b2facbdb183164d0917a63e24cfc618c2a18b0e847327fff039a52a72"
+      "questionSha256": "d02d6c3aac9653d5abece75957a8e32c9be163ed87ce325a987c9753baeec115"
     },
     {
       "id": "ampliacion-6",
@@ -7825,7 +7825,7 @@
         "Por la menor disipación del calor generado",
         "Porque cambia la frecuencia de la red",
         "Porque se convierten en aislantes",
-        "Porque la tensión nominal siempre se duplica"
+        "Porque la tensión/voltaje nominal siempre se duplica"
       ],
       "answerIndex": 0,
       "answer": "Por la menor disipación del calor generado",
@@ -7842,7 +7842,7 @@
           "url": "https://www.southwire.com/wire-cable/building-wire/simpull-sup-sup-thhn-thwn-2-copper/p/SPEC10000"
         }
       ],
-      "questionSha256": "1f321fe2a37daaeea7bde66d321b0fc1143d1b831c9d81a8ba09c8d3220fb25d"
+      "questionSha256": "e42267a2f88aa40cdeea31e4001ac21cf03eb0d2c9fdaea0d8e9dfdebc1d53d2"
     },
     {
       "id": "ampliacion-25",
@@ -7850,7 +7850,7 @@
       "question": "¿Es suficiente colocar un interruptor en OFF para considerar seguro tocar los conductores?",
       "options": [
         "No; se requiere aislamiento, control de reconexión y verificación",
-        "Sí, la posición garantiza ausencia de tensión",
+        "Sí, la posición garantiza ausencia de tensión/voltaje",
         "Sí, si se trabaja rápido",
         "Sí, si la lámpara está apagada"
       ],
@@ -7861,7 +7861,7 @@
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -7869,7 +7869,7 @@
           "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
         }
       ],
-      "questionSha256": "a97df534c306d142a0d28a13cecc11e84370269cc4e17ab59c0a44e3bac51e70"
+      "questionSha256": "c1d40e6029352d99051d8ecf5450aca9610735d8986786edd124205918c1bc5a"
     },
     {
       "id": "ampliacion-26",
@@ -7877,8 +7877,8 @@
       "question": "¿Para qué se aplica bloqueo y etiquetado durante mantenimiento?",
       "options": [
         "Impedir reconexión inadvertida e identificar el trabajo",
-        "Para aumentar la tensión",
-        "Para sustituir la prueba de ausencia de tensión",
+        "Para aumentar la tensión/voltaje",
+        "Para sustituir la prueba de ausencia de tensión/voltaje",
         "Para permitir que cualquiera quite el candado"
       ],
       "answerIndex": 0,
@@ -7896,7 +7896,7 @@
           "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
         }
       ],
-      "questionSha256": "1c14c07907b88b34ceca1f622ec2d82d52da74a54f34c0e7e9805e93e0183e4d"
+      "questionSha256": "37ce94402f7cc543668762e126352157786e46e0779185fda2a07d3f43500ec3"
     },
     {
       "id": "ampliacion-27",
@@ -7942,7 +7942,7 @@
       "calculation": null,
       "visual": null,
       "changed": true,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -7950,7 +7950,7 @@
           "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
         }
       ],
-      "questionSha256": "2b4c38915fcdeb2003daa2bee7a0459fe4b665bce97966bda3bea9efa84336f6"
+      "questionSha256": "f94e64b36764d9cabb944c8cc39eb5c294c253e7f6570f9e86888f315c25dd71"
     },
     {
       "id": "ampliacion-29",
@@ -7985,9 +7985,9 @@
       "question": "¿Qué debe hacer un ayudante si descubre una fuente eléctrica no identificada?",
       "options": [
         "Detener la intervención y avisar al perito responsable",
-        "Suponer que no tiene tensión",
+        "Suponer que no tiene tensión/voltaje",
         "Cortar todos los cables al mismo tiempo",
-        "Continuar por tratarse de baja tensión"
+        "Continuar por tratarse de baja tensión/voltaje"
       ],
       "answerIndex": 0,
       "answer": "Detener la intervención y avisar al perito responsable",
@@ -8004,12 +8004,12 @@
           "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
         }
       ],
-      "questionSha256": "5cfb3e709e3c270f3ba249537b09586ab80f6a619721a3c0675a20b09279eae1"
+      "questionSha256": "53eafba78eb494c9ee5dc4ee5486c0256eafa43a1e0bef254fe3ec34bc505e80"
     },
     {
       "id": "ampliacion-31",
       "topic": "Seguridad práctica",
-      "question": "¿Puede un detector sin contacto por sí solo garantizar ausencia de tensión en todos los conductores?",
+      "question": "¿Puede un detector sin contacto por sí solo garantizar ausencia de tensión/voltaje en todos los conductores?",
       "options": [
         "No; debe utilizarse el método de verificación adecuado al circuito",
         "Sí, siempre y en toda configuración",
@@ -8023,7 +8023,7 @@
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -8031,7 +8031,7 @@
           "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
         }
       ],
-      "questionSha256": "a5b4f697c1dfcd5d946e45187bd8d2615b8bec6887d26039e0ded8ea94f43712"
+      "questionSha256": "ff2bc1af7632495fd03c39ab7a1fcb2b8538ce445a112a8b7f6769fddbfe0a13"
     },
     {
       "id": "ampliacion-32",
@@ -8319,11 +8319,11 @@
         "La trayectoria de corriente está interrumpida",
         "Porque el conductor neutro produce energía",
         "Porque la lámpara se vuelve un capacitor",
-        "Porque la tensión de la fuente necesariamente es cero"
+        "Porque la tensión/voltaje de la fuente necesariamente es cero"
       ],
       "answerIndex": 0,
       "answer": "La trayectoria de corriente está interrumpida",
-      "explanation": "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión.",
+      "explanation": "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión/voltaje.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": "imagenes/materiales/esquema-a.svg",
@@ -8336,12 +8336,12 @@
           "url": "repaso.html#planos"
         }
       ],
-      "questionSha256": "51800bdbc95d7dd09ee04048adb5dc2915137b470eec5878a0fd46102e00bd4e"
+      "questionSha256": "282d3f0ef8a04a326287345e7a7b3fdef426f99467c4901326e8b59439c08679"
     },
     {
       "id": "ampliacion-43",
       "topic": "Planos y conexiones",
-      "question": "En el esquema B, ¿qué elemento permite medir tensión sin abrir la trayectoria de la carga?",
+      "question": "En el esquema B, ¿qué elemento permite medir tensión/voltaje sin abrir la trayectoria de la carga?",
       "options": [
         "Voltímetro conectado entre dos puntos",
         "Amperímetro colocado directamente entre fase y neutro",
@@ -8363,7 +8363,7 @@
           "url": "repaso.html#planos"
         }
       ],
-      "questionSha256": "3f084809b63652ea3647f6edd2df339fca86e261b063b6e2a61eb3fb010b9b66"
+      "questionSha256": "88398d313fa2929bd48fa23fa523ccb4e751bb1446c85eb3b50a3caad4b8dcbb"
     },
     {
       "id": "ampliacion-44",
@@ -8426,7 +8426,7 @@
       "options": [
         "El unifilar resume conexiones; el plano sitúa elementos físicamente",
         "Ambos muestran obligatoriamente cada hilo a escala",
-        "El unifilar certifica ausencia de tensión",
+        "El unifilar certifica ausencia de tensión/voltaje",
         "El plano de ubicación reemplaza todas las especificaciones"
       ],
       "answerIndex": 0,
@@ -8436,7 +8436,7 @@
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -8444,7 +8444,7 @@
           "url": "repaso.html#planos"
         }
       ],
-      "questionSha256": "e9a57f5da13a69b741fd914d386c1df81958149805eecb5e4524c194a5cc186f"
+      "questionSha256": "f8272ff027ffb1dcbede11420e8173292dda254b94e30f0e84262576571fe4ee"
     },
     {
       "id": "ampliacion-47",
@@ -8505,19 +8505,19 @@
       "topic": "Instrumentos aplicados",
       "question": "¿En qué condición se prueba continuidad de un componente?",
       "options": [
-        "Sin tensión y con energía almacenada controlada",
+        "Sin tensión/voltaje y con energía almacenada controlada",
         "Con el circuito energizado",
         "Con puntas en el borne de amperios por defecto",
         "Tocando el metal expuesto con los dedos"
       ],
       "answerIndex": 0,
-      "answer": "Sin tensión y con energía almacenada controlada",
-      "explanation": "El multímetro aplica su propia pequeña señal; la tensión externa invalida la prueba y puede causar daño.",
+      "answer": "Sin tensión/voltaje y con energía almacenada controlada",
+      "explanation": "El multímetro aplica su propia pequeña señal; la tensión/voltaje externa invalida la prueba y puede causar daño.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -8525,7 +8525,7 @@
           "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
         }
       ],
-      "questionSha256": "34d9ad86c4c56f38274a2bfe9cb2787ad0bfebeb52615e7410907591c2b57a4b"
+      "questionSha256": "b2ad13cacefbd0ac1c0945371018529aa872dc6cd4dc7c212e97e3385e838f47"
     },
     {
       "id": "ampliacion-50",
@@ -8534,7 +8534,7 @@
       "options": [
         "Circuito abierto o resistencia fuera de rango",
         "Siempre cero ohmios",
-        "Tensión exactamente igual a 120 V",
+        "Tensión/voltaje exactamente igual a 120 V",
         "Una batería externa completamente cargada"
       ],
       "answerIndex": 0,
@@ -8552,12 +8552,12 @@
           "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
         }
       ],
-      "questionSha256": "91e09353d2b52116245ed06f1240eee36a87eac8475d28bf031ae99d5cd9b45f"
+      "questionSha256": "ac2cd111d8c7aafc15a1fe52919a2b27b5fd5d4c3213b55b19da233dde49dc3f"
     },
     {
       "id": "ampliacion-51",
       "topic": "Instrumentos aplicados",
-      "question": "¿Qué se hace antes de cambiar de medir corriente con puntas a medir tensión?",
+      "question": "¿Qué se hace antes de cambiar de medir corriente con puntas a medir tensión/voltaje?",
       "options": [
         "Revisar y cambiar los bornes y selector según el manual",
         "Dejar siempre la punta roja en A",
@@ -8566,7 +8566,7 @@
       ],
       "answerIndex": 0,
       "answer": "Revisar y cambiar los bornes y selector según el manual",
-      "explanation": "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión es peligrosa.",
+      "explanation": "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión/voltaje es peligrosa.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -8579,7 +8579,7 @@
           "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
         }
       ],
-      "questionSha256": "68c40936b673d45b69b6fc618bd2210053262801c87105bc8e2eaca81d178eba"
+      "questionSha256": "c53422b775d7cdc2d27d9a825875d3e2026fa5108c2ae721c8bb887e4bd47193"
     },
     {
       "id": "ampliacion-52",
@@ -8611,15 +8611,15 @@
     {
       "id": "ampliacion-53",
       "topic": "Instrumentos aplicados",
-      "question": "Para medir la tensión de una alimentación de CA, ¿qué función se selecciona?",
+      "question": "Para medir la tensión/voltaje de una alimentación de CA, ¿qué función se selecciona?",
       "options": [
-        "Tensión CA con rango y categoría adecuados",
+        "Tensión/voltaje CA con rango y categoría adecuados",
         "Resistencia con la fuente conectada",
         "Continuidad con la fuente conectada",
         "Capacitancia sin aislar el equipo"
       ],
       "answerIndex": 0,
-      "answer": "Tensión CA con rango y categoría adecuados",
+      "answer": "Tensión/voltaje CA con rango y categoría adecuados",
       "explanation": "El símbolo de CA y el rango deben corresponder; la categoría de seguridad también debe ser apropiada al lugar.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
@@ -8633,7 +8633,7 @@
           "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
         }
       ],
-      "questionSha256": "eef9f244580ecd7df2754ac95a9061dd971eb7649426d2f74374c93ebe47ffca"
+      "questionSha256": "055b6e674021ce853aa2df9b8bb6bea3453f5f51419626ad9577f53cb3ddddbe"
     },
     {
       "id": "ampliacion-54",
@@ -8668,7 +8668,7 @@
       "question": "¿Cómo se reduce el efecto de caminos en paralelo al medir una resistencia individual?",
       "options": [
         "Aislando apropiadamente el componente con el circuito desenergizado",
-        "Aumentando la tensión de la fuente",
+        "Aumentando la tensión/voltaje de la fuente",
         "Midiendo siempre el conjunto completo",
         "Usando el modo de temperatura"
       ],
@@ -8687,7 +8687,7 @@
           "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
         }
       ],
-      "questionSha256": "5a0319874666b13b64c36a4f47388181167062e81d6f6808ce441ba182e62b82"
+      "questionSha256": "ea188376825de242f0ac2ed223af25996643dcf0a77de0c9ddf7b81039ef8edd"
     },
     {
       "id": "ampliacion-56",
@@ -8695,7 +8695,7 @@
       "question": "¿Qué significa un pitido de continuidad en un cable aislado y desenergizado?",
       "options": [
         "Que existe una trayectoria de resistencia suficientemente baja para ese instrumento",
-        "Que el aislamiento soporta cualquier tensión",
+        "Que el aislamiento soporta cualquier tensión/voltaje",
         "Que el cable admite cualquier corriente",
         "Que se certificó toda la instalación"
       ],
@@ -8714,7 +8714,7 @@
           "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
         }
       ],
-      "questionSha256": "0793f587cd8bbfaf5d1436654a841d89c9dc7873c8195dd03cd641b58f0c6dfa"
+      "questionSha256": "990516d8a428385f4550d4ee0f0c5ef33d424606428c20515b84566af9b7ff57"
     },
     {
       "id": "ampliacion-57",
@@ -8876,21 +8876,21 @@
           "url": "https://lumapr.com/contadores-inteligentes/"
         }
       ],
-      "questionSha256": "40e818e55d68f07589a851500d8163a45a11c3ce4fa9054f1b1bee9375831a2a"
+      "questionSha256": "e8063d850803acd4dc8d0575cb38d37cffe6285753719544f0f843974961070e"
     },
     {
       "id": "ampliacion-63",
       "topic": "Legislación y servicio local",
       "question": "¿Qué función cumple normalmente el transformador de distribución que alimenta una vivienda?",
       "options": [
-        "Adaptar la tensión de distribución al servicio",
+        "Adaptar la tensión/voltaje de distribución al servicio",
         "Medir por sí solo el consumo facturado",
         "Sustituir todo interruptor automático de la vivienda",
         "Almacenar energía como una batería"
       ],
       "answerIndex": 0,
-      "answer": "Adaptar la tensión de distribución al servicio",
-      "explanation": "El transformador modifica niveles de tensión; no es un contador ni almacenamiento de respaldo.",
+      "answer": "Adaptar la tensión/voltaje de distribución al servicio",
+      "explanation": "El transformador modifica niveles de tensión/voltaje; no es un contador ni almacenamiento de respaldo.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
@@ -8903,7 +8903,7 @@
           "url": "https://lumapr.com/contadores-inteligentes/"
         }
       ],
-      "questionSha256": "02c092dceac62171b90ce9df45c9003be551723a398c5eca45ec1bb935d651ac"
+      "questionSha256": "38edb285113bd08295d7b8bd4edbe1dfb56ae293bdeba49a4c24c6d8bb76eb1b"
     },
     {
       "id": "ampliacion-64",
@@ -9043,10 +9043,10 @@
     {
       "id": "ampliacion-69",
       "topic": "Energía renovable básica",
-      "question": "¿Puede un circuito fotovoltaico mantener tensión aunque se abra el interruptor de CA?",
+      "question": "¿Puede un circuito fotovoltaico mantener tensión/voltaje aunque se abra el interruptor de CA?",
       "options": [
         "Sí, los módulos iluminados pueden seguir generando CC",
-        "No, todo el sistema queda necesariamente sin tensión",
+        "No, todo el sistema queda necesariamente sin tensión/voltaje",
         "No, el sol solo produce calor",
         "No, si se apaga una lámpara de la vivienda"
       ],
@@ -9057,7 +9057,7 @@
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -9065,7 +9065,7 @@
           "url": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics"
         }
       ],
-      "questionSha256": "c258f1b9c425298522d79790bd3a9b6295ea544398ee35fdebfd59c0a7f947ff"
+      "questionSha256": "5c76c99390683660bf8c49f3d99d78aa54ca29fa2b0829a8b84e2aa793d44e79"
     },
     {
       "id": "ampliacion-70",
@@ -9075,7 +9075,7 @@
         "Reducir su producción según configuración y electrónica",
         "Aumentar siempre la potencia",
         "Convertir la salida del panel en CA",
-        "Eliminar toda tensión peligrosa"
+        "Eliminar toda tensión/voltaje peligrosa"
       ],
       "answerIndex": 0,
       "answer": "Reducir su producción según configuración y electrónica",
@@ -9092,7 +9092,7 @@
           "url": "https://www.energy.gov/cmei/systems/solar-photovoltaic-system-design-basics"
         }
       ],
-      "questionSha256": "c08f69c88c7cb6896b4d4caee5c0b10efa6900c18179853d42ab3d59f105a22a"
+      "questionSha256": "8a37884e0436ced4387b160dbeb68a2aa0dfae91abbba13f420af78cd2d68673"
     },
     {
       "id": "ampliacion-71",
@@ -9182,7 +9182,7 @@
       "options": [
         "Clasificación para uso hospitalario",
         "Ausencia del conductor de puesta a tierra del equipo",
-        "Compatibilidad con cualquier tensión",
+        "Compatibilidad con cualquier tensión/voltaje",
         "Que solo puede conectarse corriente continua"
       ],
       "answerIndex": 0,
@@ -9200,7 +9200,7 @@
           "url": "https://leviton.com/products/gftr1-hgw"
         }
       ],
-      "questionSha256": "397d6a414d9db22262d24a7b3dd3479b6df8432e6146bdceda19087faa80e275"
+      "questionSha256": "d6e35cd150176edf1fc5eba4d9f6b1462a3e1152e5d582a0995b4dea1c531bff"
     },
     {
       "id": "mejora-3",
@@ -9236,7 +9236,7 @@
       "options": [
         "Retirar aislamiento con la abertura apropiada al conductor",
         "Medir resistencia dieléctrica",
-        "Verificar ausencia de tensión por contacto con el mango",
+        "Verificar ausencia de tensión/voltaje por contacto con el mango",
         "Apretar bornes con torque certificado"
       ],
       "answerIndex": 0,
@@ -9246,7 +9246,7 @@
       "calculation": null,
       "visual": "imagenes/materiales/klein-pelacables.jpg",
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -9254,7 +9254,7 @@
           "url": "https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter"
         }
       ],
-      "questionSha256": "1040b4c7359499f0b49692e660187ecd7735b5b0584af723743af33ee25a24af"
+      "questionSha256": "da2f4f5ab76325d0b6b59c9443fe681df295e5e8e6476c294302e537fedb3dc5"
     },
     {
       "id": "mejora-5",
@@ -9273,7 +9273,7 @@
       "calculation": null,
       "visual": "imagenes/materiales/eaton-breaker.jpg",
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -9281,7 +9281,7 @@
           "url": "https://www.eaton.com/us/en-us/skuPage.BR120.html"
         }
       ],
-      "questionSha256": "cf2d8a8be5f2d178f39db36edd35b3b0cd4ec31e35e1610ce01c12d8638b85fa"
+      "questionSha256": "ff290b23c80ca9ad1565964e15c1bbef991e9f36efb39922d6cecbf37371c8f9"
     },
     {
       "id": "mejora-6",
@@ -9343,7 +9343,7 @@
       "question": "Antes de pelar el conductor de la fotografía 8, ¿qué debe comprobarse?",
       "options": [
         "Que esté desenergizado y se use la abertura del calibre adecuado",
-        "Que la mano sirva como detector de tensión",
+        "Que la mano sirva como detector de tensión/voltaje",
         "Que cualquier abertura retire el aislamiento sin dañar el metal",
         "Que el color del mango autorice trabajar energizado"
       ],
@@ -9354,7 +9354,7 @@
       "calculation": null,
       "visual": "imagenes/materiales/klein-conductor.jpg",
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -9366,7 +9366,7 @@
           "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333"
         }
       ],
-      "questionSha256": "20acea7696b292fe6f1e645be8f6e8c01876b11688cff767c1f7698d547c5fb4"
+      "questionSha256": "581acd8d1b852e93c7a7f82ae51188180e0bde86beb00735480f4f1bcbf0d655"
     },
     {
       "id": "mejora-9",
@@ -9398,7 +9398,7 @@
     {
       "id": "mejora-10",
       "topic": "Situaciones prácticas",
-      "question": "Una persona dejó la punta roja del multímetro en A y quiere medir tensión entre fase y neutro. ¿Qué corresponde?",
+      "question": "Una persona dejó la punta roja del multímetro en A y quiere medir tensión/voltaje entre fase y neutro. ¿Qué corresponde?",
       "options": [
         "Detenerse y configurar bornes y función según el manual",
         "Medir inmediatamente porque el color es correcto",
@@ -9407,12 +9407,12 @@
       ],
       "answerIndex": 0,
       "answer": "Detenerse y configurar bornes y función según el manual",
-      "explanation": "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión antes de medir con el procedimiento seguro.",
+      "explanation": "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión/voltaje antes de medir con el procedimiento seguro.",
       "method": "Revisión conceptual del enunciado, cuatro opciones, clave y explicación",
       "calculation": null,
       "visual": null,
       "changed": true,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -9420,7 +9420,7 @@
           "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
         }
       ],
-      "questionSha256": "ede7e84f5c7898cdc8e7e08352b58d0aac1b78a40dbac98a1fcb60ff701ac890"
+      "questionSha256": "6fb64ac9a76d2a48a1735d480b65c361918ab05bdb8c5dd2b59f95a40b885849"
     },
     {
       "id": "mejora-11",
@@ -9560,7 +9560,7 @@
     {
       "id": "mejora-16",
       "topic": "Situaciones prácticas",
-      "question": "Un cable da pitido de continuidad. ¿Puede concluirse que su aislamiento está en buen estado para cualquier tensión?",
+      "question": "Un cable da pitido de continuidad. ¿Puede concluirse que su aislamiento está en buen estado para cualquier tensión/voltaje?",
       "options": [
         "No; la continuidad no demuestra resistencia del aislamiento",
         "Sí, el pitido certifica toda la instalación",
@@ -9574,7 +9574,7 @@
       "calculation": null,
       "visual": null,
       "changed": false,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -9582,7 +9582,7 @@
           "url": "https://www.fluke.com/en-us/learn/blog/electrical/what-is-continuity"
         }
       ],
-      "questionSha256": "3873d1ec69c733a92a3549ea6ac5a72101f08307042eac2238723e2c386b0225"
+      "questionSha256": "01ddb61ebf8845319d34629346f1aa8ec0566f6230ef6681272b0b25292b101b"
     },
     {
       "id": "instalacion-1",
@@ -9695,12 +9695,12 @@
     {
       "id": "instalacion-5",
       "topic": "Errores de instalación",
-      "question": "El selector está en tensión de CA, pero la punta conectada a L está insertada en el borne A. ¿Qué condición debe verificarse?",
+      "question": "El selector está en tensión/voltaje de CA, pero la punta conectada a L está insertada en el borne A. ¿Qué condición debe verificarse?",
       "options": [
         "La incompatibilidad entre el borne usado y la medición prevista",
         "Solo la marca de la funda",
         "La cantidad de caracteres de la pantalla",
-        "Que toda medición de tensión requiere intercalar A"
+        "Que toda medición de tensión/voltaje requiere intercalar A"
       ],
       "answerIndex": 0,
       "answer": "La incompatibilidad entre el borne usado y la medición prevista",
@@ -9717,7 +9717,7 @@
           "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
         }
       ],
-      "questionSha256": "ae4ca5cb5d5379cb5ee080559aa4b61a6817af2ff41e9a8a19de4f5456c71756"
+      "questionSha256": "e1766b56b07d178da066785dc55f3c035dbe0f1282d1bad5f967c601ad4cd0d0"
     },
     {
       "id": "instalacion-6",
@@ -9736,7 +9736,7 @@
       "calculation": null,
       "visual": "imagenes/instalaciones/medidor.svg",
       "changed": true,
-      "languageNormalized": false,
+      "languageNormalized": true,
       "notes": "Revisión técnica del asistente; no certificación profesional.",
       "references": [
         {
@@ -9744,7 +9744,7 @@
           "url": "https://www.fluke.com/en/learn/blog/digital-multimeters/how-to-measure-ac-voltage-with-a-digital-multimeter"
         }
       ],
-      "questionSha256": "4a079bd47693a7783d3d6f0a101f691f8fc72c765ef16ab6f6eeeda77bc8f469"
+      "questionSha256": "bda589818903a26ccd740583c47acc4d2abeea71b91ac9ccf09c6acb56d9333e"
     },
     {
       "id": "instalacion-7",

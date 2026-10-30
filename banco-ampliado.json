@@ -548,7 +548,7 @@
     "similarityFamily": "calculo-corriente"
   },
   {
-    "q": "¿Qué ley relaciona tensión, corriente y resistencia?",
+    "q": "¿Qué ley relaciona tensión/voltaje, corriente y resistencia?",
     "options": [
       "Ley de Ohm",
       "Ley de gravitación",
@@ -608,7 +608,7 @@
     "similarityFamily": "concepto-proton"
   },
   {
-    "q": "Si se eleva la tensión manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
+    "q": "Si se eleva la tensión/voltaje manteniendo constante la resistencia, ¿qué ocurre con la corriente?",
     "options": [
       "Aumenta",
       "Disminuye",
@@ -648,7 +648,7 @@
     "answer": 0,
     "topic": "Ley de Ohm",
     "source": "EXAMEN_9 (adaptación con datos originales)",
-    "explanation": "La intensidad de corriente es el cociente entre la tensión aplicada y la resistencia del circuito: I = V/R.",
+    "explanation": "La intensidad de corriente es el cociente entre la tensión/voltaje aplicada y la resistencia del circuito: I = V/R.",
     "review_status": "Verificada por cálculo o concepto",
     "id": "original-22",
     "originalEvidence": {
@@ -698,7 +698,7 @@
     "similarityFamily": "formula-R"
   },
   {
-    "q": "¿Cuál es la expresión correcta para calcular tensión?",
+    "q": "¿Cuál es la expresión correcta para calcular tensión/voltaje?",
     "options": [
       "V = I × R",
       "V = I/R",
@@ -1403,7 +1403,7 @@
   {
     "q": "¿Cuáles son tres características eléctricas básicas para seleccionar un interruptor temporizador?",
     "options": [
-      "Tensión nominal, corriente nominal y número de polos",
+      "Tensión/voltaje nominal, corriente nominal y número de polos",
       "Color, tamaño y peso",
       "Resistencia, inductancia y longitud",
       "Temperatura, brillo y frecuencia"
@@ -1412,7 +1412,7 @@
     "topic": "Controles",
     "source": "Examen 8, pregunta 6",
     "id": 29,
-    "explanation": "La tensión debe ser compatible, la corriente nominal suficiente y el número de polos adecuado al circuito. También se revisa el tipo de carga y listado.",
+    "explanation": "La tensión/voltaje debe ser compatible, la corriente nominal suficiente y el número de polos adecuado al circuito. También se revisa el tipo de carga y listado.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Examen 8, pregunta 6",
@@ -1700,7 +1700,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "En un circuito serie con fuente de 250 V, dos resistores tienen caídas de 75 V cada una. ¿Qué tensión cae en la tercera?",
+    "q": "En un circuito serie con fuente de 250 V, dos resistores tienen caídas de 75 V cada una. ¿Qué tensión/voltaje cae en la tercera?",
     "options": [
       "100 V",
       "75 V",
@@ -1711,7 +1711,7 @@
     "topic": "Circuitos en serie",
     "source": "Examen 5, pregunta 1",
     "id": 42,
-    "explanation": "En serie las caídas suman la tensión de fuente: V3 = 250 − 75 − 75 = 100 V.",
+    "explanation": "En serie las caídas suman la tensión/voltaje de fuente: V3 = 250 − 75 − 75 = 100 V.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -1792,7 +1792,7 @@
     "similarityFamily": "circuit-parallel-resistance-multiple"
   },
   {
-    "q": "¿Cuál es la corriente total si la resistencia equivalente es 55 Ω y la tensión 220 V?",
+    "q": "¿Cuál es la corriente total si la resistencia equivalente es 55 Ω y la tensión/voltaje 220 V?",
     "options": [
       "4 A",
       "12 A",
@@ -1909,7 +1909,7 @@
     "similarityFamily": "instrumento-amperimetro"
   },
   {
-    "q": "¿Qué significa la tensión entre dos puntos de un circuito?",
+    "q": "¿Qué significa la tensión/voltaje entre dos puntos de un circuito?",
     "options": [
       "Diferencia de potencial eléctrico entre esos puntos",
       "Intensidad de corriente",
@@ -1926,7 +1926,7 @@
       "question": 1,
       "status": "Enunciado coincidente; opciones adaptadas"
     },
-    "explanation": "La tensión entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión.",
+    "explanation": "La tensión/voltaje entre dos puntos es su diferencia de potencial eléctrico y se mide en voltios. La fuerza electromotriz describe la energía que una fuente aporta por unidad de carga; no es una definición general de toda caída de tensión/voltaje.",
     "references": [
       {
         "label": "NIST · diferencia de potencial eléctrico y unidad voltio",
@@ -1949,7 +1949,7 @@
     "topic": "Instrumentos",
     "source": "Exámenes adjuntos",
     "id": 52,
-    "explanation": "El amperímetro mide corriente en amperios. El voltímetro mide tensión y el ohmímetro resistencia.",
+    "explanation": "El amperímetro mide corriente en amperios. El voltímetro mide tensión/voltaje y el ohmímetro resistencia.",
     "references": [
       {
         "label": "Fluke · continuidad y medición",
@@ -1961,7 +1961,7 @@
     "similarityFamily": "¿que instrumento mide la corriente electrica?"
   },
   {
-    "q": "¿Qué fórmula expresa la Ley de Ohm para la tensión?",
+    "q": "¿Qué fórmula expresa la Ley de Ohm para la tensión/voltaje?",
     "options": [
       "V = I / R",
       "V = I × R",
@@ -1972,7 +1972,7 @@
     "topic": "Ley de Ohm",
     "source": "Exámenes adjuntos",
     "id": 53,
-    "explanation": "Ley de Ohm: la tensión es corriente por resistencia, V = I × R.",
+    "explanation": "Ley de Ohm: la tensión/voltaje es corriente por resistencia, V = I × R.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -1984,7 +1984,7 @@
     "similarityFamily": "formula-V"
   },
   {
-    "q": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de tensión y corriente?",
+    "q": "En un circuito de corriente continua, ¿qué fórmula calcula la potencia eléctrica a partir de tensión/voltaje y corriente?",
     "options": [
       "P = I / V",
       "P = R / I",
@@ -2156,7 +2156,7 @@
     "topic": "Seguridad",
     "source": "Exámenes adjuntos",
     "id": 61,
-    "explanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida de la tensión.",
+    "explanation": "Un SPD limita sobretensiones transitorias y desvía corrientes de impulso para proteger equipos. No es un captador externo de rayos ni garantiza protección frente a toda alteración sostenida de la tensión/voltaje.",
     "references": [
       {
         "label": "Schneider Electric · función de los dispositivos SPD",
@@ -2179,7 +2179,7 @@
     "topic": "Distribución",
     "source": "Exámenes adjuntos",
     "id": 62,
-    "explanation": "Un transformador de poste se instala elevado y adapta la tensión para distribución. El contador registra energía y no cumple esa función.",
+    "explanation": "Un transformador de poste se instala elevado y adapta la tensión/voltaje para distribución. El contador registra energía y no cumple esa función.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2269,7 +2269,7 @@
     "q": "¿Qué magnitud eléctrica se mide en amperios (A)?",
     "options": [
       "Potencia",
-      "Tensión",
+      "Tensión/voltaje",
       "Intensidad de corriente",
       "Resistencia"
     ],
@@ -2283,7 +2283,7 @@
       "question": 2,
       "status": "Enunciado coincidente; opciones adaptadas"
     },
-    "explanation": "La intensidad de corriente eléctrica se mide en amperios (A). La tensión se mide en voltios (V), y la potencia, en vatios (W).",
+    "explanation": "La intensidad de corriente eléctrica se mide en amperios (A). La tensión/voltaje se mide en voltios (V), y la potencia, en vatios (W).",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2352,7 +2352,7 @@
     "topic": "Potencia",
     "source": "Examen 19, pregunta 5",
     "id": 69,
-    "explanation": "I² × R expresa potencia (W), no tensión. La tensión se obtiene con V = I × R.",
+    "explanation": "I² × R expresa potencia (W), no tensión/voltaje. La tensión/voltaje se obtiene con V = I × R.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -2507,7 +2507,7 @@
       "Protección que abre el circuito ante sobrecorriente",
       "Condensador",
       "Resistencia variable",
-      "Fuente de tensión"
+      "Fuente de tensión/voltaje"
     ],
     "answer": 0,
     "topic": "Seguridad",
@@ -2559,7 +2559,7 @@
     "topic": "Capacitancia",
     "source": "Exámenes adjuntos",
     "id": 78,
-    "explanation": "En paralelo, los capacitores tienen la misma tensión entre sus terminales y sus capacitancias se suman: Ct = C1 + C2 + ….",
+    "explanation": "En paralelo, los capacitores tienen la misma tensión/voltaje entre sus terminales y sus capacitancias se suman: Ct = C1 + C2 + ….",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2611,7 +2611,7 @@
     "topic": "Fundamentos",
     "source": "Exámenes adjuntos",
     "id": 80,
-    "explanation": "Ω es el símbolo del ohmio, unidad de resistencia eléctrica. A, V y W corresponden a corriente, tensión y potencia.",
+    "explanation": "Ω es el símbolo del ohmio, unidad de resistencia eléctrica. A, V y W corresponden a corriente, tensión/voltaje y potencia.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -2694,7 +2694,7 @@
   {
     "q": "¿Qué magnitud es igual en todas las ramas paralelas?",
     "options": [
-      "Tensión",
+      "Tensión/voltaje",
       "Potencia individual",
       "Corriente individual",
       "Resistencia"
@@ -2703,7 +2703,7 @@
     "topic": "Circuitos en serie",
     "source": "Exámenes adjuntos",
     "id": 84,
-    "explanation": "Las ramas se conectan a los mismos dos nodos, por eso comparten tensión. Las corrientes dependen de cada resistencia.",
+    "explanation": "Las ramas se conectan a los mismos dos nodos, por eso comparten tensión/voltaje. Las corrientes dependen de cada resistencia.",
     "references": [
       {
         "label": "Desarrollo matemático · Ley de Ohm y resistencias ideales",
@@ -2928,7 +2928,7 @@
     "similarityFamily": "¿que mide un contador de kwh?"
   },
   {
-    "q": "¿Qué tensión produce 2 A a través de 6 Ω?",
+    "q": "¿Qué tensión/voltaje produce 2 A a través de 6 Ω?",
     "options": [
       "0.33 V",
       "3 V",
@@ -2978,7 +2978,7 @@
     "options": [
       "Corriente",
       "Potencia",
-      "Caída de tensión",
+      "Caída de tensión/voltaje",
       "Resistencia"
     ],
     "answer": 0,
@@ -3077,7 +3077,7 @@
     "topic": "Fundamentos",
     "source": "Exámenes adjuntos",
     "id": 100,
-    "explanation": "Un interruptor abre o cierra una trayectoria de corriente. No transforma tensión ni sustituye automáticamente un dispositivo de protección.",
+    "explanation": "Un interruptor abre o cierra una trayectoria de corriente. No transforma tensión/voltaje ni sustituye automáticamente un dispositivo de protección.",
     "references": [
       {
         "label": "Repaso de conceptos y fuente original: Exámenes adjuntos",
@@ -5437,7 +5437,7 @@
     "q": "¿Qué permite distinguir visualmente un conector de un acoplamiento de EMT?",
     "options": [
       "El conector termina la tubería en una caja; el acoplamiento une dos tramos",
-      "Ambos son instrumentos para medir tensión",
+      "Ambos son instrumentos para medir tensión/voltaje",
       "El acoplamiento siempre incorpora un interruptor automático",
       "El conector genera electricidad"
     ],
@@ -6013,7 +6013,7 @@
       "Por la menor disipación del calor generado",
       "Porque cambia la frecuencia de la red",
       "Porque se convierten en aislantes",
-      "Porque la tensión nominal siempre se duplica"
+      "Porque la tensión/voltaje nominal siempre se duplica"
     ],
     "answer": 0,
     "topic": "Conductores y protecciones",
@@ -6041,7 +6041,7 @@
     "q": "¿Es suficiente colocar un interruptor en OFF para considerar seguro tocar los conductores?",
     "options": [
       "No; se requiere aislamiento, control de reconexión y verificación",
-      "Sí, la posición garantiza ausencia de tensión",
+      "Sí, la posición garantiza ausencia de tensión/voltaje",
       "Sí, si se trabaja rápido",
       "Sí, si la lámpara está apagada"
     ],
@@ -6053,7 +6053,7 @@
       "La condición desenergizada se comprueba con el procedimiento y equipo apropiados por personal autorizado.",
       "Puede haber fallas, identificación incorrecta o fuentes adicionales.",
       "La rapidez no elimina el peligro.",
-      "Una lámpara apagada no prueba ausencia de tensión."
+      "Una lámpara apagada no prueba ausencia de tensión/voltaje."
     ],
     "references": [
       {
@@ -6071,8 +6071,8 @@
     "q": "¿Para qué se aplica bloqueo y etiquetado durante mantenimiento?",
     "options": [
       "Impedir reconexión inadvertida e identificar el trabajo",
-      "Para aumentar la tensión",
-      "Para sustituir la prueba de ausencia de tensión",
+      "Para aumentar la tensión/voltaje",
+      "Para sustituir la prueba de ausencia de tensión/voltaje",
       "Para permitir que cualquiera quite el candado"
     ],
     "answer": 0,
@@ -6143,7 +6143,7 @@
       "Debe seguirse el método del fabricante para descarga y verificación; no se improvisan cortocircuitos.",
       "El peligro relevante es la energía eléctrica almacenada, no solo ruido acústico.",
       "Desconectar el equipo no aumenta automáticamente la frecuencia.",
-      "Un capacitor puede conservar tensión."
+      "Un capacitor puede conservar tensión/voltaje."
     ],
     "references": [
       {
@@ -6191,9 +6191,9 @@
     "q": "¿Qué debe hacer un ayudante si descubre una fuente eléctrica no identificada?",
     "options": [
       "Detener la intervención y avisar al perito responsable",
-      "Suponer que no tiene tensión",
+      "Suponer que no tiene tensión/voltaje",
       "Cortar todos los cables al mismo tiempo",
-      "Continuar por tratarse de baja tensión"
+      "Continuar por tratarse de baja tensión/voltaje"
     ],
     "answer": 0,
     "topic": "Seguridad práctica",
@@ -6203,7 +6203,7 @@
       "Las fuentes deben identificarse y controlarse antes de continuar, incluyendo red, generador, solar y baterías.",
       "La suposición no controla el riesgo.",
       "Puede causar choque o arco.",
-      "La baja tensión también puede causar lesiones."
+      "La baja tensión/voltaje también puede causar lesiones."
     ],
     "references": [
       {
@@ -6218,7 +6218,7 @@
   },
   {
     "id": "ampliacion-31",
-    "q": "¿Puede un detector sin contacto por sí solo garantizar ausencia de tensión en todos los conductores?",
+    "q": "¿Puede un detector sin contacto por sí solo garantizar ausencia de tensión/voltaje en todos los conductores?",
     "options": [
       "No; debe utilizarse el método de verificación adecuado al circuito",
       "Sí, siempre y en toda configuración",
@@ -6555,17 +6555,17 @@
       "La trayectoria de corriente está interrumpida",
       "Porque el conductor neutro produce energía",
       "Porque la lámpara se vuelve un capacitor",
-      "Porque la tensión de la fuente necesariamente es cero"
+      "Porque la tensión/voltaje de la fuente necesariamente es cero"
     ],
     "answer": 0,
     "topic": "Planos y conexiones",
     "source": "Ampliación didáctica",
-    "explanation": "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión.",
+    "explanation": "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión/voltaje.",
     "optionExplanations": [
-      "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión.",
+      "El contacto abierto impide la corriente de carga; una lámpara apagada no demuestra ausencia de tensión/voltaje.",
       "El conductor neutro no es una fuente independiente.",
       "Abrir un interruptor no cambia el tipo de carga.",
-      "Un circuito abierto puede conservar tensión en parte de él."
+      "Un circuito abierto puede conservar tensión/voltaje en parte de él."
     ],
     "references": [
       {
@@ -6582,7 +6582,7 @@
   },
   {
     "id": "ampliacion-43",
-    "q": "En el esquema B, ¿qué elemento permite medir tensión sin abrir la trayectoria de la carga?",
+    "q": "En el esquema B, ¿qué elemento permite medir tensión/voltaje sin abrir la trayectoria de la carga?",
     "options": [
       "Voltímetro conectado entre dos puntos",
       "Amperímetro colocado directamente entre fase y neutro",
@@ -6596,7 +6596,7 @@
     "optionExplanations": [
       "El voltímetro se conecta en paralelo a los puntos cuya diferencia de potencial se estudia.",
       "Esa conexión puede provocar un cortocircuito.",
-      "No mide tensión.",
+      "No mide tensión/voltaje.",
       "No es un instrumento de medición."
     ],
     "references": [
@@ -6678,7 +6678,7 @@
     "options": [
       "El unifilar resume conexiones; el plano sitúa elementos físicamente",
       "Ambos muestran obligatoriamente cada hilo a escala",
-      "El unifilar certifica ausencia de tensión",
+      "El unifilar certifica ausencia de tensión/voltaje",
       "El plano de ubicación reemplaza todas las especificaciones"
     ],
     "answer": 0,
@@ -6766,7 +6766,7 @@
     "id": "ampliacion-49",
     "q": "¿En qué condición se prueba continuidad de un componente?",
     "options": [
-      "Sin tensión y con energía almacenada controlada",
+      "Sin tensión/voltaje y con energía almacenada controlada",
       "Con el circuito energizado",
       "Con puntas en el borne de amperios por defecto",
       "Tocando el metal expuesto con los dedos"
@@ -6774,10 +6774,10 @@
     "answer": 0,
     "topic": "Instrumentos aplicados",
     "source": "Ampliación didáctica",
-    "explanation": "El multímetro aplica su propia pequeña señal; la tensión externa invalida la prueba y puede causar daño.",
+    "explanation": "El multímetro aplica su propia pequeña señal; la tensión/voltaje externa invalida la prueba y puede causar daño.",
     "optionExplanations": [
-      "El multímetro aplica su propia pequeña señal; la tensión externa invalida la prueba y puede causar daño.",
-      "La prueba de continuidad no se realiza con tensión presente.",
+      "El multímetro aplica su propia pequeña señal; la tensión/voltaje externa invalida la prueba y puede causar daño.",
+      "La prueba de continuidad no se realiza con tensión/voltaje presente.",
       "Se usan función y bornes correspondientes al instrumento.",
       "No es una técnica segura de comprobación."
     ],
@@ -6798,7 +6798,7 @@
     "options": [
       "Circuito abierto o resistencia fuera de rango",
       "Siempre cero ohmios",
-      "Tensión exactamente igual a 120 V",
+      "Tensión/voltaje exactamente igual a 120 V",
       "Una batería externa completamente cargada"
     ],
     "answer": 0,
@@ -6808,7 +6808,7 @@
     "optionExplanations": [
       "Se interpreta el modo y rango; OL no distingue por sí solo todas las causas de una lectura alta.",
       "Cero indica resistencia muy baja, no fuera de rango.",
-      "OL en modo resistencia no es una lectura de tensión.",
+      "OL en modo resistencia no es una lectura de tensión/voltaje.",
       "No permite esa conclusión."
     ],
     "references": [
@@ -6824,7 +6824,7 @@
   },
   {
     "id": "ampliacion-51",
-    "q": "¿Qué se hace antes de cambiar de medir corriente con puntas a medir tensión?",
+    "q": "¿Qué se hace antes de cambiar de medir corriente con puntas a medir tensión/voltaje?",
     "options": [
       "Revisar y cambiar los bornes y selector según el manual",
       "Dejar siempre la punta roja en A",
@@ -6834,10 +6834,10 @@
     "answer": 0,
     "topic": "Instrumentos aplicados",
     "source": "Ampliación didáctica",
-    "explanation": "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión es peligrosa.",
+    "explanation": "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión/voltaje es peligrosa.",
     "optionExplanations": [
-      "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión es peligrosa.",
-      "Puede crear un cortocircuito al medir tensión.",
+      "La configuración de corriente ofrece una trayectoria de baja impedancia; una conexión equivocada al medir tensión/voltaje es peligrosa.",
+      "Puede crear un cortocircuito al medir tensión/voltaje.",
       "No prepara el instrumento para la medición.",
       "Anula protecciones."
     ],
@@ -6884,9 +6884,9 @@
   },
   {
     "id": "ampliacion-53",
-    "q": "Para medir la tensión de una alimentación de CA, ¿qué función se selecciona?",
+    "q": "Para medir la tensión/voltaje de una alimentación de CA, ¿qué función se selecciona?",
     "options": [
-      "Tensión CA con rango y categoría adecuados",
+      "Tensión/voltaje CA con rango y categoría adecuados",
       "Resistencia con la fuente conectada",
       "Continuidad con la fuente conectada",
       "Capacitancia sin aislar el equipo"
@@ -6898,8 +6898,8 @@
     "optionExplanations": [
       "El símbolo de CA y el rango deben corresponder; la categoría de seguridad también debe ser apropiada al lugar.",
       "No se usa ohmímetro sobre una fuente energizada.",
-      "Ese modo requiere ausencia de tensión.",
-      "No mide la tensión de la fuente."
+      "Ese modo requiere ausencia de tensión/voltaje.",
+      "No mide la tensión/voltaje de la fuente."
     ],
     "references": [
       {
@@ -6947,7 +6947,7 @@
     "q": "¿Cómo se reduce el efecto de caminos en paralelo al medir una resistencia individual?",
     "options": [
       "Aislando apropiadamente el componente con el circuito desenergizado",
-      "Aumentando la tensión de la fuente",
+      "Aumentando la tensión/voltaje de la fuente",
       "Midiendo siempre el conjunto completo",
       "Usando el modo de temperatura"
     ],
@@ -6957,7 +6957,7 @@
     "explanation": "Un camino paralelo reduce la resistencia equivalente y puede impedir conocer el valor del componente.",
     "optionExplanations": [
       "Un camino paralelo reduce la resistencia equivalente y puede impedir conocer el valor del componente.",
-      "La resistencia no se mide con tensión aplicada.",
+      "La resistencia no se mide con tensión/voltaje aplicada.",
       "La lectura puede incluir caminos alternos.",
       "No mide resistencia eléctrica."
     ],
@@ -6977,7 +6977,7 @@
     "q": "¿Qué significa un pitido de continuidad en un cable aislado y desenergizado?",
     "options": [
       "Que existe una trayectoria de resistencia suficientemente baja para ese instrumento",
-      "Que el aislamiento soporta cualquier tensión",
+      "Que el aislamiento soporta cualquier tensión/voltaje",
       "Que el cable admite cualquier corriente",
       "Que se certificó toda la instalación"
     ],
@@ -7167,7 +7167,7 @@
     "explanation": "LUMA distingue la base del equipo medidor; en su guía se identifica la base entre los equipos del cliente.",
     "optionExplanations": [
       "LUMA distingue la base del equipo medidor; en su guía se identifica la base entre los equipos del cliente.",
-      "Su función principal es transformar tensión.",
+      "Su función principal es transformar tensión/voltaje.",
       "Produce energía solar, no aloja el medidor.",
       "Conecta el sistema de puesta a tierra con el terreno."
     ],
@@ -7186,7 +7186,7 @@
     "id": "ampliacion-63",
     "q": "¿Qué función cumple normalmente el transformador de distribución que alimenta una vivienda?",
     "options": [
-      "Adaptar la tensión de distribución al servicio",
+      "Adaptar la tensión/voltaje de distribución al servicio",
       "Medir por sí solo el consumo facturado",
       "Sustituir todo interruptor automático de la vivienda",
       "Almacenar energía como una batería"
@@ -7194,9 +7194,9 @@
     "answer": 0,
     "topic": "Legislación y servicio local",
     "source": "Ampliación didáctica",
-    "explanation": "El transformador modifica niveles de tensión; no es un contador ni almacenamiento de respaldo.",
+    "explanation": "El transformador modifica niveles de tensión/voltaje; no es un contador ni almacenamiento de respaldo.",
     "optionExplanations": [
-      "El transformador modifica niveles de tensión; no es un contador ni almacenamiento de respaldo.",
+      "El transformador modifica niveles de tensión/voltaje; no es un contador ni almacenamiento de respaldo.",
       "Esa función corresponde al contador.",
       "No reemplaza las protecciones de los circuitos.",
       "No cumple esa función."
@@ -7364,10 +7364,10 @@
   },
   {
     "id": "ampliacion-69",
-    "q": "¿Puede un circuito fotovoltaico mantener tensión aunque se abra el interruptor de CA?",
+    "q": "¿Puede un circuito fotovoltaico mantener tensión/voltaje aunque se abra el interruptor de CA?",
     "options": [
       "Sí, los módulos iluminados pueden seguir generando CC",
-      "No, todo el sistema queda necesariamente sin tensión",
+      "No, todo el sistema queda necesariamente sin tensión/voltaje",
       "No, el sol solo produce calor",
       "No, si se apaga una lámpara de la vivienda"
     ],
@@ -7399,7 +7399,7 @@
       "Reducir su producción según configuración y electrónica",
       "Aumentar siempre la potencia",
       "Convertir la salida del panel en CA",
-      "Eliminar toda tensión peligrosa"
+      "Eliminar toda tensión/voltaje peligrosa"
     ],
     "answer": 0,
     "topic": "Energía renovable básica",
@@ -7409,7 +7409,7 @@
       "El impacto depende de cómo se conectan los módulos y de los equipos que administran su funcionamiento.",
       "La menor irradiancia no garantiza mayor producción.",
       "El sombreado no actúa como inversor.",
-      "La sombra no demuestra ausencia de tensión."
+      "La sombra no demuestra ausencia de tensión/voltaje."
     ],
     "references": [
       {
@@ -7521,7 +7521,7 @@
     "options": [
       "Clasificación para uso hospitalario",
       "Ausencia del conductor de puesta a tierra del equipo",
-      "Compatibilidad con cualquier tensión",
+      "Compatibilidad con cualquier tensión/voltaje",
       "Que solo puede conectarse corriente continua"
     ],
     "answer": 0,
@@ -7587,7 +7587,7 @@
     "options": [
       "Retirar aislamiento con la abertura apropiada al conductor",
       "Medir resistencia dieléctrica",
-      "Verificar ausencia de tensión por contacto con el mango",
+      "Verificar ausencia de tensión/voltaje por contacto con el mango",
       "Apretar bornes con torque certificado"
     ],
     "answer": 0,
@@ -7598,7 +7598,7 @@
     "optionExplanations": [
       "El pelacables tiene aberturas para calibres determinados; no debe marcar ni cortar el metal que se desea conservar.",
       "No es un medidor de aislamiento.",
-      "Un mango no comprueba ausencia de tensión.",
+      "Un mango no comprueba ausencia de tensión/voltaje.",
       "Se requiere la herramienta de torque adecuada."
     ],
     "difficulty": "basica",
@@ -7630,7 +7630,7 @@
     "explanation": "El modelo mostrado está nominalmente clasificado para 20 A. Esto no permite usarlo en cualquier tablero o conductor; debe comprobarse compatibilidad.",
     "optionExplanations": [
       "El modelo mostrado está nominalmente clasificado para 20 A. Esto no permite usarlo en cualquier tablero o conductor; debe comprobarse compatibilidad.",
-      "La cifra de la palanca corresponde aquí a corriente, no a tensión.",
+      "La cifra de la palanca corresponde aquí a corriente, no a tensión/voltaje.",
       "No expresa frecuencia.",
       "No es una indicación de energía acumulada."
     ],
@@ -7718,7 +7718,7 @@
     "q": "Antes de pelar el conductor de la fotografía 8, ¿qué debe comprobarse?",
     "options": [
       "Que esté desenergizado y se use la abertura del calibre adecuado",
-      "Que la mano sirva como detector de tensión",
+      "Que la mano sirva como detector de tensión/voltaje",
       "Que cualquier abertura retire el aislamiento sin dañar el metal",
       "Que el color del mango autorice trabajar energizado"
     ],
@@ -7729,7 +7729,7 @@
     "explanation": "Se controla y verifica la energía antes de intervenir. Después se usa la abertura correspondiente al calibre y tipo de conductor para evitar dañar el metal.",
     "optionExplanations": [
       "Primero se verifica la condición segura; luego se selecciona la abertura compatible con el conductor.",
-      "La mano nunca se utiliza para comprobar tensión.",
+      "La mano nunca se utiliza para comprobar tensión/voltaje.",
       "Una abertura incorrecta puede cortar o marcar los hilos.",
       "El color del mango no determina aislamiento eléctrico ni autorización para trabajo energizado."
     ],
@@ -7781,7 +7781,7 @@
   },
   {
     "id": "mejora-10",
-    "q": "Una persona dejó la punta roja del multímetro en A y quiere medir tensión entre fase y neutro. ¿Qué corresponde?",
+    "q": "Una persona dejó la punta roja del multímetro en A y quiere medir tensión/voltaje entre fase y neutro. ¿Qué corresponde?",
     "options": [
       "Detenerse y configurar bornes y función según el manual",
       "Medir inmediatamente porque el color es correcto",
@@ -7792,9 +7792,9 @@
     "topic": "Situaciones prácticas",
     "examGroup": "aplicaciones",
     "source": "Ampliación visual y situaciones prácticas",
-    "explanation": "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión antes de medir con el procedimiento seguro.",
+    "explanation": "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión/voltaje antes de medir con el procedimiento seguro.",
     "optionExplanations": [
-      "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión antes de medir con el procedimiento seguro.",
+      "La entrada de corriente puede ofrecer una trayectoria de muy baja impedancia. Debe reconfigurarse para tensión/voltaje antes de medir con el procedimiento seguro.",
       "El color de la punta no determina su conexión interna.",
       "No configura el instrumento ni hace segura la medición.",
       "Eliminar una protección aumenta el riesgo."
@@ -7955,7 +7955,7 @@
   },
   {
     "id": "mejora-16",
-    "q": "Un cable da pitido de continuidad. ¿Puede concluirse que su aislamiento está en buen estado para cualquier tensión?",
+    "q": "Un cable da pitido de continuidad. ¿Puede concluirse que su aislamiento está en buen estado para cualquier tensión/voltaje?",
     "options": [
       "No; la continuidad no demuestra resistencia del aislamiento",
       "Sí, el pitido certifica toda la instalación",
@@ -8112,12 +8112,12 @@
   },
   {
     "id": "instalacion-5",
-    "q": "El selector está en tensión de CA, pero la punta conectada a L está insertada en el borne A. ¿Qué condición debe verificarse?",
+    "q": "El selector está en tensión/voltaje de CA, pero la punta conectada a L está insertada en el borne A. ¿Qué condición debe verificarse?",
     "options": [
       "La incompatibilidad entre el borne usado y la medición prevista",
       "Solo la marca de la funda",
       "La cantidad de caracteres de la pantalla",
-      "Que toda medición de tensión requiere intercalar A"
+      "Que toda medición de tensión/voltaje requiere intercalar A"
     ],
     "answer": 0,
     "topic": "Errores de instalación",
@@ -8132,7 +8132,7 @@
       "El borne A puede ofrecer una trayectoria de baja impedancia. La configuración debe revisarse con el manual antes de medir.",
       "La funda no determina la conexión de medición.",
       "No explica el riesgo de los bornes.",
-      "La entrada de corriente no se usa de ese modo para medir tensión."
+      "La entrada de corriente no se usa de ese modo para medir tensión/voltaje."
     ],
     "references": [
       {
@@ -8164,7 +8164,7 @@
       "Se verifica función, bornes, rango, categoría y estado del instrumento antes del uso por personal autorizado.",
       "El ajuste no debe improvisarse con el instrumento conectado así.",
       "Anula una protección.",
-      "Una lectura en configuración incorrecta no prueba ausencia de tensión."
+      "Una lectura en configuración incorrecta no prueba ausencia de tensión/voltaje."
     ],
     "references": [
       {

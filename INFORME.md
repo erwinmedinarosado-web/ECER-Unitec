@@ -230,3 +230,6 @@ Se revisaron las 320 preguntas y se normalizaron 189: 154 enunciados y 57 conjun
 Se consultó material público en español de NFPA y la copia electrónica del Reglamento Complementario de la AEE alojada por UPRM. De Electricidad Moderna, E. Vázquez Chévere, solo estuvo disponible la ficha editorial. No se atribuye un cotejo íntegro del NEC 2023 en español ni del libro. La adaptación es lingüística: las referencias didácticas siguen en NEC 2020; no se cambia su edición normativa por sustitución de texto.
 
 Las pruebas verifican los 320 registros frente a una base inmutable anterior: se conservan los datos numéricos, los índices de las respuestas correctas y las claves internas de los temas para mantener el historial. Los tres esquemas propios usan EGC de forma congruente; los documentos originales permanecen intactos. Pasaron las pruebas de cálculos, fuentes, flujo de examen, migración, mejoras, lectura y accesibilidad automatizada. Se comprobó en navegador el glosario y la búsqueda del banco con la terminología normalizada; no se atribuye revisión profesional independiente.
+
+
+Preferencia de vocabulario adicional: toda aparición de tensión en el banco y su material explicativo se presenta como tensión/voltaje, a petición del usuario. Se verificó automáticamente la ausencia de tensión sin su equivalencia.
