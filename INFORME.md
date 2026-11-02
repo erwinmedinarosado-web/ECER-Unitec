@@ -238,3 +238,14 @@ Preferencia de vocabulario adicional: toda aparición de tensión en el banco y 
 ## Pestaña Exámenes · 30 de octubre de 2026
 
 Las convocatorias, fechas, radicación, requisitos, fuentes, estado de verificación y descarga ICS se trasladaron de la portada a examenes.html. La navegación común incluye Fechas de exámenes y señala la página activa. El plan de estudio sigue en el simulador con un enlace a las convocatorias; los datos y la comprobación de antigüedad de fechas se conservan. La exportación de calendario funciona de forma independiente del motor del examen.
+
+## Simplificación de interfaz · 2 de noviembre de 2026
+
+- Portada con una acción principal: continuar el intento guardado o comenzar un examen. Modalidad, dificultad, duración y ayuda quedan en «Personalizar examen».
+- «Mi estudio» reúne errores pendientes, banco, repasos espaciados, recomendaciones, plan por fecha, progreso, recurrencia e historial. «Recursos» agrupa glosario, revisión profesional, pruebas con estudiantes y reportes.
+- «Ajustes y datos» conserva los controles de lectura en las ocho páginas y da acceso a exportar/restaurar el progreso. Se mantienen las claves y los formatos de almacenamiento.
+- Mapa de preguntas, resultados por tema, revisión de respuestas, cálculos, distractores y fuentes usan controles desplegables nativos. La impresión abre temporalmente las explicaciones y restaura su estado al terminar.
+- El cambio conserva los 320 ejercicios, las cuotas de 50 preguntas (10/8/32), los originales y las fechas verificadas el 2 de noviembre. Se corrigieron dos enlaces de fotos en Repaso que apuntaban a nombres inexistentes.
+- Comprobaciones: flujo del motor, copia/restauración, planes, lectura, contraste, auditoría de contenido; IDs originales conservados y enlaces locales válidos. Prueba de navegador: 50 respuestas y entrega; guardado/reanudación de simulacro con marca y cronómetro; práctica de 36 errores; revisión y filtro de incorrectas; plan por fecha; enlace a copias desde Fechas de exámenes; modo oscuro y texto grande.
+- Se eliminó el nombre global `history()` del motor para evitar que ocultase la API History del navegador al navegar entre las nuevas secciones.
+- No constituye una auditoría de conformidad WCAG ni una revisión independiente por un perito; esas validaciones siguen pendientes.
