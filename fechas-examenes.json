@@ -1,5 +1,5 @@
 {
-  "verifiedOn": "2026-10-29",
+  "verifiedOn": "2026-11-02",
   "timezone": "America/Puerto_Rico",
   "source": "https://www.didaxispr.com/calendario",
   "method": "Calendario dinámico de Didaxis leído en navegador; tres eventos de Invierno 2026.",
@@ -29,5 +29,13 @@
       ],
       "meaning": "Periodo de examen"
     }
-  ]
+  ],
+  "convocation": "Invierno 2026",
+  "sources": {
+    "calendar": "https://www.didaxispr.com/calendario",
+    "board": "https://www.estado.pr.gov/juntas-examinadoras/peritos-electricistas",
+    "peritoRequirements": "https://www.didaxispr.com/p/perito-electricista",
+    "assistantRequirements": "https://www.didaxispr.com/p/ayudante-electricista"
+  },
+  "verificationNotes": "Fechas y radicación confirmadas en los tres eventos del calendario público en navegador. Las páginas actuales de requisitos de Didaxis están disponibles. Los enlaces antiguos de licencias desde Estado devuelven 404; no se pudo cotejar una convocatoria adicional desde esos enlaces. El 14 de diciembre es comienzo de periodo, no cita individual."
 }
