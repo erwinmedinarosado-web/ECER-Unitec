@@ -9,8 +9,8 @@ const deviceList=[
 ];
 const sources={'P.1':120,'P.2':-120,'P.3':120,'P.4':-120,'P.N':0};
 const terminals=[...Object.keys(sources),'P.T',...deviceList.flatMap(d=>d.pins.map(p=>d.id+'.'+p))];
-function solve(wires,switches){
- const parent=new Map(terminals.map(k=>[k,k]));
+function solve(wires,switches,junctions=[]){
+ const parent=new Map(terminals.concat(junctions).map(k=>[k,k]));
  function root(k){while(parent.get(k)!==k){parent.set(k,parent.get(parent.get(k)));k=parent.get(k)}return k}
  function join(a,b){parent.set(root(a),root(b))}
  for(const [a,b] of wires)join(a,b);
