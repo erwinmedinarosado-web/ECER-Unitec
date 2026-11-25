@@ -1,0 +1,13 @@
+.circuit-lab{max-width:64rem;margin:auto;padding:1rem}
+.circuit-lab select{max-width:100%;margin:.3rem 0}
+.board{position:relative;margin:1rem 0;width:100%}
+.board img{display:block;width:100%;height:auto}
+.board svg{position:absolute;inset:0;height:100%;width:100%;pointer-events:none}
+#wire{fill:none;stroke:#007669;stroke-width:6;stroke-linejoin:round}
+.board button{position:absolute;transform:translate(-50%,-50%);width:clamp(24px,6%,48px);height:clamp(24px,6vw,42px);padding:0;min-height:0;margin:0;border:2px solid #29496b;border-radius:.45rem;background:#fff;color:#153654;font:bold 1rem system-ui;line-height:1}
+.board button[aria-pressed=true]{background:#075f57;border-color:white;color:white}
+.board button:focus-visible{outline:3px solid #b13b00;outline-offset:2px}
+#glow{position:absolute;transform:translate(-50%,-50%);width:3%;height:7%;border-radius:50%;background:#ffd64d;box-shadow:0 0 12px #cb7100;pointer-events:none}
+.lab-actions{display:flex;gap:.5rem;flex-wrap:wrap}
+.lab-actions button{min-height:44px}
+#feedback{min-height:2.5em}
