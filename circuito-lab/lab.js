@@ -122,23 +122,30 @@ for(const d of deviceList){
  select.onchange=()=>{const model=select.value;select.value=d.model;if(!d.empty&&Object.hasOwn(outletSpecs,model))changePosition(d,outletSpecs[model].pins,()=>configureOutlet(d,model))};
 }
 const pos={};
+// The lower panel entry crosses the gap at the upper left side of box W.
+const lowerEntryY=boxes.get('W').y+39;
 function conductorRoute(a,b,index){
+ const start=ownerOf(a),finish=ownerOf(b);
+ const other=start==='P'?finish:start;
+ const lower=(start==='P'||finish==='P')&&boxes.get(other)?.r===2;
+ const entry=lower?'W':'1';
  // Parallel tracks stay within the 20-unit bore of each conduit.
  const lane=((index%9)-4)*1.8;
- const hub=id=>{const box=boxes.get(id);return id==='P'?[147+lane,185+lane]:[box.x+145+lane,box.y+134+lane]};
+ const hub=id=>{const box=boxes.get(id);return id==='P'?[147+lane,(lower?lowerEntryY:185)+lane]:[box.x+145+lane,box.y+134+lane]};
  function lead(end){
   const [x,y]=pos[end],id=ownerOf(end),[hx,hy]=hub(id);
   return [[x,y],[x,hy],[hx,hy]];
  }
- const start=ownerOf(a),finish=ownerOf(b),points=lead(a);
- let from=start==='P'?'1':start,to=finish==='P'?'1':finish;
+ const points=lead(a);
+ const from=start==='P'?entry:start,to=finish==='P'?entry:finish;
+ const entryBend=[hub(entry)[0],hub('P')[1]];
  if(start!==finish){
-  if(start==='P')points.push(hub('1'));
+  if(start==='P')points.push(entryBend,hub(entry));
   // Use the upper box's column for the vertical leg in either direction.
   const f=boxes.get(from),t=boxes.get(to);
   const corner=f.r<=t.r?rows[t.r][f.c]:rows[f.r][t.c];
   points.push(hub(corner),hub(to));
-  if(finish==='P')points.push(hub('P'));
+  if(finish==='P')points.push(entryBend,hub('P'));
  }
  points.push(...lead(b).reverse());
  return points.filter((p,i)=>!i||p[0]!==points[i-1][0]||p[1]!==points[i-1][1]);
@@ -298,6 +305,7 @@ function render(){
  ['P.1','P.2','P.3','P.4','P.N','P.T'].forEach((k,j)=>{let y=141+j*55;base+=rect(23,y-19,125,38,'#192b3a','#415666',5)+txt(32,y+5,labels[k],14,'#e3ecec','start',600);pins+=pin(k,133,y,'',true)});
  base+=txt(28,470,'C3–C4 · bipolar',12,'#aebfc8');
  base+=rect(160,175,31,20,'#304554','#718492',0);
+ base+='<g><title>Conducto de entrada del panel a la caja W</title>'+rect(160,lowerEntryY-10,31,20,'#304554','#718492',0)+rect(160,lowerEntryY-12,4,24,'url(#steel)','#718492',1)+rect(187,lowerEntryY-12,4,24,'url(#steel)','#718492',1)+'</g>';
  rows.forEach((row,r)=>row.forEach((id,c)=>{let {x,y}=boxes.get(id),d=deviceList.find(dev=>dev.id===id),val=result.readings[id];
  $('empty-'+id).checked=!!d.empty;
  $('empty-'+id).disabled=live;
