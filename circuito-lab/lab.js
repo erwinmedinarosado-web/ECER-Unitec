@@ -9,12 +9,20 @@ let junctions=[],selectedColor='auto';
 function colorOptions(selected){
  return Object.entries(wireColors).map(([id,[label]])=>'<option value="'+id+'" '+(id===selected?'selected':'')+'>'+label+'</option>').join('');
 }
+const lampTypes={inc:{name:'Incandescente',watts:60},led:{name:'LED',watts:9},fluor:{name:'Fluorescente',watts:32}};
+const lampIds=deviceList.filter(d=>d.type==='lamp').map(d=>d.id);
+const lamps=Object.fromEntries(lampIds.map(id=>[id,{type:'inc',watts:60}]));
+function validWatts(w){return Number.isFinite(w)&&w>=0.1&&w<=2000}
 function allTerminals(){return terminals.concat(junctions)}
 try{
  const s=JSON.parse(localStorage.getItem('unitec-wall-v1'));
  if(s&&Array.isArray(s.wires)){
   junctions=slots.filter(slot=>Array.isArray(s.junctions)&&s.junctions.includes(slot.id)).map(slot=>slot.id);
   // Preserve the independent splice terminals from earlier D and Z boxes.
+  for(const id of lampIds){
+   const lamp=s.lamps?.[id];
+   if(lamp&&Object.hasOwn(lampTypes,lamp.type)&&validWatts(lamp.watts))lamps[id]={type:lamp.type,watts:lamp.watts};
+  }
   const oldPins=['D.a','D.b','D.c','Z.a','Z.b','Z.c'];
   const restored=s.wires.filter(Array.isArray).map(([a,b,color])=>{
    const ends=[a,b].map(pin=>{
@@ -32,9 +40,27 @@ try{
   if(Object.hasOwn(wireColors,s.selectedColor))selectedColor=s.selectedColor;
  }
 }catch{}
-function save(){try{localStorage.setItem('unitec-wall-v1',JSON.stringify({wires,switches,junctions,selectedColor}))}catch{}}
+function save(){try{localStorage.setItem('unitec-wall-v1',JSON.stringify({wires,switches,junctions,selectedColor,lamps}))}catch{}}
 $('wireColor').innerHTML=colorOptions(selectedColor);
 $('wireColor').onchange=e=>{selectedColor=e.target.value;save()};
+for(const id of lampIds){
+ const type=$('technology-'+id),watts=$('watts-'+id);
+ type.value=lamps[id].type;
+ watts.value=lamps[id].watts;
+ type.onchange=()=>{
+  if(live)return;
+  lamps[id]={type:type.value,watts:lampTypes[type.value].watts};
+  watts.value=lamps[id].watts;
+  render();
+ };
+ watts.onchange=()=>{
+  if(live)return;
+  const value=watts.valueAsNumber;
+  if(validWatts(value))lamps[id].watts=value;
+  else {watts.reportValidity();watts.value=lamps[id].watts;feedback='Escribe una potencia entre 0.1 y 2000 W.'}
+  render();
+ };
+}
 const pos={},rows=[['1','2','3','4'],['A','B','C','D'],['W','X','Y','Z']];
 function name(k){if(junctions.includes(k))return 'Empalme '+k;if(labels[k])return 'Alimentación · '+labels[k];let [id,p]=k.split('.');return id+' · '+titles[deviceList.find(d=>d.id===id).type]+' · '+p}
 function options(el){el.innerHTML='<option value="">Elegir terminal…</option>'+allTerminals().map(k=>'<option value="'+k+'">'+name(k)+'</option>').join('')}
@@ -50,9 +76,18 @@ function icon(d,x,y,v){
  return rect(x-15,y-18,30,35,'#dde2d9','#8e9fa3',6)+rect(x-9,y-11,d.type==='240'?8:4,d.type==='240'?4:10,'#36454d','none',1)+rect(x+4,y-11,d.type==='240'?8:4,d.type==='240'?4:10,'#36454d','none',1)+rect(x-3,y+3,7,6,'#36454d','none',3)
 }
 function render(){
- const result=solve(wires,switches,junctions);
+ const result=solve(wires,switches,junctions,lamps);
  if(live&&result.faults.length){live=false;fault=result.faults.join(' ');feedback='Protección activada. '+fault}
  const svg=$('diagram');let base='<defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#354959"/></pattern></defs>'+rect(0,0,956,741,'url(#grid)')+txt(18,28,'ACOMETIDA',11,'#a8b8c5')+txt(194,28,'VISTA DE CABLEADO',11,'#a8b8c5');
+ let total=0;
+ for(const id of lampIds){
+  const volts=result.readings[id];
+  const power=live&&volts!==null?lamps[id].watts*(volts/120)**2:0;
+  total+=power;
+  $('power-'+id).textContent='Consumo simulado: '+Number(power.toFixed(2))+' W';
+  $('lamp-'+id).disabled=live;
+ }
+ $('total-lamps').textContent='Consumo total de las luminarias: '+Number(total.toFixed(2))+' W';
  let pins='',controls='';
  base+=rect(13,51,147,443,'#203343','#476171',9)+txt(28,79,'Panel 120/240 V',16,'#eff5f2','start',700)+txt(28,99,'FASE DIVIDIDA',10,'#abc1cc');
  ['P.1','P.2','P.3','P.4','P.N','P.T'].forEach((k,j)=>{let y=141+j*55;base+=rect(23,y-19,125,38,'#192b3a','#415666',5)+txt(32,y+5,labels[k],14,'#e3ecec','start',600);pins+=pin(k,133,y,'',true)});
@@ -60,8 +95,8 @@ function render(){
  rows.forEach((row,r)=>row.forEach((id,c)=>{let x=191+190*c,y=51+r*153,d=deviceList.find(dev=>dev.id===id),val=result.readings[id];
  if(c<3)base+=rect(x+157,y+51,34,8,'#304554','#596b74',0);
  if(r<2)base+=rect(x+76,y+125,9,29,'#304554','#596b74',0);
- base+=rect(x,y,157,125,'#213646','#577080',8)+rect(x+9,y+9,21,20,'#354f5f','none',4)+txt(x+19.5,y+24,id,14,'#d5f89f','middle',700)+txt(x+35,y+23,titles[d.type],d.type==='240'?12:13,'#e0e9e9','start',600)+icon(d,x+37,y+56,val);
- if(['lamp','outlet','240'].includes(d.type)){base+=txt(x+75,y+56,live?(val===null?'Flotante':Math.round(val*10)/10+' V'):'— V',15,live&&val>0?'#d5f58e':'#b9c7d0','start',700)+txt(x+75,y+72,d.type==='240'?'Nom. 240 V':'Nom. 120 V',11,'#96adbd')}
+ base+=rect(x,y,157,125,'#213646','#577080',8)+rect(x+9,y+9,21,20,'#354f5f','none',4)+txt(x+19.5,y+24,id,14,'#d5f89f','middle',700)+txt(x+35,y+23,d.type==='lamp'?lampTypes[lamps[id].type].name:titles[d.type],d.type==='240'?12:13,'#e0e9e9','start',600)+icon(d,x+37,y+56,val);
+ if(['lamp','outlet','240'].includes(d.type)){base+=txt(x+75,y+56,live?(val===null?'Flotante':Math.round(val*10)/10+' V'):'— V',15,live&&val>0?'#d5f58e':'#b9c7d0','start',700)+txt(x+75,y+72,d.type==='lamp'?lamps[id].watts+' W · 120 V':d.type==='240'?'Nom. 240 V':'Nom. 120 V',11,'#96adbd')}
  if(['single','three'].includes(d.type)){let st=d.type==='three'?(switches[id]?'C–V2':'C–V1'):(switches[id]?'Cerrado':'Abierto');controls+='<g class="switchOp" role="button" tabindex="0" data-switch="'+id+'" aria-label="Accionar interruptor '+id+'">'+rect(x+65,y+41,80,30,'#344e58','#738e86',5)+txt(x+105,y+60,st+' ↻',13,'#d8f0cf','middle',700)+'</g>'}
  d.pins.forEach((p,j)=>pins+=pin(id+'.'+p,x+23+j*111/(d.pins.length-1),y+112,p))
  }));
@@ -114,10 +149,10 @@ $('entries').onchange=e=>{
 $('entries').onclick=e=>{if(e.target.dataset.remove!==undefined&&!live){wires.splice(+e.target.dataset.remove,1);feedback='Conductor retirado.';render()}};
 function modal(t,html){$('modalTitle').textContent=t;$('modalBody').innerHTML=html;if(!$('modal').open)$('modal').showModal()}
 $('close').onclick=()=>$('modal').close();
-const lessons={blank:['Cableado libre','Comienza con el panel sin conductores.'],parallel:['Luminarias en paralelo','Dos lámparas de 120 V controladas por A.'],series:['Luminarias en serie','Compara la caída de tensión/voltaje en dos lámparas iguales.'],three:['Control desde dos puntos','Los interruptores B y C controlan la luminaria 3.'],outlets:['Receptáculos de 120 y 240 V','Dos ramales de 120 V y un receptáculo bipolar de 240 V.']};
+const lessons={blank:['Cableado libre','Comienza con el panel sin conductores.'],parallel:['Luminarias en paralelo','Dos lámparas de 120 V controladas por A.'],series:['Luminarias en serie','Compara la caída de tensión/voltaje en dos lámparas.'],three:['Control desde dos puntos','Los interruptores B y C controlan la luminaria 3.'],outlets:['Receptáculos de 120 y 240 V','Dos ramales de 120 V y un receptáculo bipolar de 240 V.']};
 function applyExample(k){junctions=[];refreshOptions();wires=modelExamples[k].map(w=>[...w]);switches={A:true,B:false,C:false,D:false};live=false;mode='wire';pick=meterPair=null;example=k;$('second').value='';feedback=k==='blank'?'Selecciona dos terminales para instalar un conductor.':'Configuración cargada. Energiza el tablero para probarla.';$('modal').close();render()}
 function confirmLoad(k){if(!wires.length&&!junctions.length){applyExample(k);return}modal('¿Reemplazar el cableado?','<p>La configuración seleccionada sustituirá los conductores y los empalmes añadidos al panel actual.</p><button class="option" id="confirm">Cargar '+lessons[k][0]+'</button>');$('confirm').onclick=()=>applyExample(k)}
 $('examples').onclick=()=>{modal('Configuraciones',Object.entries(lessons).map(([k,[t,d]])=>'<button class="option" data-example="'+k+'">'+t+'<p>'+d+'</p></button>').join(''));document.querySelectorAll('[data-example]').forEach(b=>b.onclick=()=>confirmLoad(b.dataset.example))};
 $('clear').onclick=()=>confirmLoad('blank');
-$('help').onclick=()=>modal('Cómo usar el taller','<p><b>Cablear.</b> Con el tablero apagado, toca dos círculos. También puedes elegir origen y destino en las listas. Un borne admite varios conductores. Elige el color antes de conectar o cámbialo en Conductores instalados. En la zona inferior, pulsa + para añadir un empalme. Los cables conectados al mismo empalme comparten continuidad eléctrica.</p><p><b>Probar.</b> Energiza, acciona A, B, C o D y observa las lecturas. Usa Medir para comparar dos puntos. Una isla sin referencia aparece como flotante.</p><p><b>Alimentación.</b> Modelo monofásico dividido de 120/240 V. C1 y C3 corresponden a L1, C2 y C4 a L2. C3 y C4 representan un ramal bipolar. N es neutro y T es tierra de equipos.</p><p><b>Modelo.</b> Las lámparas se representan como cargas resistivas iguales de 240 Ω. El ejercicio en serie permite estudiar la división de voltaje. Los receptáculos se miden sin carga. La protección simulada detecta conexiones incompatibles. El taller omite dimensionamiento, corriente de disparo y verificación normativa.</p>');
+$('help').onclick=()=>modal('Cómo usar el taller','<p><b>Cablear.</b> Con el tablero apagado, toca dos círculos. También puedes elegir origen y destino en las listas. Un borne admite varios conductores. Elige el color antes de conectar o cámbialo en Conductores instalados. En la zona inferior, pulsa + para añadir un empalme. Los cables conectados al mismo empalme comparten continuidad eléctrica.</p><p><b>Probar.</b> Energiza, acciona A, B, C o D y observa las lecturas. Usa Medir para comparar dos puntos. Una isla sin referencia aparece como flotante.</p><p><b>Alimentación.</b> Modelo monofásico dividido de 120/240 V. C1 y C3 corresponden a L1, C2 y C4 a L2. C3 y C4 representan un ramal bipolar. N es neutro y T es tierra de equipos.</p><p><b>Modelo.</b> Cada luminaria usa una resistencia equivalente según los vatios seleccionados a 120 V. El ejercicio en serie permite estudiar la división de voltaje. Los receptáculos se miden sin carga. La protección simulada detecta conexiones incompatibles. El taller omite dimensionamiento, corriente de disparo y verificación normativa.</p>');
 render();

@@ -8,7 +8,7 @@ const deviceList=[
 ];
 const sources={'P.1':120,'P.2':-120,'P.3':120,'P.4':-120,'P.N':0};
 const terminals=[...Object.keys(sources),'P.T',...deviceList.flatMap(d=>d.pins.map(p=>d.id+'.'+p))];
-function solve(wires,switches,junctions=[]){
+function solve(wires,switches,junctions=[],lamps={}){
  const parent=new Map(terminals.concat(junctions).map(k=>[k,k]));
  function root(k){while(parent.get(k)!==k){parent.set(k,parent.get(parent.get(k)));k=parent.get(k)}return k}
  function join(a,b){parent.set(root(a),root(b))}
@@ -20,14 +20,14 @@ function solve(wires,switches,junctions=[]){
  const r=root(p);if(byRoot.has(r)){faults.push(fixed.get(r)===v?'Alimentadores de circuitos distintos unidos.':'Cortocircuito entre conductores de alimentación.')}byRoot.set(r,p);fixed.set(r,v)}
  const earth=root('P.T');
  if(fixed.has(earth))faults.push(fixed.get(earth)===0?'Unión de neutro y tierra en el tablero de práctica.':'Contacto de línea con tierra de equipos.');
- const loads=deviceList.filter(d=>d.type==='lamp').map(d=>[root(d.id+'.H'),root(d.id+'.N')]);
- const adj=new Map();function neighbor(a,b){if(!adj.has(a))adj.set(a,[]);adj.get(a).push(b)}
- for(const [a,b] of loads){if(a!==b){neighbor(a,b);neighbor(b,a)}}
+ const loads=deviceList.filter(d=>d.type==='lamp').map(d=>[root(d.id+'.H'),root(d.id+'.N'),(lamps[d.id]?.watts??60)/14400]);
+ const adj=new Map();function neighbor(a,b,g){if(!adj.has(a))adj.set(a,[]);adj.get(a).push([b,g])}
+ for(const [a,b,g] of loads){if(a!==b){neighbor(a,b,g);neighbor(b,a,g)}}
  if(adj.has(earth))faults.push('Un terminal activo de luminaria está conectado al conductor de tierra.');
- // Each incandescent lamp is a fixed 240-ohm resistor. Floating islands have no reference.
- let reached=new Set(fixed.keys()),queue=[...reached];for(const a of queue)for(const b of adj.get(a)||[])if(!reached.has(b)){reached.add(b);queue.push(b)}
+ // Equivalent conductance at rated voltage is P / (120 V)². Floating islands have no reference.
+ let reached=new Set(fixed.keys()),queue=[...reached];for(const a of queue)for(const [b] of adj.get(a)||[])if(!reached.has(b)){reached.add(b);queue.push(b)}
  let unknown=[...reached].filter(r=>!fixed.has(r)),n=unknown.length;
- let matrix=unknown.map((r,i)=>{let row=Array(n+1).fill(0);for(const t of adj.get(r)||[]){row[i]++;if(fixed.has(t))row[n]+=fixed.get(t);else row[unknown.indexOf(t)]--}return row});
+ let matrix=unknown.map((r,i)=>{let row=Array(n+1).fill(0);for(const [t,g] of adj.get(r)||[]){row[i]+=g;if(fixed.has(t))row[n]+=g*fixed.get(t);else row[unknown.indexOf(t)]-=g}return row});
  for(let i=0;i<n;i++){let f=matrix[i][i];for(let k=i;k<=n;k++)matrix[i][k]/=f;for(let j=0;j<n;j++)if(j!==i){let m=matrix[j][i];for(let k=i;k<=n;k++)matrix[j][k]-=m*matrix[i][k]}}
  const volts=new Map(fixed);unknown.forEach((r,i)=>volts.set(r,matrix[i][n]));
  function read(a,b){a=root(a);b=root(b);if(a===b)return 0;const first=a===earth?0:volts.get(a),second=b===earth?0:volts.get(b);if(first===undefined||second===undefined)return null;return Math.abs(first-second)}
