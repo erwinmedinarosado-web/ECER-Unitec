@@ -4,7 +4,15 @@ const labels={'P.1':'C1 · L1','P.2':'C2 · L2','P.3':'C3 · L1','P.4':'C4 · L2
 const palette=['#ffbd76','#83c6fb','#d2a6ff','#8ce2d1','#e99dad'];
 let wires=[],switches={A:false,B:false,C:false,D:false},live=false,mode='wire',pick=null,meterPair=null,feedback='Selecciona dos terminales para instalar un conductor.',fault='',example='blank';
 const wireColors={auto:['Automático',''],negro:['Negro','#121212'],rojo:['Rojo','#ef5555'],azul:['Azul','#599eff'],blanco:['Blanco','#ffffff'],verde:['Verde','#59c86d'],amarillo:['Amarillo','#ffd54f'],naranja:['Naranja','#ff963c'],violeta:['Violeta','#c298ff'],gris:['Gris','#afb6bd'],marron:['Marrón','#ac744d']};
-const slots=Array.from({length:18},(_,i)=>({id:'E'+(i+1),x:103+(i%6)*150,y:785+Math.floor(i/6)*67}));
+const rows=[['1','2','3','4'],['A','B','C','D'],['W','X','Y','Z']];
+const boxes=new Map();
+rows.forEach((row,r)=>row.forEach((id,c)=>boxes.set(id,{x:191+c*250,y:51+r*228,r,c})));
+const slots=Array.from({length:26},(_,i)=>{
+ const panel=i>=24,owner=panel?'P':rows.flat()[i%12],box=boxes.get(owner);
+ return {id:'E'+(i+1),owner,x:panel?48+(i-24)*76:box.x+188,y:panel?529:box.y+(i<12?73:168)};
+});
+const slotById=new Map(slots.map(slot=>[slot.id,slot]));
+function ownerOf(end){return slotById.get(end)?.owner||end.split('.')[0]}
 let junctions=[],selectedColor='auto';
 function colorOptions(selected){
  return Object.entries(wireColors).map(([id,[label]])=>'<option value="'+id+'" '+(id===selected?'selected':'')+'>'+label+'</option>').join('');
@@ -108,8 +116,30 @@ for(const d of deviceList){
  select.innerHTML=Object.entries(outletSpecs).map(([model,s])=>'<option value="'+model+'">'+model+' · '+s.rating+'</option>').join('');
  select.onchange=()=>{const model=select.value;select.value=d.model;if(!d.empty&&Object.hasOwn(outletSpecs,model))changePosition(d,outletSpecs[model].pins,()=>configureOutlet(d,model))};
 }
-const pos={},rows=[['1','2','3','4'],['A','B','C','D'],['W','X','Y','Z']];
-function name(k){if(junctions.includes(k))return 'Empalme '+k;if(labels[k])return 'Alimentación · '+labels[k];let [id,p]=k.split('.');const d=deviceList.find(dev=>dev.id===id);return id+' · '+(d.model||switchSpecs[d.type]?.label||titles[d.type])+' · '+p+' · '+terminalName(d,p)}
+const pos={};
+function conductorRoute(a,b,index){
+ // Parallel tracks stay within the 20-unit bore of each conduit.
+ const lane=((index%9)-4)*1.8;
+ const hub=id=>{const box=boxes.get(id);return id==='P'?[147+lane,185+lane]:[box.x+145+lane,box.y+134+lane]};
+ function lead(end){
+  const [x,y]=pos[end],id=ownerOf(end),[hx,hy]=hub(id);
+  return [[x,y],[x,hy],[hx,hy]];
+ }
+ const start=ownerOf(a),finish=ownerOf(b),points=lead(a);
+ let from=start==='P'?'1':start,to=finish==='P'?'1':finish;
+ if(start!==finish){
+  if(start==='P')points.push(hub('1'));
+  // Use the upper box's column for the vertical leg in either direction.
+  const f=boxes.get(from),t=boxes.get(to);
+  const corner=f.r<=t.r?rows[t.r][f.c]:rows[f.r][t.c];
+  points.push(hub(corner),hub(to));
+  if(finish==='P')points.push(hub('P'));
+ }
+ points.push(...lead(b).reverse());
+ return points.filter((p,i)=>!i||p[0]!==points[i-1][0]||p[1]!==points[i-1][1]);
+}
+
+function name(k){if(junctions.includes(k))return 'Empalme '+k+' · '+(ownerOf(k)==='P'?'panel':'caja '+ownerOf(k));if(labels[k])return 'Alimentación · '+labels[k];let [id,p]=k.split('.');const d=deviceList.find(dev=>dev.id===id);return id+' · '+(d.model||switchSpecs[d.type]?.label||titles[d.type])+' · '+p+' · '+terminalName(d,p)}
 function options(el){el.innerHTML='<option value="">Elegir terminal…</option>'+allTerminals().map(k=>'<option value="'+k+'">'+name(k)+'</option>').join('')}
 function refreshOptions(){options($('first'));options($('second'))}
 
@@ -214,7 +244,7 @@ function screw(d,p,x,y){
 function render(){
  const result=solve(wires,switches,junctions,lamps);
  if(live&&result.faults.length){live=false;fault=result.faults.join(' ');feedback='Protección activada. '+fault}
- const svg=$('diagram');let base='<defs>'+deviceMaterials+'<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#354959"/></pattern></defs>'+rect(0,0,956,966,'url(#grid)')+txt(18,28,'ACOMETIDA',11,'#a8b8c5')+txt(194,28,'VISTA DE CABLEADO',11,'#a8b8c5');
+ const svg=$('diagram');let base='<defs>'+deviceMaterials+'<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#354959"/></pattern></defs>'+rect(0,0,1176,728,'url(#grid)')+txt(18,28,'ACOMETIDA',11,'#a8b8c5')+txt(194,28,'VISTA DE CABLEADO',11,'#a8b8c5');
  let total=0;
  for(const id of lampIds){
   const volts=result.readings[id];
@@ -225,19 +255,20 @@ function render(){
  }
  $('total-lamps').textContent='Consumo total de las luminarias: '+Number(total.toFixed(2))+' W';
  let pins='',controls='';
- base+=rect(13,51,147,443,'#203343','#476171',9)+txt(28,79,'Panel 120/240 V',16,'#eff5f2','start',700)+txt(28,99,'FASE DIVIDIDA',10,'#abc1cc');
+ base+=rect(13,51,147,510,'#203343','#476171',9)+txt(28,79,'Panel 120/240 V',16,'#eff5f2','start',700)+txt(28,99,'FASE DIVIDIDA',10,'#abc1cc');
  ['P.1','P.2','P.3','P.4','P.N','P.T'].forEach((k,j)=>{let y=141+j*55;base+=rect(23,y-19,125,38,'#192b3a','#415666',5)+txt(32,y+5,labels[k],14,'#e3ecec','start',600);pins+=pin(k,133,y,'',true)});
  base+=txt(28,470,'C3–C4 · bipolar',12,'#aebfc8');
- rows.forEach((row,r)=>row.forEach((id,c)=>{let x=191+190*c,y=51+r*228,d=deviceList.find(dev=>dev.id===id),val=result.readings[id];
+ base+=rect(160,175,31,20,'#304554','#718492',0);
+ rows.forEach((row,r)=>row.forEach((id,c)=>{let {x,y}=boxes.get(id),d=deviceList.find(dev=>dev.id===id),val=result.readings[id];
  $('empty-'+id).checked=!!d.empty;
  $('empty-'+id).disabled=live;
  if(d.model){$('outlet-'+id).value=d.model;$('outlet-'+id).disabled=live||d.empty}
  if(switchSpecs[d.type]){$('switch-box-'+id).disabled=live;$('type-'+id).disabled=!!d.empty;$('type-'+id).value=d.type}
  if(d.type==='lamp'){$('watts-'+id).disabled=!!d.empty;$('technology-'+id).disabled=!!d.empty}
- if(c<3)base+=rect(x+157,y+51,34,8,'#304554','#596b74',0);
- if(r<2)base+=rect(x+76,y+200,9,29,'#304554','#596b74',0);
- if(d.empty){base+=rect(x,y,157,200,'#192b39','#526779',8)+txt(x+15,y+25,id,14)+txt(x+78,y+69,'Sin dispositivo',13,'#acbeca','middle');return}
- base+=rect(x,y,157,200,'#213646','#577080',8)+rect(x+9,y+9,21,20,'#354f5f','none',4)+txt(x+19.5,y+24,id,14,'#d5f89f','middle',700)+txt(x+35,y+23,d.type==='lamp'?lampTypes[lamps[id].type].name:(d.model||switchSpecs[d.type]?.label||titles[d.type]),d.type==='240'?12:13,'#e0e9e9','start',600)+body(d,x,y,val,d.type==='pilot'&&live&&result.read(id+'.2',id+'.N')>1);
+ if(c<3)base+=rect(x+222,y+124,28,20,'#304554','#596b74',0);
+ if(r<2)base+=rect(x+135,y+200,20,28,'#304554','#596b74',0);
+ if(d.empty){base+=rect(x,y,222,200,'#192b39','#526779',8)+txt(x+15,y+25,id,14)+txt(x+78,y+69,'Sin dispositivo',13,'#acbeca','middle');return}
+ base+=rect(x,y,222,200,'#213646','#577080',8)+rect(x+9,y+9,21,20,'#354f5f','none',4)+txt(x+19.5,y+24,id,14,'#d5f89f','middle',700)+txt(x+35,y+23,d.type==='lamp'?lampTypes[lamps[id].type].name:(d.model||switchSpecs[d.type]?.label||titles[d.type]),d.type==='240'?12:13,'#e0e9e9','start',600)+body(d,x,y,val,d.type==='pilot'&&live&&result.read(id+'.2',id+'.N')>1);
  if(['lamp','outlet','240'].includes(d.type)){base+=txt(x+78,y+154,live?(val===null?'Flotante':Math.round(val*10)/10+' V'):'— V',15,live&&val>0?'#d5f58e':'#b9c7d0','start',700)+txt(x+12,y+178,d.type==='lamp'?lamps[id].watts+' W · 120 V':d.model?outletSpecs[d.model].rating:'',11,'#96adbd')}
  if(switchSpecs[d.type]){
   const spec=switchSpecs[d.type],count=spec.keys||1;
@@ -255,22 +286,21 @@ function render(){
  }
  d.pins.forEach(p=>pins+=screw(d,p,x,y))
  }));
- base+=rect(13,725,930,232,'#192d3b','#577080',8)+txt(28,747,'ZONA DE EMPALMES · Selecciona + para crear un punto común',14,'#deebef','start',600);
- for(const {id,x,y} of slots){
+ for(const {id,x,y,owner} of slots){
   if(junctions.includes(id)){
    pins+=pin(id,x,y,id);
   }else if(!live){
-   controls+='<g class="new-junction" tabindex="0" role="button" aria-label="Crear empalme '+id+'" data-slot="'+id+'">'+rect(x-27,y-17,54,34,'#263d4a','#7d99a6',6)+txt(x,y+5,'+ '+id,13,'#e2eff2','middle',600)+'</g>';
+   controls+='<g class="new-junction" tabindex="0" role="button" aria-label="Crear empalme '+id+' · '+owner+'" data-slot="'+id+'">'+rect(x-27,y-17,54,34,'#263d4a','#7d99a6',6)+txt(x,y+5,'+ '+id,13,'#e2eff2','middle',600)+'</g>';
   }
  }
- let paths=wires.map(([a,b,color],j)=>{let [x,y]=pos[a],[X,Y]=pos[b],l=10+(j%4)*4,col=wireColors[color]?.[1]||([a,b].some(t=>t.endsWith('.T'))?'#a5d67f':[a,b].some(t=>t.endsWith('.N'))?'#d2dae0':palette[j%palette.length]),mid=(x+X)/2+(j%3)*6;
- let path='M'+x+' '+y+' v'+l+' H'+mid+' V'+(Y+l)+' H'+X+' V'+Y;
+ let paths=wires.map(([a,b,color],j)=>{let col=wireColors[color]?.[1]||([a,b].some(t=>t.endsWith('.T'))?'#a5d67f':[a,b].some(t=>t.endsWith('.N'))?'#d2dae0':palette[j%palette.length]);
+ let path=conductorRoute(a,b,j).map(([x,y],i)=>(i?'L':'M')+x+' '+y).join(' ');
  return '<path d="'+path+'" fill="none" stroke="'+(color==='negro'?'#acb8bf':'#16232c')+'" stroke-width="4"/><path d="'+path+'" fill="none" stroke="'+col+'" stroke-width="2" stroke-linejoin="round"><title>'+name(a)+' ↔ '+name(b)+'</title></path>'}).join('');
  svg.innerHTML=base+paths+controls+pins;
  $('power').textContent=live?'Desenergizar':'Energizar tablero';$('powerState').textContent=live?'ACTIVA':'APAGADA';$('powerState').style.background=live?'#c8ef9d':'#edf0eb';
  $('wire').className=mode==='wire'?'selected':'';$('meter').className=mode==='meter'?'selected':'';
  $('first').value=pick||'';$('connect').textContent=mode==='wire'?'Instalar conductor':'Medir tensión/voltaje';$('connect').disabled=mode==='wire'&&live;
- $('selection').textContent=pick?'Seleccionado: '+name(pick):mode==='wire'?'Toca dos bornes o elígelos abajo.':'Selecciona los dos puntos de medición.';
+ $('selection').textContent=pick?'Seleccionado: '+name(pick):mode==='wire'?'Toca dos bornes. El cable seguirá los conductos entre cajas.':'Selecciona los dos puntos de medición.';
  $('counter').textContent=wires.length+' conductores';$('undo').disabled=live||!wires.length;
  $('feedback').textContent=feedback+(live&&result.warnings.length?' '+result.warnings.join(' '):'');
  $('meterValue').textContent='';if(meterPair){let [a,b]=meterPair,v=result.read(a,b);
@@ -279,7 +309,7 @@ function render(){
  $('entries').innerHTML=wires.length?wires.map(([a,b,color],j)=>'<div>'+name(a)+' ↔ '+name(b)+' <select data-color="'+j+'" aria-label="Color del conductor '+(j+1)+'" '+(live?'disabled':'')+'>'+colorOptions(color||'auto')+'</select> <button data-remove="'+j+'" '+(live?'disabled':'')+'>Quitar</button></div>').join(''):'Ningún conductor instalado.';
  save()
 }
-function pair(a,b){if(!a||!b){feedback='Selecciona origen y destino.'}else if(a===b){feedback='Selecciona dos terminales diferentes.'}else if(mode==='meter'){meterPair=[a,b];feedback='Lectura entre '+name(a)+' y '+name(b)+'.'}else if(live){feedback='Desenergiza antes de editar.'}else if(wires.some(w=>w.includes(a)&&w.includes(b))){feedback='Ese conductor ya está instalado.'}else if([a,b].some(end=>deviceList.some(d=>end.startsWith(d.id+'.'))&&wires.some(w=>w[0]===end||w[1]===end))){feedback='Ese contacto ya tiene un conductor. Usa otro tornillo disponible o crea una derivación en la zona de empalmes.'}else{wires.push([a,b,selectedColor]);fault='';feedback='Conductor instalado entre '+name(a)+' y '+name(b)+'.'}pick=null;$('second').value='';render()}
+function pair(a,b){if(!a||!b){feedback='Selecciona origen y destino.'}else if(a===b){feedback='Selecciona dos terminales diferentes.'}else if(mode==='meter'){meterPair=[a,b];feedback='Lectura entre '+name(a)+' y '+name(b)+'.'}else if(live){feedback='Desenergiza antes de editar.'}else{wires.push([a,b,selectedColor]);fault='';feedback='Conductor instalado entre '+name(a)+' y '+name(b)+'.'}pick=null;$('second').value='';render()}
 function terminal(k){if(mode==='wire'&&live){feedback='Para medir, elige Medir. Para modificar, desenergiza.';render();return}if(pick===null){pick=k;feedback='Ahora selecciona el otro extremo.';render()}else pair(pick,k)}
 function activate(e){
  const slot=e.target.closest('[data-slot]');
@@ -309,13 +339,13 @@ function applyExample(k){if(k!=='blank')for(const d of deviceList){d.empty=false
  const counts=new Map();
  for(const wire of wires)for(const end of wire.slice(0,2))if(!end.startsWith('P.'))counts.set(end,(counts.get(end)||0)+1);
  for(const [end,count] of counts)if(count>1){
-  const joint=slots[junctions.length].id;junctions.push(joint);
+  const joint=(slots.find(s=>s.owner===ownerOf(end)&&!junctions.includes(s.id))||slots.find(s=>!junctions.includes(s.id))).id;junctions.push(joint);
   wires=wires.map(([a,b])=>[a===end?joint:a,b===end?joint:b]);wires.push([joint,end]);
  }
  refreshOptions();switches={A:true,B:false,C:false,D:false};live=false;mode='wire';pick=meterPair=null;example=k;$('second').value='';feedback=k==='blank'?'Selecciona dos terminales para instalar un conductor.':'Configuración cargada. Energiza el tablero para probarla.';$('modal').close();render()}
 function confirmLoad(k){if(!wires.length&&!junctions.length){applyExample(k);return}modal('¿Reemplazar el cableado?','<p>La configuración seleccionada sustituirá el cableado y los empalmes. Los ejemplos con cableado también ocuparán las posiciones y cargarán sus tipos de interruptor y receptáculo.</p><button class="option" id="confirm">Cargar '+lessons[k][0]+'</button>');$('confirm').onclick=()=>applyExample(k)}
 $('examples').onclick=()=>{modal('Configuraciones',Object.entries(lessons).map(([k,[t,d]])=>'<button class="option" data-example="'+k+'">'+t+'<p>'+d+'</p></button>').join(''));document.querySelectorAll('[data-example]').forEach(b=>b.onclick=()=>confirmLoad(b.dataset.example))};
 $('clear').onclick=()=>confirmLoad('blank');
-$('help').onclick=()=>modal('Cómo usar el taller','<p><b>Cablear.</b> Con el tablero apagado, toca dos círculos. También puedes elegir origen y destino en las listas. Usa la zona de empalmes para ramificar los conductores. En el receptáculo dúplex, H y H₂ comparten la lengüeta de fase; N y N₂ comparten la de neutro. Elige el color antes de conectar o cámbialo en Conductores instalados. En la zona inferior, pulsa + para añadir un empalme. Los cables conectados al mismo empalme comparten continuidad eléctrica.</p><p><b>Probar.</b> Energiza, acciona A, B, C o D y observa las lecturas. Usa Medir para comparar dos puntos. Una isla sin referencia aparece como flotante.</p><p><b>Alimentación.</b> Modelo monofásico dividido de 120/240 V. C1 y C3 corresponden a L1, C2 y C4 a L2. C3 y C4 representan un ramal bipolar. N es neutro y T es tierra de equipos.</p><p><b>Modelo.</b> Cada luminaria usa una resistencia equivalente según los vatios seleccionados a 120 V. El ejercicio en serie permite estudiar la división de voltaje. Los receptáculos se miden sin carga. La protección simulada detecta conexiones incompatibles. El taller omite dimensionamiento, corriente de disparo y verificación normativa.</p>');
+$('help').onclick=()=>modal('Cómo usar el taller','<p><b>Cablear.</b> Con el tablero apagado, toca dos círculos. También puedes elegir origen y destino en las listas. Puedes conectar varios conductores al mismo borne en el simulador. Las derivaciones también se pueden representar con un empalme junto a la caja. En el receptáculo dúplex, H y H₂ comparten la lengüeta de fase; N y N₂ comparten la de neutro. Elige el color antes de conectar o cámbialo en Conductores instalados. Pulsa + al lado de una caja o en el panel para crear un empalme local. Los cables conectados al mismo empalme comparten continuidad eléctrica.</p><p><b>Probar.</b> Energiza, acciona A, B, C o D y observa las lecturas. Usa Medir para comparar dos puntos. Una isla sin referencia aparece como flotante.</p><p><b>Alimentación.</b> Modelo monofásico dividido de 120/240 V. C1 y C3 corresponden a L1, C2 y C4 a L2. C3 y C4 representan un ramal bipolar. N es neutro y T es tierra de equipos.</p><p><b>Modelo.</b> Cada luminaria usa una resistencia equivalente según los vatios seleccionados a 120 V. El ejercicio en serie permite estudiar la división de voltaje. Los receptáculos se miden sin carga. La protección simulada detecta conexiones incompatibles. El taller omite dimensionamiento, corriente de disparo y verificación normativa.</p>');
 refreshOptions();
 render();
