@@ -17,7 +17,7 @@ let junctions=[],selectedColor='auto';
 function colorOptions(selected){
  return Object.entries(wireColors).map(([id,[label]])=>'<option value="'+id+'" '+(id===selected?'selected':'')+'>'+label+'</option>').join('');
 }
-const lampTypes={inc:{name:'Incandescente',watts:60},led:{name:'LED',watts:9},fluor:{name:'Fluorescente',watts:32}};
+const lampTypes={inc:{name:'Incandescente',watts:60},led:{name:'LED',watts:9},fluor:{name:'Fluorescente compacta',watts:32},halogen:{name:'Halógena PAR',watts:50},tube:{name:'Tubo fluorescente T8',watts:32},ledtube:{name:'Tubo LED',watts:18},down:{name:'Empotrada LED',watts:12},panel:{name:'Panel LED',watts:40},flood:{name:'Reflector LED',watts:30}};
 const lampIds=deviceList.filter(d=>d.type==='lamp').map(d=>d.id);
 const lamps=Object.fromEntries(lampIds.map(id=>[id,{type:'inc',watts:60}]));
 function validWatts(w){return Number.isFinite(w)&&w>=0.1&&w<=2000}
@@ -50,7 +50,7 @@ try{
   for(const id of Object.keys(defaultSwitchTypes))if(Object.hasOwn(switchSpecs,s.switchTypes?.[id]))setSwitchType(id,s.switchTypes[id]);
   for(const d of deviceList){
    d.empty=Array.isArray(s.empty)&&s.empty.includes(d.id);
-   if(d.model&&Object.hasOwn(outletSpecs,s.outlets?.[d.id]))configureOutlet(d,s.outlets[d.id]);
+   if(d.model&&Object.hasOwn(outletSpecs,s.outlets?.[d.id])){configureOutlet(d,s.outlets[d.id]);d.trip=s.trips?.[d.id]!==false}
   }
   const allowed=allTerminals();
   wires=restored.filter(w=>Array.isArray(w)&&allowed.includes(w[0])&&allowed.includes(w[1])).map(([a,b,color])=>[a,b,Object.hasOwn(wireColors,color)?color:'auto']);
@@ -58,11 +58,12 @@ try{
   if(Object.hasOwn(wireColors,s.selectedColor))selectedColor=s.selectedColor;
  }
 }catch{}
-function save(){try{localStorage.setItem('unitec-wall-v1',JSON.stringify({wires,switches,junctions,selectedColor,lamps,switchTypes:switchTypes(),empty:deviceList.filter(d=>d.empty).map(d=>d.id),outlets:Object.fromEntries(deviceList.filter(d=>d.model).map(d=>[d.id,d.model]))}))}catch{}}
+function save(){try{localStorage.setItem('unitec-wall-v1',JSON.stringify({wires,switches,junctions,selectedColor,lamps,switchTypes:switchTypes(),trips:Object.fromEntries(deviceList.filter(d=>outletSpecs[d.model]?.gfci).map(d=>[d.id,d.trip])),empty:deviceList.filter(d=>d.empty).map(d=>d.id),outlets:Object.fromEntries(deviceList.filter(d=>d.model).map(d=>[d.id,d.model]))}))}catch{}}
 $('wireColor').innerHTML=colorOptions(selectedColor);
 $('wireColor').onchange=e=>{selectedColor=e.target.value;save()};
 for(const id of lampIds){
  const type=$('technology-'+id),watts=$('watts-'+id);
+ type.innerHTML=Object.entries(lampTypes).map(([k,s])=>'<option value="'+k+'">'+s.name+'</option>').join('');
  type.value=lamps[id].type;
  watts.value=lamps[id].watts;
  type.onchange=()=>{
@@ -161,6 +162,7 @@ const mounts={
 };
 const terminalNames={H:'Fase',H2:'Fase · segundo tornillo',N:'Neutro',N2:'Neutro · segundo tornillo',T:'Tierra del equipo',C:'Común',V1:'Viajero 1',V2:'Viajero 2',A1:'Par A · 1',A2:'Par A · 2',B1:'Par B · 1',B2:'Par B · 2',X:'Línea X',Y:'Línea Y',L:'Alimentación común',L1:'Línea 1',L2:'Línea 2',S1:'Salida 1',S2:'Salida 2',S3:'Salida 3'};
 function terminalName(d,p){
+ if(outletSpecs[d.model]?.gfci&&p!=='T')return ({H:'LINE · fase',N:'LINE · neutro',HS:'LOAD · fase',NS:'LOAD · neutro'})[p];
  if(d.type==='lamp'&&lamps[d.id].type==='inc'&&p!=='T')return p==='H'?'Fase · contacto central':'Neutro · casquillo roscado';
  if(d.type==='pilot'&&(p==='1'||p==='2'))return p==='1'?'Entrada':'Salida conmutada';
  return terminalNames[p]||'Contacto '+p;
@@ -186,9 +188,12 @@ function yoke(){
 }
 function receptacleFace(d){
  const ground='<path d="M-4 4a4 4 0 0 1 8 0v3h-8z" fill="#202223"/>';
+ if(outletSpecs[d.model]?.locking)return yoke()+'<circle cx="76" cy="82" r="30" fill="url(#bakelite)" stroke="#a7a79b"/>'+d.pins.map((p,i)=>'<path transform="rotate('+i*360/d.pins.length+' 76 82)" d="M62 69q7 -8 17 -8v5" fill="none" stroke="#080909" stroke-width="4"/>').join('');
  if(d.type==='outlet'){
   let face=rect(51,45,50,67,'url(#ivory)','#ada99f',5);
-  for(const y of [62,94])face+='<g transform="translate(76 '+y+')"><path d="M-21 -9q4 -7 12 -7H9q10 0 12 8v13q-4 8 -13 8H-8q-10 0 -13 -8z" fill="url(#ivory)" stroke="#9e9b92"/><path d="M-10 -9v9 M10 -8v8" stroke="#252627" stroke-width="3.7"/>'+(d.model==='5-20R'?'<path d="M-15 -5h6" stroke="#252627" stroke-width="3.3"/>':'')+ground+'</g>';
+  for(const y of [62,94])face+='<g transform="translate(76 '+y+')"><path d="M-21 -9q4 -7 12 -7H9q10 0 12 8v13q-4 8 -13 8H-8q-10 0 -13 -8z" fill="url(#ivory)" stroke="#9e9b92"/><path d="M-10 -9v9 M10 -8v8" stroke="#252627" stroke-width="3.7"/>'+(d.model.includes('5-20R')?'<path d="M-15 -5h6" stroke="#252627" stroke-width="3.3"/>':'')+ground+'</g>';
+  if(outletSpecs[d.model]?.gfci)face+=rect(60,73,32,10,'#c9c7bd','#777',1)+txt(76,80,'TEST / RESET',5,'#333','middle');
+  if(d.model.endsWith(' TR')||d.model.endsWith(' WR'))face+=txt(76,80,d.model.slice(-2),6,'#494a45','middle');
   return yoke()+rect(40,59,4,35,'url(#steel)')+rect(108,59,4,35,'url(#brass)')+face;
  }
  const four=d.pins.includes('N'),is20=d.model==='6-20R';
@@ -198,7 +203,7 @@ function receptacleFace(d){
 function switchFace(d,pilotLit){
  const count=switchSpecs[d.type].keys||1;
  let face=yoke()+rect(53,45,46,68,'url(#ivory)','#b6b2a5',4);
- if(count>1){
+ if(switchSpecs[d.type].base){face+=rect(56,49,40,58,'url(#lever)','#9c998d',4)+rect(58,switches[d.id]?51:100,36,4,'#aba799','none',1)}else if(count>1){
   const height=57/count;
   for(let n=1;n<=count;n++){const top=49+(n-1)*height,on=switches[d.id+':'+n];
    face+=rect(56,top,40,height-2,'#706e63','#c7c3b6',2)+rect(58,top+(on?3:1),36,height-6,'url(#lever)','#b2afa1',2);
@@ -214,6 +219,12 @@ function lampFace(tech,on){
  const shade=on?'url(#litGlass)':'url(#opal)';
  let art='<ellipse cx="76" cy="109" rx="34" ry="13" fill="url(#steel)" stroke="#667579"/><ellipse cx="76" cy="106" rx="29" ry="10" fill="url(#ivory)" stroke="#a1a397"/>';
  if(on)art+='<ellipse cx="76" cy="72" rx="42" ry="42" fill="url(#halo)"/>';
+ if(['tube','ledtube','panel','down','flood','halogen'].includes(tech)){
+  const lens=on?shade:'url(#opal)';
+  if(tech==='tube'||tech==='ledtube')return art+rect(45,64,62,22,'url(#steel)','#9aa1a5',4)+rect(47,68,58,6,lens,'#8c9697',3)+(tech==='tube'?rect(47,77,58,6,lens,'#8c9697',3):'');
+  if(tech==='down'||tech==='halogen')return art+'<ellipse cx="76" cy="71" rx="29" ry="24" fill="url(#steel)" stroke="#888"/><ellipse cx="76" cy="71" rx="22" ry="18" fill="'+lens+'" stroke="#ddd"/>'+(tech==='halogen'?'<circle cx="76" cy="71" r="6" fill="#c6a466"/>':'');
+  return art+rect(44,54,64,43,tech==='panel'?'url(#steel)':'url(#bakelite)','#90999b',4)+rect(49,59,54,33,lens,'#929998',3);
+ }
  if(tech==='fluor'){
   art+=rect(64,88,24,19,'url(#ivory)','#969b98',4);
   for(const xx of [61,77])art+='<path d="M'+xx+' 89V53q0 -11 10 -11 3 0 3 7v40" fill="none" stroke="#909898" stroke-width="8"/><path d="M'+xx+' 89V53q0 -11 10 -11 3 0 3 7v40" fill="none" stroke="'+shade+'" stroke-width="5.5"/>';
@@ -230,7 +241,8 @@ function body(d,x,y,v,pilotLit){
  return '<g transform="translate('+x+' '+y+')" aria-hidden="true">'+artwork+'</g>';
 }
 function screw(d,p,x,y){
- const [dx,dy]=mounts[d.type][p],cx=x+dx,cy=y+dy,key=d.id+'.'+p;
+ const mount=mounts[switchSpecs[d.type]?.base||d.type];
+ const [dx,dy]=mount[p==='HS'?'H2':p==='NS'?'N2':p],cx=x+dx,cy=y+dy,key=d.id+'.'+p;
  pos[key]=[cx,cy];
  if(d.type==='lamp'&&lamps[d.id].type!=='inc'&&p!=='T'){
   const end=cx+(dx<76?-15:15),insulation=p==='N'?'#f0eee4':'#202224';
@@ -241,9 +253,17 @@ function screw(d,p,x,y){
  const right=dx>=76,mark=p==='N2'?'N₂':p==='H2'?'H₂':p;
  return '<g class="terminal" role="button" tabindex="0" data-pin="'+key+'" aria-label="'+name(key)+'"><title>'+name(key)+'</title>'+rect(cx-13,cy-13,26,26,'transparent')+'<circle class="dot" cx="'+cx+'" cy="'+cy+'" r="7" fill="'+fill+'" stroke="'+(pick===key?'#c9ff76':'#d7e1df')+'" stroke-width="'+(pick===key?4:1.4)+'"/><path d="M'+(cx-3)+' '+(cy+3)+' l6 -6" stroke="'+(p==='C'?'#fff':'#354345')+'" stroke-width="2"/>'+txt(cx+(right?11:-11),cy+4,mark,12,'white',right?'start':'end',700)+'</g>';
 }
+let reportActive=false;
 function render(){
  const result=solve(wires,switches,junctions,lamps);
- if(live&&result.faults.length){live=false;fault=result.faults.join(' ');feedback='Protección activada. '+fault}
+ if(live&&result.faults.length){live=false;fault=result.faults.join(' ');feedback='Tablero desenergizado por la protección simulada.'}
+ const diagnostic=$('diagnosis');
+ diagnostic.hidden=!reportActive;
+ if(reportActive){
+  const issues=[...new Set([...result.faults,...result.warnings])];
+  diagnostic.innerHTML='<strong>'+(result.faults.length?'Protección activada':issues.length?'Revisa el circuito':'Comprobación del circuito')+'</strong>'+
+   (issues.length?'<ul>'+issues.map(msg=>'<li>'+msg+'</li>').join('')+'</ul>':'<p>'+(wires.length?'Sin errores detectados por el modelo.':'El tablero está sin cableado. Añade conductores para probarlo.')+'</p>');
+ }
  const svg=$('diagram');let base='<defs>'+deviceMaterials+'<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#354959"/></pattern></defs>'+rect(0,0,1176,728,'url(#grid)')+txt(18,28,'ACOMETIDA',11,'#a8b8c5')+txt(194,28,'VISTA DE CABLEADO',11,'#a8b8c5');
  let total=0;
  for(const id of lampIds){
@@ -270,11 +290,14 @@ function render(){
  if(d.empty){base+=rect(x,y,222,200,'#192b39','#526779',8)+txt(x+15,y+25,id,14)+txt(x+78,y+69,'Sin dispositivo',13,'#acbeca','middle');return}
  base+=rect(x,y,222,200,'#213646','#577080',8)+rect(x+9,y+9,21,20,'#354f5f','none',4)+txt(x+19.5,y+24,id,14,'#d5f89f','middle',700)+txt(x+35,y+23,d.type==='lamp'?lampTypes[lamps[id].type].name:(d.model||switchSpecs[d.type]?.label||titles[d.type]),d.type==='240'?12:13,'#e0e9e9','start',600)+body(d,x,y,val,d.type==='pilot'&&live&&result.read(id+'.2',id+'.N')>1);
  if(['lamp','outlet','240'].includes(d.type)){base+=txt(x+78,y+154,live?(val===null?'Flotante':Math.round(val*10)/10+' V'):'— V',15,live&&val>0?'#d5f58e':'#b9c7d0','start',700)+txt(x+12,y+178,d.type==='lamp'?lamps[id].watts+' W · 120 V':d.model?outletSpecs[d.model].rating:'',11,'#96adbd')}
+ if(outletSpecs[d.model]?.gfci){
+  controls+='<g class="switchOp" role="button" tabindex="0" data-switch="gfci-'+id+'" aria-label="GFCI '+id+' '+(d.trip?'RESET':'TEST')+'">'+rect(x+16,y+137,58,24,'#354e58','#829987')+txt(x+45,y+153,d.trip?'RESET':'TEST',12,'white','middle')+'</g>';
+ }
  if(switchSpecs[d.type]){
   const spec=switchSpecs[d.type],count=spec.keys||1;
   for(let n=1;n<=count;n++){
    const key=spec.keys?id+':'+n:id,on=!!switches[key];
-   const state=spec.keys?n+(on?' ON':' OFF'):d.type==='four'?(on?'Cruzado':'Directo'):d.type==='three'?(on?'C–V2':'C–V1'):(on?'Cerrado':'Abierto');
+   const state=spec.keys?n+(on?' ON':' OFF'):d.type==='four'?(on?'Cruzado':'Directo'):(switchSpecs[d.type].base||d.type)==='three'?(on?'C–V2':'C–V1'):(on?'Cerrado':'Abierto');
    const left=spec.keys?x+9+(n-1)*47:x+65,top=y+146,width=spec.keys?45:83;
    controls+='<g class="switchOp" role="button" tabindex="0" aria-pressed="'+on+'" data-switch="'+key+'" aria-label="Accionar interruptor '+id+(spec.keys?' tecla '+n:'')+'">'+rect(left,top,width,26,'#344e58','#738e86',4)+txt(left+width/2,top+17,state,12,'#d8f0cf','middle',700)+'</g>';
   }
@@ -302,7 +325,7 @@ function render(){
  $('first').value=pick||'';$('connect').textContent=mode==='wire'?'Instalar conductor':'Medir tensión/voltaje';$('connect').disabled=mode==='wire'&&live;
  $('selection').textContent=pick?'Seleccionado: '+name(pick):mode==='wire'?'Toca dos bornes. El cable seguirá los conductos entre cajas.':'Selecciona los dos puntos de medición.';
  $('counter').textContent=wires.length+' conductores';$('undo').disabled=live||!wires.length;
- $('feedback').textContent=feedback+(live&&result.warnings.length?' '+result.warnings.join(' '):'');
+ $('feedback').textContent=feedback;
  $('meterValue').textContent='';if(meterPair){let [a,b]=meterPair,v=result.read(a,b);
  $('meterValue').textContent=(live?(v===null?'Sin referencia':Math.round(v*10)/10+' V'):'0 V · apagado')+' ('+meterPair.join(' ↔ ')+')'}
  $('wireColor').disabled=live||mode!=='wire';
@@ -319,11 +342,15 @@ function activate(e){
   junctions.push(id);refreshOptions();pick=null;feedback='Empalme '+id+' creado. Conecta aquí los cables que compartirán este punto.';render();
   $('diagram').querySelector('[data-pin="'+id+'"]')?.focus();return;
  }
-let pin=e.target.closest('[data-pin]'),sw=e.target.closest('[data-switch]');if(pin)terminal(pin.dataset.pin);if(sw){let id=sw.dataset.switch;switches[id]=!switches[id];feedback='Interruptor '+id+' accionado.';render()}}
+let pin=e.target.closest('[data-pin]'),sw=e.target.closest('[data-switch]');if(pin)terminal(pin.dataset.pin);if(sw){let id=sw.dataset.switch;if(id.startsWith('gfci-')){
+ const d=deviceList.find(dev=>dev.id===id.slice(5)),r=solve(wires,switches,junctions,lamps),line=r.read(d.id+'.H',d.id+'.N');
+ if(live&&line>=100&&line<=125){d.trip=!d.trip;feedback=d.id+(d.trip?' · TEST abrió la salida.':' · RESET restableció la salida.')}
+ else feedback=d.id+' · Para probar el GFCI se requiere alimentación en LINE.';
+ render();return}switches[id]=!switches[id];feedback='Interruptor '+id+' accionado.';render()}}
 $('diagram').onclick=activate;$('diagram').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){let target=e.target.closest('[data-pin],[data-switch],[data-slot]');if(target){e.preventDefault();let k=target.dataset.pin||target.dataset.switch;activate(e);$('diagram').querySelector('[data-pin="'+k+'"],[data-switch="'+k+'"]')?.focus()}}};
 $('first').onchange=()=>{pick=$('first').value||null;render()};$('connect').onclick=()=>pair($('first').value,$('second').value);
 for(let m of ['wire','meter'])$(m).onclick=()=>{mode=m;pick=null;meterPair=null;$('second').value='';render()};
-$('power').onclick=()=>{live=!live;pick=null;fault='';feedback=live?'Tablero energizado. Acciona un interruptor o mide entre dos terminales.':'Tablero desenergizado. Puedes editar los conductores.';render()};
+$('power').onclick=()=>{live=!live;reportActive=live;pick=null;fault='';feedback=live?'Tablero energizado. Acciona un interruptor o mide entre dos terminales.':'Tablero desenergizado. Puedes editar los conductores.';render()};
 $('undo').onclick=()=>{if(!live){wires.pop();pick=null;feedback='Último conductor retirado.';render()}};
 $('entries').onchange=e=>{
  if(live||e.target.dataset.color===undefined||!Object.hasOwn(wireColors,e.target.value))return;
@@ -335,7 +362,7 @@ $('entries').onclick=e=>{if(e.target.dataset.remove!==undefined&&!live){wires.sp
 function modal(t,html){$('modalTitle').textContent=t;$('modalBody').innerHTML=html;if(!$('modal').open)$('modal').showModal()}
 $('close').onclick=()=>$('modal').close();
 const lessons={four:['Control desde tres puntos','Dos interruptores de tres vías y uno de cuatro vías controlan la luminaria 1.'],blank:['Cableado libre','Comienza con el panel sin conductores.'],parallel:['Luminarias en paralelo','Dos lámparas de 120 V controladas por A.'],series:['Luminarias en serie','Compara la caída de tensión/voltaje en dos lámparas.'],three:['Control desde dos puntos','Los interruptores B y C controlan la luminaria 3.'],outlets:['Receptáculos de 120 y 240 V','Dos ramales de 120 V y un receptáculo bipolar de 240 V.']};
-function applyExample(k){if(k!=='blank')for(const d of deviceList){d.empty=false;if(d.model)configureOutlet(d,defaultOutlets[d.id])}if(k!=='blank')for(const [id,type] of Object.entries(defaultSwitchTypes))setSwitchType(id,k==='four'&&id==='A'?'four':type);junctions=[];refreshOptions();wires=modelExamples[k].map(w=>[...w]);// Branches in the prepared exercises use splice points and one lead to each device contact.
+function applyExample(k){reportActive=false;if(k!=='blank')for(const d of deviceList){d.empty=false;if(d.model)configureOutlet(d,defaultOutlets[d.id])}if(k!=='blank')for(const [id,type] of Object.entries(defaultSwitchTypes))setSwitchType(id,k==='four'&&id==='A'?'four':type);junctions=[];refreshOptions();wires=modelExamples[k].map(w=>[...w]);// Branches in the prepared exercises use splice points and one lead to each device contact.
  const counts=new Map();
  for(const wire of wires)for(const end of wire.slice(0,2))if(!end.startsWith('P.'))counts.set(end,(counts.get(end)||0)+1);
  for(const [end,count] of counts)if(count>1){
