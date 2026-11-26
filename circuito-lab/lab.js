@@ -135,17 +135,69 @@ function terminalName(d,p){
  if(d.type==='pilot'&&(p==='1'||p==='2'))return p==='1'?'Entrada':'Salida conmutada';
  return terminalNames[p]||'Contacto '+p;
 }
-function body(d,x,y,v){
- let plate=rect(x+36,y+44,80,82,'#88979b','#c1ccd0',8)+rect(x+46,y+47,60,65,'#384b54','#b8c7c9',7);
+function material(id,colors){
+ const stops=colors.map((color,i)=>'<stop offset="'+(i*100/(colors.length-1))+'%" stop-color="'+color+'"/>').join('');
+ return '<linearGradient id="'+id+'" x2="0.9" y2="0.65">'+stops+'</linearGradient>';
+}
+const deviceMaterials=[
+ material('steel',['#889296','#f4f6ee','#a8afb0','#dadecf','#5c6668']),
+ material('bakelite',['#6b6863','#3b3835','#252423','#131413']),
+ material('ivory',['#fffef2','#f2eedf','#ded9c9','#b4afa2']),
+ material('lever',['#aaa798','#fffdf1','#e2decf','#8a887c']),
+ material('brass',['#826734','#ffdf93','#c39949','#785629']),
+ material('glass',['#657a86','#e2ece9','#94a6ab','#556d78']),
+ material('opal',['#e7ece4','#fffef2','#d9dfdc','#a4afb0']),
+ material('litGlass',['#e5a84c','#fffbd0','#ffe699','#e2ab54'])
+].join('')+'<radialGradient id="halo"><stop stop-color="#fff2a4" stop-opacity=".65"/><stop offset="1" stop-color="#ffd981" stop-opacity="0"/></radialGradient>';
+function yoke(){
+ return '<path d="M52 32h48v10h-4v65h4v22H52v-22h4V42h-4z" fill="url(#steel)" stroke="#657074"/>'+
+ [37,124].map(y=>rect(69,y-2.4,14,4.8,'#314048','#9da9a8',2)).join('')+
+ rect(39,49,74,65,'url(#bakelite)','#111b20',6);
+}
+function receptacleFace(d){
+ const ground='<path d="M-4 4a4 4 0 0 1 8 0v3h-8z" fill="#202223"/>';
  if(d.type==='outlet'){
-  for(const dx of [42,110])plate+=rect(x+dx-3,y+59,6,35,dx===42?'#cad1d6':'#cba566');
-  for(const dy of [65,92])plate+=rect(x+60,y+dy-9,32,21,'#dedfd8','#9fa9aa',5)+rect(x+67,y+dy-3,3,8,'#394149',0,1)+rect(x+80,y+dy-2,3,6,'#394149',0,1);
- }else if(d.type==='lamp'){
-  const light=live&&v>1?'#ffe4a2':'#d0d5d2';
-  plate+=rect(x+53,y+57,46,43,light,'#c3cdcc',12)+txt(x+76,y+83,lamps[d.id].type==='inc'?'◉':lamps[d.id].type==='led'?'LED':'FL',15,'#33434a','middle',700);
- }else if(d.model){plate+=rect(x+55,y+57,42,44,'#273540','#9aabae',13)+txt(x+76,y+83,'X / Y',11,'#e1e6e6','middle')}
- else {plate+=rect(x+64,y+58,24,37,'#cbd3cf','#a9b3b1',4)+rect(x+67,y+(switches[d.id]?60:75),18,15,'#73848a','none',2)}
- return plate;
+  let face=rect(51,45,50,67,'url(#ivory)','#ada99f',5);
+  for(const y of [62,94])face+='<g transform="translate(76 '+y+')"><path d="M-21 -9q4 -7 12 -7H9q10 0 12 8v13q-4 8 -13 8H-8q-10 0 -13 -8z" fill="url(#ivory)" stroke="#9e9b92"/><path d="M-10 -9v9 M10 -8v8" stroke="#252627" stroke-width="3.7"/>'+(d.model==='5-20R'?'<path d="M-15 -5h6" stroke="#252627" stroke-width="3.3"/>':'')+ground+'</g>';
+  return yoke()+rect(40,59,4,35,'url(#steel)')+rect(108,59,4,35,'url(#brass)')+face;
+ }
+ const four=d.pins.includes('N'),is20=d.model==='6-20R';
+ let blades=four?'<path d="M-15 -3v12 M15 -3v12 M0 11v9'+(d.model==='14-30R'?'h5':'')+'" stroke="#080909" stroke-width="4"/><path d="M-4 -12v-3a4 4 0 0 1 8 0v3z" fill="#080909"/>':'<path d="M-17 -6h11 M6 -6h11'+(is20?' M-11 -11v10':'')+'" stroke="#080909" stroke-width="4"/>'+ground;
+  return yoke()+'<g transform="translate(76 80)"><circle r="30" fill="url(#bakelite)" stroke="#96948a" stroke-width="2"/><circle r="26" fill="none" stroke="#595952"/>'+blades+'</g>';
+}
+function switchFace(d,pilotLit){
+ const count=switchSpecs[d.type].keys||1;
+ let face=yoke()+rect(53,45,46,68,'url(#ivory)','#b6b2a5',4);
+ if(count>1){
+  const height=57/count;
+  for(let n=1;n<=count;n++){const top=49+(n-1)*height,on=switches[d.id+':'+n];
+   face+=rect(56,top,40,height-2,'#706e63','#c7c3b6',2)+rect(58,top+(on?3:1),36,height-6,'url(#lever)','#b2afa1',2);
+  }
+ }else{
+  const on=switches[d.id],base=on?76:87,tip=on?59:100;
+  face+=rect(65,58,22,44,'#77766e','#c7c3b8',5)+'<path d="M67 '+base+'l3 -4h12l3 4 -2 '+(tip-base)+'h-14z" fill="url(#lever)" stroke="#74746a"/>'+rect(69,tip-2,14,4,'#ede9db','#ada99d',2);
+  if(d.type==='pilot')face+=rect(63,48,26,8,pilotLit?'#ffbd43':'#884c2e','#744832',4);
+ }
+ return face;
+}
+function lampFace(tech,on){
+ const shade=on?'url(#litGlass)':'url(#opal)';
+ let art='<ellipse cx="76" cy="109" rx="34" ry="13" fill="url(#steel)" stroke="#667579"/><ellipse cx="76" cy="106" rx="29" ry="10" fill="url(#ivory)" stroke="#a1a397"/>';
+ if(on)art+='<ellipse cx="76" cy="72" rx="42" ry="42" fill="url(#halo)"/>';
+ if(tech==='fluor'){
+  art+=rect(64,88,24,19,'url(#ivory)','#969b98',4);
+  for(const xx of [61,77])art+='<path d="M'+xx+' 89V53q0 -11 10 -11 3 0 3 7v40" fill="none" stroke="#909898" stroke-width="8"/><path d="M'+xx+' 89V53q0 -11 10 -11 3 0 3 7v40" fill="none" stroke="'+shade+'" stroke-width="5.5"/>';
+ }else{
+  art+=rect(65,86,22,20,'url(#steel)','#686f71',4);
+  for(let n=0;n<4;n++)art+='<path d="M66 '+(91+3*n)+'l20 -2" stroke="#627176" stroke-width="1.5"/>';
+  if(tech==='inc')art+='<path d="M66 90c-1 -12 -14 -17 -14 -33a24 24 0 0 1 48 0c0 16 -13 21 -14 33z" fill="'+(on?shade:'url(#glass)')+'" stroke="#d9e4dc"/><path d="M71 89l-5 -25 4 3 3 -3 4 3 3 -3 5 2 -5 23" fill="none" stroke="'+(on?'#fff9d2':'#796246')+'" stroke-width="1.5"/><path d="M59 56q0 -12 11 -16" fill="none" stroke="#fff" opacity=".7" stroke-width="3"/>';
+  else art+='<path d="M52 65a24 26 0 0 1 48 0q0 4 -4 6H56q-4 -2 -4 -6z" fill="'+shade+'" stroke="#dce4dd"/><path d="M55 70h42l-12 20H67z" fill="url(#ivory)" stroke="#a4a9a4"/>';
+ }
+ return art;
+}
+function body(d,x,y,v,pilotLit){
+ let artwork=d.model?receptacleFace(d):d.type==='lamp'?lampFace(lamps[d.id].type,live&&v>1):switchFace(d,pilotLit);
+ return '<g transform="translate('+x+' '+y+')" aria-hidden="true">'+artwork+'</g>';
 }
 function screw(d,p,x,y){
  const [dx,dy]=mounts[d.type][p],cx=x+dx,cy=y+dy,key=d.id+'.'+p;
@@ -162,7 +214,7 @@ function screw(d,p,x,y){
 function render(){
  const result=solve(wires,switches,junctions,lamps);
  if(live&&result.faults.length){live=false;fault=result.faults.join(' ');feedback='Protección activada. '+fault}
- const svg=$('diagram');let base='<defs><pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#354959"/></pattern></defs>'+rect(0,0,956,966,'url(#grid)')+txt(18,28,'ACOMETIDA',11,'#a8b8c5')+txt(194,28,'VISTA DE CABLEADO',11,'#a8b8c5');
+ const svg=$('diagram');let base='<defs>'+deviceMaterials+'<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#354959"/></pattern></defs>'+rect(0,0,956,966,'url(#grid)')+txt(18,28,'ACOMETIDA',11,'#a8b8c5')+txt(194,28,'VISTA DE CABLEADO',11,'#a8b8c5');
  let total=0;
  for(const id of lampIds){
   const volts=result.readings[id];
@@ -185,7 +237,7 @@ function render(){
  if(c<3)base+=rect(x+157,y+51,34,8,'#304554','#596b74',0);
  if(r<2)base+=rect(x+76,y+200,9,29,'#304554','#596b74',0);
  if(d.empty){base+=rect(x,y,157,200,'#192b39','#526779',8)+txt(x+15,y+25,id,14)+txt(x+78,y+69,'Sin dispositivo',13,'#acbeca','middle');return}
- base+=rect(x,y,157,200,'#213646','#577080',8)+rect(x+9,y+9,21,20,'#354f5f','none',4)+txt(x+19.5,y+24,id,14,'#d5f89f','middle',700)+txt(x+35,y+23,d.type==='lamp'?lampTypes[lamps[id].type].name:(d.model||switchSpecs[d.type]?.label||titles[d.type]),d.type==='240'?12:13,'#e0e9e9','start',600)+body(d,x,y,val);
+ base+=rect(x,y,157,200,'#213646','#577080',8)+rect(x+9,y+9,21,20,'#354f5f','none',4)+txt(x+19.5,y+24,id,14,'#d5f89f','middle',700)+txt(x+35,y+23,d.type==='lamp'?lampTypes[lamps[id].type].name:(d.model||switchSpecs[d.type]?.label||titles[d.type]),d.type==='240'?12:13,'#e0e9e9','start',600)+body(d,x,y,val,d.type==='pilot'&&live&&result.read(id+'.2',id+'.N')>1);
  if(['lamp','outlet','240'].includes(d.type)){base+=txt(x+78,y+154,live?(val===null?'Flotante':Math.round(val*10)/10+' V'):'— V',15,live&&val>0?'#d5f58e':'#b9c7d0','start',700)+txt(x+12,y+178,d.type==='lamp'?lamps[id].watts+' W · 120 V':d.model?outletSpecs[d.model].rating:'',11,'#96adbd')}
  if(switchSpecs[d.type]){
   const spec=switchSpecs[d.type],count=spec.keys||1;
