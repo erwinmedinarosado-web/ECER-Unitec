@@ -8,12 +8,10 @@ const rows=[['1','2','3','4'],['A','B','C','D'],['W','X','Y','Z']];
 const boxes=new Map();
 rows.forEach((row,r)=>row.forEach((id,c)=>boxes.set(id,{x:191+c*250,y:51+r*228,r,c})));
 // Keep the original E numbers so saved conductors retain their endpoints.
-const slots=Array.from({length:39},(_,i)=>{
- const panel=i===24||i===25||i===38;
- const owner=panel?'P':rows.flat()[i<24?i%12:i-26];
- const box=boxes.get(owner),number=panel?(i===38?3:i-23):i<12?1:i<24?2:3;
- return {id:'E'+(i+1),owner,number,x:panel?39+(number-1)*47:box.x+187,y:panel?522:box.y+48+(number-1)*48};
-});
+const slots=[1,2,3].flatMap(number=>rows.flat().map((owner,index)=>{
+ const box=boxes.get(owner),firstId=[1,13,27][number-1];
+ return {id:'E'+(firstId+index),owner,number,x:box.x+187,y:box.y+48+(number-1)*48};
+}));
 const slotById=new Map(slots.map(slot=>[slot.id,slot]));
 function ownerOf(end){return slotById.get(end)?.owner||end.split('.')[0]}
 const junctions=slots.map(s=>s.id),spliceStyles={};
@@ -57,7 +55,17 @@ try{
    if(d.model&&Object.hasOwn(outletSpecs,s.outlets?.[d.id])){configureOutlet(d,s.outlets[d.id]);d.trip=s.trips?.[d.id]!==false}
   }
   const allowed=allTerminals();
-  wires=restored.filter(w=>Array.isArray(w)&&allowed.includes(w[0])&&allowed.includes(w[1])).map(([a,b,color])=>[a,b,Object.hasOwn(wireColors,color)?color:'auto']);
+  // Collapse each retired splice into a surviving endpoint on its own net.
+  const retired=['E25','E26','E39'];
+  let migrated=restored.filter(([a,b])=>a!==b&&[a,b].every(end=>allowed.includes(end)||retired.includes(end)));
+  for(const id of retired){
+   const attached=migrated.filter(([a,b])=>a===id||b===id);
+   if(!attached.length)continue;
+   const ends=attached.map(([a,b])=>a===id?b:a);
+   const anchor=ends.find(end=>allowed.includes(end))||ends[0];
+   migrated=migrated.map(([a,b,color])=>[a===id?anchor:a,b===id?anchor:b,color]).filter(([a,b])=>a!==b);
+  }
+  wires=migrated.filter(w=>Array.isArray(w)&&allowed.includes(w[0])&&allowed.includes(w[1])).map(([a,b,color])=>[a,b,Object.hasOwn(wireColors,color)?color:'auto']);
   switches={...switches,...s.switches};
   if(Object.hasOwn(wireColors,s.selectedColor))selectedColor=s.selectedColor;
  }
