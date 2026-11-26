@@ -36,7 +36,7 @@ const deviceList=[
  ...Object.entries(defaultOutlets).map(([id,model])=>{const d={id};configureOutlet(d,model);return d})
 ];
 const sources={'P.1':120,'P.2':-120,'P.3':120,'P.4':-120,'P.N':0};
-function terminals(){return [...Object.keys(sources),'P.T',...deviceList.filter(d=>!d.empty).flatMap(d=>d.pins.map(p=>d.id+'.'+p))]}
+function terminals(){return [...Object.keys(sources),'P.T',...deviceList.map(d=>d.id+'.G'),...deviceList.filter(d=>!d.empty).flatMap(d=>d.pins.map(p=>d.id+'.'+p))]}
 function solve(wires,switches,junctions=[],lamps={}){
  const parent=new Map(terminals().concat(junctions).map(k=>[k,k]));
  function root(k){while(parent.get(k)!==k){parent.set(k,parent.get(parent.get(k)));k=parent.get(k)}return k}
@@ -63,6 +63,11 @@ function solve(wires,switches,junctions=[],lamps={}){
  for(const [p,v] of Object.entries(sources)){
  const r=root(p);if(byRoot.has(r)){faults.push((fixed.get(r)===v?'Alimentadores distintos unidos':'Cortocircuito entre alimentaciones')+' ('+byRoot.get(r)+' y '+p+'). Revisa el recorrido que une esos bornes.')}byRoot.set(r,p);fixed.set(r,v)}
  const earth=root('P.T');
+ for(const d of deviceList){
+  const g=root(d.id+'.G');
+  if(fixed.has(g))faults.push(d.id+' · El tornillo verde de la caja está unido a '+(fixed.get(g)===0?'neutro':'línea')+'. Revisa el conductor de puesta a tierra.');
+  else if(g!==earth&&wires.some(w=>w.slice(0,2).includes(d.id+'.G')))warnings.push(d.id+' · El tornillo verde de la caja carece de continuidad con la tierra del panel.');
+ }
  if(fixed.has(earth))faults.push(fixed.get(earth)===0?'Unión de neutro y tierra en el tablero de práctica.':'Contacto de línea con tierra de equipos.');
  const loads=deviceList.filter(d=>!d.empty&&d.type==='lamp').map(d=>[root(d.id+'.H'),root(d.id+'.N'),(lamps[d.id]?.watts??60)/14400]);
  const adj=new Map();function neighbor(a,b,g){if(!adj.has(a))adj.set(a,[]);adj.get(a).push([b,g])}
