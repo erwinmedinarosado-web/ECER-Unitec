@@ -1,10 +1,9 @@
 // Signed RMS potentials represent the opposite legs of the ideal split-phase supply.
 const deviceList=[
  ...['1','2','3','4'].map(id=>({id,type:'lamp',pins:['H','N','T']})),
- {id:'A',type:'single',pins:['1','2','T']},
+ ...['A','D'].map(id=>({id,type:'single',pins:['1','2','T']})),
  ...['B','C'].map(id=>({id,type:'three',pins:['C','V1','V2','T']})),
- ...['D','Z'].map(id=>({id,type:'splice',pins:['a','b','c','T']})),
- {id:'W',type:'outlet',pins:['H','N','T']},{id:'X',type:'outlet',pins:['H','N','T']},
+ ...['W','X','Z'].map(id=>({id,type:'outlet',pins:['H','N','T']})),
  {id:'Y',type:'240',pins:['X','Y','T']}
 ];
 const sources={'P.1':120,'P.2':-120,'P.3':120,'P.4':-120,'P.N':0};
@@ -14,7 +13,7 @@ function solve(wires,switches,junctions=[]){
  function root(k){while(parent.get(k)!==k){parent.set(k,parent.get(parent.get(k)));k=parent.get(k)}return k}
  function join(a,b){parent.set(root(a),root(b))}
  for(const [a,b] of wires)join(a,b);
- if(switches.A)join('A.1','A.2');
+ for(const id of ['A','D'])if(switches[id])join(id+'.1',id+'.2');
  for(const id of ['B','C'])join(id+'.C',id+(switches[id]?'.V2':'.V1'));
  const byRoot=new Map(),fixed=new Map(),faults=[],warnings=[];
  for(const [p,v] of Object.entries(sources)){
