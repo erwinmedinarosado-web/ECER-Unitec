@@ -8,21 +8,32 @@ const switchSpecs={
  pilot:{label:'Con luz piloto',pins:['1','2','N','T']},
  bipolar:{label:'Bipolar',pins:['L1','L2','S1','S2','T']}
 };
+const outletSpecs={
+ '5-15R':{rating:'15 A · 125 V',pins:['H','N','T']},
+ '5-20R':{rating:'20 A · 125 V',pins:['H','N','T']},
+ '6-15R':{rating:'15 A · 250 V',pins:['X','Y','T']},
+ '6-20R':{rating:'20 A · 250 V',pins:['X','Y','T']},
+ '14-30R':{rating:'30 A · 125/250 V',pins:['X','Y','N','T']},
+ '14-50R':{rating:'50 A · 125/250 V',pins:['X','Y','N','T']}
+};
+const defaultOutlets={W:'5-15R',X:'5-15R',Y:'6-15R',Z:'5-15R'};
+function configureOutlet(d,model){
+ d.model=model;d.pins=outletSpecs[model].pins;d.type=d.pins[0]==='H'?'outlet':'240';
+}
 const defaultSwitchTypes={A:'single',B:'three',C:'three',D:'single'};
 const deviceList=[
  ...['1','2','3','4'].map(id=>({id,type:'lamp',pins:['H','N','T']})),
  ...Object.entries(defaultSwitchTypes).map(([id,type])=>({id,type,pins:switchSpecs[type].pins})),
- ...['W','X','Z'].map(id=>({id,type:'outlet',pins:['H','N','T']})),
- {id:'Y',type:'240',pins:['X','Y','T']}
+ ...Object.entries(defaultOutlets).map(([id,model])=>{const d={id};configureOutlet(d,model);return d})
 ];
 const sources={'P.1':120,'P.2':-120,'P.3':120,'P.4':-120,'P.N':0};
-function terminals(){return [...Object.keys(sources),'P.T',...deviceList.flatMap(d=>d.pins.map(p=>d.id+'.'+p))]}
+function terminals(){return [...Object.keys(sources),'P.T',...deviceList.filter(d=>!d.empty).flatMap(d=>d.pins.map(p=>d.id+'.'+p))]}
 function solve(wires,switches,junctions=[],lamps={}){
  const parent=new Map(terminals().concat(junctions).map(k=>[k,k]));
  function root(k){while(parent.get(k)!==k){parent.set(k,parent.get(parent.get(k)));k=parent.get(k)}return k}
  function join(a,b){parent.set(root(a),root(b))}
  for(const [a,b] of wires)join(a,b);
- for(const d of deviceList.filter(d=>switchSpecs[d.type])){
+ for(const d of deviceList.filter(d=>!d.empty&&switchSpecs[d.type])){
   const id=d.id,active=switches[id];
   const contact=(a,b)=>join(id+'.'+a,id+'.'+b);
   switch(d.type){
@@ -38,7 +49,7 @@ function solve(wires,switches,junctions=[],lamps={}){
  const r=root(p);if(byRoot.has(r)){faults.push(fixed.get(r)===v?'Alimentadores de circuitos distintos unidos.':'Cortocircuito entre conductores de alimentación.')}byRoot.set(r,p);fixed.set(r,v)}
  const earth=root('P.T');
  if(fixed.has(earth))faults.push(fixed.get(earth)===0?'Unión de neutro y tierra en el tablero de práctica.':'Contacto de línea con tierra de equipos.');
- const loads=deviceList.filter(d=>d.type==='lamp').map(d=>[root(d.id+'.H'),root(d.id+'.N'),(lamps[d.id]?.watts??60)/14400]);
+ const loads=deviceList.filter(d=>!d.empty&&d.type==='lamp').map(d=>[root(d.id+'.H'),root(d.id+'.N'),(lamps[d.id]?.watts??60)/14400]);
  const adj=new Map();function neighbor(a,b,g){if(!adj.has(a))adj.set(a,[]);adj.get(a).push([b,g])}
  for(const [a,b,g] of loads){if(a!==b){neighbor(a,b,g);neighbor(b,a,g)}}
  if(adj.has(earth))faults.push('Un terminal activo de luminaria está conectado al conductor de tierra.');
@@ -50,9 +61,10 @@ function solve(wires,switches,junctions=[],lamps={}){
  const volts=new Map(fixed);unknown.forEach((r,i)=>volts.set(r,matrix[i][n]));
  function read(a,b){a=root(a);b=root(b);if(a===b)return 0;const first=a===earth?0:volts.get(a),second=b===earth?0:volts.get(b);if(first===undefined||second===undefined)return null;return Math.abs(first-second)}
  const readings={};
- for(const d of deviceList){const [a,b]=d.pins;const v=read(d.id+'.'+a,d.id+'.'+b);readings[d.id]=v;
+ for(const d of deviceList){if(d.empty){readings[d.id]=null;continue}const [a,b]=d.pins;const v=read(d.id+'.'+a,d.id+'.'+b);readings[d.id]=v;
  const t=root(d.id+'.T');if(fixed.has(t)&&fixed.get(t)!==0)faults.push('Línea conectada al borne de tierra de '+d.id+'.');
  if(t===root('P.N')&&t!==earth)faults.push('Neutro conectado al borne de tierra de '+d.id+'.');
+ if(d.model&&d.pins.length===4&&v!==null&&v>1&&root(d.id+'.N')!==root('P.N'))warnings.push('Revisa el neutro de '+d.id+'.');
  if(['outlet','240','lamp'].includes(d.type)){
  let active=d.pins.slice(0,2).map(p=>root(d.id+'.'+p));
  if(active.includes(earth))faults.push('Tierra usada como conductor de circuito en '+d.id+'.');
