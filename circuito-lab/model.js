@@ -9,8 +9,8 @@ const switchSpecs={
  bipolar:{label:'Bipolar',pins:['L1','L2','S1','S2','T']}
 };
 const outletSpecs={
- '5-15R':{rating:'15 A · 125 V',pins:['H','N','T']},
- '5-20R':{rating:'20 A · 125 V',pins:['H','N','T']},
+ '5-15R':{rating:'15 A · 125 V',pins:['H','N','H2','N2','T']},
+ '5-20R':{rating:'20 A · 125 V',pins:['H','N','H2','N2','T']},
  '6-15R':{rating:'15 A · 250 V',pins:['X','Y','T']},
  '6-20R':{rating:'20 A · 250 V',pins:['X','Y','T']},
  '14-30R':{rating:'30 A · 125/250 V',pins:['X','Y','N','T']},
@@ -32,6 +32,9 @@ function solve(wires,switches,junctions=[],lamps={}){
  const parent=new Map(terminals().concat(junctions).map(k=>[k,k]));
  function root(k){while(parent.get(k)!==k){parent.set(k,parent.get(parent.get(k)));k=parent.get(k)}return k}
  function join(a,b){parent.set(root(a),root(b))}
+ for(const d of deviceList.filter(d=>!d.empty&&d.pins.includes('H2'))){
+  join(d.id+'.H',d.id+'.H2');join(d.id+'.N',d.id+'.N2');
+ }
  for(const [a,b] of wires)join(a,b);
  for(const d of deviceList.filter(d=>!d.empty&&switchSpecs[d.type])){
   const id=d.id,active=switches[id];
