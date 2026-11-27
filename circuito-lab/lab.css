@@ -3,3 +3,10 @@ header nav a{display:grid;place-items:center;height:100%;color:#546171;font-weig
 .wire-color{display:grid;gap:4px;margin-top:10px}.wire-color select,#entries select{padding:7px;border:1px solid #b4c2c9;border-radius:5px;background:white;color:#253744}.new-junction{cursor:pointer}.new-junction:focus rect,.new-junction:hover rect{stroke:white;stroke-width:3}#entries select{max-width:11rem}
 
 .lamp-settings{margin:18px 0;padding:18px;background:white;border:1px solid #cbd3d6;border-radius:8px}.lamp-settings h2{margin:0}.lamp-settings p{line-height:1.5}.lamp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(185px,100%),1fr));gap:12px}.lamp-grid fieldset{min-width:0;border:1px solid #cbd3d6;border-radius:6px;display:grid;gap:6px}.lamp-grid legend{font-weight:700}.lamp-grid select,.lamp-grid input{font:inherit;padding:7px;min-width:0;width:100%;box-sizing:border-box}.lamp-grid span{font-size:.9rem}.lamp-settings #total-lamps{font-weight:700;margin-bottom:0}
+
+.installation-controls{display:flex;align-items:end;flex-wrap:wrap;gap:.75rem 1.5rem;padding:.75rem 1rem;background:#f5f7f5;color:#243540}
+.installation-controls .wire-color,.installation-power{display:grid;gap:.3rem;margin:0}
+.installation-controls label,.installation-power>span{font-size:.875rem}
+.installation-power strong{padding:.15rem .4rem;border-radius:.25rem;font-size:.75rem}
+.installation-controls select,.installation-controls button{min-height:44px}
+.board #diagnosis:not([hidden]){background:#fff;color:#243540;padding:.75rem 1rem}
