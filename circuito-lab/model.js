@@ -96,7 +96,8 @@ function solve(wires,switches,junctions=[],lamps={}){
  if(['outlet','240','lamp'].includes(d.type)){
  let active=d.pins.slice(0,2).map(p=>root(d.id+'.'+p));
  if(active.includes(earth))faults.push('Tierra usada como conductor de circuito en '+d.id+'.');
- if(v!==null&&v>1){if(t!==earth)warnings.push(d.id+' · Falta continuidad entre T y la tierra del panel.');if(d.type!=='240'&&v>121)warnings.push(d.id+' supera su valor nominal de 120 V.');if(d.type==='outlet'&&fixed.get(active[1])!==0)warnings.push(d.id+' · El borne N no está al potencial del neutro; revisa la polaridad.');if(d.type==='240'&&Math.abs(v-240)>1)warnings.push(d.id+' requiere 240 V.');}
+ if(v!==null&&v>1){if(t!==earth)warnings.push(d.id+' · Falta continuidad entre T y la tierra del panel.');const electronic=d.type==='lamp'&&lamps[d.id]?.type&&!['inc','halogen'].includes(lamps[d.id].type);
+ if(d.type!=='240'&&v>(electronic?132:121))warnings.push(d.id+(electronic?' · Tensión/voltaje fuera del rango modelado (132 V máximo).':' supera su valor nominal de 120 V.'));if(d.type==='outlet'&&fixed.get(active[1])!==0)warnings.push(d.id+' · El borne N no está al potencial del neutro; revisa la polaridad.');if(d.type==='240'&&Math.abs(v-240)>1)warnings.push(d.id+' requiere 240 V.');}
  }}
  return {readings,read,faults:[...new Set(faults)],warnings};
 }

@@ -245,10 +245,24 @@ function lightLabel(flux){
  const percent=flux*100;
  return 'Luz estimada: '+(percent<1?'<1':Math.round(percent))+' %';
 }
-function lampFace(tech,volts){
- const flux=tech==='inc'?incandescentOutput(volts):Number(volts>1);
+// Illustrative 120 V equipment profiles. Restart requires a higher voltage than sustaining operation.
+const lightStates={};
+function lampResponse(tech,volts,previous){
+ if(volts===null||volts<=0)return {flux:0,status:volts===null?'Sin referencia':'Sin luz visible'};
+ if(tech==='inc'||tech==='halogen'){
+  const flux=incandescentOutput(volts);
+  return {flux,status:lightLabel(flux)};
+ }
+ const ballast=tech==='fluor'||tech==='tube';
+ if(volts>132)return {flux:0,unknown:true,status:'Fuera del rango modelado'};
+ const operating=previous?.tech===tech&&previous.flux>0;
+ if(volts<(operating?100:108))return {flux:0,status:ballast?'Sin encendido · balastro':'Controlador sin salida'};
+ const flux=ballast?Math.min(1,volts/120)**2:Math.min(1,(volts-95)/13);
+ return {flux,status:lightLabel(flux)};
+}
+function lampFace(tech,flux){
  const brightness=Math.sqrt(Math.min(1,flux)),on=flux>0;
- const shade=on?'url(#litGlass)':'url(#opal)';
+ const shade=!on?'url(#opal)':brightness>=1?'url(#litGlass)':'rgb('+Math.round(130+125*brightness)+','+Math.round(105+130*brightness)+','+Math.round(85+95*brightness)+')';
  let art='<ellipse cx="76" cy="109" rx="34" ry="13" fill="url(#steel)" stroke="#667579"/><ellipse cx="76" cy="106" rx="29" ry="10" fill="url(#ivory)" stroke="#a1a397"/>';
  if(on)art+='<ellipse cx="76" cy="72" rx="42" ry="42" opacity="'+brightness+'" fill="url(#halo)"/>';
  if(['tube','ledtube','panel','down','flood','halogen'].includes(tech)){
@@ -280,7 +294,7 @@ function lampFace(tech,volts){
  return art;
 }
 function body(d,x,y,v,pilotLit){
- let artwork=d.model?receptacleFace(d):d.type==='lamp'?lampFace(lamps[d.id].type,live?v:0):switchFace(d,pilotLit);
+ let artwork=d.model?receptacleFace(d):d.type==='lamp'?lampFace(lamps[d.id].type,lightStates[d.id].flux):switchFace(d,pilotLit);
  return '<g transform="translate('+x+' '+y+')" aria-hidden="true">'+artwork+'</g>';
 }
 function screw(d,p,x,y){
@@ -324,15 +338,18 @@ function render(){
    (issues.length?'<ul>'+issues.map(msg=>'<li>'+msg+'</li>').join('')+'</ul>':'<p>'+(wires.length?'Sin errores detectados por el modelo.':'El tablero está sin cableado. Añade conductores para probarlo.')+'</p>');
  }
  const svg=$('diagram');let base='<defs>'+deviceMaterials+'<pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#354959"/></pattern></defs>'+rect(0,0,1176,728,'url(#grid)')+txt(18,28,'ACOMETIDA',11,'#a8b8c5')+txt(194,28,'VISTA DE CABLEADO',11,'#a8b8c5');
- let total=0;
+ let total=0,unknownPower=false;
  for(const id of lampIds){
-  const volts=result.readings[id];
-  const power=live&&volts!==null?lamps[id].watts*(volts/120)**2:0;
+  const volts=result.readings[id],tech=lamps[id].type;
+  lightStates[id]={tech,...lampResponse(tech,live?volts:0,lightStates[id])};
+  const filament=tech==='inc'||tech==='halogen';
+  const power=live&&volts!==null?lamps[id].watts*(filament?(volts/120)**2:lightStates[id].flux):0;
   total+=power;
-  $('power-'+id).textContent='Consumo simulado: '+Number(power.toFixed(2))+' W';
+  if(lightStates[id].unknown)unknownPower=true;
+  $('power-'+id).textContent=(lightStates[id].unknown?'Consumo indeterminado':'Consumo estimado: '+Number(power.toFixed(2))+' W')+' · '+lightStates[id].status;
   $('lamp-'+id).disabled=live;
  }
- $('total-lamps').textContent='Consumo total de las luminarias: '+Number(total.toFixed(2))+' W';
+ $('total-lamps').textContent=unknownPower?'Consumo total indeterminado · Hay una luminaria fuera del rango modelado.':'Consumo total de las luminarias: '+Number(total.toFixed(2))+' W';
  let pins='',controls='';
  base+=rect(13,51,147,510,'#203343','#476171',9)+txt(28,79,'Panel 120/240 V',16,'#eff5f2','start',700)+txt(28,99,'FASE DIVIDIDA',10,'#abc1cc');
  ['P.1','P.2','P.3','P.4','P.N','P.T'].forEach((k,j)=>{let y=141+j*55;base+=rect(23,y-19,125,38,'#192b3a','#415666',5)+txt(32,y+5,labels[k],14,'#e3ecec','start',600);pins+=pin(k,133,y,'',true)});
@@ -353,8 +370,8 @@ function render(){
  if(outletSpecs[d.model]?.gfci){
   controls+='<g class="switchOp" role="button" tabindex="0" data-switch="gfci-'+id+'" aria-label="GFCI '+id+' '+(d.trip?'RESET':'TEST')+'">'+rect(x+16,y+137,58,24,'#354e58','#829987')+txt(x+45,y+153,d.trip?'RESET':'TEST',12,'white','middle')+'</g>';
  }
- if(d.type==='lamp'&&lamps[id].type==='inc'){
-  const label=lightLabel(incandescentOutput(live?val:0)).replace('<','&lt;');
+ if(d.type==='lamp'){
+  const label=lightStates[id].status.replace('<','&lt;');
   base+=txt(x+12,y+194,label,11,'#f3d6a5');
  }
  if(switchSpecs[d.type]){
