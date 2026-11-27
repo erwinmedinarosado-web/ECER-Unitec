@@ -234,10 +234,23 @@ function switchFace(d,pilotLit){
  }
  return face;
 }
-function lampFace(tech,on){
+// Relative light output, with a display floor of 0.01% of nominal flux.
+function incandescentOutput(volts){
+ const ratio=Math.max(0,volts||0)/120;
+ const flux=ratio**3.4;
+ return flux<0.0001?0:flux;
+}
+function lightLabel(flux){
+ if(!flux)return 'Sin luz visible';
+ const percent=flux*100;
+ return 'Luz estimada: '+(percent<1?'<1':Math.round(percent))+' %';
+}
+function lampFace(tech,volts){
+ const flux=tech==='inc'?incandescentOutput(volts):Number(volts>1);
+ const brightness=Math.sqrt(Math.min(1,flux)),on=flux>0;
  const shade=on?'url(#litGlass)':'url(#opal)';
  let art='<ellipse cx="76" cy="109" rx="34" ry="13" fill="url(#steel)" stroke="#667579"/><ellipse cx="76" cy="106" rx="29" ry="10" fill="url(#ivory)" stroke="#a1a397"/>';
- if(on)art+='<ellipse cx="76" cy="72" rx="42" ry="42" fill="url(#halo)"/>';
+ if(on)art+='<ellipse cx="76" cy="72" rx="42" ry="42" opacity="'+brightness+'" fill="url(#halo)"/>';
  if(['tube','ledtube','panel','down','flood','halogen'].includes(tech)){
   const lens=on?shade:'url(#opal)';
   if(tech==='tube'||tech==='ledtube')return art+rect(45,64,62,22,'url(#steel)','#9aa1a5',4)+rect(47,68,58,6,lens,'#8c9697',3)+(tech==='tube'?rect(47,77,58,6,lens,'#8c9697',3):'');
@@ -250,13 +263,24 @@ function lampFace(tech,on){
  }else{
   art+=rect(65,86,22,20,'url(#steel)','#686f71',4);
   for(let n=0;n<4;n++)art+='<path d="M66 '+(91+3*n)+'l20 -2" stroke="#627176" stroke-width="1.5"/>';
-  if(tech==='inc')art+='<path d="M66 90c-1 -12 -14 -17 -14 -33a24 24 0 0 1 48 0c0 16 -13 21 -14 33z" fill="'+(on?shade:'url(#glass)')+'" stroke="#d9e4dc"/><path d="M71 89l-5 -25 4 3 3 -3 4 3 3 -3 5 2 -5 23" fill="none" stroke="'+(on?'#fff9d2':'#796246')+'" stroke-width="1.5"/><path d="M59 56q0 -12 11 -16" fill="none" stroke="#fff" opacity=".7" stroke-width="3"/>';
+  if(tech==='inc'){
+   const bulb='M66 90c-1 -12 -14 -17 -14 -33a24 24 0 0 1 48 0c0 16 -13 21 -14 33z';
+   const filament='M71 89l-5 -25 4 3 3 -3 4 3 3 -3 5 2 -5 23';
+   art+='<path d="'+bulb+'" fill="url(#glass)" stroke="#d9e4dc"/>';
+   if(on)art+='<path d="'+bulb+'" fill="url(#litGlass)" opacity="'+brightness+'"/>';
+   art+='<path d="'+filament+'" fill="none" stroke="#796246" stroke-width="1.5"/>';
+   if(on){
+    const green=Math.round(64+185*brightness),blue=Math.round(20+190*brightness);
+    art+='<path d="'+filament+'" fill="none" stroke="rgb(255,'+green+','+blue+')" opacity="'+Math.sqrt(brightness)+'" stroke-width="2"/>';
+   }
+   art+='<path d="M59 56q0 -12 11 -16" fill="none" stroke="#fff" opacity=".7" stroke-width="3"/>';
+  }
   else art+='<path d="M52 65a24 26 0 0 1 48 0q0 4 -4 6H56q-4 -2 -4 -6z" fill="'+shade+'" stroke="#dce4dd"/><path d="M55 70h42l-12 20H67z" fill="url(#ivory)" stroke="#a4a9a4"/>';
  }
  return art;
 }
 function body(d,x,y,v,pilotLit){
- let artwork=d.model?receptacleFace(d):d.type==='lamp'?lampFace(lamps[d.id].type,live&&v>1):switchFace(d,pilotLit);
+ let artwork=d.model?receptacleFace(d):d.type==='lamp'?lampFace(lamps[d.id].type,live?v:0):switchFace(d,pilotLit);
  return '<g transform="translate('+x+' '+y+')" aria-hidden="true">'+artwork+'</g>';
 }
 function screw(d,p,x,y){
@@ -328,6 +352,10 @@ function render(){
  if(['lamp','outlet','240'].includes(d.type)){base+=txt(x+78,y+154,live?(val===null?'Flotante':Math.round(val*10)/10+' V'):'— V',15,live&&val>0?'#d5f58e':'#b9c7d0','start',700)+txt(x+12,y+178,d.type==='lamp'?lamps[id].watts+' W · 120 V':d.model?outletSpecs[d.model].rating:'',11,'#96adbd')}
  if(outletSpecs[d.model]?.gfci){
   controls+='<g class="switchOp" role="button" tabindex="0" data-switch="gfci-'+id+'" aria-label="GFCI '+id+' '+(d.trip?'RESET':'TEST')+'">'+rect(x+16,y+137,58,24,'#354e58','#829987')+txt(x+45,y+153,d.trip?'RESET':'TEST',12,'white','middle')+'</g>';
+ }
+ if(d.type==='lamp'&&lamps[id].type==='inc'){
+  const label=lightLabel(incandescentOutput(live?val:0)).replace('<','&lt;');
+  base+=txt(x+12,y+194,label,11,'#f3d6a5');
  }
  if(switchSpecs[d.type]){
   const spec=switchSpecs[d.type],count=spec.keys||1;
