@@ -277,12 +277,13 @@ $('spliceTarget').innerHTML=[...slots].sort((a,b)=>a.owner.localeCompare(b.owner
 $('spliceTarget').value='E1';
 $('spliceTarget').onchange=()=>{$('spliceStyle').value=spliceStyles[$('spliceTarget').value]||'cap'};
 $('spliceStyle').onchange=()=>{if(live)return;spliceStyles[$('spliceTarget').value]=$('spliceStyle').value;render()};
-function spliceFace(s){
+function spliceFace(s,count){
  const {id,x,y}=s,lever=spliceStyles[id]==='lever';
+ const description=name(id)+' · '+count+(count===1?' cable conectado':' cables conectados');
  pos[id]=[x,y+10];
  const art=lever?'<path d="M-14 -10h28v19h-28z" fill="#c3c9c4" stroke="#737c7c"/>'+[-9,0,9].map(dx=>rect(dx-3,-9,6,13,'#ff8e22','#b25a12',2)+rect(dx-2,5,4,4,'#545750','none',1)).join(''):
  '<path d="M-10 9l3 -19q7 -6 14 0l3 19z" fill="#eba636" stroke="#92561e"/><path d="M-9 0l-5 5 5 2m18 -7l5 5 -5 2" fill="#d98823"/><path d="M-5 -8l-2 14m7 -15v16m5 -15l2 14" stroke="#ffe0a2"/>';
- return '<g transform="translate('+x+' '+y+')" class="terminal" role="button" tabindex="0" data-pin="'+id+'" aria-label="'+name(id)+'"><title>'+name(id)+' · '+(lever?'Palanca':'Capuchón')+'</title>'+rect(-20,-15,40,39,'transparent')+art+'<circle class="dot" cx="0" cy="10" r="3" fill="#b87842" stroke="'+(pick===id?'#c9ff76':'#e4b285')+'"/>'+txt(0,24,id,10,'white','middle')+'</g>';
+ return '<g transform="translate('+x+' '+y+')" class="terminal" role="button" tabindex="0" data-pin="'+id+'" aria-label="'+description+'"><title>'+description+' · '+(lever?'Palanca':'Capuchón')+'</title>'+rect(-20,-15,40,39,'transparent')+art+rect(-14,-33,28,17,'#172a39','#829aa5',6)+txt(0,-20,String(count),13,'#fff','middle',700)+'<circle class="dot" cx="0" cy="10" r="3" fill="#b87842" stroke="'+(pick===id?'#c9ff76':'#e4b285')+'"/>'+txt(-18,3,id,10,'white','end')+'</g>';
 }
 function boxGround(id,x,y){
  const k=id+'.G';pos[k]=[x,y];
@@ -344,7 +345,13 @@ function render(){
  }
  d.pins.forEach(p=>pins+=screw(d,p,x,y))
  }));
- for(const s of slots)pins+=spliceFace(s);
+ const spliceCounts=new Map();
+ for(const [origin,destination] of wires){
+  for(const end of [origin,destination]){
+   if(slotById.has(end))spliceCounts.set(end,(spliceCounts.get(end)||0)+1);
+  }
+ }
+ for(const s of slots)pins+=spliceFace(s,spliceCounts.get(s.id)||0);
  for(const [id,box] of boxes)pins+=boxGround(id,box.x+184,box.y+183);
  $('spliceStyle').value=spliceStyles[$('spliceTarget').value]||'cap';$('spliceStyle').disabled=live;
  let paths=wires.map(([a,b,color],j)=>{let col=wireColors[color]?.[1]||([a,b].some(t=>t.endsWith('.T'))?'#a5d67f':[a,b].some(t=>t.endsWith('.N'))?'#d2dae0':palette[j%palette.length]);
